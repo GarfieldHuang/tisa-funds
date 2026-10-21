@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T22:42+08:00",
+ "updatedAt": "2026-10-21T22:48+08:00",
  "source": "基富通 TISA 專案基金",
  "etfHoldingsDate": "2026/09/30",
  "funds": [
@@ -829,16 +829,16 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00405A",
-     "name": "主動富邦台灣龍耀",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
      "overlap": 65
     },
     {
-     "code": "00981A",
-     "name": "主動統一台股增長",
+     "code": "00405A",
+     "name": "主動富邦台灣龍耀",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
