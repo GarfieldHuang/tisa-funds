@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TISA 基金查找</title>
+<meta name="description" content="基富通 TISA 專案基金一覽：常見分類、可對照 ETF、績效與風險，每日自動更新。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f4ef; --surface:#fffdf8; --ink:#1d1b17; --muted:#6b665c; --line:#e3ded2;
+  --accent:#0f6e5a; --accent-soft:#e1efe9; --up:#c0392b; --down:#1e8449; --chip:#efebe1;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14130f; --surface:#1d1c17; --ink:#ece8de; --muted:#a29c8f; --line:#333027;
+    --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14130f; --surface:#1d1c17; --ink:#ece8de; --muted:#a29c8f; --line:#333027;
+  --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans TC",system-ui,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{padding:36px 0 18px;border-bottom:1px solid var(--line)}
+h1{font:900 clamp(28px,5vw,44px)/1.1 "Noto Serif TC",serif;margin:0 0 8px;letter-spacing:.02em}
+.sub{color:var(--muted);margin:0;max-width:62ch}
+.meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:var(--muted)}
+.meta b{color:var(--ink);font-weight:500}
+
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 10px;border-bottom:1px solid var(--line)}
+.search{display:flex;gap:8px;flex-wrap:wrap}
+.search input{flex:1 1 260px;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;max-width:100%}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:4px 10px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.chip small{opacity:.7;margin-left:4px}
+.row2{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.row2 label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.count{margin-left:auto;font-size:13px;color:var(--muted)}
+
+
+.list{display:grid;gap:10px;margin:16px 0 40px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.name{font-weight:700;font-size:16px;line-height:1.4}
+.name a{color:var(--ink);text-decoration:none}
+.name a:hover{color:var(--accent)}
+.id{font:12px ui-monospace,Consolas,monospace;color:var(--muted)}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.b{font-size:12px;padding:1px 8px;border-radius:4px;background:var(--chip);color:var(--muted)}
+.b.grp{background:var(--accent-soft);color:var(--accent);font-weight:500}
+.nums{display:grid;grid-template-columns:repeat(5,auto);gap:2px 18px;text-align:right;font-variant-numeric:tabular-nums}
+.nums span{font-size:11px;color:var(--muted)}
+.nums b{font-weight:500}
+.up{color:var(--up)} .down{color:var(--down)}
+.etfs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.etfs .lbl{font-size:12px;color:var(--muted);align-self:center}
+.etf{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:2px 8px;background:var(--bg)}
+.etf code{font-weight:700;font-family:ui-monospace,Consolas,monospace}
+.etf.same{border-color:var(--accent);background:var(--accent-soft)}
+.etf .mk{font-size:11px;color:var(--muted);margin-left:4px}
+details{margin-top:8px}
+summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:8px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+td,th{padding:3px 6px;border-bottom:1px solid var(--line);text-align:right;font-weight:400}
+th{color:var(--muted);text-align:left}
+.strategy{color:var(--muted);grid-column:1/-1}
+.legend{font-size:12px;color:var(--muted);margin:6px 0 0}
+footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:12px;color:var(--muted)}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+@media (max-width:640px){
+  .nums{grid-template-columns:repeat(5,minmax(0,1fr));width:100%;text-align:left;gap:2px 6px;font-size:13px}
+  .card{padding:12px}
+  .controls{position:static}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>TISA 基金查找</h1>
+    <p class="sub">基富通上架的 TISA 專案基金（TISA 級別、好好退休、好享退）整理成常見分類，並標出可以對照的 ETF。</p>
+    <div class="meta"><span>資料更新：<b id="updated">—</b></span><span>共 <b id="total">—</b> 檔</span><span>來源：<a href="https://www.fundrich.com.tw/themeFund/promotionDetail?type=root.TISA.FundList_Web" target="_blank" rel="noopener">基富通</a></span></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="search">
+      <input id="q" type="search" placeholder="搜尋基金名稱、代碼、投信、ETF 代號（例如 0050、高股息、野村）" autocomplete="off">
+      <select id="sort" aria-label="排序">
+        <option value="one-desc">一年報酬 高→低</option>
+        <option value="three-desc">三年報酬 高→低</option>
+        <option value="rsp-desc">定期定額一年 高→低</option>
+        <option value="sharpe-desc">夏普值 高→低</option>
+        <option value="risk-asc">風險 低→高</option>
+        <option value="aum-desc">規模 大→小</option>
+        <option value="name-asc">名稱</option>
+      </select>
+    </div>
+    <div class="chips" id="groupChips"></div>
+    <div class="row2">
+      <select id="tisa" aria-label="TISA 類型"><option value="">全部 TISA 類型</option></select>
+      <select id="ftype" aria-label="基金類型"><option value="">全部基金類型</option></select>
+      <select id="risk" aria-label="風險等級"><option value="">全部風險等級</option></select>
+      <select id="company" aria-label="投信"><option value="">全部投信</option></select>
+      <label><input type="checkbox" id="sameOnly"> 只看有同指數 ETF</label>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="legend">ETF 對照：<span class="etf same"><code>綠框</code></span> 追蹤同一指數；一般框＝範圍風格相近；「自組參考」＝沒有單一 ETF 能對上，可用這幾檔自己搭。標 <b>US</b> 的是美股 ETF，要透過複委託買。</p>
+  <section class="list" id="list" aria-live="polite"></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    本頁資料每天自動從基富通公開頁面抓取，績效為原幣計算、含息還原，資料日期以基富通為準。分類與 ETF 對照是依晨星基金組別與基金名稱推算的參考，不是投資建議；申購前請詳閱公開說明書。
+    原始資料：<a href="data/funds.json">funds.json</a>
+  </div>
+</footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const GROUP_ORDER = ["台股指數型","台股大型股","台股高股息","台股中小型","全球股票","全球股票收益","目標日期","股債平衡-積極","股債平衡-穩健","股債平衡-保守","台股平衡","投資級債券","全球債券","其他"];
+const PERIODS = [["quarter","3月"],["half","6月"],["one","1年"],["two","2年"],["three","3年"],["five","5年"],["beginning","成立"]];
+const RISK = {1:"RR1",2:"RR2",3:"RR3",4:"RR4",5:"RR5"};
+let ALL = [], state = {group:""};
+
+const pct = v => v == null ? "—" : `<b class="${v>0?"up":v<0?"down":""}">${v>0?"+":""}${v.toFixed(2)}%</b>`;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shortName = n => n.replace(/^【[^】]*】/, "");
+
+function opt(sel, values){
+  for (const [v, label] of values) sel.insertAdjacentHTML("beforeend", `<option value="${esc(v)}">${esc(label)}</option>`);
+}
+
+function readHash(){
+  const p = new URLSearchParams(location.hash.slice(1));
+  $("#q").value = p.get("q") || "";
+  state.group = p.get("g") || "";
+  for (const k of ["tisa","ftype","risk","company","sort"]) if (p.get(k)) $("#"+k).value = p.get(k);
+  $("#sameOnly").checked = p.get("same") === "1";
+}
+function writeHash(){
+  const p = new URLSearchParams();
+  if ($("#q").value) p.set("q", $("#q").value);
+  if (state.group) p.set("g", state.group);
+  for (const k of ["tisa","ftype","risk","company"]) if ($("#"+k).value) p.set(k, $("#"+k).value);
+  if ($("#sort").value !== "one-desc") p.set("sort", $("#sort").value);
+  if ($("#sameOnly").checked) p.set("same","1");
+  history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
+}
+
+function filtered(){
+  const q = $("#q").value.trim().toLowerCase();
+  const terms = q.split(/\s+/).filter(Boolean);
+  const t = $("#tisa").value, ft = $("#ftype").value, r = $("#risk").value, c = $("#company").value, same = $("#sameOnly").checked;
+  return ALL.filter(f =>
+    (!state.group || f.group === state.group) &&
+    (!t || f.tisaType === t) && (!ft || f.fundType === ft) &&
+    (!r || String(f.risk) === r) && (!c || f.company === c) &&
+    (!same || f.etfs.some(e => e.match === "same")) &&
+    terms.every(w => f._hay.includes(w))
+  );
+}
+
+function sorted(list){
+  const [k, dir] = $("#sort").value.split("-");
+  const val = f => k==="one"||k==="three" ? f.ret[k] : k==="rsp" ? f.rsp.one : k==="name" ? f.name : f[k];
+  const s = dir === "asc" ? 1 : -1;
+  return [...list].sort((a,b) => {
+    const x = val(a), y = val(b);
+    if (x == null && y == null) return 0;
+    if (x == null) return 1; if (y == null) return -1;
+    return typeof x === "string" ? x.localeCompare(y, "zh-Hant") * s : (x - y) * s;
+  });
+}
+
+function card(f){
+  const etfs = f.etfs.map(e => `<span class="etf ${e.match}" title="${esc(e.note)}"><code>${e.code}</code> ${esc(e.name)}${e.market==="US"?'<span class="mk">US</span>':""}${e.match==="diy"?'<span class="mk">自組參考</span>':""}</span>`).join("");
+  const notes = f.etfs.filter(e => e.note).map(e => `<li><code>${e.code}</code>：${esc(e.note)}</li>`).join("");
+  return `<article class="card">
+    <div class="top">
+      <div style="flex:1 1 380px;min-width:0">
+        <div class="name"><a href="${f.url}" target="_blank" rel="noopener">${esc(shortName(f.name))}</a></div>
+        <div class="id">${f.id} · ${esc(f.company)}</div>
+        <div class="badges">
+          <span class="b grp">${esc(f.group)}</span><span class="b">${esc(f.tisaType)}</span><span class="b">${esc(f.fundType)}</span>
+          <span class="b">${RISK[f.risk]||"—"}</span><span class="b">${esc(f.region)}</span>
+          ${f.tags.map(t => `<span class="b">${esc(t)}</span>`).join("")}
+        </div>
+      </div>
+      <div class="nums">
+        <span>淨值</span><span>3月</span><span>1年</span><span>3年</span><span>定額1年</span>
+        <b>${f.nav ?? "—"}</b>${pct(f.ret.quarter)}${pct(f.ret.one)}${pct(f.ret.three)}${pct(f.rsp.one)}
+      </div>
+    </div>
+    <div class="etfs"><span class="lbl">對照 ETF</span>${etfs || '<span class="lbl">—</span>'}</div>
+    <details><summary>更多資料</summary>
+      <div class="detail">
+        <table><tr><th>期間</th><th>單筆</th><th>定期定額</th></tr>
+          ${PERIODS.map(([k,l]) => `<tr><th>${l}</th><td>${pct(f.ret[k])}</td><td>${f.rsp[k]!==undefined?pct(f.rsp[k]):"—"}</td></tr>`).join("")}
+        </table>
+        <table>
+          <tr><th>晨星組別</th><td>${esc(f.msCategory)}</td></tr>
+          <tr><th>淨值日</th><td>${esc(f.navDate)}</td></tr>
+          <tr><th>規模</th><td>${f.aum ? (f.aum/1e8).toFixed(1)+" 億" : "—"}</td></tr>
+          <tr><th>夏普值</th><td>${f.sharpe ?? "—"}</td></tr>
+          <tr><th>一年標準差</th><td>${f.stdev1y != null ? f.stdev1y+"%" : "—"}</td></tr>
+          <tr><th>成立日</th><td>${esc(f.inception)}</td></tr>
+          <tr><th>ISIN</th><td>${esc(f.isin)}</td></tr>
+        </table>
+        ${notes ? `<ul style="margin:0;padding-left:18px">${notes}</ul>` : ""}
+        <div class="strategy">${esc(f.strategy)}</div>
+      </div>
+    </details>
+  </article>`;
+}
+
+function render(){
+  const base = filtered();
+  const list = sorted(base);
+  $("#count").textContent = `顯示 ${list.length} / ${ALL.length} 檔`;
+  $("#list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">沒有符合條件的基金</div>`;
+  document.querySelectorAll("#groupChips .chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.g === state.group));
+  writeHash();
+}
+
+function buildGroups(){
+  const counts = {};
+  for (const f of ALL) counts[f.group] = (counts[f.group]||0) + 1;
+  const groups = GROUP_ORDER.filter(g => counts[g]);
+  $("#groupChips").innerHTML = `<button class="chip" data-g="">全部<small>${ALL.length}</small></button>` +
+    groups.map(g => `<button class="chip" data-g="${g}">${g}<small>${counts[g]}</small></button>`).join("");
+  $("#groupChips").onclick = e => { const b = e.target.closest(".chip"); if (!b) return; state.group = b.dataset.g; render(); };
+}
+
+async function main(){
+  const res = await fetch("data/funds.json", {cache:"no-cache"});
+  const data = await res.json();
+  ALL = data.funds.map(f => ({...f, _hay: [f.id,f.name,f.company,f.group,f.tisaType,f.fundType,f.msCategory,f.region,...f.tags,...f.etfs.flatMap(e=>[e.code,e.name])].join(" ").toLowerCase()}));
+  $("#updated").textContent = data.updatedAt.replace("T"," ").slice(0,16);
+  $("#total").textContent = ALL.length;
+  const uniq = k => [...new Set(ALL.map(f => f[k]).filter(Boolean))];
+  opt($("#tisa"), uniq("tisaType").map(v => [v,v]));
+  opt($("#ftype"), uniq("fundType").map(v => [v,v]));
+  opt($("#risk"), uniq("risk").sort().map(v => [v, RISK[v]]));
+  opt($("#company"), uniq("company").sort((a,b)=>a.localeCompare(b,"zh-Hant")).map(v => [v, v.replace(/證券投資信託股份有限公司|股份有限公司/,"投信")]));
+  buildGroups();
+  readHash();
+  render();
+  let t;
+  $("#q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 120); });
+  for (const id of ["sort","tisa","ftype","risk","company","sameOnly"]) $("#"+id).addEventListener("change", render);
+}
+main().catch(e => { $("#list").innerHTML = `<div class="empty">資料載入失敗：${esc(e.message)}</div>`; });
+</script>
+</body>
+</html>

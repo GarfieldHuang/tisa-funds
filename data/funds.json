@@ -1,0 +1,5911 @@
+{
+ "updatedAt": "2026-10-21T21:48+08:00",
+ "source": "基富通 TISA 專案基金",
+ "funds": [
+  {
+   "id": "ALI099",
+   "name": "【TISA級別】安聯四季成長組合基金-TISA類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3628E4",
+   "inception": "2025/06/27",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 14.57,
+   "navDate": "2026/10/20",
+   "change": 0.34,
+   "aum": 17708253078.77,
+   "dividend": "不配息",
+   "sharpe": 1.79,
+   "stdev1y": 13.83,
+   "ret": {
+    "quarter": 1.03,
+    "half": 17.92,
+    "one": 28.37,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 44.66
+   },
+   "rsp": {
+    "one": 12.33,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八所列投資地區及標的之有價證券.原則上,本基金自成立日起屆滿三個月後,投資於子基金之總金額,不得低於本基金淨資產價值之百分之七十(含本數).但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指信託契約終止前一個月.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI099",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "SCH044",
+   "name": "【TISA級別】施羅德台灣樂活中小基金 - TISA類型",
+   "company": "施羅德證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4209C6",
+   "inception": "2025/06/30",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 34.79,
+   "navDate": "2026/10/21",
+   "change": 0.87,
+   "aum": 6230622231.0,
+   "dividend": "不配息",
+   "sharpe": 2.56,
+   "stdev1y": 50.83,
+   "ret": {
+    "quarter": 12.68,
+    "half": 89.88,
+    "one": 217.62,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 267.8
+   },
+   "rsp": {
+    "one": 95.79,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票(含承銷股票),台灣存託憑證,基金受益憑證(含指數股票型基金),政府公債,公司債(含次順位公司債),可轉換公司債,附認股權公司債,金融債券(含次順位金融債券),經金管會核准於國內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,及依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.並依下列規範進行投資:(一)本基金投資於以從事於再生能源,節源,環保,運動,休閒,生技醫療,有機保健食品及EZ TECH產業等樂活(Lifestyles of health and sustainability)概念之中小型公司所發行之上市或上櫃股票為主.原則上,本基金自成立日起三個月後,投資於上市或",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SCH044",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "YUI116",
+   "name": "【好好退休】元大台灣高股息優質龍頭證券投資信託基金-新台幣R類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T05B5E1",
+   "inception": "2024/07/01",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 51.34,
+   "navDate": "2026/10/21",
+   "change": 2.7,
+   "aum": 104692314173.0,
+   "dividend": "不配息",
+   "sharpe": 2.49,
+   "stdev1y": 44.11,
+   "ret": {
+    "quarter": 12.08,
+    "half": 92.31,
+    "one": 169.15,
+    "two": 213.76,
+    "three": null,
+    "five": null,
+    "beginning": 195.47
+   },
+   "rsp": {
+    "one": 84.52,
+    "two": 147.19,
+    "three": null,
+    "five": null
+   },
+   "strategy": "(一)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之有價證券,並依下列規範進行投資:1.本基金投資於中華民國境內上市或上櫃公司股票(含承銷股票),基金受益憑證(含指數股票型基金,槓桿型ETF,反向型ETF及商品ETF),期貨信託事業對不特定人募集之期貨信託基金,存託憑證,認購(售)權證,認股權憑證,政府公債,公司債(含次順位公司債),無擔保公司債,可轉換公司債(含承銷中可轉換公司債),可交換公司債,附認股權公司債,金融債券(含次順位金融債券),經金管會核准於國內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券等有價證券.2.原則上,本基金自成立日起三個月後,投資於中華民國境內之上市及上",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI116",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "KGI088",
+   "name": "【TISA級別】凱基台灣精五門基金－新台幣TISA",
+   "company": "凱基證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4112A6",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 32.48,
+   "navDate": "2026/10/21",
+   "change": 1.5,
+   "aum": 5655447464.0,
+   "dividend": "不配息",
+   "sharpe": 2.13,
+   "stdev1y": 50.62,
+   "ret": {
+    "quarter": 1.36,
+    "half": 57.69,
+    "one": 157.62,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 236.2
+   },
+   "rsp": {
+    "one": 61.7,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,台灣存託憑證,基金受益憑證(含指數股票型基金ETF),政府公債,公司債(含次順位公司債),可轉換公司債(含承銷中可轉換公司債),交換公司債,附認股權公司債,金融債券(包含次順位金融債券),經金管會核准於國內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.並依下列規範進行投資:(1)本基金主要投資於下列五大趨勢產業概念之族群:A.內需擴大趨勢:包含從事基礎建設或內需消費之相關產業;B.創新科技趨勢:包含從事具備產業競爭力,獲利成長性,產品具有獨創性或進入門檻之科技相關產業;C.生技醫療趨勢:包含從事生技醫療等相關產",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/KGI088",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "SIN064",
+   "name": "【TISA級別】永豐中小證券投資信託基金TISA類型",
+   "company": "永豐證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2506B9",
+   "inception": "2025/08/11",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 334.98,
+   "navDate": "2026/10/21",
+   "change": 1.14,
+   "aum": 2630899346.0,
+   "dividend": "不配息",
+   "sharpe": 1.94,
+   "stdev1y": 56.75,
+   "ret": {
+    "quarter": 0.76,
+    "half": 60.48,
+    "one": 156.88,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 153.92
+   },
+   "rsp": {
+    "one": 61.41,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金投資於國內之上市,上櫃股票,承銷股票,上市證券投資信託基金受益憑證,台灣存託憑證,政府公債,公司債(包括可轉換公司債),上市債券換股權利證書,金融債券及其他經金管會核准於國內募集發行之國外金融組織債券.本基金投資於中華民國境內之上市上櫃股票為主.原則上,本基金自成立日起三個月後,投資於股票之總額不低於本基金淨資產價值之百分之七十(含),投資於實收資本額八十億元以下(含)之上市上櫃公司股票不低於本基金淨資產價值之百分之六十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SIN064",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Pru078",
+   "name": "【TISA級別】玉山中小型股證券投資信託基金—TISA級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0810B7",
+   "inception": "2025/06/26",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 29.82,
+   "navDate": "2026/10/21",
+   "change": 2.58,
+   "aum": 4699272939.0,
+   "dividend": "不配息",
+   "sharpe": 1.94,
+   "stdev1y": 54.15,
+   "ret": {
+    "quarter": 1.19,
+    "half": 47.44,
+    "one": 148.22,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 214.5
+   },
+   "rsp": {
+    "one": 55.14,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃公司股票,承銷股票,興櫃股票,基金受益憑證(含指數股票型基金),政府公債,公司債(包含可轉換公司債,含次順位公司債,交換公司債,附認股權公司債,無擔保公司債)或金融債券(含次順位金融債券).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru078",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Pru057",
+   "name": "【好好退休】玉山金滿意證券投資信託基金—R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0803B2",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 40.14,
+   "navDate": "2026/10/21",
+   "change": 0.7,
+   "aum": 25318466698.0,
+   "dividend": "不配息",
+   "sharpe": 2.02,
+   "stdev1y": 50.56,
+   "ret": {
+    "quarter": 9.11,
+    "half": 60.42,
+    "one": 145.62,
+    "two": 229.78,
+    "three": 317.63,
+    "five": 340.95,
+    "beginning": 326.4
+   },
+   "rsp": {
+    "one": 62.48,
+    "two": 139.4,
+    "three": 179.53,
+    "five": 259.39
+   },
+   "strategy": "本基金為股票型開放式基金.經理公司應以分散風險,確保資金之安全及求長期之投資利得,並依誠信原則及專業經營方式,將本基金投資於國內上市或上櫃公司股票,承銷股票,經金管會核准有價證券上市或上櫃契約之興櫃股票,期貨信託事業對不特定人募集之期貨信託基金受益憑證,基金受益憑證,臺灣存託憑證,認購(售)權證,認股權憑證,債券換股權利證書,公司債(包括可轉換公司債,次順位公司債,交換公司債,附認股權公司債,無擔保公司債),政府公債,金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之不動產資產信託受益證券,不動產投資信託受益證券及其他經金管會核准投資之金融工具.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru057",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "NOM156",
+   "name": "【TISA級別】野村優質基金-TISA類型",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3201A8",
+   "inception": "2025/09/08",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 22.64,
+   "navDate": "2026/10/21",
+   "change": 0.49,
+   "aum": 82008652303.0,
+   "dividend": "不配息",
+   "sharpe": 1.95,
+   "stdev1y": 52.15,
+   "ret": {
+    "quarter": 14.79,
+    "half": 74.7,
+    "one": 143.7,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 143.7
+   },
+   "rsp": {
+    "one": 70.98,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內上市,上櫃股票,政府公債,公司債,可轉換公司債,金融債券,承銷股票及上市受益憑證,經理公司並應依下列規定進行投資:1.原則上,本基金於成立六個月後,投資於上市,上櫃股票之總金額不得低於淨資產價值之百分之七十.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM156",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FUB059",
+   "name": "【TISA級別】富邦精銳中小基金-TISA級別",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1010A5",
+   "inception": "2025/06/26",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 113.31,
+   "navDate": "2026/10/21",
+   "change": 2.25,
+   "aum": 4951193019.0,
+   "dividend": "不配息",
+   "sharpe": 1.93,
+   "stdev1y": 53.09,
+   "ret": {
+    "quarter": 5.29,
+    "half": 53.15,
+    "one": 142.74,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 190.46
+   },
+   "rsp": {
+    "one": 56.18,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標,以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市及上櫃股票,已上市,上櫃現金增資股票,已上市,上櫃同種類之現金增資承銷股票及初次上市,上櫃股票之承銷股票,台灣存託憑證,上市及未上市公司債(包括次順位公司債,可轉換公司債),政府公債,金融債券(包括次順位金融債券)及經金管會核准依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之不動產投資信託受益證券或不動產資產信託受益證券.原則上,本基金自終止上市日起三個月後,投資於資本額達新臺幣陸拾億元(含本數)以下之上市及上櫃公司股票總金額不低於本基金淨資產價值百分之六十;且投資上市,上櫃股票總金額不低於本基金淨資產價值百分之七十.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.所謂特",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB059",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Pru077",
+   "name": "【TISA級別】玉山高成長證券投資信託基金—TISA級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0802C2",
+   "inception": "2025/06/26",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 28.23,
+   "navDate": "2026/10/21",
+   "change": 1.0,
+   "aum": 21947751696.0,
+   "dividend": "不配息",
+   "sharpe": 1.99,
+   "stdev1y": 50.86,
+   "ret": {
+    "quarter": 4.77,
+    "half": 60.38,
+    "one": 142.62,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": null
+   },
+   "rsp": {
+    "one": 59.3,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內上市或上櫃公司股票,承銷股票,基金受益憑證(含指數股票型基金),臺灣存託憑證,債券換股權利證書,公司債(包括可轉換公司債,次順位公司債,交換公司債,附認股權公司債,無擔保公司債),政府公債,金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或金動產資產信託受益證券及其他經金管會核准投資之金融工具.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru077",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "UNI053",
+   "name": "【TISA級別】統一台灣動力基金-TISA類型",
+   "company": "統一證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0922A2",
+   "inception": "2025/06/25",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 196.4,
+   "navDate": "2026/10/21",
+   "change": 1.88,
+   "aum": 11768659851.0,
+   "dividend": "不配息",
+   "sharpe": 1.89,
+   "stdev1y": 52.75,
+   "ret": {
+    "quarter": 1.29,
+    "half": 52.24,
+    "one": 137.42,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 202.17
+   },
+   "rsp": {
+    "one": 53.41,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市,上櫃公司股票,承銷股票,上市受益憑證(含指數股票型基金),台灣存託憑證,政府公債,公司債(包括可轉換公司債,次順位公司債),金融債券(包括次順位金融債券),經金管會核准於國內募集發行之國際金融組織債券,及其他依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及依金融資產證券化條例公開招募之受益證券及資產基礎證券.並依下列規範進行投資:本基金投資於中華民國境內之上市上櫃股票為主.原則上,本基金自成立日起三個月後,投資於上市櫃股票之總額不得低於本基金淨資產價值之百分之七十(含),且投資於高科技相關事業及中國概念股之上市上櫃公司股票及承銷股票總金額,合計不得低於本基金淨資產價值之百分之六十(含);且投資於中國概念股之上市上",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/UNI053",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "SIN063",
+   "name": "【TISA級別】永豐永豐證券投資信託基金TISA類型",
+   "company": "永豐證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2501C8",
+   "inception": "2025/08/11",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 173.53,
+   "navDate": "2026/10/21",
+   "change": 2.25,
+   "aum": 3707961276.0,
+   "dividend": "不配息",
+   "sharpe": 1.77,
+   "stdev1y": 57.53,
+   "ret": {
+    "quarter": 0.06,
+    "half": 52.33,
+    "one": 137.3,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 132.76
+   },
+   "rsp": {
+    "one": 51.93,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金主要投資於中華民國境內之上市或上櫃股票,承銷股票,基金受益憑證(含指數股票型基金),政府公債,公司債(含次順位公司債,無擔保公司債),可轉換公司債,交換公司債,附認股權公司債,金融債券(含次順位金融債券),經金管會核准有價證券上市或上櫃契約之興櫃股票及其他經金管會核准於我國境內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SIN063",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "SIN040",
+   "name": "【好好退休】永豐永豐證券投資信託基金R類型",
+   "company": "永豐證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2501B0",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 177.33,
+   "navDate": "2026/10/21",
+   "change": 2.24,
+   "aum": 3707961276.0,
+   "dividend": "不配息",
+   "sharpe": 1.77,
+   "stdev1y": 57.51,
+   "ret": {
+    "quarter": 0.15,
+    "half": 52.07,
+    "one": 136.35,
+    "two": 210.57,
+    "three": 255.78,
+    "five": 285.13,
+    "beginning": 270.97
+   },
+   "rsp": {
+    "one": 51.58,
+    "two": 128.71,
+    "three": 163.27,
+    "five": 228.41
+   },
+   "strategy": "本基金主要投資於中華民國境內之上市或上櫃股票,承銷股票,基金受益憑證(含指數股票型基金),政府公債,公司債(含次順位公司債,無擔保公司債),可轉換公司債,交換公司債,附認股權公司債,金融債券(含次順位金融債券),經金管會核准有價證券上市或上櫃契約之興櫃股票及其他經金管會核准於我國境內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SIN040",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "UNI052",
+   "name": "【TISA級別】統一大滿貫基金-TISA類型",
+   "company": "統一證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0911B3",
+   "inception": "2025/06/25",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 245.33,
+   "navDate": "2026/10/21",
+   "change": 1.82,
+   "aum": 31031842586.0,
+   "dividend": "不配息",
+   "sharpe": 1.87,
+   "stdev1y": 52.95,
+   "ret": {
+    "quarter": 1.13,
+    "half": 51.97,
+    "one": 135.83,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 194.19
+   },
+   "rsp": {
+    "one": 52.74,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.經理公司依誠信原則及專業經營方式,將本基金投資於國內之上市及上櫃股票,承銷股票,上市證券投資信託基金受益憑證,臺灣存託憑證,政府公債,公司債,可轉換公司債,金融債券,上市債券換股權利證書,及其他經金管會核准於國內募集發行之國外金融組織債券.原則上,本基金自成立日起六個月後,投資於過去三年平均股東權益報酬率達百分之六以上(含本數)之上市及上櫃公司股票之總額,不得低於本基金淨資產價值之百分之六十.且投資於上市及上櫃股票之總金額,不得低於淨資產價值之百分之七十.但依經理公司之專業判斷,在特殊情形下為分散風險,確保基金安全及受益人權益之目的,得不受上述比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/UNI052",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "CSI099",
+   "name": "【好好退休】國泰小龍證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3714A0",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 116.57,
+   "navDate": "2026/10/21",
+   "change": 2.54,
+   "aum": 35161109821.0,
+   "dividend": "不配息",
+   "sharpe": 1.95,
+   "stdev1y": 50.05,
+   "ret": {
+    "quarter": 0.92,
+    "half": 52.2,
+    "one": 135.01,
+    "two": 207.92,
+    "three": 310.32,
+    "five": 354.95,
+    "beginning": 339.62
+   },
+   "rsp": {
+    "one": 53.19,
+    "two": 131.27,
+    "three": 172.05,
+    "five": 255.35
+   },
+   "strategy": "經理公司應確保資金之安全並追求長期之投資利得,並依誠信原則及專業經營方式,將本基金投資於國內上市或上櫃公司股票,公司債(包括可轉換公司債),政府公債,金融債券及其他經金管會核准投資之金融工具.並依下列規範進行投資:(1)本基金投資於國內上市或上櫃公司股票為主.原則上,本基金投資於上市或上櫃股票之總額不低於本基金淨資產價值之百分之七十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI099",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Meg076",
+   "name": "【TISA級別】兆豐國民基金-TISA",
+   "company": "兆豐國際證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0103A9",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 27.18,
+   "navDate": "2026/10/21",
+   "change": 2.26,
+   "aum": 1369148437.0,
+   "dividend": "不配息",
+   "sharpe": 1.87,
+   "stdev1y": 53.1,
+   "ret": {
+    "quarter": 1.5,
+    "half": 53.56,
+    "one": 134.55,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 182.4
+   },
+   "rsp": {
+    "one": 57.24,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為成長型基金,以分散風險之方式,謀求長期性最高投資利得.上市,上櫃公司股票(含承銷股票),台灣存託憑證,政府公債,公司債,金融債券及其他經金管會所核准事項之投資,以及證券投資信託基金管理辦法所規定之投資.經理公司並應依下列規範進行投資:1.原則上,本基金投資於國內之上市,上櫃公司股票(含承銷股票)及台灣存託憑證之總額不低於本基金淨資產價值之百分之七十(含).2.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.所謂特殊情形,係指本基金信託契約終止前一個月,或證券交易所或證券櫃檯中心發布之發行量加權股價指數有下列情形之一:(1)最近六個營業日(不含當日)股價指數累計漲幅或跌幅達百分之十以上(含本數).(2)最近三十個營業日(不含當日)股價指數累計漲幅或跌幅達百分之二十以上(含本數).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg076",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "CSI133",
+   "name": "【TISA級別】國泰台灣高股息基金TISA",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3786C4",
+   "inception": "2025/07/01",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 85.08,
+   "navDate": "2026/10/21",
+   "change": 1.77,
+   "aum": 58158431007.0,
+   "dividend": "不配息",
+   "sharpe": 2.09,
+   "stdev1y": 44.11,
+   "ret": {
+    "quarter": 6.74,
+    "half": 66.22,
+    "one": 128.86,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 183.79
+   },
+   "rsp": {
+    "one": 58.24,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本子基金投資於中華民國境內之有價證券,並依下列規範進行投資:(1)原則上,本子基金自成立日起3個月後,投資於中華民國境內之上市及上櫃股票,承銷股票及臺灣存託憑證之總金額,不低於本子基金淨資產價值之70%(含);其中投資於(高股息)股票者不得低於本子基金淨資產價值之60%(含).(2)所謂(高股息)股票係指過去3年均發放現金股利之上市或上櫃股票,且該3年股利發放總金額由高至低排序屬前二分之一者.經理公司應於每年10月31日前,檢視本子基金所持有之(高股息)股票是否符合前款所定比例,若不符合須於一個月內採取適當措施,以符合前述(1)之比例限制.(3)但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述(1)之比例限制.所謂特殊情形,係指:1)信託契約終止",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI133",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "HSB045",
+   "name": "【好好退休】滙豐龍鳳證券投資信託基金-R類型",
+   "company": "滙豐證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0408B0",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 316.19,
+   "navDate": "2026/10/21",
+   "change": 1.38,
+   "aum": 6632253728.0,
+   "dividend": "不配息",
+   "sharpe": 1.77,
+   "stdev1y": 53.61,
+   "ret": {
+    "quarter": 2.44,
+    "half": 58.74,
+    "one": 126.32,
+    "two": 180.42,
+    "three": 238.83,
+    "five": 273.77,
+    "beginning": 13.0
+   },
+   "rsp": {
+    "one": 53.47,
+    "two": 112.59,
+    "three": 140.56,
+    "five": 197.68
+   },
+   "strategy": "本基金係以分散風險,確保基金之安全,並以維持收益安定,追求長期之投資利得為目標.以誠信原則及專業經營方式,將本基金投資於國內上市或上櫃公司股票,承銷股票,興櫃股票,公司債(包括可轉換公司債),政府公債,金融債券,基金受益憑證(含指數股票型基金),台灣存託憑證,依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之不動產投資信託基金受益證券或不動產資產信託受益證券及其他經金管會核准投資之金融工具.前述所稱(興櫃股票)僅限於經臺灣證券交易所股份有限公司或財團法人中華民國證券櫃檯買賣中心同意上市或上櫃,並申報經金管會核准有價證券上市或上櫃契約者.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/HSB045",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "FTS111",
+   "name": "【TISA級別】富蘭克林華美第一富證券投資信託基金-TISA類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4502A8",
+   "inception": "2025/08/11",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 22.69,
+   "navDate": "2026/10/21",
+   "change": 0.98,
+   "aum": 7268239586.0,
+   "dividend": "不配息",
+   "sharpe": 1.82,
+   "stdev1y": 51.86,
+   "ret": {
+    "quarter": 6.35,
+    "half": 49.5,
+    "one": 125.59,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 129.05
+   },
+   "rsp": {
+    "one": 49.78,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為股票型之開放式基金,經理公司應以分散風險,確保本基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內上市股票或上櫃股票,承銷股票,上市債券換股權利證書,上市證券投資信託基金受益憑證,台灣存託憑證,政府公債,公司債(包括可轉換公司債),金融債券或其他經財政部核准於國內募集發行之國外金融組織債券.並依下列規範進行投資:1.原則上,本基金自成立日起六個月後,投資於上市,上櫃公司股票之總額不得低於本基金淨資產價值之百分之七十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS111",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "CIT138",
+   "name": "【TISA級別】群益馬拉松基金-TISA類型",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1609D8",
+   "inception": "2025/06/27",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 23.74,
+   "navDate": "2026/10/21",
+   "change": 2.37,
+   "aum": 24612527335.0,
+   "dividend": "不配息",
+   "sharpe": 1.95,
+   "stdev1y": 43.65,
+   "ret": {
+    "quarter": 0.88,
+    "half": 54.37,
+    "one": 113.8,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 153.02
+   },
+   "rsp": {
+    "one": 47.98,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求中長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內上市或上櫃股票,承銷股票,政府債券,公司債,可轉換公司債,金融債券及其他經金管會核准之投資項目.(1)本基金投資於國內上市,上櫃股票,承銷股票之總額,不得低於本基金淨資產價值之百分之七十(70%)(含).(2)但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT138",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "REL019",
+   "name": "【TISA級別】台中銀大發基金TISA(累積型-新台幣)",
+   "company": "台中銀證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1701C5",
+   "inception": "2025/08/22",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 19.89,
+   "navDate": "2026/10/21",
+   "change": 0.86,
+   "aum": 2444295645.0,
+   "dividend": "不配息",
+   "sharpe": 1.82,
+   "stdev1y": 47.33,
+   "ret": {
+    "quarter": 0.72,
+    "half": 53.6,
+    "one": 113.47,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 109.2
+   },
+   "rsp": {
+    "one": 51.12,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內之上市,上櫃公司股票,台灣存託憑證,受益憑證,經金管會核准有價證券上市或上櫃契約之興櫃股票及公債,公司債,可轉換公司債,金融債券及短期票券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/REL019",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Meg063",
+   "name": "【好好退休】兆豐萬全基金 R類型",
+   "company": "兆豐國際證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "台灣",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T0105B2",
+   "inception": "2023/07/03",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 22.47,
+   "navDate": "2026/10/21",
+   "change": 1.54,
+   "aum": 706611700.0,
+   "dividend": "不配息",
+   "sharpe": 1.81,
+   "stdev1y": 44.18,
+   "ret": {
+    "quarter": 2.24,
+    "half": 53.53,
+    "one": 103.17,
+    "two": 104.93,
+    "three": 142.97,
+    "five": null,
+    "beginning": 136.9
+   },
+   "rsp": {
+    "one": 45.2,
+    "two": 81.81,
+    "three": 92.11,
+    "five": null
+   },
+   "strategy": "本基金為成長收益型之追加式基金,其運用以長期性成長及維持收益之安定為目標,其投資之範圍為上巿或上櫃股票(含承銷股票),存託憑證,基金受益憑證(含指數股票型基金),政府公債,公司債(含次順位公司債,無擔保公司債),可轉換公司債,金融債券(含次順位金融債券),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及經金管會核准於國內募集發行之國際金融組織債券.本基金以平衡投資於上巿股票及債券為原則,除因上巿股票價格變動等情事或為受益人之利益外,投資於上巿股票不得超過本基金淨資產價值之百分之七十.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg063",
+   "group": "台股平衡",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "diy",
+     "note": "股票部位"
+    },
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "diy",
+     "note": "債券部位"
+    }
+   ]
+  },
+  {
+   "id": "YUI117",
+   "name": "【TISA級別】元大台灣卓越50ETF連結基金-新台幣TISA類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T05B2C2",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 66.32,
+   "navDate": "2026/10/21",
+   "change": 1.08,
+   "aum": 98170840638.0,
+   "dividend": "不配息",
+   "sharpe": 2.2,
+   "stdev1y": 33.59,
+   "ret": {
+    "quarter": 5.13,
+    "half": 56.06,
+    "one": 98.03,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 138.66
+   },
+   "rsp": {
+    "one": 44.5,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "(一)經理公司應確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將各子基金投資於公開說明書【基金概況】之(壹,基金簡介)/八,投資地區及標的)之有價證券,並依下列規範進行投資:1.各子基金投資以連結主基金績效表現為目標.為達成前述操作目的,各子基金應自成立日起十五個營業日內,投資於主基金受益憑證總金額應達各子基金淨資產價值之百分之九十以上(含).前列投資於主基金之比例限制如因有關法令或相關規定修正者,從其規定.2.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.所謂特殊情形,係指:(1)各子基金信託契約終止前一個月;或(2)投資地區發生政治性與經濟性重大且非預期之事件(如政變,戰爭,能源危機,恐怖攻擊或天災等),國內外金融市場(股市,債市或匯市)暫停交易,法令政策變更(如實施外匯管制,縮小單日跌停幅度",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI117",
+   "group": "台股指數型",
+   "tags": [
+    "指數化"
+   ],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "same",
+     "note": "本基金就是 0050 的連結基金"
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "same",
+     "note": "同追蹤臺灣50指數，內扣費用較低"
+    }
+   ]
+  },
+  {
+   "id": "NOM158",
+   "name": "【TISA級別】野村平衡基金-TISA類型",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "台灣",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3204A2",
+   "inception": "2025/09/08",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 18.86,
+   "navDate": "2026/10/21",
+   "change": 0.86,
+   "aum": 4259096134.0,
+   "dividend": "不配息",
+   "sharpe": 1.96,
+   "stdev1y": 37.57,
+   "ret": {
+    "quarter": 8.88,
+    "half": 46.02,
+    "one": 96.1,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 96.1
+   },
+   "rsp": {
+    "one": 45.83,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內上市,上櫃股票,承銷股票,公司債,政府債券,金融債券,上市證券投資信託基金受益憑證,及其他經金管會核准於國內發行募集之國外金融組織債券.本基金於成立三個月後,投資於上市,上櫃股票,承銷股票之總金額不得高於淨資產價值之百分之七十,亦不得低於淨資產價值之百分之三十.本項有關投資於上市,上櫃股票,承銷股票不得低於淨資產百分之三十之規定,係指每一曆月之每一計算日投資於上市,上櫃股票,承銷股票占本基金淨資產價值之比例總和除以該曆月總計算日數所得之平均比例,不得低於百分之三十.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM158",
+   "group": "台股平衡",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "diy",
+     "note": "股票部位"
+    },
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "diy",
+     "note": "債券部位"
+    }
+   ]
+  },
+  {
+   "id": "YUI095",
+   "name": "【好好退休】元大台灣加權股價指數基金-新台幣R類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0574A1",
+   "inception": "2022/07/01",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 139.149,
+   "navDate": "2026/10/21",
+   "change": 1.32,
+   "aum": 21376281449.0,
+   "dividend": "不配息",
+   "sharpe": 2.18,
+   "stdev1y": 31.78,
+   "ret": {
+    "quarter": 4.91,
+    "half": 53.89,
+    "one": 90.68,
+    "two": 128.2,
+    "three": 211.39,
+    "five": null,
+    "beginning": 277.24
+   },
+   "rsp": {
+    "one": 42.44,
+    "two": 83.95,
+    "three": 110.99,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並以追蹤臺灣證券交易所發行量加權股價指數(以下簡稱標的指數)績效表現為本基金投資組合管理之目標.以誠信原則及專業經營方式,將本基金投資於中華民國之上市及上櫃股票,承銷股票,指數股票型基金,可轉換公司債,債券換股權利證書及進行指數股票型基金之實物申購買回.經理公司並應依下列規定進行投資:(一)經理公司應採用指數化策略,將本基金儘可能於扣除各項必要費用之後追蹤標的指數之績效表現.(二)前項指數化策略,包含(1)完全複製法及(2)最佳化方法.本基金之操作策略原則上儘可能複製標的指數成分股權重,由於標的指數成分並不固定,部份成分股流動性不佳,經理公司衡量追蹤成本,追蹤誤差及作業風險後,將運用最佳化方法為主要資產管理方式,以追求貼近標的指數之績效表現.但未來在市場狀況允許下,經理公司將不排除以完全複製方式進行指數追蹤.(三)本基金投資於上櫃股票或初次上市股票之承",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI095",
+   "group": "台股指數型",
+   "tags": [
+    "指數化"
+   ],
+   "etfs": [
+    {
+     "code": "006204",
+     "name": "永豐臺灣加權",
+     "market": "TW",
+     "match": "same",
+     "note": "同追蹤發行量加權股價指數"
+    },
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "NOM142",
+   "name": "【好好退休】野村台灣高股息證券投資信託基金（Ｓ級別）",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3236S6",
+   "inception": "2024/06/19",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 19.62,
+   "navDate": "2026/10/21",
+   "change": 1.4,
+   "aum": 3805394578.0,
+   "dividend": "不配息",
+   "sharpe": 2.01,
+   "stdev1y": 32.14,
+   "ret": {
+    "quarter": 7.27,
+    "half": 61.33,
+    "one": 82.12,
+    "two": 114.88,
+    "three": null,
+    "five": null,
+    "beginning": 100.7
+   },
+   "rsp": {
+    "one": 45.07,
+    "two": 75.13,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,上市或上櫃債券換股權利證書,台灣存託憑證,證券投資信託基金受益憑證,政府公債,公司債(含可轉換公司債,承銷中可轉換公司債及次順位公司債),金融債券(含次順位金融債券),經金管會核准或申報生效公開招募之受益證券或資產基礎證券,經金管會核准募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及經金管會核准於國內募集發行之國際金融組織債券.並依下列規範進行投資:(一)原則上,本基金自成立日起三個月後,投資於股票之總額,不低於本基金淨資產價值之百分之七十(含);所投資之全體股票中屬於高股息股票者不得低於本基金淨資產價值之百分之六十(含).前述高股息股票係指:該類股票之平均股利率(即現金股息/股價)不得低於所有於台灣證券交易所",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM142",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "NOM157",
+   "name": "【TISA級別】野村台灣高股息基金-TISA類型",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3236A4",
+   "inception": "2025/09/08",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 17.14,
+   "navDate": "2026/10/21",
+   "change": 1.36,
+   "aum": 3805394578.0,
+   "dividend": "不配息",
+   "sharpe": 1.88,
+   "stdev1y": 32.21,
+   "ret": {
+    "quarter": 7.41,
+    "half": 61.57,
+    "one": 75.3,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 75.3
+   },
+   "rsp": {
+    "one": 44.78,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,上市或上櫃債券換股權利證書,台灣存託憑證,證券投資信託基金受益憑證,政府公債,公司債(含可轉換公司債,承銷中可轉換公司債及次順位公司債),金融債券(含次順位金融債券),經金管會核准或申報生效公開招募之受益證券或資產基礎證券,經金管會核准募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及經金管會核准於國內募集發行之國際金融組織債券.並依下列規範進行投資:(一)原則上,本基金自成立日起三個月後,投資於股票之總額,不低於本基金淨資產價值之百分之七十(含);所投資之全體股票中屬於高股息股票者不得低於本基金淨資產價值之百分之六十(含).前述高股息股票係指:該類股票之平均股利率(即現金股息/股價)不得低於所有於台灣證券交易所",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM157",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "Pru059",
+   "name": "【好好退休】玉山新世紀證券投資信託基金—R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0812B3",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 20.48,
+   "navDate": "2026/10/21",
+   "change": 2.86,
+   "aum": 1505977082.0,
+   "dividend": "不配息",
+   "sharpe": 1.54,
+   "stdev1y": 41.02,
+   "ret": {
+    "quarter": 2.13,
+    "half": 44.35,
+    "one": 74.24,
+    "two": 75.57,
+    "three": 115.85,
+    "five": 110.37,
+    "beginning": 107.0
+   },
+   "rsp": {
+    "one": 34.16,
+    "two": 59.57,
+    "three": 70.58,
+    "five": 92.84
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,興櫃股票,基金受益憑證(含指數股票型基金),臺灣存託憑證,政府公債,公司債(含次順位公司債),無擔保公司債,可轉換公司債,交換公司債,附認股權公司債,債券換股權利證書,金融債券(含次順位金融債券)及國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru059",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "YUI118",
+   "name": "【TISA級別】元大台灣高股息ETF連結基金-新台幣TISA類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T05B3C0",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 40.84,
+   "navDate": "2026/10/21",
+   "change": 2.36,
+   "aum": 7274426999.0,
+   "dividend": "不配息",
+   "sharpe": 1.92,
+   "stdev1y": 29.32,
+   "ret": {
+    "quarter": 10.02,
+    "half": 60.8,
+    "one": 69.32,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 86.53
+   },
+   "rsp": {
+    "one": 43.19,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "(一)經理公司應確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將各子基金投資於公開說明書【基金概況】之(壹,基金簡介)/八,投資地區及標的)之有價證券,並依下列規範進行投資:1.各子基金投資以連結主基金績效表現為目標.為達成前述操作目的,各子基金應自成立日起十五個營業日內,投資於主基金受益憑證總金額應達各子基金淨資產價值之百分之九十以上(含).前列投資於主基金之比例限制如因有關法令或相關規定修正者,從其規定.2.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.所謂特殊情形,係指:(1)各子基金信託契約終止前一個月;或(2)投資地區發生政治性與經濟性重大且非預期之事件(如政變,戰爭,能源危機,恐怖攻擊或天災等),國內外金融市場(股市,債市或匯市)暫停交易,法令政策變更(如實施外匯管制,縮小單日跌停幅度",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI118",
+   "group": "台股指數型",
+   "tags": [
+    "指數化",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "same",
+     "note": "本基金就是 0056 的連結基金"
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "Pru056",
+   "name": "【好好退休】玉山金平衡證券投資信託基金—R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "台灣",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T0814B9",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 22.03,
+   "navDate": "2026/10/21",
+   "change": 1.06,
+   "aum": 1904178791.0,
+   "dividend": "不配息",
+   "sharpe": 1.8,
+   "stdev1y": 27.16,
+   "ret": {
+    "quarter": 3.32,
+    "half": 30.14,
+    "one": 58.71,
+    "two": 80.73,
+    "three": 122.76,
+    "five": 128.44,
+    "beginning": 124.1
+   },
+   "rsp": {
+    "one": 26.42,
+    "two": 52.9,
+    "three": 67.57,
+    "five": 95.21
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,興櫃股票,基金受益憑證,臺灣存託憑證,債券換股權利證書,政府公債,公司債(含可轉換公司債,次順位公司債,交換公司債,附認股權公司債,無擔保公司債),金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru056",
+   "group": "台股平衡",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "diy",
+     "note": "股票部位"
+    },
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "diy",
+     "note": "債券部位"
+    }
+   ]
+  },
+  {
+   "id": "NOM132",
+   "name": "【好好退休】野村全球高股息證券投資信託基金(S級別)",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球股票收益",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T3209S3",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 23.36,
+   "navDate": "2026/10/20",
+   "change": 0.56,
+   "aum": 4586060226.72,
+   "dividend": "不配息",
+   "sharpe": 2.13,
+   "stdev1y": 15.74,
+   "ret": {
+    "quarter": 0.81,
+    "half": 21.86,
+    "one": 39.36,
+    "two": 51.35,
+    "three": 100.85,
+    "five": 105.4,
+    "beginning": 135.8
+   },
+   "rsp": {
+    "one": 17.59,
+    "two": 31.93,
+    "three": 46.12,
+    "five": 74.25
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於:1.中華民國上市及上櫃股票,承銷股票,上市受益憑證,公債,公司債(含可轉換公司債),上市債券換股權利書,金融債券及其他經財政部核准於國內發行之國外金融組織債券.2.投資於日本,香港,南韓,新加坡,馬來西亞,泰國,印度,澳大利亞,紐西蘭,印尼,英國,法國,德國,瑞典,挪威,丹麥,芬蘭,瑞士,比利時,荷蘭,義大利,西班牙,愛爾蘭,俄羅斯,奧地利,希臘,美國,加拿大,墨西哥,巴西及南非等國之證券集中交易市場或經金管會核准之證券櫃檯買賣中心之股票或債券,或經金管會規定之外國著名評鑑機構評定為A級以上由國家或機構所保證或發行於上列國家交易之債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM132",
+   "group": "全球股票收益",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "VYM",
+     "name": "Vanguard 美國高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美股高股息"
+    },
+    {
+     "code": "VYMI",
+     "name": "Vanguard 國際高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美國以外高股息"
+    }
+   ]
+  },
+  {
+   "id": "CSI132",
+   "name": "【TISA級別】國泰泰享退系列2049目標日期組合基金TISA",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2046+",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3781E1",
+   "inception": "2025/07/01",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 25.5928,
+   "navDate": "2026/10/20",
+   "change": 0.2,
+   "aum": 7840261353.4,
+   "dividend": "不配息",
+   "sharpe": 1.52,
+   "stdev1y": 20.76,
+   "ret": {
+    "quarter": 4.03,
+    "half": 22.34,
+    "one": 35.57,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 53.13
+   },
+   "rsp": {
+    "one": 14.95,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之95%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI132",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2049 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "CSI093",
+   "name": "【好享退-國泰2049】國泰泰享退系列2049目標日期組合基金P",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2046+",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3781C5",
+   "inception": "2019/07/25",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 26.5952,
+   "navDate": "2026/10/20",
+   "change": 0.2,
+   "aum": 7840261353.4,
+   "dividend": "不配息",
+   "sharpe": 1.5,
+   "stdev1y": 20.56,
+   "ret": {
+    "quarter": 4.0,
+    "half": 22.43,
+    "one": 34.89,
+    "two": 50.83,
+    "three": 87.47,
+    "five": 94.41,
+    "beginning": 169.54
+   },
+   "rsp": {
+    "one": 14.86,
+    "two": 31.32,
+    "three": 43.17,
+    "five": 66.32
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之95%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI093",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2049 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "CSI105",
+   "name": "【好好退休】國泰泰享退系列２０４９目標日期組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2046+",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3781D3",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 25.6983,
+   "navDate": "2026/10/20",
+   "change": 0.19,
+   "aum": 7840261353.4,
+   "dividend": "不配息",
+   "sharpe": 1.49,
+   "stdev1y": 20.55,
+   "ret": {
+    "quarter": 4.08,
+    "half": 22.21,
+    "one": 34.41,
+    "two": 49.76,
+    "three": 85.44,
+    "five": 91.32,
+    "beginning": 86.49
+   },
+   "rsp": {
+    "one": 14.62,
+    "two": 30.8,
+    "three": 42.31,
+    "five": 64.68
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之95%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI105",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2049 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "FTS092",
+   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2037組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4524C8",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 15.85,
+   "navDate": "2026/10/20",
+   "change": 0.57,
+   "aum": 688547349.68,
+   "dividend": "不配息",
+   "sharpe": 1.82,
+   "stdev1y": 14.24,
+   "ret": {
+    "quarter": 0.69,
+    "half": 20.3,
+    "one": 29.78,
+    "two": 29.99,
+    "three": 51.97,
+    "five": 59.0,
+    "beginning": 58.68
+   },
+   "rsp": {
+    "one": 13.43,
+    "two": 23.59,
+    "three": 29.09,
+    "five": 39.82
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述(八).之有價證券,並依下列規範進行投資:原則上,本基金之三檔子基金自成立日起屆滿六個月後,投資於子基金之總金額應達本基金淨資產價值之百分之七十(含);投資外國子基金之總金額,不得低於本基金淨資產價值之百分之六十(含);自成立日起屆滿六個月後至2027年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之八十(含);自2028年1月1日起至2037年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之四十(含);自2038年1月1日起投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之二十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS092",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2037 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "KGI089",
+   "name": "【TISA級別】凱基未來世代關鍵收息多重資產基金－新臺幣TISA（累積）",
+   "company": "凱基證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4139Q5",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 13.87,
+   "navDate": "2026/10/20",
+   "change": 0.87,
+   "aum": 1420723817.78,
+   "dividend": "不配息",
+   "sharpe": 1.49,
+   "stdev1y": 17.61,
+   "ret": {
+    "quarter": 2.53,
+    "half": 23.98,
+    "one": 29.61,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 42.7
+   },
+   "rsp": {
+    "one": 14.78,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "1.經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國及外國有價證券.並依下列規範進行投資:(1)原則上,本基金自成立日起六個月後:A.本基金得同時投資於國內外股票,債券(包含其他固定收益證券),基金受益憑證,不動產投資信託基金受益證券(REITs)及經金管會核准得投資項目等資產種類,且投資於前開任一資產種類之總金額不得高於本基金淨資產價值之70%(含);投資於外國有價證券之總金額不低於本基金淨資產價值之60%(含);投資於國內外具(未來世代關鍵)之有價證券總金額不得低於本基金淨資產價值之60%(含).B.前述第A目所稱具未來世代關鍵之有價證券,係指因未來世代趨勢轉變所衍生出來之有價證券,其中未來世代關鍵主要投資範疇包括:a.科技創新產業:從智慧型手機,雲端運算,大數據,IOT物聯網到AI人工智慧等科技創新",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/KGI089",
+   "group": "股債平衡-積極",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CSI096",
+   "name": "【好享退-國泰2039】國泰泰享退系列2039目標日期組合基金P",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3780C7",
+   "inception": "2019/07/25",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 24.2922,
+   "navDate": "2026/10/20",
+   "change": 0.23,
+   "aum": 6266118373.6,
+   "dividend": "不配息",
+   "sharpe": 1.4,
+   "stdev1y": 18.89,
+   "ret": {
+    "quarter": 5.05,
+    "half": 18.68,
+    "one": 29.44,
+    "two": 42.49,
+    "three": 74.55,
+    "five": 83.33,
+    "beginning": 145.71
+   },
+   "rsp": {
+    "one": 11.92,
+    "two": 25.71,
+    "three": 36.06,
+    "five": 56.71
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之80%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI096",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2039 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "FTS112",
+   "name": "【TISA級別】富蘭克林華美多重資產收益證券投資信託基金-新臺幣-TISA類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4518N7",
+   "inception": "2025/08/11",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 12.98,
+   "navDate": "2026/10/20",
+   "change": 0.15,
+   "aum": 18879338379.61,
+   "dividend": "不配息",
+   "sharpe": 1.46,
+   "stdev1y": 17.89,
+   "ret": {
+    "quarter": 5.53,
+    "half": 19.44,
+    "one": 29.17,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 31.24
+   },
+   "rsp": {
+    "one": 13.18,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "基金公司應以分散風險,確保基金之安全,并積極追求長期之投資利得及維持收益之安定為目標.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS112",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "CSI104",
+   "name": "【好好退休】國泰泰享退系列２０３９目標日期組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3780D5",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 23.659,
+   "navDate": "2026/10/20",
+   "change": 0.23,
+   "aum": 6266118373.6,
+   "dividend": "不配息",
+   "sharpe": 1.38,
+   "stdev1y": 18.88,
+   "ret": {
+    "quarter": 5.11,
+    "half": 18.51,
+    "one": 29.09,
+    "two": 41.7,
+    "three": 73.04,
+    "five": 81.29,
+    "beginning": 77.48
+   },
+   "rsp": {
+    "one": 11.74,
+    "two": 25.32,
+    "three": 35.42,
+    "five": 55.52
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之80%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI104",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2039 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "ALI064",
+   "name": "【好享退-安聯積極型】安聯四季成長組合基金-P類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3628C8",
+   "inception": "2019/07/31",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 23.82,
+   "navDate": "2026/10/20",
+   "change": 0.3,
+   "aum": 17708253078.77,
+   "dividend": "不配息",
+   "sharpe": 1.79,
+   "stdev1y": 13.89,
+   "ret": {
+    "quarter": 1.0,
+    "half": 18.05,
+    "one": 28.49,
+    "two": 43.25,
+    "three": 76.72,
+    "five": 88.09,
+    "beginning": 140.41
+   },
+   "rsp": {
+    "one": 12.41,
+    "two": 25.67,
+    "three": 36.56,
+    "five": 57.99
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八所列投資地區及標的之有價證券.原則上,本基金自成立日起屆滿三個月後,投資於子基金之總金額,不得低於本基金淨資產價值之百分之七十(含本數).但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指信託契約終止前一個月.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI064",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CIT137",
+   "name": "【TISA級別】群益全民成長樂退組合基金TISA(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1669J9",
+   "inception": "2025/06/27",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 14.1085,
+   "navDate": "2026/10/20",
+   "change": 0.1,
+   "aum": 10882350783.79,
+   "dividend": "不配息",
+   "sharpe": 1.26,
+   "stdev1y": 20.4,
+   "ret": {
+    "quarter": 6.66,
+    "half": 17.63,
+    "one": 28.32,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 43.14
+   },
+   "rsp": {
+    "one": 11.3,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之八十(80%)(含),亦不得低於本基金淨資產價值之百分之三十(30%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT137",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CIT100",
+   "name": "【好享退-群益積極型】群益全民成長樂退組合基金P(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1669D2",
+   "inception": "2019/07/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 20.7072,
+   "navDate": "2026/10/20",
+   "change": 0.1,
+   "aum": 10882350783.79,
+   "dividend": "不配息",
+   "sharpe": 1.26,
+   "stdev1y": 20.4,
+   "ret": {
+    "quarter": 6.66,
+    "half": 17.63,
+    "one": 28.3,
+    "two": 38.93,
+    "three": 70.03,
+    "five": 70.94,
+    "beginning": 110.05
+   },
+   "rsp": {
+    "one": 11.3,
+    "two": 24.13,
+    "three": 33.82,
+    "five": 52.58
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之八十(80%)(含),亦不得低於本基金淨資產價值之百分之三十(30%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT100",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CIT126",
+   "name": "【好好退休】群益全民成長樂退組合基金R(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1669H3",
+   "inception": "2023/07/03",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 16.4926,
+   "navDate": "2026/10/20",
+   "change": 0.1,
+   "aum": 10882350783.79,
+   "dividend": "不配息",
+   "sharpe": 1.25,
+   "stdev1y": 20.4,
+   "ret": {
+    "quarter": 6.73,
+    "half": 17.45,
+    "one": 27.92,
+    "two": 38.11,
+    "three": 68.52,
+    "five": null,
+    "beginning": 66.95
+   },
+   "rsp": {
+    "one": 11.11,
+    "two": 23.73,
+    "three": 33.16,
+    "five": null
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之八十(80%)(含),亦不得低於本基金淨資產價值之百分之三十(30%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT126",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "ALI088",
+   "name": "【好好退休】安聯四季成長組合基金-R類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3628D6",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 17.98,
+   "navDate": "2026/10/20",
+   "change": 0.34,
+   "aum": 17708253078.77,
+   "dividend": "不配息",
+   "sharpe": 1.76,
+   "stdev1y": 13.89,
+   "ret": {
+    "quarter": 1.16,
+    "half": 17.72,
+    "one": 27.83,
+    "two": 41.94,
+    "three": 74.34,
+    "five": 83.85,
+    "beginning": 79.42
+   },
+   "rsp": {
+    "one": 12.08,
+    "two": 24.98,
+    "three": 35.46,
+    "five": 55.91
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八所列投資地區及標的之有價證券.原則上,本基金自成立日起屆滿三個月後,投資於子基金之總金額,不得低於本基金淨資產價值之百分之七十(含本數).但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指信託契約終止前一個月.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI088",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "Pru058",
+   "name": "【好好退休】玉山策略成長ETF組合證券投資信託基金－新台幣R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T0839C4",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 17.6191,
+   "navDate": "2026/10/20",
+   "change": 0.18,
+   "aum": 1248401565.78,
+   "dividend": "不配息",
+   "sharpe": 1.39,
+   "stdev1y": 17.52,
+   "ret": {
+    "quarter": 2.13,
+    "half": 20.93,
+    "one": 27.27,
+    "two": 38.59,
+    "three": 71.85,
+    "five": 79.65,
+    "beginning": 76.16
+   },
+   "rsp": {
+    "one": 12.91,
+    "two": 24.7,
+    "three": 34.6,
+    "five": 53.99
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八之有價證券,並依下列規範進行投資:(一)原則上,本基金自成立日起三個月後,投資於本國子基金或外國子基金(含ETF)之總金額應達本基金淨資產價值之百分之七十(70%)以上(含);投資於ETF(包括反向型ETF,商品ETF及槓桿型ETF)之總金額,不得低於本基金淨資產價值之百分之六十(60%)(含);投資於外國子基金之總金額不得低於本基金淨資產價值之百分之六十(60%)(含).(二)但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指本基金終止前一個月.(三)本基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本基金淨資產價值之百分之三十.如因有關法令或相關規定修正者,",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru058",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CSI090",
+   "name": "【好享退-國泰2029】國泰泰享退系列2029目標日期組合基金P",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3779C9",
+   "inception": "2019/07/25",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 19.9899,
+   "navDate": "2026/10/20",
+   "change": 0.08,
+   "aum": 6883291675.8,
+   "dividend": "不配息",
+   "sharpe": 1.29,
+   "stdev1y": 18.28,
+   "ret": {
+    "quarter": 7.26,
+    "half": 13.52,
+    "one": 25.94,
+    "two": 33.8,
+    "three": 59.12,
+    "five": 60.48,
+    "beginning": 101.95
+   },
+   "rsp": {
+    "one": 8.73,
+    "two": 20.65,
+    "three": 28.9,
+    "five": 43.77
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之65%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI090",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2029 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "CSI101",
+   "name": "【好好退休】國泰全球積極組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3715E9",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 43.02,
+   "navDate": "2026/10/20",
+   "change": 0.3,
+   "aum": 2199922450.94,
+   "dividend": "不配息",
+   "sharpe": 1.28,
+   "stdev1y": 18.36,
+   "ret": {
+    "quarter": 5.06,
+    "half": 16.37,
+    "one": 25.9,
+    "two": 39.69,
+    "three": 69.11,
+    "five": 65.75,
+    "beginning": 61.67
+   },
+   "rsp": {
+    "one": 10.39,
+    "two": 23.63,
+    "three": 33.53,
+    "five": 51.55
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金三檔組合型基金投資於國內證券投資信託事業在國內募集發行之證券投資信託基金(以下簡稱本國子基金)與經金管會核准證券投資顧問事業提供投資推介顧問服務之外國基金管理機構所發行或經理之受益憑證,基金股份或投資單位(以下簡稱境外基金)及外國證券集中交易市場,美國店頭市場(NASDAQ),英國另類投資市場(AIM),日本店頭市場(JASDAQ)及韓國店頭市場(KOSDAQ)交易之指數股票型基金(ETF)(境外基金與外國指數股票型基金以下合併簡稱外國子基金),並依下列規範進行投資:(1)原則上,本基金三檔組合型基金自成立日起屆滿三個月後,投資於本國及外國子基金之總金額應達本基金各組合型基金淨資產之百分之七十(含本數);(2)投資於外國子基金之總金額,每季平均不得低於本基金各組合型基金投",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI101",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "CSI103",
+   "name": "【好好退休】國泰泰享退系列２０２９目標日期組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3779D7",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 19.6889,
+   "navDate": "2026/10/20",
+   "change": 0.08,
+   "aum": 6883291675.8,
+   "dividend": "不配息",
+   "sharpe": 1.28,
+   "stdev1y": 18.28,
+   "ret": {
+    "quarter": 7.3,
+    "half": 13.41,
+    "one": 25.69,
+    "two": 33.27,
+    "three": 58.12,
+    "five": 59.83,
+    "beginning": 57.07
+   },
+   "rsp": {
+    "one": 8.61,
+    "two": 20.39,
+    "three": 28.47,
+    "five": 43.07
+   },
+   "strategy": "(1)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金各組合型基金投資於國內證券投資信託事業之基金受益憑證及期貨信託事業對不特定人募集之期貨信託基金受益憑證(含商品期貨ETF)(以下合稱本國子基金),於外國證券交易所及其他經金管會核准之外國店頭市場交易之封閉式基金受益憑證,基金股份或投資單位及追蹤,模擬或複製指數表現之ETF(含商品ETF)及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱外國子基金),並依下列規範進行投資:1)原則上,本基金各組合型基金自成立日起6個月後,投資於本國及外國子基金之總金額應達該組合型基金淨資產價值之70%(含本數),並應符合下列投資規範:i)自成立日起6個月後至2029/12/31止,投資於股票型子基金之總金額不得超過本組合型基金淨資產價值之65%(含本數);ii)自2030/1/",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI103",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2029 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "ALI089",
+   "name": "【好好退休】安聯全球股票多元投資風格證券投資信託基金-R類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球大型增長型股票",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T3617B3",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 14.82,
+   "navDate": "2026/10/20",
+   "change": 0.54,
+   "aum": 2510666531.0,
+   "dividend": "不配息",
+   "sharpe": 2.06,
+   "stdev1y": 9.84,
+   "ret": {
+    "quarter": 1.53,
+    "half": 14.29,
+    "one": 23.34,
+    "two": 23.65,
+    "three": 44.95,
+    "five": 51.55,
+    "beginning": 50.46
+   },
+   "rsp": {
+    "one": 9.97,
+    "two": 19.11,
+    "three": 23.01,
+    "five": 37.27
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國有價證券及外國之有價證券.經理公司並應依下列規範進行投資:(一)本基金投資於中華民國之有價證券為中華民國境內之上市或上櫃公司股票(含承銷股票),經臺灣證券交易所股份有限公司或財團法人中華民國證券櫃檯買賣中心同意上市或上櫃之興櫃股票,認購(售)權證或認股權憑證,參與憑證,基金受益憑證﹝含指數股票型基金(ETF),反向型ETF,商品ETF及槓桿型ETF,期貨信託事業對不特定人募集之期貨信託基金﹞,台灣存託憑證,政府公債,公司債(含次順位公司債),可轉換公司債,交換公司債,附認股權公司債,金融債券(含次順位金融債券),國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI089",
+   "group": "全球股票",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買到的美股大盤（只有美國）"
+    }
+   ]
+  },
+  {
+   "id": "ALI063",
+   "name": "【好享退-安聯穩健型】安聯四季雙收入息組合基金-P類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3627F3",
+   "inception": "2019/07/31",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 19.23,
+   "navDate": "2026/10/20",
+   "change": 0.31,
+   "aum": 10509396374.61,
+   "dividend": "不配息",
+   "sharpe": 1.78,
+   "stdev1y": 10.99,
+   "ret": {
+    "quarter": 2.26,
+    "half": 12.62,
+    "one": 22.25,
+    "two": 30.38,
+    "three": 54.43,
+    "five": 62.9,
+    "beginning": 91.44
+   },
+   "rsp": {
+    "one": 8.74,
+    "two": 18.82,
+    "three": 26.28,
+    "five": 41.73
+   },
+   "strategy": "(一)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八所列投資地區及標的之有價證券.並依下列規範進行投資:1.原則上,本基金自成立日起屆滿三個月後,投資於子基金之總金額,不得低於本基金淨資產價值之百分之七十(含本數).2.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指信託契約終止前一個月.(二)本基金至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本基金淨資產價值之百分之三十.(三)經理公司得以現金,存放於銀行(含基金保管機構)或買入短期票券,債券附買回交易或其他經金管會規定之方式保持本基金之資產,以前述方式保持之資產比率得為零.除法令另有規定外,上開資產存放之銀行,債券附買回交易之交易對象及短期票券發行人,保證人,承兌人或標的物之",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI063",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "CTB062",
+   "name": "【TISA級別】中國信託科技趨勢多重資產證券投資信託基金-新台幣TISA",
+   "company": "中國信託證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T2693J8",
+   "inception": "2025/07/17",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 12.7286,
+   "navDate": "2026/10/20",
+   "change": 0.21,
+   "aum": 5967586078.0,
+   "dividend": "不配息",
+   "sharpe": 1.15,
+   "stdev1y": 17.4,
+   "ret": {
+    "quarter": 3.32,
+    "half": 18.96,
+    "one": 21.85,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 31.59
+   },
+   "rsp": {
+    "one": 11.46,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "1.本基金為多重資產型基金,主要投資具(科技趨勢)概念之有價證券(包含股票,債券,不動產投資信託受益證券(REITs),基金受益憑(含指數股票型基金,反向型ETF,商品ETF,槓桿型ETF)證等),參與全球各類資產投資契機,並以追求較長期而穩定之獲利機會為目標,進行各類型資產間之投資佈局.2.產業配置策略聚焦目前主流科技趨勢主題相關之有價證券,包含:新世代通訊,人工智慧,雲端運算,電動車,新能源,物聯網,自駕車,數位化,衛星通訊及應用等科技主題或未來新興科技創新主題等相關產業所發行之有價證券,與運用網際網路,雲端運算,大數據,行動通訊,社群聯結等技術,設備,平台和媒體,提供服務與連結,包括智慧投資領域,智慧穿戴裝置,智慧城市,議會醫療,深度學習,機器學習,證據推理,圖像辨識,工業自動化,虛擬實境,機器人,自然語言理解,3D技術,預測分析,智慧安全防衛,虛擬助理,車聯網,自駕技術,新能源車,",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CTB062",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "科技主題",
+    "中國題材"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "ALI087",
+   "name": "【好好退休】安聯四季雙收入息組合基金-R類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3627G1",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 15.84,
+   "navDate": "2026/10/20",
+   "change": 0.38,
+   "aum": 10509396374.61,
+   "dividend": "不配息",
+   "sharpe": 1.75,
+   "stdev1y": 10.89,
+   "ret": {
+    "quarter": 2.37,
+    "half": 12.34,
+    "one": 21.77,
+    "two": 29.21,
+    "three": 52.33,
+    "five": 59.31,
+    "beginning": 58.18
+   },
+   "rsp": {
+    "one": 8.5,
+    "two": 18.26,
+    "three": 25.37,
+    "five": 39.97
+   },
+   "strategy": "(一)經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述八所列投資地區及標的之有價證券.並依下列規範進行投資:1.原則上,本基金自成立日起屆滿三個月後,投資於子基金之總金額,不得低於本基金淨資產價值之百分之七十(含本數).2.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制.所謂特殊情形,係指信託契約終止前一個月.(二)本基金至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本基金淨資產價值之百分之三十.(三)經理公司得以現金,存放於銀行(含基金保管機構)或買入短期票券,債券附買回交易或其他經金管會規定之方式保持本基金之資產,以前述方式保持之資產比率得為零.除法令另有規定外,上開資產存放之銀行,債券附買回交易之交易對象及短期票券發行人,保證人,承兌人或標的物之",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI087",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "CIT110",
+   "name": "【好享退-群益穩健型】群益全民優質樂退組合基金P(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1670D0",
+   "inception": "2019/07/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 17.3892,
+   "navDate": "2026/10/20",
+   "change": 0.27,
+   "aum": 4480450627.32,
+   "dividend": "不配息",
+   "sharpe": 1.29,
+   "stdev1y": 14.86,
+   "ret": {
+    "quarter": 5.48,
+    "half": 12.48,
+    "one": 21.29,
+    "two": 27.5,
+    "three": 51.19,
+    "five": 52.75,
+    "beginning": 75.01
+   },
+   "rsp": {
+    "one": 7.8,
+    "two": 17.16,
+    "three": 24.4,
+    "five": 38.33
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之六十(60%)(含),亦不得低於本基金淨資產價值之百分之二十(20%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT110",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "FTS091",
+   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2027組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4523C0",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 14.72,
+   "navDate": "2026/10/20",
+   "change": 0.62,
+   "aum": 181432393.96,
+   "dividend": "不配息",
+   "sharpe": 1.56,
+   "stdev1y": 11.98,
+   "ret": {
+    "quarter": 2.58,
+    "half": 14.4,
+    "one": 21.19,
+    "two": 21.49,
+    "three": 38.42,
+    "five": 47.74,
+    "beginning": 47.44
+   },
+   "rsp": {
+    "one": 9.36,
+    "two": 16.17,
+    "three": 20.77,
+    "five": 29.42
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述(八).之有價證券,並依下列規範進行投資:原則上,本基金之三檔子基金自成立日起屆滿六個月後,投資於子基金之總金額應達本基金淨資產價值之百分之七十(含);投資外國子基金之總金額,不得低於本基金淨資產價值之百分之六十(含);自成立日起屆滿六個月後至2027年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之四十(含);自2028年1月1日起投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之二十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS091",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2027 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "BRI023",
+   "name": "【好好退休】貝萊德享退休系列2050目標日期組合基金-R類型",
+   "company": "貝萊德證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2046+",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3119A2",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 16.64,
+   "navDate": "2026/10/20",
+   "change": 0.48,
+   "aum": 341790571.0,
+   "dividend": "不配息",
+   "sharpe": 1.83,
+   "stdev1y": 10.13,
+   "ret": {
+    "quarter": 0.12,
+    "half": 13.43,
+    "one": 21.19,
+    "two": 31.65,
+    "three": 60.53,
+    "five": 67.21,
+    "beginning": 64.7
+   },
+   "rsp": {
+    "one": 9.04,
+    "two": 19.51,
+    "three": 28.59,
+    "five": 45.34
+   },
+   "strategy": "1)職涯上半場-累積資本為目的:自動配置較高的股票部位以參與較多的市場成長2)退休準備期-保守穩健為主:逐步增持較低風險的固定收益部位,以降低資產的減損風險3)正式退休-主要部位持債保盈:保留部分股票部位以獲取上漲機會,對抗長壽風險",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/BRI023",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2050 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "CIT127",
+   "name": "【好好退休】群益全民優質樂退組合基金R(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1670H1",
+   "inception": "2023/07/03",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 14.8286,
+   "navDate": "2026/10/20",
+   "change": 0.27,
+   "aum": 4480450627.32,
+   "dividend": "不配息",
+   "sharpe": 1.27,
+   "stdev1y": 14.86,
+   "ret": {
+    "quarter": 5.55,
+    "half": 12.32,
+    "one": 20.93,
+    "two": 26.75,
+    "three": 49.94,
+    "five": null,
+    "beginning": 49.17
+   },
+   "rsp": {
+    "one": 7.62,
+    "two": 16.79,
+    "three": 23.8,
+    "five": null
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之六十(60%)(含),亦不得低於本基金淨資產價值之百分之二十(20%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT127",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "NOM124",
+   "name": "【好好退休】野村動態配置多重資產證券投資信託基金(S級別)",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3276S2",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 17.1759,
+   "navDate": "2026/10/20",
+   "change": 0.22,
+   "aum": 949148224.92,
+   "dividend": "不配息",
+   "sharpe": 1.06,
+   "stdev1y": 17.58,
+   "ret": {
+    "quarter": 2.74,
+    "half": 19.73,
+    "one": 20.28,
+    "two": 24.14,
+    "three": 48.6,
+    "five": 28.04,
+    "beginning": 75.44
+   },
+   "rsp": {
+    "one": 10.29,
+    "two": 17.36,
+    "three": 22.31,
+    "five": 31.46
+   },
+   "strategy": "原則上,本基金自成立日起屆滿六個月後,投資於國內外股票(含承銷股票),存託憑證,參與憑證,債券及其他固定收益證券之總額不得低於本基金淨資產價值之百分之七十(含);投資於上市或上櫃股票,承銷股票及存託憑證合計總金額占基金淨資產價值之百分之九十(含)以下且不得低於百分之十(含),有關本基金投資股票及債券比例之具體投資策略詳如本基金公開說明書.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM124",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "NBG063",
+   "name": "【好好退休】路博邁收益成長多重資產證券投資信託基金R累積(新臺幣)",
+   "company": "路博邁證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣保守型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T5003W0",
+   "inception": "2022/07/01",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 14.37,
+   "navDate": "2026/10/20",
+   "change": 0.28,
+   "aum": 5669522061.71,
+   "dividend": "不配息",
+   "sharpe": 1.34,
+   "stdev1y": 13.01,
+   "ret": {
+    "quarter": 2.58,
+    "half": 14.24,
+    "one": 19.57,
+    "two": 26.97,
+    "three": 42.18,
+    "five": null,
+    "beginning": 43.6
+   },
+   "rsp": {
+    "one": 8.6,
+    "two": 18.25,
+    "three": 23.88,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.經理公司應以誠信原則及專業經營方式,將本基金投資於前述一,(八)之有價證券.並依下列規範進行投資:1.原則上,本基金自成立日起六個月後,投資於國內外之股票(含承銷股票,特別股及存託憑證),債券(含其他固定收益證券),基金受益憑證(含指數股票型基金(ETF)及商品ETF),不動產投資信託基金受益證券及經金管會核准得投資項目之資產等任一資產種類之總金額不得超過本基金淨資產價值之百分之七十(含);投資於外國有價證券之總額不低於本基金淨資產價值之百分之六十(含).2.投資所在國或地區之國家主權評等未達下述所列信用評等機構評定等級者,投資該國家或地區之政府債券及其他債券總金額,不得超過本基金淨資產價值之百分之三十.3.本基金得投資高收益債券,惟投資高收益債券之總金額不得超過本基金淨資產價值之百分之三十(含).本基金",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NBG063",
+   "group": "股債平衡-保守",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOK",
+     "name": "iShares 保守配置 30/70",
+     "market": "US",
+     "match": "close",
+     "note": "股 30／債 70"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "NOM143",
+   "name": "【好好退休】野村多元收益多重資產證券投資信託基金（Ｓ級別）",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3295S2",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 13.1746,
+   "navDate": "2026/10/20",
+   "change": 0.24,
+   "aum": 4798494569.62,
+   "dividend": "不配息",
+   "sharpe": 1.42,
+   "stdev1y": 11.45,
+   "ret": {
+    "quarter": 0.42,
+    "half": 17.88,
+    "one": 18.29,
+    "two": 23.41,
+    "three": 45.97,
+    "five": 33.15,
+    "beginning": 33.15
+   },
+   "rsp": {
+    "one": 10.26,
+    "two": 16.43,
+    "three": 22.01,
+    "five": 32.38
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國及外國之有價證券.經理公司並應依下列規範進行投資:1.本基金投資於中華民國之上市或上櫃股票(含特別股),承銷股票,認股權憑證,經臺灣證券交易所股份有限公司或財團法人中華民國證券櫃檯買賣中心同意上市或上櫃之興櫃股票,存託憑證,證券投資信託基金受益憑證(含指數股票型基金,反向型ETF及槓桿型ETF),期貨信託事業對不特定人募集之期貨信託基金受益憑證,政府公債,公司債(含次順位公司債,無擔保公司債,可轉換公司債,交換公司債,附認股權公司債),金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券及依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.2.本基金",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM143",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "YUI091",
+   "name": "【好好退休】元大全球ETF穩健組合證券投資信託基金-新台幣R類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T0575A8",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 23.02,
+   "navDate": "2026/10/20",
+   "change": 0.79,
+   "aum": 1911149261.0,
+   "dividend": "不配息",
+   "sharpe": 1.69,
+   "stdev1y": 9.01,
+   "ret": {
+    "quarter": 1.75,
+    "half": 9.54,
+    "one": 17.44,
+    "two": 21.48,
+    "three": 41.47,
+    "five": 45.04,
+    "beginning": 42.26
+   },
+   "rsp": {
+    "one": 6.55,
+    "two": 14.26,
+    "three": 20.11,
+    "five": 30.49
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於子基金.前述子基金係指(1)經金管會核准在國內募集發行之證券投資信託基金(即本國子基金);(2)依境外基金管理辦法得於中華民國境內募集及銷售之外國基金管理機構所發行或經理之受益憑證,基金股份或投資單位(即境外基金),及於外國證券集中交易市場,美國店頭市場(NASDAQ),英國另類投資市場(AIM),日本店頭市場(JSDAQ)及韓國店頭市場(KOSDAQ)交易之指數股票型基金,受益憑證,基金股份或投資單位為投資標的組合而成之證券投資信託基金.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI091",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "NOM159",
+   "name": "【TISA級別】野村多元收益多重資產基金-TISA類型",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3295M5",
+   "inception": "2025/09/08",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 11.583,
+   "navDate": "2026/10/20",
+   "change": 0.22,
+   "aum": 4798494569.62,
+   "dividend": "不配息",
+   "sharpe": 1.32,
+   "stdev1y": 11.57,
+   "ret": {
+    "quarter": 0.51,
+    "half": 18.12,
+    "one": 17.14,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 17.14
+   },
+   "rsp": {
+    "one": 10.33,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國及外國之有價證券.經理公司並應依下列規範進行投資:1.本基金投資於中華民國之上市或上櫃股票(含特別股),承銷股票,認股權憑證,經臺灣證券交易所股份有限公司或財團法人中華民國證券櫃檯買賣中心同意上市或上櫃之興櫃股票,存託憑證,證券投資信託基金受益憑證(含指數股票型基金,反向型ETF及槓桿型ETF),期貨信託事業對不特定人募集之期貨信託基金受益憑證,政府公債,公司債(含次順位公司債,無擔保公司債,可轉換公司債,交換公司債,附認股權公司債),金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券及依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.2.本基金",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM159",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "CSI100",
+   "name": "【好好退休】國泰全球多重收益平衡基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T3743J0",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 17.11,
+   "navDate": "2026/10/20",
+   "change": 0.41,
+   "aum": 4156285197.04,
+   "dividend": "不配息",
+   "sharpe": 1.46,
+   "stdev1y": 8.85,
+   "ret": {
+    "quarter": 1.34,
+    "half": 11.22,
+    "one": 14.76,
+    "two": 22.47,
+    "three": 43.52,
+    "five": 38.37,
+    "beginning": 34.52
+   },
+   "rsp": {
+    "one": 6.3,
+    "two": 13.8,
+    "three": 20.08,
+    "five": 30.0
+   },
+   "strategy": "本基金應以分散風險,確保基金之安全,并基金追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本子基金投資于中華民國及外國之有價證券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI100",
+   "group": "股債平衡-積極",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "FTS090",
+   "name": "【好好退休】富蘭克林華美坦伯頓全球股票組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球大型均衡型股票",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T4501A0",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 14.0458,
+   "navDate": "2026/10/20",
+   "change": 0.29,
+   "aum": 787330691.0,
+   "dividend": "不配息",
+   "sharpe": 0.62,
+   "stdev1y": 23.27,
+   "ret": {
+    "quarter": 5.07,
+    "half": 15.1,
+    "one": 14.25,
+    "two": 22.39,
+    "three": 51.24,
+    "five": 52.61,
+    "beginning": 51.75
+   },
+   "rsp": {
+    "one": 6.36,
+    "two": 14.3,
+    "three": 21.62,
+    "five": 36.19
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求中長期之投資利得及維持收益之安全為目標.以誠信原則及專業經營方式,將本基金投資於國內證券投資信託事業在國內募集發行之證券投資信託基金以及經金管會核准或申報生效得募集及銷售之境外基金(以下合稱(子基金)).經理公司並應依下列規定進行投資:(1)原則上,本基金自成立日起屆滿三個月後,投資於本國及境外子基金之總金額應達本基金淨資產價值之百分之七十(含);且自成立日起屆滿六個月後,投資於境外子基金之總金額不得低於本基金淨資產值之百分之五十(含).其中投資於股票型子基金之總金額,每季平均不得低於本基金淨資產價值百分之七十(含).但本契約終止前一個月,為保障受益人之權益者,得不受前述比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS090",
+   "group": "全球股票",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買到的美股大盤（只有美國）"
+    }
+   ]
+  },
+  {
+   "id": "JPM039",
+   "name": "【好好退休】摩根環球股票收益證券投資信託基金-R類型(新臺幣)",
+   "company": "摩根證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球股票收益",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T1155E0",
+   "inception": "2024/06/27",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 12.52,
+   "navDate": "2026/10/20",
+   "change": 1.21,
+   "aum": 3202467320.87,
+   "dividend": "不配息",
+   "sharpe": 1.12,
+   "stdev1y": 9.99,
+   "ret": {
+    "quarter": 1.11,
+    "half": 2.52,
+    "one": 12.7,
+    "two": 14.34,
+    "three": null,
+    "five": null,
+    "beginning": 18.0
+   },
+   "rsp": {
+    "one": 3.22,
+    "two": 9.65,
+    "three": null,
+    "five": null
+   },
+   "strategy": "原則上,本基金自成立日起六個月後,投資於外國之有價證券總額不得低於本基金淨資產價值之百分之六十(含),且投資於國內外上市或上櫃股票(含承銷股票),興櫃股票及存託憑證之總金額,不得低於本基金淨資產價值之百分之七十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/JPM039",
+   "group": "全球股票收益",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "VYM",
+     "name": "Vanguard 美國高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美股高股息"
+    },
+    {
+     "code": "VYMI",
+     "name": "Vanguard 國際高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美國以外高股息"
+    }
+   ]
+  },
+  {
+   "id": "FTS093",
+   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2047組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "目標期限 2046+",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4525C5",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 12.29,
+   "navDate": "2026/10/20",
+   "change": 0.08,
+   "aum": 460220512.15,
+   "dividend": "不配息",
+   "sharpe": 0.39,
+   "stdev1y": 25.96,
+   "ret": {
+    "quarter": 8.24,
+    "half": 3.51,
+    "one": 8.51,
+    "two": 9.41,
+    "three": 28.36,
+    "five": null,
+    "beginning": 33.67
+   },
+   "rsp": {
+    "one": 1.54,
+    "two": 6.9,
+    "three": 10.62,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前述(八).之有價證券,並依下列規範進行投資:原則上,本基金之三檔子基金自成立日起屆滿六個月後,投資於子基金之總金額應達本基金淨資產價值之百分之七十(含);投資外國子基金之總金額,不得低於本基金淨資產價值之百分之六十(含);自成立日起屆滿六個月後至2027年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之九十五(含);自2028年1月1日起至2037年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之八十(含);自2038年1月1日起至2047年12月31日止,投資於股票型基金,股票型ETF之總金額不高於本基金淨資產價值之百分之四十(含);自2048年1月1日起投資於股票型基金,股票型ETF之總金",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS093",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2047 年；台灣沒有目標日期 ETF，離目標越遠股票比重越高"
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "diy",
+     "note": "越接近目標年越提高債券比重"
+    }
+   ]
+  },
+  {
+   "id": "CSI102",
+   "name": "【好好退休】國泰豐益債券組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "環球債券-靈活策略",
+   "region": "全球",
+   "fundKind": "債券基金",
+   "isin": "TW000T3727A2",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 14.3123,
+   "navDate": "2026/10/20",
+   "change": 0.12,
+   "aum": 630620544.95,
+   "dividend": "不配息",
+   "sharpe": 0.97,
+   "stdev1y": 4.16,
+   "ret": {
+    "quarter": 1.13,
+    "half": 2.72,
+    "one": 5.36,
+    "two": 7.04,
+    "three": 13.65,
+    "five": 7.29,
+    "beginning": 7.12
+   },
+   "rsp": {
+    "one": 1.27,
+    "two": 4.27,
+    "three": 6.22,
+    "five": 8.91
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內證券投資信託事業在國內募集發行之受益憑證,基金股份或投資單位(以下簡稱本國子基金),經金管會核准或生效得募集及銷售之外國基金管理機構所發行或經理之受益憑證,基金股份或投資單位及於外國證券集中交易市場,美國店頭市場(NASDAQ),英國另類投資市場(AIM),日本店頭市場(JASDAQ)及韓國店頭市場(KOSDAQ)及其他經金管會核准之店頭市場交易之受益憑證,基金股份,投資單位(以下簡稱外國子基金),並依下列規範進行投資:1)原則上,本基金自成立日起六個月後,應符合下列投資規範:i)投資於子基金之總金額應達本基金淨資產價值之百分之七十(含本數);ii)投資於債券型子基金(含固定收益型子基金)之總金額應達本基金淨資產價值之百分之六十(含本數);iii)投資於外國子基",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI102",
+   "group": "全球債券",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "BNDW",
+     "name": "Vanguard 全世界債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "CIT105",
+   "name": "【好享退-群益保守型】群益全民安穩樂退組合基金P(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "債券型",
+   "msCategory": "新台幣保守型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1671D8",
+   "inception": "2019/07/23",
+   "risk": 2,
+   "currency": "TWD",
+   "nav": 11.9785,
+   "navDate": "2026/10/20",
+   "change": 0.32,
+   "aum": 895515214.77,
+   "dividend": "不配息",
+   "sharpe": 0.77,
+   "stdev1y": 4.63,
+   "ret": {
+    "quarter": 2.64,
+    "half": 1.45,
+    "one": 4.87,
+    "two": 5.57,
+    "three": 17.91,
+    "five": 19.09,
+    "beginning": 17.45
+   },
+   "rsp": {
+    "one": 0.32,
+    "two": 3.13,
+    "three": 6.27,
+    "five": 12.64
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之二十(20%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT105",
+   "group": "股債平衡-保守",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOK",
+     "name": "iShares 保守配置 30/70",
+     "market": "US",
+     "match": "close",
+     "note": "股 30／債 70"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "CIT128",
+   "name": "【好好退休】群益全民安穩樂退組合基金R(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "新台幣保守型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1671H9",
+   "inception": "2023/07/03",
+   "risk": 2,
+   "currency": "TWD",
+   "nav": 12.101,
+   "navDate": "2026/10/20",
+   "change": 0.32,
+   "aum": 895515214.77,
+   "dividend": "不配息",
+   "sharpe": 0.71,
+   "stdev1y": 4.63,
+   "ret": {
+    "quarter": 2.71,
+    "half": 1.3,
+    "one": 4.56,
+    "two": 4.94,
+    "three": 16.92,
+    "five": null,
+    "beginning": 18.73
+   },
+   "rsp": {
+    "one": 0.16,
+    "two": 2.8,
+    "three": 5.77,
+    "five": null
+   },
+   "strategy": "本子基金自成立日起六個月後:(1)投資於本國及外國子基金之總金額應達本基金淨資產價值之百分之七十(70%)(含).(2)投資於本國及外國子基金中屬(股票型基金及股票型ETF)之總金額,不得高於本基金淨資產價值之百分之二十(20%)(含).本子基金自成立日起三個營業日後,至少應投資於五個以上子基金,且每個子基金最高投資上限不得超過本子基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT128",
+   "group": "股債平衡-保守",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "AOK",
+     "name": "iShares 保守配置 30/70",
+     "market": "US",
+     "match": "close",
+     "note": "股 30／債 70"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "ALI062",
+   "name": "【好享退-安聯保守型】安聯四季回報債券組合基金-P類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "債券型",
+   "msCategory": "環球債券-靈活策略",
+   "region": "全球",
+   "fundKind": "債券基金",
+   "isin": "TW000T3620D3",
+   "inception": "2019/07/31",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 10.8168,
+   "navDate": "2026/10/20",
+   "change": 0.2,
+   "aum": 8420441891.49,
+   "dividend": "不配息",
+   "sharpe": 0.17,
+   "stdev1y": 3.91,
+   "ret": {
+    "quarter": 2.87,
+    "half": 0.52,
+    "one": 1.9,
+    "two": 2.93,
+    "three": 12.68,
+    "five": 3.75,
+    "beginning": 6.21
+   },
+   "rsp": {
+    "one": 1.14,
+    "two": 1.03,
+    "three": 3.27,
+    "five": 6.67
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信及專業經營方式,將本基金投資於前述八所列之有價證券,並依下列規範進行投資.1.原則上,本基金得全部投資於經理公司子基金及德盛安聯集團子基金,如基於專業判斷,適時調整投資於其他本國子基金或外國子基金時,投資於經理公司子基金及德盛安聯集團子基金之總金額不得低於本基金淨資產價值之百分之七十.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI062",
+   "group": "全球債券",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "BNDW",
+     "name": "Vanguard 全世界債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "ALI086",
+   "name": "【好好退休】安聯四季回報債券組合基金-R類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "環球債券-靈活策略",
+   "region": "全球",
+   "fundKind": "債券基金",
+   "isin": "TW000T3620E1",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 10.3839,
+   "navDate": "2026/10/20",
+   "change": 0.2,
+   "aum": 8420441891.49,
+   "dividend": "不配息",
+   "sharpe": 0.09,
+   "stdev1y": 3.91,
+   "ret": {
+    "quarter": 2.94,
+    "half": 0.67,
+    "one": 1.59,
+    "two": 2.32,
+    "three": 11.67,
+    "five": 2.26,
+    "beginning": 2.28
+   },
+   "rsp": {
+    "one": 1.31,
+    "two": 0.71,
+    "three": 2.78,
+    "five": 5.84
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信及專業經營方式,將本基金投資於前述八所列之有價證券,並依下列規範進行投資.1.原則上,本基金得全部投資於經理公司子基金及德盛安聯集團子基金,如基於專業判斷,適時調整投資於其他本國子基金或外國子基金時,投資於經理公司子基金及德盛安聯集團子基金之總金額不得低於本基金淨資產價值之百分之七十.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI086",
+   "group": "全球債券",
+   "tags": [
+    "組合基金"
+   ],
+   "etfs": [
+    {
+     "code": "BNDW",
+     "name": "Vanguard 全世界債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "BND",
+     "name": "Vanguard 美國總體債券",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "HUA049",
+   "name": "【TISA級別】華南永昌多重資產入息平衡基金TISA",
+   "company": "華南永昌證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1239E2",
+   "inception": "2025/09/16",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 9.75,
+   "navDate": "2026/10/20",
+   "change": 0.81,
+   "aum": 742443449.62,
+   "dividend": "不配息",
+   "sharpe": 0.08,
+   "stdev1y": 15.55,
+   "ret": {
+    "quarter": 4.7,
+    "half": 3.58,
+    "one": 1.4,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 1.4
+   },
+   "rsp": {
+    "one": 1.6,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "原則上,本基金自成立日起六個月後,投資於股票(含承銷股票),存託憑證,債券及其他固定收益證券達基金淨資產價值之百分之七十以上;其中投資於股票,存託憑證及股票ETF之總金額不得低於本基金淨資產價值之百分之五十,惟依經理公司之專業判斷,為提升基金操作彈性及投資效率之目的,得不受前述投資比例限制,經理公司將參照全球總體經濟表現,貨幣政策等,並於經理公司投資決策會議決定當時景氣循環位置(景氣循環位置分為谷底,復甦,繁榮,高峰,衰退,蕭條等六個不同的階段)調整為投資於股票之總金額不超過本基金淨資產價值之百分之九十,不低於本基金淨資產價值之百分之十.有關前開景氣循環之說明詳見本基金公開說明書之(投資策略)說明;投資外國有價證券之總金額不得低於本基金淨資產價值之百分之六十(含);投資所在國或地區之國家主權評等未達第4款第(4)目所列信用評等機構評定等級者,投資該國或地區之政府債券及其他債券總金額,不得超",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/HUA049",
+   "group": "股債平衡-積極",
+   "tags": [
+    "多重資產",
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "SKI069",
+   "name": "【好好退休】台新全球債券基金(R類型)新台幣",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "環球企業債券-美元對沖",
+   "region": "全球",
+   "fundKind": "債券基金",
+   "isin": "TW000T1434G4",
+   "inception": "2023/08/01",
+   "risk": 2,
+   "currency": "TWD",
+   "nav": 11.4826,
+   "navDate": "2026/10/20",
+   "change": 0.6,
+   "aum": 2129885927.72,
+   "dividend": "不配息",
+   "sharpe": -0.16,
+   "stdev1y": 4.23,
+   "ret": {
+    "quarter": 3.91,
+    "half": 3.66,
+    "one": 0.53,
+    "two": 1.04,
+    "three": 7.99,
+    "five": null,
+    "beginning": 7.13
+   },
+   "rsp": {
+    "one": 2.71,
+    "two": 1.16,
+    "three": 0.47,
+    "five": null
+   },
+   "strategy": "1.經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資前述(八)之國內外有價證券.2.原則上,本基金自成立日起三個月後,整體資產組合之加權平均存續期間應在一年以上(含);且投資於前述(八),2.,(2)之所列標的總額不得低於(含)本基金淨資產價值之百分之六十.但在本基金信託契約終止前三十個營業日,或在特殊情形發生時,依經理公司專業判斷,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SKI069",
+   "group": "投資級債券",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00751B",
+     "name": "元大AAA至A公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "LQD",
+     "name": "iShares 投資級公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "VCIT",
+     "name": "Vanguard 中期公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "FUB048",
+   "name": "【好好退休】富邦全球投資等級債券證券投資信託基金-R類型（新臺幣）",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "環球企業債券-美元對沖",
+   "region": "全球",
+   "fundKind": "債券基金",
+   "isin": "TW000T1034G2",
+   "inception": "2021/09/23",
+   "risk": 2,
+   "currency": "TWD",
+   "nav": 10.5645,
+   "navDate": "2026/10/20",
+   "change": 0.45,
+   "aum": 1788311158.6,
+   "dividend": "不配息",
+   "sharpe": -0.57,
+   "stdev1y": 4.16,
+   "ret": {
+    "quarter": 4.6,
+    "half": 4.02,
+    "one": 1.17,
+    "two": 4.66,
+    "three": 3.74,
+    "five": 6.33,
+    "beginning": 6.77
+   },
+   "rsp": {
+    "one": 3.52,
+    "two": 2.35,
+    "three": 1.7,
+    "five": 0.81
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國及外國之有價證券.經理公司並應依下列規範進行投資:(1)本基金投資於中華民國之有價證券為中華民國境內之政府公債,公司債(含無擔保公司債,次順位公司債),金融債券(含次順位金融債券),債券型及貨幣型證券投資信託基金受益憑證,經金管會核准於我國境內募集發行之國際金融組織債券及依金融資產證券化條例公開招募之受益證券或資產基礎證券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB048",
+   "group": "投資級債券",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00751B",
+     "name": "元大AAA至A公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "LQD",
+     "name": "iShares 投資級公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "VCIT",
+     "name": "Vanguard 中期公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "FSI067",
+   "name": "【TISA級別】第一金創新趨勢基金-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0336B3",
+   "inception": "2025/09/01",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 23.32,
+   "navDate": "2026/10/21",
+   "change": 1.88,
+   "aum": 5819174617.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 3.47,
+    "half": 64.78,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 141.08
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於本國,並依下列規範進行投資:(一)本基金投資於中華民國境內之上市或上櫃股票(含特別股),承銷股票,存託憑證,受益憑證(含指數股票型基金受益憑證),政府公債,公司債(含次順位公司債),可轉換公司債,承銷中可轉換公司債,可交換公司債,附認股權公司債,無擔保公司債,金融債券(含次順位金融債券),經財政部或金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.原則上,本基金自成立日起屆滿三個月後,投資於上市及上櫃公司股票,承銷股票及存託憑證之總金額,不低於本基金淨資產價值之百分之七十(含).本基金依產品創新優勢,技術變革優勢,市場競爭優勢,產品新",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI067",
+   "group": "台股中小型",
+   "tags": [
+    "科技主題"
+   ],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    },
+    {
+     "code": "00881",
+     "name": "國泰台灣5G+",
+     "market": "TW",
+     "match": "close",
+     "note": "偏電子科技"
+    }
+   ]
+  },
+  {
+   "id": "FHI062",
+   "name": "【TISA級別】復華全方位基金TISA類型",
+   "company": "復華證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2216A7",
+   "inception": "2025/09/15",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 23.22,
+   "navDate": "2026/10/21",
+   "change": 1.93,
+   "aum": 16026231587.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 2.86,
+    "half": 79.4,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 136.88
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於前項八所列之有價證券;原則上,本基金自成立日起三個月後,投資於中華民國境內之上市或上櫃股票,承銷股票,指數股票型基金及台灣存託憑證之總金額,不得低於本基金淨資產價值之百分之七十(含).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FHI062",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FSI068",
+   "name": "【TISA級別】第一金小型精選基金-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0313A4",
+   "inception": "2025/09/19",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 21.8,
+   "navDate": "2026/10/21",
+   "change": 1.82,
+   "aum": 2233364228.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 1.76,
+    "half": 74.23,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 127.83
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得為目標.以誠信原則及專業經營方式,將本基金投資於國內上市,上櫃股票,公司債(包括可轉換公司債,次順位公司債),政府公債,金融債券(次順位金融債券),上市受益憑證,上市債券換股權利證書及經財政部核准之國內募集發行之國外金融組織債券.原則上,本基金投資於國內實收資本額新台幣肆拾億元(含本數)以下公司所發行之股票比例不低於本基金投資股票總額之百分之六十;且於成立日起六個月後,投資於股票之總額不得低於淨資產價值之百分之七十.惟在特殊情形下,為分散風險,確保基金安全之目的,得不受前述比例之限制,俟特殊情形結束後三十個營業日內,經理公司應立即調整以符合本項規定之投資比例.上開特殊情形,係指台灣發生戰爭,暴動,天然災害,證券交易所或櫃檯中心發布之發行量加權股價指數有下列情形之一時:(一)最近六個營業日(含當日)指數累計漲幅超過百分之十五(15",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI068",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "Ivc043",
+   "name": "【TISA級別】景順潛力基金TISA類型新台幣",
+   "company": "景順證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0601A2",
+   "inception": "2025/10/22",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 21.59,
+   "navDate": "2026/10/21",
+   "change": 1.27,
+   "aum": 5985090452.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 8.5,
+    "half": 82.87,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 128.4
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為國內股票型基金,主要投資於在台灣上市或上櫃之股票,採由上而下(Top-down)與由下而上(Bottom-up)並重的投資策略,投資風格側重價值與積極成長兼具.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Ivc043",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FIL031",
+   "name": "【TISA級別】富達台灣成長基金TISA股累積型新臺幣計價級別",
+   "company": "富達證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T3803A1",
+   "inception": "2025/12/08",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 16.57,
+   "navDate": "2026/10/21",
+   "change": 1.72,
+   "aum": 5897997620.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 4.9,
+    "half": 64.17,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 70.9
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.本基金投資於台灣之上市或上櫃股票,承銷股票,證券投資信託基金受益憑證(含指數股票型基金),台灣存託憑證,政府公債,公司債(含次順位公司債),轉換公司債,交換公司債,附認股權公司債,金融債券(含次順位金融債券),上市之債券換股權利證書及其他經金管會核准於台灣境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FIL031",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "ABI062",
+   "name": "【TISA級別】聯博大利基金-TISA類型(新台幣)",
+   "company": "聯博證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1802A5",
+   "inception": "2025/12/18",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 17.72,
+   "navDate": "2026/10/21",
+   "change": 1.9,
+   "aum": 2890733542.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 4.9,
+    "half": 88.54,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 84.2
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為股票型開放式基金,經理公司應以分散風險,確保基金之安全,並追求長期之資本利得及維持收益之安定為目標.其投資之範圍主要為中華民國境內上市或上櫃股票,以原股東身份認購已上市,上櫃之現金增資股票,已上市,上櫃同種類之現金增資承銷股票,初次上市,上櫃股票之承銷股票,在證券交易所上市之證券投資信託基金受益憑證,政府公債,公司債,可轉換公司債,債券換股權利證書或金融債券.本基金之有價證券投資將以各被投資公司最近三個會計年度之盈餘增資配股,資本公積配股及現金股利合計平均在新台幣一點五元(含本數)以上或投資當時實收資本額在新台幣壹佰億元(含本數)以上公司所發行之上市,上櫃股票,可轉換公司債或債券換股權利證書為主.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ABI062",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FSI069",
+   "name": "【TISA級別】第一金全球大趨勢證券投資信託基金-新臺幣-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "環球大型增長型股票",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T0331C2",
+   "inception": "2025/11/14",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 11.44,
+   "navDate": "2026/10/20",
+   "change": 0.35,
+   "aum": 2140583711.32,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 5.03,
+    "half": 19.03,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 15.79
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內及境外之有價證券.並依下列規範進行投資:(一)本基金投資於中華民國境內之上市或上櫃公司股票,承銷股票,基金受益憑證,台灣存託憑證,政府公債,公司債(含次順位公司債),可轉換公司債,可交換公司債,附認股權公司債,金融債券(含次順位金融債券),經財政部或金管會核准於我國境內募集發行之國際金融組織債券,依不動產證券化條例經財政部或金管會核准募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及依金融資產證券化條例發行之受益證券或資產基礎證券者.(二)本基金投資於下列境外地區有價證券:美國,日本,英國,法國,德國,加拿大,瑞士,澳洲,西班牙,義大利,荷蘭,韓國,瑞典,巴西,俄羅斯,香港,南非,芬蘭,比利時,印度,墨西哥,新加坡,挪威,愛爾蘭,丹麥,希臘",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI069",
+   "group": "全球股票",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買到的美股大盤（只有美國）"
+    }
+   ]
+  },
+  {
+   "id": "FSI070",
+   "name": "【TISA級別】第一金美國100大企業債券證券投資信託基金-新臺幣-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "債券型",
+   "msCategory": "美元企業債券",
+   "region": "美國",
+   "fundKind": "債券基金",
+   "isin": "TW000T0355L2",
+   "inception": "2025/11/14",
+   "risk": 2,
+   "currency": "TWD",
+   "nav": 9.8869,
+   "navDate": "2026/10/20",
+   "change": 0.55,
+   "aum": 4251278382.38,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 4.92,
+    "half": 4.42,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 4.22
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國及外國之有價證券.並依下列規範進行投資:(一)本基金投資於中華民國境內之政府公債,公司債(含普通公司債,次順位公司債,無擔保公司債,轉換公司債,交換公司債及附認股權公司債,承銷中之公司債等),金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之不動產資產信託受益證券,以及國內證券投資信託事業在國內募集發行之債券型基金(含固定收益型基金),貨幣市場型基金及追蹤,模擬或複製債券相關之指數股票型基金(ETF).(二)本基金投資於下列外國有價證券:1.由外國國家或機構所保證或發行之債券(含政府公債,公司債(含無擔保公司債),次順位公司債,轉換公司債,附認股權公司",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI070",
+   "group": "投資級債券",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00751B",
+     "name": "元大AAA至A公司債",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "LQD",
+     "name": "iShares 投資級公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "VCIT",
+     "name": "Vanguard 中期公司債",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "ESI125",
+   "name": "【TISA級別】瀚亞外銷基金TISA類型-新台幣",
+   "company": "瀚亞證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0705A1",
+   "inception": "2026/01/16",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 13.78,
+   "navDate": "2026/10/21",
+   "change": 1.03,
+   "aum": 16246423989.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 0.63,
+    "half": 54.61,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 44.1
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並追求長期之投資利得為目標,以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃公司股票,政府公債,公司債,可轉換公司債,金融債券或經金管會核准之投資項目.並依下列規範進行投資:1.本基金之股票投資將以最近年度任一主要產品之外銷量或外銷值占該主要產品全年度銷售量或銷售值之百分之三十(含本數)以上之上市或上櫃公司股票為主.經理公司依據上市公司之最新財務報告或公開說明書應行記載之營運概況,以決定上市或上櫃公司是否符合上述條件.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ESI125",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "HSB078",
+   "name": "【TISA級別】匯豐台灣精典基金-台幣不配息TISA",
+   "company": "滙豐證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0415C3",
+   "inception": "2025/12/31",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 15.96,
+   "navDate": "2026/10/21",
+   "change": 2.18,
+   "aum": 2667595968.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 9.72,
+    "half": 69.81,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 60.3
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "證券投資信託事業應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經方式,將本基金投資於國內上市及上櫃股票,承銷股票,上市之證券投資信託基金受益憑證,政府債券,公司債,可轉換公司債及金融債券.本基金自成立日六個月後,投資於實收資本額四十億元(含)以上之上市或上櫃公司股票之總額,不得低於本基金淨資產價值之百分之五十,且投資於股票之總額不得低於本基金淨資產價值之百分之七十.但在特殊情況下,為分散風險確保基金之安全,證券投資信託事業依其專業判斷得不受前開比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/HSB078",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "PBI176",
+   "name": "【TISA級別】柏瑞巨人基金-TISA類型(新臺幣)",
+   "company": "大都會證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2101D5",
+   "inception": "2026/03/23",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 9.4,
+   "navDate": "2026/10/21",
+   "change": 0.43,
+   "aum": 6390546352.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 4.66,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 1.2
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為股票型之開放式基金,經理公司以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內之上市及上櫃股票,承銷股票,公司債(包括可轉換公司債),政府債券,金融債券,上市之債券換股權利證書及上市證券投資信託基金受益憑證.原則上,本基金自成立日起六個月後,投資於上市,上櫃股票之總金額不得低於本基金淨資產價值之百分之七十.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前開比例之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/PBI176",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "PBI177",
+   "name": "【TISA級別】柏瑞ESG量化多重資產基金-TISA類型(新臺幣)",
+   "company": "大都會證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T2133Y4",
+   "inception": "2026/03/23",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 10.2414,
+   "navDate": "2026/10/20",
+   "change": 0.54,
+   "aum": null,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 1.13,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 0.6
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金自成立日起六個月後:(1)投資於國內外之股票(含承銷股票,特別股及存託憑證),債券(含其他固定收益證券),基金受益憑證(含指數股票型基金,槓桿型ETF,反向型ETF及商品ETF),不動產投資信託基金受益證券及經金管會核准得投資項目之資產等任一資產種類之總金額不得超過本基金淨資產價值之百分之七十(含);投資於國內外(符合ESG投資概念)之有價證券總額不低於本基金淨資產價值之百分之六十(含).(2)投資所在國或地區之國家主權評等未達下述所列信用評等機構評定等級者,投資該國家或地區之政府債券及其他債券總金額,不得超過本基金淨資產價值之百分之三十.(3)本基金得投資高收益債券,惟投資高收益債券之總金額不得超過本基金淨資產價值之百分之三十,本基金原持有之債券,日後若因信用評等調整,致本基金整體資產投資組合不符合本目所定投資比例限制者,經理公司應於前開事由發生日起三個月內採取適當處置,以符合前述",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/PBI177",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "ESG／永續"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "FUB072",
+   "name": "【TISA級別】富邦上選證券投資信託基金-TISA類型",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2003D3",
+   "inception": "2026/07/13",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 252.59,
+   "navDate": "2026/10/21",
+   "change": 2.96,
+   "aum": 8107942914.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 29.31
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標,以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市及上櫃股票,承銷股票,公司債(包括可轉換,上市或上櫃之次順位公司債及附認股權公司債),政府債券,金融債券(包括上市或上櫃之次順位金融債券),上市之債券換股權利證書及上市證券投資信託基金受益憑證,依金融資產證券化條例申請核准或申報生效公開招募之受益證券或資產基礎證券,依不動產證券化條例申請核准募集之不動產投資信託基金受益證券或不動產資產信託受益證券及經金管會核准有價證券上市或上櫃契約之興櫃股票.並依下列規範進行投資:(一)原則上,本基金於成立六個月後,投資於上市,上櫃股票之總額不得低於淨資產價值之百分之七十;另本基金在正常情況下,應將本基金淨資產價值之百分之六十(含本數)以上投資於從事或轉投資各產業原材料,關鍵性零組件或可成為其他產業原材料,關鍵性零",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB072",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FUB073",
+   "name": "【TISA級別】富邦AI智能新趨勢多重資產型證券投資信託基金-TISA類型（新臺幣）",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T1080G5",
+   "inception": "2026/07/13",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 59.1516,
+   "navDate": "2026/10/20",
+   "change": 0.97,
+   "aum": 14030749038.63,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 19.13
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內及境外之有價證券.並依下列規範進行投資:(1)本基金投資於中華民國之有價證券為中華民國境內之上市或上櫃公司股票(含承銷股票及特別股),基金受益憑證(含指數股票型基金,期貨信託事業對不特定人募集之期貨信託基金,槓桿型ETF,反向型ETF及商品ETF),認購(售)權證,認股權憑證,台灣存託憑證,政府公債,公司債(含無擔保公司債,次順位公司債,承銷中之公司債),轉換公司債(含承銷中轉換公司債),附認股權公司債,交換公司債,金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託受益證券或不動產資產信託受益證券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB073",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產",
+    "科技主題"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "股 40／債 60"
+    }
+   ]
+  },
+  {
+   "id": "FUB074",
+   "name": "【TISA級別】富邦新台商證券投資信託基金-TISA類型",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2011A2",
+   "inception": "2026/07/13",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 396.85,
+   "navDate": "2026/10/21",
+   "change": 2.89,
+   "aum": 8818634944.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 27.82
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市及上櫃股票(含證券承銷商所承銷上市上櫃公司股東依證券交易法第廿二條第三項規定公開招募之股票),承銷股票,台灣存託憑證,上市受益憑證,政府公債,公司債(含可轉換公司債,上市或上櫃之次順位公司債),上市債券換股權利證書,金融債券(含上市或上櫃之次順位金融債券),依金融資產證券化條例公開招募之受益證券或資產基礎證券,經財政部核准於國內募集發行之國際金融組織債券及經金管會核准有價證券上市或上櫃契約之興櫃股票.並依下列規範進行投資:(一)本基金自成立日起三個月後投資於股票之總額,原則上不得低於本基金淨資產價值之百分之七十(含本數),且投資於符合下列條件之一之上市或上櫃公司股票之總額不得低於本基金淨資產價值之百分之六十(含本數).1.依經濟部投資審議委員會(在",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB074",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "FUB075",
+   "name": "【TISA級別】富邦台灣永續成長股息證券投資信託基金-TISA類型",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T2069A0",
+   "inception": "2026/07/13",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 47.16,
+   "navDate": "2026/10/21",
+   "change": 3.01,
+   "aum": 1461898788.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 25.33
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金投資策略係優先以嚴謹的篩選機制,尋找具備『永續成長股息概念』的企業標的,形成初步的標的池.依據前述標的池做為主要投資範疇,再透過經理公司研究團隊對於現行總體經濟指標進行由上而下的觀察,判斷市場風險趨避程度並定位投資風格,根據研究團隊成員實地走訪,由下而上細部調研,確認建立『永續成長』或『股息收入』的投資組合,以期追求長期相對穩健的獲利機會.有關本基金投資策略說明如下:(一)由上而下總體經濟指標分析:經理公司研究團隊密切追蹤台灣領先指標,外銷訂單,工業生產,零售銷售,消費者信心指數及營業氣候測驗點等走向,依金融面,實質面與其他面向的數據分析與研究,判斷目前股市多空位置,決定資產配置比重,以及『永續成長』或『股息收入』之投資風格.1.金融面指標觀測:觀察領先指標中的股價指數及實質貨幣總計數M1B等重要指標走勢,藉由指標預期未來景氣可能的變化.2.實質面指標觀測:觀察外銷訂單動向指數,製造",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB075",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向",
+    "ESG／永續"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "FUB076",
+   "name": "【TISA級別】富邦台灣高股息證券投資信託基金-TISA類型",
+   "company": "富邦證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1089C5",
+   "inception": "2026/07/13",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 34.86,
+   "navDate": "2026/10/21",
+   "change": 2.02,
+   "aum": 2793215381.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 22.22
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "(九)基本投資方針及範圍簡述1.經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之有價證券.並依下列規範進行投資:(1)本基金投資於中華民國境內之上市或上櫃公司股票(含承銷股票及特別股),基金受益憑證(含指數股票型基金,期貨信託事業對不特定人募集之期貨信託基金,槓桿型ETF,反向型ETF及商品ETF),認購(售)權證,認股權憑證,台灣存託憑證,政府公債,公司債(含無擔保公司債,次順位公司債,承銷中之公司債),轉換公司債(含承銷中轉換公司債),附認股權公司債,交換公司債,金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依金融資產證券化條例公開招募之受益證券或資產基礎證券及依不動產證券化條例募集之封閉型不動產投資信託受益證券或不動產資產信託受益證券.(2)原則上,本基金自成",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FUB076",
+   "group": "台股高股息",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "Meg083",
+   "name": "【TISA級別】兆豐全球證券投資信託基金-TISA",
+   "company": "兆豐國際證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "環球大型增長型股票",
+   "region": "全球",
+   "fundKind": "股票基金",
+   "isin": "TW000T0104A7",
+   "inception": "2026/07/20",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 9.15,
+   "navDate": "2026/10/20",
+   "change": 0.65,
+   "aum": 1638519466.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 5.4
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金為股票型之開放式基金,以分散風險之方式,投資於下列國內外有價證券,以謀求穩定之收益及長期投資利得:(1)本基金投資之中華民國有價證券,包括中華民國境內之上市或上櫃股票,承銷股票,台灣存託憑證,基金受益憑證,政府公債,公司債(含次順位公司債),無擔保公司債,可轉換公司債,附認股權公司債,金融債券(含次順位金融債券),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及經行政院金融監督管理委員會(以下稱(金管會))核准於國內募集發行之國際金融組織債券.(2)本基金投資之外國有價證券,以日本,新加坡,澳洲,紐西蘭,香港,中國大陸,南韓,印度,印尼,馬來西亞,泰國,菲律賓,越南,土耳其,以色列,巴基斯坦,沙烏地阿拉伯,科威特,阿拉伯聯合大公國,美國,加拿大,墨西哥,巴西,阿根廷,智利,祕魯,哥倫比亞,委內瑞拉",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg083",
+   "group": "全球股票",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買到的美股大盤（只有美國）"
+    }
+   ]
+  },
+  {
+   "id": "Meg084",
+   "name": "【TISA級別】兆豐豐台灣證券投資信託基金-TISA",
+   "company": "兆豐國際證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0110A4",
+   "inception": "2026/07/20",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 10.08,
+   "navDate": "2026/10/21",
+   "change": 2.54,
+   "aum": 1126255689.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 6.1
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,承銷股票,台灣存託憑證,基金受益憑證,政府公債,公司債(含次順位公司債,無擔保公司債),可轉換公司債,附認股權公司債,金融債券(含次順位金融債券),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及經金管會核准於國內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg084",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "TST116",
+   "name": "【TISA級別】台新台灣中小基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4712A3",
+   "inception": "2026/04/28",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 282.22,
+   "navDate": "2026/10/21",
+   "change": 2.25,
+   "aum": 2218196326.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 3.78,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 7.3
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金投資於中華民國境內之上市,上櫃股票,承銷股票,受益憑證,政府公債,公司債,可轉換公司債及金融債券.原則上,本基金自成立日起六個月後,投資於上市,上櫃股票之總金額不得低於本基金淨資產價值之百分之七十.但依經理公司之專業判斷,在特殊情形下,為分散風險,確保基金安全之目的,得不受前述投資比例之限制.所謂特殊情形,係指本基金信託契約終止前一個月,或證券交易所或證券櫃檯買賣中心發布之發行量加權股價指數有下列情形之一起,迄恢復正常後一個月止:(1)最近六個營業日(不含當日)股價指數量計漲幅或跌幅達百分之十以上(含本數).(2)最近三十個營業日(不含當日)股價指數量計漲幅或跌幅達百分之二十以上(含本數).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST116",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "TST115",
+   "name": "【TISA級別】台新高股息平衡基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "台灣",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4703D6",
+   "inception": "2026/04/28",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 129.2801,
+   "navDate": "2026/10/21",
+   "change": 1.28,
+   "aum": 1398471222.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 2.67,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 14.31
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.其投資之範圍主要為中華民國境內之國內上市,上櫃公司股票,承銷股票,證券投資信託基金受益憑證(含指數股票型基金),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之不動產投資信託受益證券或不動產資產信託受益證券,台灣存託憑證,政府公債,公司債(含上市或上櫃之次順位公司債),可轉換公司債,交換公司債,附認股權公司債,金融債券(含上市或上櫃之次順位金融債券)或經金管會核准於國內募集發行之國際金融組織債券,並依下列規範進行投資:本基金自成立日起三個月後,投資於中華民國境內之上市或上櫃公司股票,承銷股票,台灣存託憑證之總額,每季平均不得超過本基金淨資產價值之百分之七十(70%)且每季平均不得低於本基金淨資產價值之百分之三十(30%).",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST115",
+   "group": "台股平衡",
+   "tags": [
+    "收益導向"
+   ],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "diy",
+     "note": "股票部位"
+    },
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "diy",
+     "note": "債券部位"
+    }
+   ]
+  },
+  {
+   "id": "TST120",
+   "name": "【TISA級別】台新主流基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4706A5",
+   "inception": "2026/04/28",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 185.5,
+   "navDate": "2026/10/21",
+   "change": 1.39,
+   "aum": 3614500170.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 0.18,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 10.52
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於國內上市,上櫃公司股票,承銷股票,證券投資信託基金受益憑證(含指數股票型基金),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉型不動產投資信託受益證券或不動產資產信託受益證券,台灣存託憑證,政府公債,公司債(含上市或上櫃之次順位公司債),可轉換公司債,交換公司債,附認股權公司債,金融債券(含上市或上櫃之次順位金融債券)或經金管會核准於國內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST120",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "TST119",
+   "name": "【TISA級別】台新中國通基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T4714A9",
+   "inception": "2026/04/28",
+   "risk": 5,
+   "currency": "TWD",
+   "nav": 421.75,
+   "navDate": "2026/10/21",
+   "change": 1.84,
+   "aum": 3204128716.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 3.72,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 10.76
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃股票,增資或承銷股票,台灣存託憑證,基金受益憑證,政府公債,公司債,可轉換公司債,金融債券或其他經金管會核准於我國境內募集發行之國際金融組織債券.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST119",
+   "group": "台股中小型",
+   "tags": [
+    "中國題材"
+   ],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "TST117",
+   "name": "【TISA級別】台新台灣富貴基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1411A5",
+   "inception": "2025/11/20",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 183.81,
+   "navDate": "2026/10/21",
+   "change": 1.59,
+   "aum": 1870181825.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 3.19,
+    "half": 58.19,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 88.53
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應確保資金之安全並追求長期之投資利得,並依誠信原則及專業經營,以分散風險方式,將本基金投資於上市及上櫃股票,增資或承銷股票,公司債(包括普通公司債,次順位公司債),可轉換公司債(含承銷中可轉換公司債),可交換公司債,可交換公債,附認股權公司債,政府公債,金融債券(含次順位金融債券),依金融資產證券化條例公開招募之受益證券或資產基礎證券,依不動產證券化條例募集之封閉式不動產投資信託基金受益證券或不動產資產信託受益證券,台灣存託憑證.本基金於成立日起三個月後,投資於中華民國境內之上巿及上櫃股票,增資或承銷股票,台灣存託憑證之總額,原則上不低於本基金淨資產價值之百分之七十五.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST117",
+   "group": "台股中小型",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "TST118",
+   "name": "【TISA級別】台新大三通基金-TISA類型",
+   "company": "台新證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T1408A1",
+   "inception": "2025/11/20",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 150.76,
+   "navDate": "2026/10/21",
+   "change": 2.69,
+   "aum": 1541795978.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": 4.02,
+    "half": 58.41,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 86.6
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上巿及上櫃股票,增資或承銷股票,公司債(包括可轉換公司債),政府公債,金融債券,上巿證券投資信託基金受益憑證,上市之債券換股權利證書,台灣存託憑證及其他經財政部核准於國內募集發行之國際金融組織債券.原則上,本基金自成立日起三個月後,投資於股票之總額不低於本基金淨資產價值之百分之七十(含),且投資於(1)從事或轉投資於通訊(包含局用交換設備,傳輸設備,用戶終端設備)及其相關零組件,網際網路相關之重要科技事業或(2)中國概念股等之上巿,上櫃公司股票之總額,應佔本基金淨資產價值之百分之六十以上(含本數).但依經理公司之專業判斷,在特殊情況下,為分散風險,確保基金安全之目的,得不受前述兩項比例(百分之六十及百分之七十)之限制.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST118",
+   "group": "台股中小型",
+   "tags": [
+    "中國題材"
+   ],
+   "etfs": [
+    {
+     "code": "0051",
+     "name": "元大中型100",
+     "market": "TW",
+     "match": "close",
+     "note": "市值第 51～150 名"
+    },
+    {
+     "code": "00733",
+     "name": "富邦臺灣中小",
+     "market": "TW",
+     "match": "close",
+     "note": "中小型、因子選股"
+    }
+   ]
+  },
+  {
+   "id": "SCH047",
+   "name": "【TISA級別】施羅德全週期成長多重資產基金(新台幣) - TISA類型",
+   "company": "施羅德證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T4234F7",
+   "inception": "2026/07/28",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 10.04,
+   "navDate": "2026/10/20",
+   "change": 0.2,
+   "aum": 4643785358.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 0.0
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "本基金採取多元資產成長投策略(Diversified Growth Strategy),透過著重風險和報酬的溢之投資流程篩選出具有成長潛力股票作為組合的核心以提供成長(growth)來源,再以特定市場與產業的股票和債券補強投資組合,同時亦運用被動式的ETFs和指數期貨及主動式的基金,為投資和指數期貨及主動式的基金,為投資組合創造額外成長機會.",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/SCH047",
+   "group": "股債平衡-積極",
+   "tags": [
+    "多重資產"
+   ],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "股 80／債 20"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "股 60／債 40"
+    }
+   ]
+  },
+  {
+   "id": "FSI075",
+   "name": "【TISA級別】第一金台灣核心戰略建設基金-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "fundKind": "股票基金",
+   "isin": "TW000T0363E1",
+   "inception": "2026/09/14",
+   "risk": 4,
+   "currency": "TWD",
+   "nav": 9.87,
+   "navDate": "2026/10/21",
+   "change": 1.02,
+   "aum": 1925488373.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": null
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國之有價證券,並依下列規範進行投資:(一)本基金投資於中華民國境內之上市或上櫃公司股票,承銷股票,證券投資信託基金受益憑證(含指數股票型基金,反向型ETF及槓桿型ETF),認購(售)權證,認股權憑證,期貨信託事業對不特定人募集之期貨信託基金受益憑證,台灣存託憑證,政府公債,公司債(含次順位公司債,無擔保公司債,可轉換公司債,可交換公司債,附認股權公司債),金融債券(含次順位金融債券),經金管會核准於我國境內募集發行之國際金融組織債券,依不動產證券化條例募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券及依金融資產證券化條例發行之受益證券或資產基礎證券.(二)原則上,本基金自成立日起三個月後,投資於中華民國境內之上市及上櫃股票,承銷股票及存託憑證之總",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI075",
+   "group": "台股大型股",
+   "tags": [],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "006208",
+     "name": "富邦台50",
+     "market": "TW",
+     "match": "close",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "FSI076",
+   "name": "【TISA級別】第一金中概平衡基金-TISA類型",
+   "company": "第一金證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "台灣",
+   "fundKind": "股票債券混和基金",
+   "isin": "TW000T0320A9",
+   "inception": "2026/09/14",
+   "risk": 3,
+   "currency": "TWD",
+   "nav": 9.96,
+   "navDate": "2026/10/21",
+   "change": 1.63,
+   "aum": 995001540.0,
+   "dividend": "不配息",
+   "sharpe": null,
+   "stdev1y": null,
+   "ret": {
+    "quarter": null,
+    "half": null,
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": null
+   },
+   "rsp": {
+    "one": null,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "strategy": "經理公司應以分散風險,確保基金之安全,並積極追求長期之投資利得及維持收益之安定為目標.以誠信原則及專業經營方式,將本基金投資於中華民國境內之上市或上櫃公司股票,承銷股票,台灣存託憑證,上市證券投資信託基金受益憑證,公債,公司債(含上市或上櫃之次順位公司債),可轉換公司債,承銷中之可轉換公司債,上市債券換股權利證書,附認股權公司債,金融債券(含上市或上櫃次順位金融債券),經財政部核准募集之封閉型不動產投資信託基金受益證券或不動產資產信託受益證券,經財政部核准於國內募集發行之國際金融組織債券,經金管會核准或申報生效公開招募之受益證券或資產基礎證券.原則上,本基金自成立日起三個月後,除本基金信託契約終止前一個月外,應依下列規範進行投資.惟證券交易所或證券櫃檯買賣中心發生特殊情形時,經理公司為分散基金風險,確保基金安全之目的,經理公司得不5受下列第(三)項比例之限制,俟特殊情形結束後三十個營業日內",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FSI076",
+   "group": "台股平衡",
+   "tags": [
+    "中國題材"
+   ],
+   "etfs": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "market": "TW",
+     "match": "diy",
+     "note": "股票部位"
+    },
+    {
+     "code": "00720B",
+     "name": "元大投資級公司債",
+     "market": "TW",
+     "match": "diy",
+     "note": "債券部位"
+    }
+   ]
+  }
+ ]
+}
