@@ -21,13 +21,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: 抓資料
+      - name: 抓台股 ETF 持股（算重疊度用，失敗就沿用舊檔）
+        run: python scripts/etf_holdings.py || true
+      - name: 抓基金資料
         run: python scripts/fetch_funds.py
       - name: 有變動才 commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/funds.json
+          git add -A data
           if git diff --cached --quiet; then
             echo "資料沒有變動"
           else

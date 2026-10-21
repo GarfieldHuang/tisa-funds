@@ -1,4 +1,7 @@
-"""抓基富通 TISA 專案基金清單＋基本資料，輸出 data/funds.json。
+"""抓基富通 TISA 專案基金，輸出：
+
+  data/funds.json          清單頁要用的欄位＋持股摘要（搜尋、篩選用）
+  data/detail/{代碼}.json   基金頁六個分頁的完整資料（點「更多資料」才載入）
 
 只用標準函式庫，GitHub Actions 上不必裝任何套件。
 """
@@ -19,6 +22,8 @@ API = "https://apis.fundrich.com.tw/FRSDataCenter"
 LIST_ID = "root.TISA.FundList_Web"
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "funds.json"
+DETAIL = ROOT / "data" / "detail"
+ETF_DB = ROOT / "data" / "etf_holdings.json"
 TW = timezone(timedelta(hours=8))
 
 HEADERS = {
@@ -28,6 +33,8 @@ HEADERS = {
     "Referer": "https://www.fundrich.com.tw/",
     "User-Agent": "Mozilla/5.0 (tisa-funds daily sync; +https://github.com/GarfieldHuang/tisa-funds)",
 }
+
+PERIODS = ["threeMonths", "sixMonths", "sinceThisYear", "oneYear", "twoYears", "threeYears", "fiveYears", "tenYears", "sinceEstablished"]
 
 
 def post(path: str, data: dict, retries: int = 3) -> dict:
@@ -48,8 +55,38 @@ def post(path: str, data: dict, retries: int = 3) -> dict:
     raise AssertionError
 
 
+def safe(path: str, data: dict):
+    """明細欄位抓不到就給 None，不讓單一欄位拖垮整次更新。"""
+    try:
+        return post(path, data).get("data")
+    except Exception as e:  # noqa: BLE001
+        print(f"  {data.get('fundId')} {path}: {e}", file=sys.stderr)
+        return None
+
+
+def num(v):
+    try:
+        return float(str(v).replace(",", "").replace("%", "").strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def signed(value, direction) -> float | None:
+    """基富通的漲跌是「絕對值＋方向」，down 要轉成負數。"""
+    v = num(value)
+    if v is None:
+        return None
+    return -abs(v) if direction == "down" else v
+
+
+def perf(row, key):
+    v = row.get(key)
+    return signed(v.get("value"), v.get("status")) if isinstance(v, dict) else None
+
+
+# ---------- 清單 ----------
+
 def fetch_list(extra: dict | None = None) -> list[dict]:
-    """逐頁抓清單，回傳 tablebox 列。"""
     rows, page = [], 1
     while True:
         res = post("FundTableInfo", {"list": LIST_ID, "currentPage": page, "userstock": False, **(extra or {})})
@@ -79,22 +116,82 @@ def tag_by_filter(key: str, options: list[tuple[str, str]]) -> dict[str, str]:
     return tags
 
 
-def basic_info(fund_id: str) -> dict:
-    res = post("GetFundBasicInfo", {"fundId": fund_id})
-    info = {item["header"]: " ".join(x.strip() for x in item.get("row") or [] if x) for item in res["data"] or []}
-    return info
+# ---------- 單檔明細（對應基金頁六個分頁） ----------
+
+def _pairs(rows, key) -> list[list]:
+    return [[r[key], num(r["percent"])] for r in rows or [] if num(r.get("percent"))]
 
 
-def num(v):
-    try:
-        return float(str(v).replace(",", "").replace("%", ""))
-    except (TypeError, ValueError):
-        return None
+def _rows(items) -> list[list[str]]:
+    out = []
+    for it in items or []:
+        row = it.get("row")
+        val = " ".join(x.strip() for x in row if x) if isinstance(row, list) else (row or "").strip()
+        out.append([it["header"], " ".join(val.split())])
+    return out
 
 
-def perf(row, key):
-    v = row.get(key)
-    return num(v.get("value")) if isinstance(v, dict) else None
+def fund_detail(fund_id: str) -> dict:
+    q = {"fundId": fund_id}
+    head = safe("GetFundDetail", q) or {}
+    basic = _rows(safe("GetFundBasicInfo", q))
+    buy = _rows(safe("GetFundBuyInfo", q))
+
+    perf_raw = safe("GetFundPerformance", q) or {}
+    performance = {}
+    for row in (perf_raw.get("tableRowOriData") or [{}])[0].get("upDownType", []):
+        key = "lump" if "單筆" in row["title"] else "rsp"
+        performance[key] = {p: num(row.get(p, {}).get("rate")) for p in PERIODS}
+    for row in (perf_raw.get("tableRow") or [{}])[0].get("percentType", []):
+        performance["beat"] = {p: num(row.get(p, {}).get("win")) for p in PERIODS}
+    performance["date"] = (perf_raw.get("date") or "").replace("資料日期：", "")
+
+    rating_raw = safe("GetFundRating", q) or {}
+    rating = {
+        "date": rating_raw.get("date"),
+        "rows": [[r["title"], r["oneYear"], r["threeYears"], r["fiveYears"], r["tenYears"]] for r in (rating_raw.get("ratingList") or [])[1:]],
+        "risk": (rating_raw.get("risk") or {}).get("riskName"),
+    }
+
+    div_info = safe("GetFundDividendInfo", q) or {}
+    div_hist = safe("GetFundDividendHistory", q) or {}
+    dividend = {
+        "frequency": (div_info.get("frequency") or {}).get("text"),
+        "history": ((div_hist.get("tableRow") or {}).get("history")) or [],
+    }
+
+    days30 = [
+        [r["date"], num(r["price"]), signed(r["upDownInfo"]["upDownPrice"], r["upDownInfo"]["upDown"]), signed(r["upDownInfo"]["upDownPercent"], r["upDownInfo"]["upDown"])]
+        for r in ((safe("Get30DaysPrice", q) or {}).get("tableRow") or [])
+    ]
+    chart = ((safe("GetFundChart", {**q, "period": "5Y"}) or {}).get("tableRow") or {}).get("priceHistory") or []
+    nav = [[r["date"], num(r["price"])] for r in reversed(chart) if num(r.get("price"))]
+
+    port = {}
+    for path, field, key, name in (
+        ("GetFundInvestmentCategory", "categories", "category", "assets"),
+        ("GetFundInvestmentCountry", "countries", "country", "countries"),
+        ("GetFundInvestmentDuty", "dutys", "duty", "sectors"),
+        ("GetFundShareholdingTop10", "investmentTargets", "investmentTarget", "top10"),
+    ):
+        d = safe(path, q) or {}
+        port[name] = _pairs(d.get(field), key)
+        if d.get("date") and "date" not in port:
+            port["date"] = d["date"].replace("資料日期：", "")
+
+    return {
+        "id": fund_id,
+        "eName": head.get("eName"),
+        "riskName": head.get("riskName"),
+        "basic": basic,
+        "buy": buy,
+        "performance": performance,
+        "rating": rating,
+        "dividend": dividend,
+        "days30": days30,
+        "nav": nav,
+        "portfolio": port,
+    }
 
 
 def main() -> None:
@@ -105,16 +202,21 @@ def main() -> None:
     opts = filter_options()
     tisa_tag = tag_by_filter("tisa", opts.get("tisa", []))
     type_tag = tag_by_filter("type_n", opts.get("type_n", []))
-    print(f"  tagged tisa={len(tisa_tag)} type={len(type_tag)}")
 
     ids = [r["fundId"] for r in rows]
-    with ThreadPoolExecutor(max_workers=6) as ex:
-        infos = dict(zip(ids, ex.map(basic_info, ids)))
+    print("fetching details …")
+    with ThreadPoolExecutor(max_workers=5) as ex:
+        details = dict(zip(ids, ex.map(fund_detail, ids)))
 
+    etf_db = json.loads(ETF_DB.read_text(encoding="utf-8"))["etfs"] if ETF_DB.exists() else None
+
+    DETAIL.mkdir(parents=True, exist_ok=True)
     funds = []
     for r in rows:
         fid = r["fundId"]
-        info = infos.get(fid, {})
+        d = details[fid]
+        info = dict(d["basic"])
+        perf_lump = d["performance"].get("lump", {})
         f = {
             "id": fid,
             "name": r["name"],
@@ -123,30 +225,40 @@ def main() -> None:
             "fundType": type_tag.get(fid, ""),
             "msCategory": info.get("基金組別", ""),
             "region": info.get("投資區域", ""),
-            "fundKind": info.get("基金類型", ""),
-            "isin": info.get("ISIN Code", ""),
             "inception": r.get("beginningdate") or info.get("成立日期", ""),
             "risk": int(r["risk"]) if str(r.get("risk", "")).isdigit() else None,
+            "morningstar": int(r["morningstar"]) if str(r.get("morningstar", "")).isdigit() and r["morningstar"] != "0" else None,
             "currency": r.get("currency"),
             "nav": num(r.get("price")),
             "navDate": r.get("transdate"),
             "change": perf(r, "updownrate"),
             "aum": num(r.get("assets")),
-            "dividend": r.get("dividendrate"),
             "sharpe": num(r.get("sharpe")),
             "stdev1y": num(r.get("stdDev1Y")),
             "ret": {k: perf(r, k) for k in ("quarter", "half", "one", "two", "three", "five", "beginning")},
+            "ytd": perf_lump.get("sinceThisYear"),
             "rsp": {k[3:]: perf(r, k) for k in ("rspone", "rsptwo", "rspthree", "rspfive")},
-            "strategy": info.get("投資目標/策略", "")[:400],
+            "fee": dict(d["buy"]).get("基金管理費率(最高)"),
+            "portfolio": d["portfolio"],
             "url": f"https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/{fid}",
         }
-        f.update(classify(f))
+        f.update(classify({**f, "region": f["region"]}, etf_db))
         funds.append(f)
+        (DETAIL / f"{fid}.json").write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"updatedAt": datetime.now(TW).isoformat(timespec="minutes"), "source": "基富通 TISA 專案基金", "funds": funds}
+    # 下架的基金順手清掉明細檔
+    for p in DETAIL.glob("*.json"):
+        if p.stem not in details:
+            p.unlink()
+
+    payload = {
+        "updatedAt": datetime.now(TW).isoformat(timespec="minutes"),
+        "source": "基富通 TISA 專案基金",
+        "etfHoldingsDate": next(iter(etf_db.values()))["date"] if etf_db else None,
+        "funds": funds,
+    }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"wrote {OUT} ({len(funds)} funds)")
+    print(f"wrote {OUT} ({len(funds)} funds) + {len(funds)} detail files")
 
 
 if __name__ == "__main__":

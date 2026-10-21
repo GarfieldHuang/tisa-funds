@@ -4,47 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TISA 基金查找</title>
-<meta name="description" content="基富通 TISA 專案基金一覽：常見分類、可對照 ETF、績效與風險，每日自動更新。">
+<meta name="description" content="基富通 TISA 專案基金一覽：依實際持股分類、對照 ETF 與持股重疊度、資產配置篩選，每日自動更新。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#f6f4ef; --surface:#fffdf8; --ink:#1d1b17; --muted:#6b665c; --line:#e3ded2;
-  --accent:#0f6e5a; --accent-soft:#e1efe9; --up:#c0392b; --down:#1e8449; --chip:#efebe1;
+  --accent:#0f6e5a; --accent-soft:#e1efe9; --up:#c0392b; --down:#1e8449; --chip:#efebe1; --warn:#8a5a00;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#14130f; --surface:#1d1c17; --ink:#ece8de; --muted:#a29c8f; --line:#333027;
-    --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822;
+    --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822; --warn:#e0b25a;
   }
 }
 :root[data-theme="dark"]{
   --bg:#14130f; --surface:#1d1c17; --ink:#ece8de; --muted:#a29c8f; --line:#333027;
-  --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822;
+  --accent:#4fc3a1; --accent-soft:#1f3a32; --up:#ff7b6b; --down:#5fd38d; --chip:#2a2822; --warn:#e0b25a;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans TC",system-ui,sans-serif}
 a{color:var(--accent)}
+button{font:inherit;color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
 header{padding:36px 0 18px;border-bottom:1px solid var(--line)}
 h1{font:900 clamp(28px,5vw,44px)/1.1 "Noto Serif TC",serif;margin:0 0 8px;letter-spacing:.02em}
-.sub{color:var(--muted);margin:0;max-width:62ch}
+.sub{color:var(--muted);margin:0;max-width:66ch}
 .meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:var(--muted)}
 .meta b{color:var(--ink);font-weight:500}
 
-.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 10px;border-bottom:1px solid var(--line)}
-.search{display:flex;gap:8px;flex-wrap:wrap}
+.controls{padding:14px 0 10px;border-bottom:1px solid var(--line)}
+.search{display:flex;gap:8px;flex-wrap:wrap;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0}
 .search input{flex:1 1 260px;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
-select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;max-width:100%}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:4px 10px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;max-width:100%}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.chip{border:1px solid var(--line);background:var(--chip);padding:4px 10px;border-radius:999px;font-size:13px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
 .chip small{opacity:.7;margin-left:4px}
 .row2{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
 .row2 label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.fgroup{display:flex;gap:4px;align-items:center;font-size:13px;color:var(--muted)}
+.alloc{margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.alloc h3{margin:0 0 6px;font-size:13px;font-weight:500;color:var(--muted)}
 .count{margin-left:auto;font-size:13px;color:var(--muted)}
-
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;font-size:13px;padding:0}
 
 .list{display:grid;gap:10px;margin:16px 0 40px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
@@ -56,6 +60,8 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
 .b{font-size:12px;padding:1px 8px;border-radius:4px;background:var(--chip);color:var(--muted)}
 .b.grp{background:var(--accent-soft);color:var(--accent);font-weight:500}
+.b.hit{background:var(--ink);color:var(--surface)}
+.b.warn{color:var(--warn)}
 .nums{display:grid;grid-template-columns:repeat(5,auto);gap:2px 18px;text-align:right;font-variant-numeric:tabular-nums}
 .nums span{font-size:11px;color:var(--muted)}
 .nums b{font-weight:500}
@@ -64,22 +70,47 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .etfs .lbl{font-size:12px;color:var(--muted);align-self:center}
 .etf{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:2px 8px;background:var(--bg)}
 .etf code{font-weight:700;font-family:ui-monospace,Consolas,monospace}
-.etf.same{border-color:var(--accent);background:var(--accent-soft)}
+.etf.same,.etf.close{border-color:var(--accent)}
+.etf.same{background:var(--accent-soft)}
+.etf.diy{border-style:dashed}
 .etf .mk{font-size:11px;color:var(--muted);margin-left:4px}
+.notes{margin:8px 0 0;padding:0;list-style:none;font-size:13px;color:var(--warn)}
+.notes li::before{content:"！ ";font-weight:700}
+
 details{margin-top:8px}
 summary{cursor:pointer;font-size:13px;color:var(--muted)}
-.detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:8px;font-size:13px}
+.tabs{display:flex;gap:2px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin-top:8px}
+.tab{background:none;border:0;border-bottom:2px solid transparent;padding:6px 10px;cursor:pointer;font-size:13px;color:var(--muted)}
+.tab[aria-selected="true"]{border-color:var(--accent);color:var(--ink);font-weight:500}
+.pane{padding:12px 0 4px;font-size:13px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.pane h4{margin:0 0 6px;font-size:13px;font-weight:500;color:var(--muted)}
+.pane .date{font-weight:400;font-size:12px}
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
-td,th{padding:3px 6px;border-bottom:1px solid var(--line);text-align:right;font-weight:400}
+td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right;font-weight:400;vertical-align:top}
 th{color:var(--muted);text-align:left}
-.strategy{color:var(--muted);grid-column:1/-1}
+td.l{text-align:left}
+.scroll{overflow-x:auto}
+.bars{display:grid;gap:4px}
+.bar{display:grid;grid-template-columns:7em 1fr 3.5em;gap:8px;align-items:center}
+.bar .t{height:10px;border-radius:3px;background:var(--chip);overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--accent)}
+.bar span:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.bar span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chart{position:relative}
+.chart svg{width:100%;height:220px;display:block}
+.chart .readout{font-size:12px;color:var(--muted);min-height:1.6em}
+.periods{display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap}
+.periods .chip{font-size:12px;padding:2px 8px}
+.strategy{color:var(--muted);margin-top:10px}
+
 .legend{font-size:12px;color:var(--muted);margin:6px 0 0}
 footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:12px;color:var(--muted)}
 .empty{padding:40px;text-align:center;color:var(--muted)}
 @media (max-width:640px){
   .nums{grid-template-columns:repeat(5,minmax(0,1fr));width:100%;text-align:left;gap:2px 6px;font-size:13px}
   .card{padding:12px}
-  .controls{position:static}
+  .bar{grid-template-columns:5.5em 1fr 3.2em}
 }
 </style>
 </head>
@@ -87,21 +118,27 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:12px;color
 <header>
   <div class="wrap">
     <h1>TISA 基金查找</h1>
-    <p class="sub">基富通上架的 TISA 專案基金（TISA 級別、好好退休、好享退）整理成常見分類，並標出可以對照的 ETF。</p>
-    <div class="meta"><span>資料更新：<b id="updated">—</b></span><span>共 <b id="total">—</b> 檔</span><span>來源：<a href="https://www.fundrich.com.tw/themeFund/promotionDetail?type=root.TISA.FundList_Web" target="_blank" rel="noopener">基富通</a></span></div>
+    <p class="sub">基富通上架的 TISA 專案基金（TISA 級別、好好退休、好享退），依晨星的<b>實際持股</b>分類，並用持股重疊度找出最像的 ETF。</p>
+    <div class="meta"><span>資料更新：<b id="updated">—</b></span><span>共 <b id="total">—</b> 檔</span><span>持股資料日：<b id="pdate">—</b></span><span>來源：<a href="https://www.fundrich.com.tw/themeFund/promotionDetail?type=root.TISA.FundList_Web" target="_blank" rel="noopener">基富通</a></span></div>
   </div>
 </header>
 
 <div class="controls">
   <div class="wrap">
     <div class="search">
-      <input id="q" type="search" placeholder="搜尋基金名稱、代碼、投信、ETF 代號（例如 0050、高股息、野村）" autocomplete="off">
+      <input id="q" type="search" placeholder="搜尋基金、投信、ETF 代號或持股（例如 台積電、00981A、野村）" autocomplete="off">
       <select id="sort" aria-label="排序">
         <option value="one-desc">一年報酬 高→低</option>
         <option value="three-desc">三年報酬 高→低</option>
+        <option value="ytd-desc">今年以來 高→低</option>
         <option value="rsp-desc">定期定額一年 高→低</option>
         <option value="sharpe-desc">夏普值 高→低</option>
         <option value="risk-asc">風險 低→高</option>
+        <option value="stock-desc">股票比重 高→低</option>
+        <option value="tw-desc">台灣比重 高→低</option>
+        <option value="cn-desc">中國曝險 高→低</option>
+        <option value="tech-desc">科技比重 高→低</option>
+        <option value="hit-desc">搜尋到的持股比重 高→低</option>
         <option value="aum-desc">規模 大→小</option>
         <option value="name-asc">名稱</option>
       </select>
@@ -112,34 +149,69 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:12px;color
       <select id="ftype" aria-label="基金類型"><option value="">全部基金類型</option></select>
       <select id="risk" aria-label="風險等級"><option value="">全部風險等級</option></select>
       <select id="company" aria-label="投信"><option value="">全部投信</option></select>
-      <label><input type="checkbox" id="sameOnly"> 只看有同指數 ETF</label>
-      <span class="count" id="count"></span>
+      <label><input type="checkbox" id="etfOnly"> 只看有高度相近 ETF</label>
+    </div>
+    <div class="alloc">
+      <h3>資產配置篩選（晨星持股分析）</h3>
+      <div class="row2" style="margin-top:0">
+        <select id="mix" aria-label="股票比重">
+          <option value="">股票比重：不限</option>
+          <option value="85-101">純股票（≥85%）</option>
+          <option value="65-85">偏股（65–85%）</option>
+          <option value="45-65">股債均衡（45–65%）</option>
+          <option value="0-45">偏債（&lt;45%）</option>
+        </select>
+        <span class="fgroup">
+          <select id="country" aria-label="國家"><option value="">國家：不限</option></select>
+          <select id="countryMin" aria-label="國家比重門檻">
+            <option value="1">≥1%</option><option value="5" selected>≥5%</option><option value="20">≥20%</option><option value="50">≥50%</option><option value="80">≥80%</option>
+          </select>
+        </span>
+        <span class="fgroup">
+          <select id="sector" aria-label="產業"><option value="">產業：不限</option></select>
+          <select id="sectorMin" aria-label="產業比重門檻">
+            <option value="5">≥5%</option><option value="20" selected>≥20%</option><option value="50">≥50%</option><option value="80">≥80%</option>
+          </select>
+        </span>
+        <span class="fgroup">
+          <select id="cnMax" aria-label="中國曝險上限">
+            <option value="">中國曝險：不限</option><option value="0.5">幾乎沒有（&lt;0.5%）</option><option value="3">&lt;3%</option>
+          </select>
+        </span>
+        <button class="linkbtn" id="reset">清除全部條件</button>
+        <span class="count" id="count"></span>
+      </div>
     </div>
   </div>
 </div>
 
 <main class="wrap">
-  <p class="legend">ETF 對照：<span class="etf same"><code>綠框</code></span> 追蹤同一指數；一般框＝範圍風格相近；「自組參考」＝沒有單一 ETF 能對上，可用這幾檔自己搭。標 <b>US</b> 的是美股 ETF，要透過複委託買。</p>
+  <p class="legend">ETF 對照：<span class="etf same"><code>實底</code></span> 追蹤同一指數；<span class="etf close"><code>實框</code></span> 高度相近；一般框＝部分相似；<span class="etf diy"><code>虛框</code></span> 自組參考。台股基金標的「重疊 N%」是基金前十大持股有多少比重也出現在該 ETF。標 <b>US</b> 的是美股 ETF，要透過複委託買。</p>
   <section class="list" id="list" aria-live="polite"></section>
 </main>
 
 <footer>
   <div class="wrap">
-    本頁資料每天自動從基富通公開頁面抓取，績效為原幣計算、含息還原，資料日期以基富通為準。分類與 ETF 對照是依晨星基金組別與基金名稱推算的參考，不是投資建議；申購前請詳閱公開說明書。
+    資料每天自動從基富通公開頁面抓取；資產配置、國家、產業、前十大持股來自晨星（境內基金約每季更新），台股 ETF 持股來自 MoneyDJ，僅用於計算重疊度。績效為原幣計算、含息還原。分類與 ETF 對照是依持股推算的參考，不是投資建議；申購前請詳閱公開說明書。
     原始資料：<a href="data/funds.json">funds.json</a>
   </div>
 </footer>
 
 <script>
 const $ = s => document.querySelector(s);
-const GROUP_ORDER = ["台股指數型","台股大型股","台股高股息","台股中小型","全球股票","全球股票收益","目標日期","股債平衡-積極","股債平衡-穩健","股債平衡-保守","台股平衡","投資級債券","全球債券","其他"];
-const PERIODS = [["quarter","3月"],["half","6月"],["one","1年"],["two","2年"],["three","3年"],["five","5年"],["beginning","成立"]];
+const GROUP_ORDER = ["台股指數型","台股主動型","台股高股息","台股平衡","全球股票","全球科技","全球股票收益","目標日期","股債平衡-積極","股債平衡-穩健","股債平衡-保守","投資級債券","全球債券","其他"];
+const PERIODS = [["threeMonths","三個月"],["sixMonths","六個月"],["sinceThisYear","今年以來"],["oneYear","一年"],["twoYears","二年"],["threeYears","三年"],["fiveYears","五年"],["tenYears","十年"],["sinceEstablished","成立至今"]];
 const RISK = {1:"RR1",2:"RR2",3:"RR3",4:"RR4",5:"RR5"};
+const MATCH = {same:"同指數", close:"高度相近", partial:"部分相似", diy:"自組參考"};
+const FILTERS = ["tisa","ftype","risk","company","mix","country","countryMin","sector","sectorMin","cnMax","sort"];
+const DEFAULTS = {countryMin:"5", sectorMin:"20", sort:"one-desc"};
 let ALL = [], state = {group:""};
+const detailCache = {};
 
-const pct = v => v == null ? "—" : `<b class="${v>0?"up":v<0?"down":""}">${v>0?"+":""}${v.toFixed(2)}%</b>`;
+const fmtPct = (v, d=2) => v == null ? "—" : `<b class="${v>0?"up":v<0?"down":""}">${v>0?"+":""}${v.toFixed(d)}%</b>`;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const shortName = n => n.replace(/^【[^】]*】/, "");
+const pmap = pairs => Object.fromEntries(pairs || []);
 
 function opt(sel, values){
   for (const [v, label] of values) sel.insertAdjacentHTML("beforeend", `<option value="${esc(v)}">${esc(label)}</option>`);
@@ -149,35 +221,50 @@ function readHash(){
   const p = new URLSearchParams(location.hash.slice(1));
   $("#q").value = p.get("q") || "";
   state.group = p.get("g") || "";
-  for (const k of ["tisa","ftype","risk","company","sort"]) if (p.get(k)) $("#"+k).value = p.get(k);
-  $("#sameOnly").checked = p.get("same") === "1";
+  for (const k of FILTERS) $("#"+k).value = p.get(k) ?? DEFAULTS[k] ?? "";
+  $("#etfOnly").checked = p.get("etf") === "1";
 }
 function writeHash(){
   const p = new URLSearchParams();
   if ($("#q").value) p.set("q", $("#q").value);
   if (state.group) p.set("g", state.group);
-  for (const k of ["tisa","ftype","risk","company"]) if ($("#"+k).value) p.set(k, $("#"+k).value);
-  if ($("#sort").value !== "one-desc") p.set("sort", $("#sort").value);
-  if ($("#sameOnly").checked) p.set("same","1");
+  for (const k of FILTERS) { const v = $("#"+k).value; if (v && v !== (DEFAULTS[k] ?? "")) p.set(k, v); }
+  if ($("#etfOnly").checked) p.set("etf","1");
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
 
+// 搜尋字串若命中前十大持股，回傳 [持股名, 比重]
+function holdingHits(f, terms){
+  if (!terms.length) return [];
+  return f.portfolio.top10.filter(([n]) => terms.some(t => n.toLowerCase().includes(t)));
+}
+
 function filtered(){
-  const q = $("#q").value.trim().toLowerCase();
-  const terms = q.split(/\s+/).filter(Boolean);
-  const t = $("#tisa").value, ft = $("#ftype").value, r = $("#risk").value, c = $("#company").value, same = $("#sameOnly").checked;
+  const terms = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const v = id => $("#"+id).value;
+  const [mixLo, mixHi] = v("mix") ? v("mix").split("-").map(Number) : [null, null];
+  const country = v("country"), cMin = +v("countryMin"), sector = v("sector"), sMin = +v("sectorMin"), cnMax = v("cnMax");
+  const etfOnly = $("#etfOnly").checked;
   return ALL.filter(f =>
     (!state.group || f.group === state.group) &&
-    (!t || f.tisaType === t) && (!ft || f.fundType === ft) &&
-    (!r || String(f.risk) === r) && (!c || f.company === c) &&
-    (!same || f.etfs.some(e => e.match === "same")) &&
+    (!v("tisa") || f.tisaType === v("tisa")) && (!v("ftype") || f.fundType === v("ftype")) &&
+    (!v("risk") || String(f.risk) === v("risk")) && (!v("company") || f.company === v("company")) &&
+    (mixLo == null || (f.mix.stock >= mixLo && f.mix.stock < mixHi)) &&
+    (!country || (f._countries[country] || 0) >= cMin) &&
+    (!sector || (f._sectors[sector] || 0) >= sMin) &&
+    (!cnMax || f.mix.cn < +cnMax) &&
+    (!etfOnly || f.etfs.some(e => e.match === "same" || e.match === "close")) &&
     terms.every(w => f._hay.includes(w))
-  );
+  ).map(f => ({f, hits: holdingHits(f, terms)}));
 }
 
 function sorted(list){
   const [k, dir] = $("#sort").value.split("-");
-  const val = f => k==="one"||k==="three" ? f.ret[k] : k==="rsp" ? f.rsp.one : k==="name" ? f.name : f[k];
+  const val = ({f, hits}) => ({
+    one: f.ret.one, three: f.ret.three, ytd: f.ytd, rsp: f.rsp.one, name: f.name,
+    stock: f.mix.stock, tw: f.mix.tw, cn: f.mix.cn, tech: f.mix.tech,
+    hit: hits.length ? Math.max(...hits.map(h => h[1])) : null,
+  })[k] ?? f[k];
   const s = dir === "asc" ? 1 : -1;
   return [...list].sort((a,b) => {
     const x = val(a), y = val(b);
@@ -187,54 +274,151 @@ function sorted(list){
   });
 }
 
-function card(f){
-  const etfs = f.etfs.map(e => `<span class="etf ${e.match}" title="${esc(e.note)}"><code>${e.code}</code> ${esc(e.name)}${e.market==="US"?'<span class="mk">US</span>':""}${e.match==="diy"?'<span class="mk">自組參考</span>':""}</span>`).join("");
-  const notes = f.etfs.filter(e => e.note).map(e => `<li><code>${e.code}</code>：${esc(e.note)}</li>`).join("");
-  return `<article class="card">
+function etfChip(e){
+  const ov = e.overlap != null ? `<span class="mk">重疊 ${e.overlap}%</span>` : "";
+  return `<span class="etf ${e.match}" title="${esc(MATCH[e.match] + (e.note ? "：" + e.note : ""))}"><code>${e.code}</code> ${esc(e.name)}${e.market==="US"?'<span class="mk">US</span>':""}${ov}${e.match==="diy"?'<span class="mk">自組</span>':""}</span>`;
+}
+
+function card({f, hits}){
+  const warnTags = t => /名稱有|槓桿|非投資等級/.test(t);
+  return `<article class="card" data-id="${f.id}">
     <div class="top">
       <div style="flex:1 1 380px;min-width:0">
         <div class="name"><a href="${f.url}" target="_blank" rel="noopener">${esc(shortName(f.name))}</a></div>
         <div class="id">${f.id} · ${esc(f.company)}</div>
         <div class="badges">
           <span class="b grp">${esc(f.group)}</span><span class="b">${esc(f.tisaType)}</span><span class="b">${esc(f.fundType)}</span>
-          <span class="b">${RISK[f.risk]||"—"}</span><span class="b">${esc(f.region)}</span>
-          ${f.tags.map(t => `<span class="b">${esc(t)}</span>`).join("")}
+          <span class="b">${RISK[f.risk]||"—"}</span>
+          ${f.tags.map(t => `<span class="b${warnTags(t)?" warn":""}">${esc(t)}</span>`).join("")}
+          ${hits.map(([n,w]) => `<span class="b hit">${esc(n)} ${w}%</span>`).join("")}
         </div>
       </div>
       <div class="nums">
         <span>淨值</span><span>3月</span><span>1年</span><span>3年</span><span>定額1年</span>
-        <b>${f.nav ?? "—"}</b>${pct(f.ret.quarter)}${pct(f.ret.one)}${pct(f.ret.three)}${pct(f.rsp.one)}
+        <b>${f.nav ?? "—"}</b>${fmtPct(f.ret.quarter)}${fmtPct(f.ret.one)}${fmtPct(f.ret.three)}${fmtPct(f.rsp.one)}
       </div>
     </div>
-    <div class="etfs"><span class="lbl">對照 ETF</span>${etfs || '<span class="lbl">—</span>'}</div>
-    <details><summary>更多資料</summary>
-      <div class="detail">
-        <table><tr><th>期間</th><th>單筆</th><th>定期定額</th></tr>
-          ${PERIODS.map(([k,l]) => `<tr><th>${l}</th><td>${pct(f.ret[k])}</td><td>${f.rsp[k]!==undefined?pct(f.rsp[k]):"—"}</td></tr>`).join("")}
-        </table>
-        <table>
-          <tr><th>晨星組別</th><td>${esc(f.msCategory)}</td></tr>
-          <tr><th>淨值日</th><td>${esc(f.navDate)}</td></tr>
-          <tr><th>規模</th><td>${f.aum ? (f.aum/1e8).toFixed(1)+" 億" : "—"}</td></tr>
-          <tr><th>夏普值</th><td>${f.sharpe ?? "—"}</td></tr>
-          <tr><th>一年標準差</th><td>${f.stdev1y != null ? f.stdev1y+"%" : "—"}</td></tr>
-          <tr><th>成立日</th><td>${esc(f.inception)}</td></tr>
-          <tr><th>ISIN</th><td>${esc(f.isin)}</td></tr>
-        </table>
-        ${notes ? `<ul style="margin:0;padding-left:18px">${notes}</ul>` : ""}
-        <div class="strategy">${esc(f.strategy)}</div>
-      </div>
-    </details>
+    <div class="etfs"><span class="lbl">對照 ETF</span>${f.etfs.map(etfChip).join("") || '<span class="lbl">—</span>'}</div>
+    ${f.notes.length ? `<ul class="notes">${f.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+    <details><summary>更多資料</summary><div class="detail" data-id="${f.id}"></div></details>
   </article>`;
 }
 
 function render(){
-  const base = filtered();
-  const list = sorted(base);
+  const list = sorted(filtered());
   $("#count").textContent = `顯示 ${list.length} / ${ALL.length} 檔`;
   $("#list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">沒有符合條件的基金</div>`;
   document.querySelectorAll("#groupChips .chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.g === state.group));
   writeHash();
+}
+
+// ---------- 明細：六個分頁 ----------
+const TABS = [["overview","基金總覽"],["info","基金資料"],["perf","績效/淨值"],["alloc","資產配置"],["risk","風險評等"],["div","配息紀錄"]];
+
+async function openDetail(box){
+  if (box.dataset.loaded) return;
+  box.dataset.loaded = "1";
+  const id = box.dataset.id, f = ALL.find(x => x.id === id);
+  box.innerHTML = `<div class="pane">載入中…</div>`;
+  try {
+    detailCache[id] ??= await (await fetch(`data/detail/${id}.json`, {cache:"no-cache"})).json();
+  } catch (e) { box.innerHTML = `<div class="pane">明細載入失敗：${esc(e.message)}</div>`; return; }
+  const d = detailCache[id];
+  box.innerHTML = `<div class="tabs" role="tablist">${TABS.map(([k,l],i) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${i===0}">${l}</button>`).join("")}</div><div class="pane"></div>`;
+  const pane = box.querySelector(".pane");
+  const show = k => {
+    box.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === k));
+    pane.innerHTML = PANES[k](f, d);
+    if (k === "overview") drawChart(pane.querySelector(".chart"), d.nav, "1Y");
+  };
+  box.querySelector(".tabs").onclick = e => { const t = e.target.closest(".tab"); if (t) show(t.dataset.tab); };
+  show("overview");
+}
+
+const kv = rows => `<table>${rows.map(([k,v]) => `<tr><th>${esc(k)}</th><td class="l">${esc(v)}</td></tr>`).join("")}</table>`;
+const bars = pairs => pairs && pairs.length ? `<div class="bars">${pairs.map(([n,w]) => `<div class="bar"><span title="${esc(n)}">${esc(n)}</span><span class="t"><i style="width:${Math.max(0,Math.min(100,w))}%"></i></span><span>${w.toFixed(1)}%</span></div>`).join("")}</div>` : `<div class="date">無資料</div>`;
+
+const PANES = {
+  overview(f, d){
+    const lump = d.performance.lump || {};
+    return `<div class="chart">
+        <div class="periods">${["3M","6M","1Y","3Y","5Y"].map(p => `<button class="chip" data-p="${p}" aria-pressed="${p==="1Y"}">${p.replace("M"," 個月").replace("Y"," 年")}</button>`).join("")}</div>
+        <svg viewBox="0 0 600 220" preserveAspectRatio="none" role="img" aria-label="淨值走勢"></svg>
+        <div class="readout"></div>
+      </div>
+      <div class="grid2" style="margin-top:10px">
+        ${kv([["英文名稱", d.eName || "—"],["最新淨值", `${f.nav} ${f.currency}（${f.navDate}）`],["風險屬性", d.riskName || RISK[f.risk]],["晨星組別", f.msCategory],["今年以來", lump.sinceThisYear != null ? lump.sinceThisYear.toFixed(2)+"%" : "—"],["成立日", f.inception]])}
+        ${kv([["股票／債券", `${f.mix.stock}% ／ ${f.mix.bond}%`],["台灣／中國", `${f.mix.tw}% ／ ${f.mix.cn}%`],["科技產業", `${f.mix.tech}%`],["管理費（最高）", f.fee || "—"],["規模", f.aum ? (f.aum/1e8).toFixed(1)+" 億" : "—"]])}
+      </div>
+      <p><a href="${f.url}" target="_blank" rel="noopener">在基富通查看這檔基金 →</a></p>`;
+  },
+  info(f, d){
+    const basic = d.basic.filter(([k]) => k !== "投資目標/策略" && k !== "投資行事曆");
+    const strat = (d.basic.find(([k]) => k === "投資目標/策略") || [])[1];
+    return `<div class="grid2"><div><h4>基本資訊</h4>${kv(basic)}</div><div><h4>費用說明</h4>${kv(d.buy)}</div></div>
+      ${strat ? `<div class="strategy"><h4>投資目標／策略</h4>${esc(strat)}</div>` : ""}`;
+  },
+  perf(f, d){
+    const P = d.performance, row = (title, o, fmt) => `<tr><th>${title}</th>${PERIODS.map(([k]) => `<td>${fmt(o?.[k])}</td>`).join("")}</tr>`;
+    return `<h4>績效表現 <span class="date">資料日期：${esc(P.date)}（含息還原、原幣計算）</span></h4>
+      <div class="scroll"><table><tr><th></th>${PERIODS.map(([,l]) => `<th style="text-align:right">${l}</th>`).join("")}</tr>
+        ${row("單筆報酬", P.lump, v => fmtPct(v))}${row("定期定額", P.rsp, v => fmtPct(v))}${row("贏過 N% 同類", P.beat, v => v == null ? "—" : v+"%")}
+      </table></div>
+      <h4 style="margin-top:14px">近 30 日淨值</h4>
+      <div class="scroll"><table><tr><th>日期</th><th style="text-align:right">淨值</th><th style="text-align:right">漲跌</th><th style="text-align:right">漲跌幅</th></tr>
+        ${d.days30.map(([dt,p,c,pc]) => `<tr><th>${dt}</th><td>${p?.toFixed(4) ?? "—"}</td><td class="${c>0?"up":c<0?"down":""}">${c==null?"—":(c>0?"+":"")+c.toFixed(4)}</td><td>${fmtPct(pc)}</td></tr>`).join("")}
+      </table></div>`;
+  },
+  alloc(f, d){
+    const p = d.portfolio;
+    return `<h4>資料日期：<span class="date">${esc(p.date || "—")}（晨星）</span></h4>
+      <div class="grid2">
+        <div><h4>資產類別</h4>${bars(p.assets)}</div>
+        <div><h4>投資國家</h4>${bars(p.countries)}</div>
+        <div><h4>投資產業</h4>${bars(p.sectors)}</div>
+        <div><h4>前十大持股</h4>${bars(p.top10)}</div>
+      </div>`;
+  },
+  risk(f, d){
+    const r = d.rating;
+    return `<h4>風險指標 <span class="date">資料日期：${esc(r.date)}</span></h4>
+      <div class="scroll"><table><tr><th></th><th style="text-align:right">一年</th><th style="text-align:right">三年</th><th style="text-align:right">五年</th><th style="text-align:right">十年</th></tr>
+      ${r.rows.map(([t,...v]) => `<tr><th>${esc(t)}</th>${v.map(x => `<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</table></div>
+      <p>風險收益等級：<b>${esc(r.risk || "—")}</b>（投信投顧公會 RR1–RR5，數字越大波動越大）</p>
+      <p class="date" style="color:var(--muted)">標準差＝波動大小；夏普值、索提諾比率＝每單位風險換到的報酬，越高越好。</p>`;
+  },
+  div(f, d){
+    const h = d.dividend.history;
+    return `<p>配息頻率：<b>${esc(d.dividend.frequency || "—")}</b></p>
+      ${h.length ? `<div class="scroll"><table>${h.map(r => `<tr>${Object.values(r).map(v => `<td class="l">${esc(v)}</td>`).join("")}</tr>`).join("")}</table></div>` : `<p class="date" style="color:var(--muted)">本基金沒有配息紀錄（TISA 級別多為累積型，收益直接滾入淨值）。</p>`}`;
+  },
+};
+
+function drawChart(wrap, nav, period){
+  const svg = wrap.querySelector("svg"), out = wrap.querySelector(".readout");
+  wrap.querySelectorAll(".periods .chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.p === period));
+  wrap.querySelector(".periods").onclick = e => { const b = e.target.closest(".chip"); if (b) drawChart(wrap, nav, b.dataset.p); };
+  if (!nav || nav.length < 2) { svg.innerHTML = ""; out.textContent = "沒有淨值走勢資料"; return; }
+  const months = {"3M":3,"6M":6,"1Y":12,"3Y":36,"5Y":60}[period];
+  const end = new Date(nav[nav.length-1][0]); const start = new Date(end); start.setMonth(start.getMonth() - months);
+  const pts = nav.filter(([d]) => new Date(d) >= start);
+  if (pts.length < 2) { svg.innerHTML = ""; out.textContent = "期間內資料不足"; return; }
+  const ys = pts.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi - lo) * 0.08 || 1;
+  const W = 600, H = 220, x = i => i / (pts.length - 1) * W, y = v => H - (v - lo + pad) / (hi - lo + 2*pad) * H;
+  const ret = (ys[ys.length-1] / ys[0] - 1) * 100;
+  const color = ret >= 0 ? "var(--up)" : "var(--down)";
+  const line = pts.map((p,i) => `${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join(" ");
+  svg.innerHTML = `<polygon points="0,${H} ${line} ${W},${H}" fill="${color}" opacity=".08"/><polyline points="${line}" fill="none" stroke="${color}" stroke-width="1.8" vector-effect="non-scaling-stroke"/><line class="cross" y1="0" y2="${H}" stroke="var(--muted)" stroke-width="1" vector-effect="non-scaling-stroke" visibility="hidden"/>`;
+  const summary = `${pts[0][0]} → ${pts[pts.length-1][0]}　期間報酬 <b class="${ret>=0?"up":"down"}">${ret>=0?"+":""}${ret.toFixed(2)}%</b>　最高 ${hi}　最低 ${lo}`;
+  out.innerHTML = summary;
+  const cross = svg.querySelector(".cross");
+  svg.onpointermove = e => {
+    const r = svg.getBoundingClientRect(), i = Math.round((e.clientX - r.left) / r.width * (pts.length - 1));
+    const p = pts[Math.max(0, Math.min(pts.length-1, i))];
+    cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+    out.innerHTML = `${p[0]}　淨值 <b>${p[1]}</b>　較期初 ${fmtPct((p[1]/ys[0]-1)*100)}`;
+  };
+  svg.onpointerleave = () => { cross.setAttribute("visibility", "hidden"); out.innerHTML = summary; };
 }
 
 function buildGroups(){
@@ -247,22 +431,49 @@ function buildGroups(){
 }
 
 async function main(){
-  const res = await fetch("data/funds.json", {cache:"no-cache"});
-  const data = await res.json();
-  ALL = data.funds.map(f => ({...f, _hay: [f.id,f.name,f.company,f.group,f.tisaType,f.fundType,f.msCategory,f.region,...f.tags,...f.etfs.flatMap(e=>[e.code,e.name])].join(" ").toLowerCase()}));
+  const data = await (await fetch("data/funds.json", {cache:"no-cache"})).json();
+  ALL = data.funds.map(f => {
+    const p = f.portfolio || {};
+    return {...f,
+      _countries: pmap(p.countries), _sectors: pmap(p.sectors),
+      _hay: [f.id,f.name,f.company,f.group,f.tisaType,f.fundType,f.msCategory,f.region,...f.tags,
+             ...f.etfs.flatMap(e=>[e.code,e.name]), ...(p.top10||[]).map(h=>h[0]), ...(p.countries||[]).map(h=>h[0])].join(" ").toLowerCase()};
+  });
   $("#updated").textContent = data.updatedAt.replace("T"," ").slice(0,16);
   $("#total").textContent = ALL.length;
+  const dates = ALL.map(f => f.portfolio?.date).filter(Boolean).sort();
+  $("#pdate").textContent = dates.length ? dates[dates.length-1] : "—";
+
   const uniq = k => [...new Set(ALL.map(f => f[k]).filter(Boolean))];
+  const weightOrder = key => {  // 依出現的基金數排序
+    const c = {};
+    for (const f of ALL) for (const n of Object.keys(f[key])) c[n] = (c[n]||0) + 1;
+    return Object.keys(c).sort((a,b) => c[b]-c[a]).map(n => [n, `${n}（${c[n]} 檔）`]);
+  };
   opt($("#tisa"), uniq("tisaType").map(v => [v,v]));
   opt($("#ftype"), uniq("fundType").map(v => [v,v]));
   opt($("#risk"), uniq("risk").sort().map(v => [v, RISK[v]]));
   opt($("#company"), uniq("company").sort((a,b)=>a.localeCompare(b,"zh-Hant")).map(v => [v, v.replace(/證券投資信託股份有限公司|股份有限公司/,"投信")]));
+  opt($("#country"), weightOrder("_countries"));
+  opt($("#sector"), weightOrder("_sectors"));
   buildGroups();
   readHash();
   render();
+
   let t;
-  $("#q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 120); });
-  for (const id of ["sort","tisa","ftype","risk","company","sameOnly"]) $("#"+id).addEventListener("change", render);
+  $("#q").addEventListener("input", () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      // 搜尋命中持股時，自動改成依持股比重排序
+      const terms = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      if (terms.length && ALL.some(f => holdingHits(f, terms).length) && $("#sort").value === "one-desc") $("#sort").value = "hit-desc";
+      if (!terms.length && $("#sort").value === "hit-desc") $("#sort").value = "one-desc";
+      render();
+    }, 150);
+  });
+  for (const id of [...FILTERS, "etfOnly"]) $("#"+id).addEventListener("change", render);
+  $("#reset").onclick = () => { location.hash = ""; state.group = ""; readHash(); render(); };
+  $("#list").addEventListener("toggle", e => { if (e.target.open) openDetail(e.target.querySelector(".detail")); }, true);
 }
 main().catch(e => { $("#list").innerHTML = `<div class="empty">資料載入失敗：${esc(e.message)}</div>`; });
 </script>
