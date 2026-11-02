@@ -1,226 +1,173 @@
 {
- "updatedAt": "2026-11-02T03:06+08:00",
+ "updatedAt": "2026-11-03T06:55+08:00",
  "source": "基富通 TISA 專案基金",
  "etfHoldingsDate": "2026/09/30",
  "funds": [
   {
-   "id": "ALI099",
-   "name": "【TISA級別】安聯四季成長組合基金-TISA類型-新臺幣",
-   "company": "安聯證券投資信託股份有限公司",
+   "id": "Meg083",
+   "name": "【TISA級別】兆豐全球證券投資信託基金-TISA",
+   "company": "兆豐國際證券投資信託股份有限公司",
    "tisaType": "TISA級別",
    "fundType": "股票型",
-   "msCategory": "新台幣進取型股債混合",
+   "msCategory": "環球大型增長型股票",
    "region": "全球",
-   "inception": "2025/06/27",
+   "inception": "2026/07/20",
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 14.54,
-   "navDate": "2026/10/29",
-   "change": -0.41,
-   "aum": 17708253078.77,
-   "sharpe": 1.79,
-   "stdev1y": 13.83,
+   "nav": 8.62,
+   "navDate": "2026/10/30",
+   "change": -7.61,
+   "aum": 1638519466.0,
+   "sharpe": null,
+   "stdev1y": null,
    "ret": {
-    "quarter": -1.03,
-    "half": 17.92,
-    "one": 28.37,
+    "quarter": null,
+    "half": null,
+    "one": null,
     "two": null,
     "three": null,
     "five": null,
-    "beginning": 44.66
+    "beginning": 5.4
    },
-   "ytd": 19.7684,
+   "ytd": null,
    "rsp": {
-    "one": 12.33,
+    "one": null,
     "two": null,
     "three": null,
     "five": null
    },
-   "fee": "0.60%",
+   "fee": "0.50%",
    "portfolio": {
     "assets": [
      [
       "股票",
-      78.22
-     ],
-     [
-      "債券",
-      12.63
+      98.43
      ],
      [
       "現金",
-      4.51
-     ],
-     [
-      "可換股債券",
-      4.17
+      1.55
      ],
      [
       "其他",
-      0.4
-     ],
-     [
-      "優先股",
-      0.07
+      0.02
      ]
     ],
     "date": "2026/09/30",
     "countries": [
      [
       "美國",
-      60.43
-     ],
-     [
-      "台灣",
-      14.58
-     ],
-     [
-      "中國",
-      2.81
-     ],
-     [
-      "貝里斯",
-      2.3
+      85.57
      ],
      [
       "日本",
-      1.95
+      4.72
      ],
      [
-      "英國",
-      1.34
+      "中國",
+      3.85
      ],
      [
-      "墨西哥",
-      1.28
+      "荷蘭",
+      3.19
      ],
      [
-      "哥倫比亞",
-      0.97
-     ],
-     [
-      "波蘭",
-      0.88
-     ],
-     [
-      "捷克",
-      0.88
+      "以色列",
+      2.67
      ]
     ],
     "sectors": [
      [
       "科技",
-      51.29
-     ],
-     [
-      "金融服務",
-      7.78
-     ],
-     [
-      "周期性消費",
-      7.52
-     ],
-     [
-      "通訊服務",
-      7.39
+      75.06
      ],
      [
       "工業",
-      6.77
+      18.55
      ],
      [
-      "健康護理",
-      6.4
-     ],
-     [
-      "防禦性消費",
-      5.07
-     ],
-     [
-      "能源",
-      3.5
-     ],
-     [
-      "公用事業",
-      1.92
-     ],
-     [
-      "基礎原物料",
-      1.63
+      "金融服務",
+      6.39
      ]
     ],
     "top10": [
      [
-      "VANGUARD S&P 500 ETF",
-      18.29
+      "LUMENTUM HOLDINGS",
+      8.57
      ],
      [
-      "Invesco QQQ Trust Se",
-      14.69
+      "SANDISK CORP",
+      8.12
      ],
      [
-      "元大台灣卓越50基金",
-      6.58
+      "ROCKET LAB",
+      7.72
      ],
      [
-      "ISHARES CORE S&P 500",
-      6.19
+      "FORMFACTOR INC",
+      5.73
      ],
      [
-      "ISHARES HIGH DIVIDEN",
-      4.98
+      "TERADYNE INC",
+      5.29
      ],
      [
-      "JPMorgan BetaBuilders US Equity ETF",
-      4.64
+      "CIENA CORP.",
+      3.96
      ],
      [
-      "安聯台灣科技基金",
-      4.57
+      "COHERENT CORP",
+      3.95
      ],
      [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      3.54
+      "ASTERA LABS INC",
+      3.94
      ],
      [
-      "PIMCO新興市場債券基金-機構H級類別(累積股份)",
-      3.22
+      "BLOOM ENER",
+      3.81
      ],
      [
-      "VanEck VECTORS SEMIC",
-      2.91
+      "NOVA LTD",
+      3.79
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI099",
-   "group": "股債平衡-積極",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg083",
+   "group": "全球科技",
    "tags": [
-    "組合基金"
+    "中國曝險 4%"
    ],
    "notes": [],
    "etfs": [
     {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
+     "code": "SOXX",
+     "name": "iShares 半導體",
      "market": "US",
-     "match": "close",
-     "note": "本基金股票約 80%"
+     "match": "partial",
+     "note": "半導體"
     },
     {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
+     "code": "VGT",
+     "name": "Vanguard 資訊科技",
      "market": "US",
-     "match": "close",
-     "note": ""
+     "match": "partial",
+     "note": "美國資訊科技"
+    },
+    {
+     "code": "00830",
+     "name": "國泰費城半導體",
+     "market": "TW",
+     "match": "partial",
+     "note": "台股可買的費城半導體"
     }
    ],
    "mix": {
-    "stock": 78.2,
-    "bond": 16.8,
-    "tw": 14.6,
-    "cn": 2.8,
-    "tech": 51.3
+    "stock": 98.4,
+    "bond": 0.0,
+    "tw": 0.0,
+    "cn": 3.9,
+    "tech": 75.1
    }
   },
   {
@@ -235,9 +182,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 32.06,
-   "navDate": "2026/10/30",
-   "change": -4.18,
+   "nav": 31.93,
+   "navDate": "2026/11/02",
+   "change": -0.4,
    "aum": 6230622231.0,
    "sharpe": 2.56,
    "stdev1y": 50.83,
@@ -383,160 +330,6 @@
    }
   },
   {
-   "id": "YUI116",
-   "name": "【好好退休】元大台灣高股息優質龍頭證券投資信託基金-新台幣R類型",
-   "company": "元大證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "台灣大型股票",
-   "region": "台灣",
-   "inception": "2024/07/01",
-   "risk": 4,
-   "morningstar": null,
-   "currency": "TWD",
-   "nav": 46.34,
-   "navDate": "2026/10/30",
-   "change": -5.02,
-   "aum": 104692314173.0,
-   "sharpe": 2.49,
-   "stdev1y": 44.11,
-   "ret": {
-    "quarter": 12.08,
-    "half": 92.31,
-    "one": 169.15,
-    "two": 213.76,
-    "three": null,
-    "five": null,
-    "beginning": 195.47
-   },
-   "ytd": 145.73778,
-   "rsp": {
-    "one": 84.52,
-    "two": 147.19,
-    "three": null,
-    "five": null
-   },
-   "fee": "1.00%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      92.19
-     ],
-     [
-      "現金",
-      8.16
-     ],
-     [
-      "其他",
-      -0.35
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "台灣",
-      93.66
-     ],
-     [
-      "美國",
-      6.34
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      88.53
-     ],
-     [
-      "工業",
-      6.34
-     ],
-     [
-      "金融服務",
-      3.52
-     ],
-     [
-      "通訊服務",
-      1.12
-     ],
-     [
-      "基礎原物料",
-      0.5
-     ]
-    ],
-    "top10": [
-     [
-      "環球晶",
-      11.32
-     ],
-     [
-      "聯電",
-      10.47
-     ],
-     [
-      "世界",
-      9.68
-     ],
-     [
-      "中美晶",
-      7.83
-     ],
-     [
-      "台積電",
-      6.69
-     ],
-     [
-      "聯發科",
-      6.42
-     ],
-     [
-      "貿聯-KY",
-      5.84
-     ],
-     [
-      "台勝科",
-      5.61
-     ],
-     [
-      "聯亞",
-      4.49
-     ],
-     [
-      "欣興",
-      3.87
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI116",
-   "group": "台股主動型",
-   "tags": [
-    "科技 89%",
-    "名稱有股息・持股偏成長"
-   ],
-   "notes": [
-    "沒有持股重疊超過 40% 的主動式 ETF，選股風格比較獨特。",
-    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 15%，實際是科技成長股組合。"
-   ],
-   "etfs": [
-    {
-     "code": "00935",
-     "name": "野村臺灣新科技50",
-     "market": "TW",
-     "match": "diy",
-     "note": "被動指數 ETF",
-     "overlap": 33
-    }
-   ],
-   "mix": {
-    "stock": 92.2,
-    "bond": 0.0,
-    "tw": 93.7,
-    "cn": 0.0,
-    "tech": 88.5
-   }
-  },
-  {
    "id": "KGI088",
    "name": "【TISA級別】凱基台灣精五門基金－新台幣TISA",
    "company": "凱基證券投資信託股份有限公司",
@@ -549,8 +342,8 @@
    "morningstar": null,
    "currency": "TWD",
    "nav": 30.08,
-   "navDate": "2026/10/30",
-   "change": -4.36,
+   "navDate": "2026/11/02",
+   "change": 0.0,
    "aum": 5655447464.0,
    "sharpe": 2.13,
    "stdev1y": 50.62,
@@ -711,9 +504,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 310.66,
-   "navDate": "2026/10/30",
-   "change": -4.31,
+   "nav": 310.96,
+   "navDate": "2026/11/02",
+   "change": 0.1,
    "aum": 2630899346.0,
    "sharpe": 1.94,
    "stdev1y": 56.75,
@@ -873,9 +666,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 28.02,
-   "navDate": "2026/10/30",
-   "change": -3.91,
+   "nav": 27.99,
+   "navDate": "2026/11/02",
+   "change": -0.11,
    "aum": 4699272939.0,
    "sharpe": 1.94,
    "stdev1y": 54.15,
@@ -1013,172 +806,6 @@
    }
   },
   {
-   "id": "Pru057",
-   "name": "【好好退休】玉山金滿意證券投資信託基金—R級別",
-   "company": "玉山證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "台灣大型股票",
-   "region": "台灣",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 37.26,
-   "navDate": "2026/10/30",
-   "change": -4.19,
-   "aum": 25318466698.0,
-   "sharpe": 2.02,
-   "stdev1y": 50.56,
-   "ret": {
-    "quarter": 9.11,
-    "half": 60.42,
-    "one": 145.62,
-    "two": 229.78,
-    "three": 317.63,
-    "five": 340.95,
-    "beginning": 326.4
-   },
-   "ytd": 104.31241,
-   "rsp": {
-    "one": 62.48,
-    "two": 139.4,
-    "three": 179.53,
-    "five": 259.39
-   },
-   "fee": "0.99%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      96.78
-     ],
-     [
-      "現金",
-      3.15
-     ],
-     [
-      "其他",
-      0.07
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "台灣",
-      96.97
-     ],
-     [
-      "美國",
-      2.95
-     ],
-     [
-      "中國",
-      0.08
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      89.94
-     ],
-     [
-      "周期性消費",
-      5.85
-     ],
-     [
-      "工業",
-      4.06
-     ],
-     [
-      "金融服務",
-      0.16
-     ]
-    ],
-    "top10": [
-     [
-      "健策",
-      9.4
-     ],
-     [
-      "台積電",
-      8.76
-     ],
-     [
-      "奇鋐",
-      7.19
-     ],
-     [
-      "台光電",
-      6.82
-     ],
-     [
-      "川湖",
-      5.48
-     ],
-     [
-      "台達電",
-      4.48
-     ],
-     [
-      "穎崴",
-      4.45
-     ],
-     [
-      "聯亞",
-      4.36
-     ],
-     [
-      "台燿",
-      4.26
-     ],
-     [
-      "欣興",
-      4.08
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru057",
-   "group": "台股主動型",
-   "tags": [
-    "科技 90%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "00981A",
-     "name": "主動統一台股增長",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 68
-    },
-    {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 68
-    },
-    {
-     "code": "00881",
-     "name": "國泰台灣科技龍頭",
-     "market": "TW",
-     "match": "partial",
-     "note": "被動指數 ETF",
-     "overlap": 44
-    }
-   ],
-   "mix": {
-    "stock": 96.8,
-    "bond": 0.0,
-    "tw": 97.0,
-    "cn": 0.1,
-    "tech": 89.9
-   }
-  },
-  {
    "id": "NOM156",
    "name": "【TISA級別】野村優質基金-TISA類型",
    "company": "野村證券投資信託股份有限公司",
@@ -1190,9 +817,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 21.19,
-   "navDate": "2026/10/30",
-   "change": -3.77,
+   "nav": 21.16,
+   "navDate": "2026/11/02",
+   "change": -0.14,
    "aum": 82008652303.0,
    "sharpe": 1.95,
    "stdev1y": 52.15,
@@ -1357,9 +984,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 102.91,
-   "navDate": "2026/10/30",
-   "change": -4.79,
+   "nav": 102.48,
+   "navDate": "2026/11/02",
+   "change": -0.42,
    "aum": 4951193019.0,
    "sharpe": 1.93,
    "stdev1y": 53.09,
@@ -1516,9 +1143,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 25.96,
-   "navDate": "2026/10/30",
-   "change": -4.77,
+   "nav": 25.95,
+   "navDate": "2026/11/02",
+   "change": -0.04,
    "aum": 21947751696.0,
    "sharpe": 1.99,
    "stdev1y": 50.86,
@@ -1682,9 +1309,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 181.14,
-   "navDate": "2026/10/30",
-   "change": -4.27,
+   "nav": 180.77,
+   "navDate": "2026/11/02",
+   "change": -0.2,
    "aum": 11768659851.0,
    "sharpe": 1.89,
    "stdev1y": 52.75,
@@ -1845,9 +1472,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 161.51,
-   "navDate": "2026/10/30",
-   "change": -4.18,
+   "nav": 161.46,
+   "navDate": "2026/11/02",
+   "change": -0.03,
    "aum": 3707961276.0,
    "sharpe": 1.77,
    "stdev1y": 57.53,
@@ -2007,9 +1634,9 @@
    "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 165.03,
-   "navDate": "2026/10/30",
-   "change": -4.18,
+   "nav": 164.98,
+   "navDate": "2026/11/02",
+   "change": -0.03,
    "aum": 3707961276.0,
    "sharpe": 1.77,
    "stdev1y": 57.51,
@@ -2169,9 +1796,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 226.51,
-   "navDate": "2026/10/30",
-   "change": -4.21,
+   "nav": 226.15,
+   "navDate": "2026/11/02",
+   "change": -0.16,
    "aum": 31031842586.0,
    "sharpe": 1.87,
    "stdev1y": 52.95,
@@ -2332,9 +1959,9 @@
    "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 106.15,
-   "navDate": "2026/10/30",
-   "change": -5.33,
+   "nav": 105.52,
+   "navDate": "2026/11/02",
+   "change": -0.59,
    "aum": 35161109821.0,
    "sharpe": 1.95,
    "stdev1y": 50.05,
@@ -2499,9 +2126,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 24.68,
-   "navDate": "2026/10/30",
-   "change": -4.23,
+   "nav": 24.58,
+   "navDate": "2026/11/02",
+   "change": -0.4,
    "aum": 1369148437.0,
    "sharpe": 1.87,
    "stdev1y": 53.1,
@@ -2662,9 +2289,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 79.17,
-   "navDate": "2026/10/30",
-   "change": -3.88,
+   "nav": 79.02,
+   "navDate": "2026/11/02",
+   "change": -0.19,
    "aum": 58158431007.0,
    "sharpe": 2.09,
    "stdev1y": 44.11,
@@ -2831,168 +2458,6 @@
    }
   },
   {
-   "id": "HSB045",
-   "name": "【好好退休】滙豐龍鳳證券投資信託基金-R類型",
-   "company": "滙豐證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "台灣大型股票",
-   "region": "台灣",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 291.42,
-   "navDate": "2026/10/30",
-   "change": -4.33,
-   "aum": 6632253728.0,
-   "sharpe": 1.77,
-   "stdev1y": 53.61,
-   "ret": {
-    "quarter": 2.44,
-    "half": 58.74,
-    "one": 126.32,
-    "two": 180.42,
-    "three": 238.83,
-    "five": 273.77,
-    "beginning": 13.0
-   },
-   "ytd": 88.54699,
-   "rsp": {
-    "one": 53.47,
-    "two": 112.59,
-    "three": 140.56,
-    "five": 197.68
-   },
-   "fee": "0.80%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      97.16
-     ],
-     [
-      "現金",
-      2.21
-     ],
-     [
-      "其他",
-      0.63
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "台灣",
-      96.6
-     ],
-     [
-      "美國",
-      3.4
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      95.09
-     ],
-     [
-      "基礎原物料",
-      2.09
-     ],
-     [
-      "工業",
-      1.53
-     ],
-     [
-      "金融服務",
-      1.28
-     ]
-    ],
-    "top10": [
-     [
-      "欣興",
-      9.05
-     ],
-     [
-      "台積電",
-      8.0
-     ],
-     [
-      "奇鋐",
-      6.84
-     ],
-     [
-      "日月光投控",
-      6.19
-     ],
-     [
-      "健策",
-      6.15
-     ],
-     [
-      "聯發科",
-      6.01
-     ],
-     [
-      "台達電",
-      5.3
-     ],
-     [
-      "台光電",
-      5.28
-     ],
-     [
-      "金像電",
-      4.97
-     ],
-     [
-      "南亞科",
-      4.87
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/HSB045",
-   "group": "台股主動型",
-   "tags": [
-    "科技 95%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "00981A",
-     "name": "主動統一台股增長",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 79
-    },
-    {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 68
-    },
-    {
-     "code": "00935",
-     "name": "野村臺灣新科技50",
-     "market": "TW",
-     "match": "partial",
-     "note": "被動指數 ETF",
-     "overlap": 56
-    }
-   ],
-   "mix": {
-    "stock": 97.2,
-    "bond": 0.0,
-    "tw": 96.6,
-    "cn": 0.0,
-    "tech": 95.1
-   }
-  },
-  {
    "id": "FTS111",
    "name": "【TISA級別】富蘭克林華美第一富證券投資信託基金-TISA類型",
    "company": "富蘭克林華美證券投資信託股份有限公司",
@@ -3004,9 +2469,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 20.94,
-   "navDate": "2026/10/30",
-   "change": -4.64,
+   "nav": 20.96,
+   "navDate": "2026/11/02",
+   "change": 0.1,
    "aum": 7268239586.0,
    "sharpe": 1.82,
    "stdev1y": 51.86,
@@ -3171,9 +2636,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 22.53,
-   "navDate": "2026/10/30",
-   "change": -4.17,
+   "nav": 22.62,
+   "navDate": "2026/11/02",
+   "change": 0.4,
    "aum": 24612527335.0,
    "sharpe": 1.95,
    "stdev1y": 43.65,
@@ -3345,9 +2810,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 18.31,
-   "navDate": "2026/10/30",
-   "change": -4.24,
+   "nav": 18.34,
+   "navDate": "2026/11/02",
+   "change": 0.16,
    "aum": 2444295645.0,
    "sharpe": 1.82,
    "stdev1y": 47.33,
@@ -3489,152 +2954,157 @@
    }
   },
   {
-   "id": "Meg063",
-   "name": "【好好退休】兆豐萬全基金 R類型",
-   "company": "兆豐國際證券投資信託股份有限公司",
+   "id": "YUI116",
+   "name": "【好好退休】元大台灣高股息優質龍頭證券投資信託基金-新台幣R類型",
+   "company": "元大證券投資信託股份有限公司",
    "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
    "region": "台灣",
-   "inception": "2023/07/03",
-   "risk": 3,
-   "morningstar": 4,
+   "inception": "2024/07/01",
+   "risk": 4,
+   "morningstar": null,
    "currency": "TWD",
-   "nav": 20.88,
-   "navDate": "2026/10/30",
-   "change": -3.42,
-   "aum": 706611700.0,
-   "sharpe": 1.81,
-   "stdev1y": 44.18,
+   "nav": 46.27,
+   "navDate": "2026/11/02",
+   "change": -0.15,
+   "aum": 104692314173.0,
+   "sharpe": 1.69,
+   "stdev1y": 51.99,
    "ret": {
-    "quarter": 2.24,
-    "half": 53.53,
-    "one": 103.17,
-    "two": 104.93,
-    "three": 142.97,
+    "quarter": 1.02,
+    "half": 19.46,
+    "one": 111.69,
+    "two": 155.46,
+    "three": null,
     "five": null,
-    "beginning": 136.9
+    "beginning": 141.1
    },
-   "ytd": 76.13383,
+   "ytd": 100.51926,
    "rsp": {
-    "one": 45.2,
-    "two": 81.81,
-    "three": 92.11,
+    "one": 84.52,
+    "two": 147.19,
+    "three": null,
     "five": null
    },
-   "fee": "0.95%",
+   "fee": "1.00%",
    "portfolio": {
     "assets": [
      [
       "股票",
-      85.14
+      92.19
      ],
      [
       "現金",
-      13.62
+      8.16
      ],
      [
       "其他",
-      1.24
+      -0.35
      ]
     ],
     "date": "2026/09/30",
     "countries": [
      [
       "台灣",
-      96.25
+      93.66
      ],
      [
       "美國",
-      3.75
+      6.34
      ]
     ],
     "sectors": [
      [
       "科技",
-      91.33
-     ],
-     [
-      "周期性消費",
-      6.01
+      88.53
      ],
      [
       "工業",
-      2.66
+      6.34
+     ],
+     [
+      "金融服務",
+      3.52
+     ],
+     [
+      "通訊服務",
+      1.12
+     ],
+     [
+      "基礎原物料",
+      0.5
      ]
     ],
     "top10": [
      [
+      "環球晶",
+      11.32
+     ],
+     [
+      "聯電",
+      10.47
+     ],
+     [
+      "世界",
+      9.68
+     ],
+     [
+      "中美晶",
+      7.83
+     ],
+     [
       "台積電",
-      8.07
+      6.69
      ],
      [
-      "南電",
-      7.78
+      "聯發科",
+      6.42
      ],
      [
-      "台達電",
-      7.22
+      "貿聯-KY",
+      5.84
      ],
      [
-      "台燿",
-      5.59
+      "台勝科",
+      5.61
      ],
      [
-      "川湖",
-      5.12
+      "聯亞",
+      4.49
      ],
      [
-      "健策",
-      4.81
-     ],
-     [
-      "奇鋐",
-      3.89
-     ],
-     [
-      "旺矽",
-      3.63
-     ],
-     [
-      "南亞科",
-      3.6
-     ],
-     [
-      "台光電",
-      3.49
+      "欣興",
+      3.87
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg063",
-   "group": "台股平衡",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI116",
+   "group": "台股主動型",
    "tags": [
-    "科技 91%"
+    "科技 89%",
+    "名稱有股息・持股偏成長"
    ],
-   "notes": [],
+   "notes": [
+    "沒有持股重疊超過 40% 的主動式 ETF，選股風格比較獨特。",
+    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 15%，實際是科技成長股組合。"
+   ],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00935",
+     "name": "野村臺灣新科技50",
      "market": "TW",
      "match": "diy",
-     "note": "股票部位參考",
-     "overlap": 74
-    },
-    {
-     "code": "00720B",
-     "name": "元大投資級公司債",
-     "market": "TW",
-     "match": "diy",
-     "note": "債券部位參考；本基金股票約 85%"
+     "note": "被動指數 ETF",
+     "overlap": 33
     }
    ],
    "mix": {
-    "stock": 85.1,
+    "stock": 92.2,
     "bond": 0.0,
-    "tw": 96.2,
+    "tw": 93.7,
     "cn": 0.0,
-    "tech": 91.3
+    "tech": 88.5
    }
   },
   {
@@ -3649,9 +3119,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 64.12,
-   "navDate": "2026/10/30",
-   "change": -2.4,
+   "nav": 63.55,
+   "navDate": "2026/11/02",
+   "change": -0.89,
    "aum": 98170840638.0,
    "sharpe": 2.2,
    "stdev1y": 33.59,
@@ -3786,9 +3256,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 17.98,
-   "navDate": "2026/10/30",
-   "change": -2.76,
+   "nav": 17.92,
+   "navDate": "2026/11/02",
+   "change": -0.33,
    "aum": 4259096134.0,
    "sharpe": 1.96,
    "stdev1y": 37.57,
@@ -3932,6 +3402,628 @@
    }
   },
   {
+   "id": "Pru057",
+   "name": "【好好退休】玉山金滿意證券投資信託基金—R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 37.1,
+   "navDate": "2026/11/02",
+   "change": -0.43,
+   "aum": 25318466698.0,
+   "sharpe": 1.43,
+   "stdev1y": 54.65,
+   "ret": {
+    "quarter": 10.33,
+    "half": -2.51,
+    "one": 92.56,
+    "two": 174.17,
+    "three": 286.11,
+    "five": 274.1,
+    "beginning": 272.6
+   },
+   "ytd": 78.53378,
+   "rsp": {
+    "one": 62.48,
+    "two": 139.4,
+    "three": 179.53,
+    "five": 259.39
+   },
+   "fee": "0.99%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      96.78
+     ],
+     [
+      "現金",
+      3.15
+     ],
+     [
+      "其他",
+      0.07
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "台灣",
+      96.97
+     ],
+     [
+      "美國",
+      2.95
+     ],
+     [
+      "中國",
+      0.08
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      89.94
+     ],
+     [
+      "周期性消費",
+      5.85
+     ],
+     [
+      "工業",
+      4.06
+     ],
+     [
+      "金融服務",
+      0.16
+     ]
+    ],
+    "top10": [
+     [
+      "健策",
+      9.4
+     ],
+     [
+      "台積電",
+      8.76
+     ],
+     [
+      "奇鋐",
+      7.19
+     ],
+     [
+      "台光電",
+      6.82
+     ],
+     [
+      "川湖",
+      5.48
+     ],
+     [
+      "台達電",
+      4.48
+     ],
+     [
+      "穎崴",
+      4.45
+     ],
+     [
+      "聯亞",
+      4.36
+     ],
+     [
+      "台燿",
+      4.26
+     ],
+     [
+      "欣興",
+      4.08
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru057",
+   "group": "台股主動型",
+   "tags": [
+    "科技 90%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "00981A",
+     "name": "主動統一台股增長",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 68
+    },
+    {
+     "code": "00994A",
+     "name": "主動第一金台股優",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 68
+    },
+    {
+     "code": "00881",
+     "name": "國泰台灣科技龍頭",
+     "market": "TW",
+     "match": "partial",
+     "note": "被動指數 ETF",
+     "overlap": 44
+    }
+   ],
+   "mix": {
+    "stock": 96.8,
+    "bond": 0.0,
+    "tw": 97.0,
+    "cn": 0.1,
+    "tech": 89.9
+   }
+  },
+  {
+   "id": "HSB045",
+   "name": "【好好退休】滙豐龍鳳證券投資信託基金-R類型",
+   "company": "滙豐證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 292.05,
+   "navDate": "2026/11/02",
+   "change": 0.22,
+   "aum": 6632253728.0,
+   "sharpe": 1.26,
+   "stdev1y": 56.67,
+   "ret": {
+    "quarter": 10.25,
+    "half": -2.89,
+    "one": 79.03,
+    "two": 137.87,
+    "three": 215.9,
+    "five": 224.27,
+    "beginning": 13.0
+   },
+   "ytd": 67.30007,
+   "rsp": {
+    "one": 53.47,
+    "two": 112.59,
+    "three": 140.56,
+    "five": 197.68
+   },
+   "fee": "0.80%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      97.16
+     ],
+     [
+      "現金",
+      2.21
+     ],
+     [
+      "其他",
+      0.63
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "台灣",
+      96.6
+     ],
+     [
+      "美國",
+      3.4
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      95.09
+     ],
+     [
+      "基礎原物料",
+      2.09
+     ],
+     [
+      "工業",
+      1.53
+     ],
+     [
+      "金融服務",
+      1.28
+     ]
+    ],
+    "top10": [
+     [
+      "欣興",
+      9.05
+     ],
+     [
+      "台積電",
+      8.0
+     ],
+     [
+      "奇鋐",
+      6.84
+     ],
+     [
+      "日月光投控",
+      6.19
+     ],
+     [
+      "健策",
+      6.15
+     ],
+     [
+      "聯發科",
+      6.01
+     ],
+     [
+      "台達電",
+      5.3
+     ],
+     [
+      "台光電",
+      5.28
+     ],
+     [
+      "金像電",
+      4.97
+     ],
+     [
+      "南亞科",
+      4.87
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/HSB045",
+   "group": "台股主動型",
+   "tags": [
+    "科技 95%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "00981A",
+     "name": "主動統一台股增長",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 79
+    },
+    {
+     "code": "00994A",
+     "name": "主動第一金台股優",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 68
+    },
+    {
+     "code": "00935",
+     "name": "野村臺灣新科技50",
+     "market": "TW",
+     "match": "partial",
+     "note": "被動指數 ETF",
+     "overlap": 56
+    }
+   ],
+   "mix": {
+    "stock": 97.2,
+    "bond": 0.0,
+    "tw": 96.6,
+    "cn": 0.0,
+    "tech": 95.1
+   }
+  },
+  {
+   "id": "NOM157",
+   "name": "【TISA級別】野村台灣高股息基金-TISA類型",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣中小型股票",
+   "region": "台灣",
+   "inception": "2025/09/08",
+   "risk": 4,
+   "morningstar": null,
+   "currency": "TWD",
+   "nav": 16.54,
+   "navDate": "2026/11/02",
+   "change": 0.06,
+   "aum": 3805394578.0,
+   "sharpe": 1.88,
+   "stdev1y": 32.21,
+   "ret": {
+    "quarter": 7.41,
+    "half": 61.57,
+    "one": 75.3,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 75.3
+   },
+   "ytd": 71.69442,
+   "rsp": {
+    "one": 44.78,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "fee": "0.60%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      98.01
+     ],
+     [
+      "現金",
+      1.93
+     ],
+     [
+      "其他",
+      0.06
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "台灣",
+      93.29
+     ],
+     [
+      "新加坡",
+      3.93
+     ],
+     [
+      "美國",
+      2.78
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      52.74
+     ],
+     [
+      "工業",
+      23.23
+     ],
+     [
+      "金融服務",
+      11.16
+     ],
+     [
+      "周期性消費",
+      6.2
+     ],
+     [
+      "基礎原物料",
+      3.17
+     ],
+     [
+      "房地產",
+      1.9
+     ],
+     [
+      "防禦性消費",
+      1.6
+     ]
+    ],
+    "top10": [
+     [
+      "廣達",
+      7.71
+     ],
+     [
+      "川湖",
+      5.07
+     ],
+     [
+      "聯發科",
+      4.78
+     ],
+     [
+      "文曄",
+      4.75
+     ],
+     [
+      "南亞科",
+      4.53
+     ],
+     [
+      "國泰金",
+      4.52
+     ],
+     [
+      "新普",
+      4.45
+     ],
+     [
+      "中信金",
+      4.45
+     ],
+     [
+      "長榮",
+      4.41
+     ],
+     [
+      "創意",
+      4.23
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM157",
+   "group": "台股高股息",
+   "tags": [
+    "晨星：中小型"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "partial",
+     "note": "被動高股息 ETF",
+     "overlap": 50
+    },
+    {
+     "code": "00919",
+     "name": "群益台灣精選高息",
+     "market": "TW",
+     "match": "partial",
+     "note": "被動高股息 ETF",
+     "overlap": 43
+    }
+   ],
+   "mix": {
+    "stock": 98.0,
+    "bond": 0.0,
+    "tw": 93.3,
+    "cn": 0.0,
+    "tech": 52.7
+   }
+  },
+  {
+   "id": "YUI118",
+   "name": "【TISA級別】元大台灣高股息ETF連結基金-新台幣TISA類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "股票型",
+   "msCategory": "台灣大型股票",
+   "region": "台灣",
+   "inception": "2025/06/30",
+   "risk": 4,
+   "morningstar": null,
+   "currency": "TWD",
+   "nav": 39.89,
+   "navDate": "2026/11/02",
+   "change": -0.18,
+   "aum": 7274426999.0,
+   "sharpe": 1.92,
+   "stdev1y": 29.32,
+   "ret": {
+    "quarter": 10.02,
+    "half": 60.8,
+    "one": 69.32,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 86.53
+   },
+   "ytd": 65.9824,
+   "rsp": {
+    "one": 43.19,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "fee": "0.30%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      92.55
+     ],
+     [
+      "現金",
+      5.35
+     ],
+     [
+      "其他",
+      2.1
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "台灣",
+      100.0
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      56.75
+     ],
+     [
+      "金融服務",
+      26.04
+     ],
+     [
+      "工業",
+      5.67
+     ],
+     [
+      "基礎原物料",
+      3.45
+     ],
+     [
+      "周期性消費",
+      3.32
+     ],
+     [
+      "防禦性消費",
+      2.61
+     ],
+     [
+      "通訊服務",
+      2.17
+     ]
+    ],
+    "top10": [
+     [
+      "元大台灣高股息基金",
+      94.95
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI118",
+   "group": "台股指數型",
+   "tags": [
+    "指數化"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "market": "TW",
+     "match": "same",
+     "note": "本基金就是 0056 的連結基金"
+    },
+    {
+     "code": "00878",
+     "name": "國泰永續高股息",
+     "market": "TW",
+     "match": "partial",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 92.5,
+    "bond": 0.0,
+    "tw": 100.0,
+    "cn": 0.0,
+    "tech": 56.8
+   }
+  },
+  {
    "id": "YUI095",
    "name": "【好好退休】元大台灣加權股價指數基金-新台幣R類型",
    "company": "元大證券投資信託股份有限公司",
@@ -3943,22 +4035,22 @@
    "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 134.096,
-   "navDate": "2026/10/30",
-   "change": -2.53,
+   "nav": 133.178,
+   "navDate": "2026/11/02",
+   "change": -0.68,
    "aum": 21376281449.0,
-   "sharpe": 2.18,
-   "stdev1y": 31.78,
+   "sharpe": 1.61,
+   "stdev1y": 33.46,
    "ret": {
-    "quarter": 4.91,
-    "half": 53.89,
-    "one": 90.68,
-    "two": 128.2,
-    "three": 211.39,
+    "quarter": 5.05,
+    "half": 17.7,
+    "one": 63.66,
+    "two": 109.3,
+    "three": 199.81,
     "five": null,
-    "beginning": 277.24
+    "beginning": 255.54
    },
-   "ytd": 69.30757,
+   "ytd": 59.56781,
    "rsp": {
     "one": 42.44,
     "two": 83.95,
@@ -4127,22 +4219,22 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 18.91,
-   "navDate": "2026/10/30",
-   "change": -1.92,
+   "nav": 18.93,
+   "navDate": "2026/11/02",
+   "change": 0.11,
    "aum": 3805394578.0,
-   "sharpe": 2.01,
-   "stdev1y": 32.14,
+   "sharpe": 1.55,
+   "stdev1y": 34.04,
    "ret": {
-    "quarter": 7.27,
-    "half": 61.33,
-    "one": 82.12,
-    "two": 114.88,
+    "quarter": 10.78,
+    "half": 24.08,
+    "one": 61.9,
+    "two": 100.53,
     "three": null,
     "five": null,
-    "beginning": 100.7
+    "beginning": 89.1
    },
-   "ytd": 71.09974,
+   "ytd": 61.21057,
    "rsp": {
     "one": 45.07,
     "two": 75.13,
@@ -4286,173 +4378,152 @@
    }
   },
   {
-   "id": "NOM157",
-   "name": "【TISA級別】野村台灣高股息基金-TISA類型",
-   "company": "野村證券投資信託股份有限公司",
-   "tisaType": "TISA級別",
-   "fundType": "股票型",
-   "msCategory": "台灣中小型股票",
+   "id": "Meg063",
+   "name": "【好好退休】兆豐萬全基金 R類型",
+   "company": "兆豐國際證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
    "region": "台灣",
-   "inception": "2025/09/08",
-   "risk": 4,
-   "morningstar": null,
+   "inception": "2023/07/03",
+   "risk": 3,
+   "morningstar": 4,
    "currency": "TWD",
-   "nav": 16.53,
-   "navDate": "2026/10/30",
-   "change": -1.9,
-   "aum": 3805394578.0,
-   "sharpe": 1.88,
-   "stdev1y": 32.21,
+   "nav": 20.78,
+   "navDate": "2026/11/02",
+   "change": -0.48,
+   "aum": 706611700.0,
+   "sharpe": 1.2,
+   "stdev1y": 47.58,
    "ret": {
-    "quarter": 7.41,
-    "half": 61.57,
-    "one": 75.3,
-    "two": null,
-    "three": null,
+    "quarter": 8.13,
+    "half": 2.65,
+    "one": 61.36,
+    "two": 78.31,
+    "three": 116.15,
     "five": null,
-    "beginning": 75.3
+    "beginning": 108.8
    },
-   "ytd": 71.69442,
+   "ytd": 55.24164,
    "rsp": {
-    "one": 44.78,
-    "two": null,
-    "three": null,
+    "one": 45.2,
+    "two": 81.81,
+    "three": 92.11,
     "five": null
    },
-   "fee": "0.60%",
+   "fee": "0.95%",
    "portfolio": {
     "assets": [
      [
       "股票",
-      98.01
+      85.14
      ],
      [
       "現金",
-      1.93
+      13.62
      ],
      [
       "其他",
-      0.06
+      1.24
      ]
     ],
     "date": "2026/09/30",
     "countries": [
      [
       "台灣",
-      93.29
-     ],
-     [
-      "新加坡",
-      3.93
+      96.25
      ],
      [
       "美國",
-      2.78
+      3.75
      ]
     ],
     "sectors": [
      [
       "科技",
-      52.74
-     ],
-     [
-      "工業",
-      23.23
-     ],
-     [
-      "金融服務",
-      11.16
+      91.33
      ],
      [
       "周期性消費",
-      6.2
+      6.01
      ],
      [
-      "基礎原物料",
-      3.17
-     ],
-     [
-      "房地產",
-      1.9
-     ],
-     [
-      "防禦性消費",
-      1.6
+      "工業",
+      2.66
      ]
     ],
     "top10": [
      [
-      "廣達",
-      7.71
+      "台積電",
+      8.07
+     ],
+     [
+      "南電",
+      7.78
+     ],
+     [
+      "台達電",
+      7.22
+     ],
+     [
+      "台燿",
+      5.59
      ],
      [
       "川湖",
-      5.07
+      5.12
      ],
      [
-      "聯發科",
-      4.78
+      "健策",
+      4.81
      ],
      [
-      "文曄",
-      4.75
+      "奇鋐",
+      3.89
+     ],
+     [
+      "旺矽",
+      3.63
      ],
      [
       "南亞科",
-      4.53
+      3.6
      ],
      [
-      "國泰金",
-      4.52
-     ],
-     [
-      "新普",
-      4.45
-     ],
-     [
-      "中信金",
-      4.45
-     ],
-     [
-      "長榮",
-      4.41
-     ],
-     [
-      "創意",
-      4.23
+      "台光電",
+      3.49
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM157",
-   "group": "台股高股息",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg063",
+   "group": "台股平衡",
    "tags": [
-    "晨星：中小型"
+    "科技 91%"
    ],
    "notes": [],
    "etfs": [
     {
-     "code": "00878",
-     "name": "國泰永續高股息",
+     "code": "00994A",
+     "name": "主動第一金台股優",
      "market": "TW",
-     "match": "partial",
-     "note": "被動高股息 ETF",
-     "overlap": 50
+     "match": "diy",
+     "note": "股票部位參考",
+     "overlap": 74
     },
     {
-     "code": "00919",
-     "name": "群益台灣精選高息",
+     "code": "00720B",
+     "name": "元大投資級公司債",
      "market": "TW",
-     "match": "partial",
-     "note": "被動高股息 ETF",
-     "overlap": 43
+     "match": "diy",
+     "note": "債券部位參考；本基金股票約 85%"
     }
    ],
    "mix": {
-    "stock": 98.0,
+    "stock": 85.1,
     "bond": 0.0,
-    "tw": 93.3,
+    "tw": 96.2,
     "cn": 0.0,
-    "tech": 52.7
+    "tech": 91.3
    }
   },
   {
@@ -4467,22 +4538,22 @@
    "risk": 4,
    "morningstar": 1,
    "currency": "TWD",
-   "nav": 18.7,
-   "navDate": "2026/10/30",
-   "change": -5.03,
+   "nav": 18.84,
+   "navDate": "2026/11/02",
+   "change": 0.75,
    "aum": 1505977082.0,
-   "sharpe": 1.54,
-   "stdev1y": 41.02,
+   "sharpe": 1.04,
+   "stdev1y": 43.49,
    "ret": {
-    "quarter": -2.13,
-    "half": 44.35,
-    "one": 74.24,
-    "two": 75.57,
-    "three": 115.85,
-    "five": 110.37,
-    "beginning": 107.0
+    "quarter": 10.39,
+    "half": 2.69,
+    "one": 45.41,
+    "two": 58.21,
+    "three": 106.86,
+    "five": 95.61,
+    "beginning": 87.0
    },
-   "ytd": 55.17241,
+   "ytd": 40.17991,
    "rsp": {
     "one": 34.16,
     "two": 59.57,
@@ -4620,130 +4691,6 @@
    }
   },
   {
-   "id": "YUI118",
-   "name": "【TISA級別】元大台灣高股息ETF連結基金-新台幣TISA類型",
-   "company": "元大證券投資信託股份有限公司",
-   "tisaType": "TISA級別",
-   "fundType": "股票型",
-   "msCategory": "台灣大型股票",
-   "region": "台灣",
-   "inception": "2025/06/30",
-   "risk": 4,
-   "morningstar": null,
-   "currency": "TWD",
-   "nav": 39.96,
-   "navDate": "2026/10/30",
-   "change": -1.84,
-   "aum": 7274426999.0,
-   "sharpe": 1.92,
-   "stdev1y": 29.32,
-   "ret": {
-    "quarter": 10.02,
-    "half": 60.8,
-    "one": 69.32,
-    "two": null,
-    "three": null,
-    "five": null,
-    "beginning": 86.53
-   },
-   "ytd": 65.9824,
-   "rsp": {
-    "one": 43.19,
-    "two": null,
-    "three": null,
-    "five": null
-   },
-   "fee": "0.30%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      92.55
-     ],
-     [
-      "現金",
-      5.35
-     ],
-     [
-      "其他",
-      2.1
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "台灣",
-      100.0
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      56.75
-     ],
-     [
-      "金融服務",
-      26.04
-     ],
-     [
-      "工業",
-      5.67
-     ],
-     [
-      "基礎原物料",
-      3.45
-     ],
-     [
-      "周期性消費",
-      3.32
-     ],
-     [
-      "防禦性消費",
-      2.61
-     ],
-     [
-      "通訊服務",
-      2.17
-     ]
-    ],
-    "top10": [
-     [
-      "元大台灣高股息基金",
-      94.95
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI118",
-   "group": "台股指數型",
-   "tags": [
-    "指數化"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "0056",
-     "name": "元大高股息",
-     "market": "TW",
-     "match": "same",
-     "note": "本基金就是 0056 的連結基金"
-    },
-    {
-     "code": "00878",
-     "name": "國泰永續高股息",
-     "market": "TW",
-     "match": "partial",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 92.5,
-    "bond": 0.0,
-    "tw": 100.0,
-    "cn": 0.0,
-    "tech": 56.8
-   }
-  },
-  {
    "id": "Pru056",
    "name": "【好好退休】玉山金平衡證券投資信託基金—R級別",
    "company": "玉山證券投資信託股份有限公司",
@@ -4755,22 +4702,22 @@
    "risk": 4,
    "morningstar": 4,
    "currency": "TWD",
-   "nav": 21.21,
-   "navDate": "2026/10/30",
-   "change": -2.26,
+   "nav": 21.17,
+   "navDate": "2026/11/02",
+   "change": -0.19,
    "aum": 1904178791.0,
-   "sharpe": 1.8,
-   "stdev1y": 27.16,
+   "sharpe": 1.3,
+   "stdev1y": 28.62,
    "ret": {
-    "quarter": 3.32,
-    "half": 30.14,
-    "one": 58.71,
-    "two": 80.73,
-    "three": 122.76,
-    "five": 128.44,
-    "beginning": 124.1
+    "quarter": 6.69,
+    "half": 0.86,
+    "one": 41.12,
+    "two": 68.07,
+    "three": 118.21,
+    "five": 117.76,
+    "beginning": 112.1
    },
-   "ytd": 43.56182,
+   "ytd": 35.87444,
    "rsp": {
     "one": 26.42,
     "two": 52.9,
@@ -4915,210 +4862,6 @@
    }
   },
   {
-   "id": "NOM132",
-   "name": "【好好退休】野村全球高股息證券投資信託基金(S級別)",
-   "company": "野村證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "環球股票收益",
-   "region": "全球",
-   "inception": "2018/05/23",
-   "risk": 3,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 23.71,
-   "navDate": "2026/10/29",
-   "change": 0.51,
-   "aum": 4586060226.72,
-   "sharpe": 2.13,
-   "stdev1y": 15.74,
-   "ret": {
-    "quarter": 0.81,
-    "half": 21.86,
-    "one": 39.36,
-    "two": 51.35,
-    "three": 100.85,
-    "five": 105.4,
-    "beginning": 135.8
-   },
-   "ytd": 28.43137,
-   "rsp": {
-    "one": 17.59,
-    "two": 31.93,
-    "three": 46.12,
-    "five": 74.25
-   },
-   "fee": "0.99%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      97.34
-     ],
-     [
-      "現金",
-      2.48
-     ],
-     [
-      "其他",
-      0.18
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      51.78
-     ],
-     [
-      "台灣",
-      16.02
-     ],
-     [
-      "日本",
-      9.88
-     ],
-     [
-      "瑞士",
-      4.29
-     ],
-     [
-      "韓國",
-      4.28
-     ],
-     [
-      "義大利",
-      3.4
-     ],
-     [
-      "奧地利",
-      3.17
-     ],
-     [
-      "西班牙",
-      2.4
-     ],
-     [
-      "瑞典",
-      2.0
-     ],
-     [
-      "英國",
-      1.81
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      40.9
-     ],
-     [
-      "金融服務",
-      23.12
-     ],
-     [
-      "健康護理",
-      8.68
-     ],
-     [
-      "工業",
-      8.02
-     ],
-     [
-      "能源",
-      6.79
-     ],
-     [
-      "防禦性消費",
-      4.22
-     ],
-     [
-      "基礎原物料",
-      3.63
-     ],
-     [
-      "公用事業",
-      3.38
-     ],
-     [
-      "周期性消費",
-      1.27
-     ]
-    ],
-    "top10": [
-     [
-      "TAIWAN SEMICONDUCTOR-SP ADR",
-      7.26
-     ],
-     [
-      "聯發科",
-      6.44
-     ],
-     [
-      "SAMSUNG ELECTRONICS CO LTD",
-      4.16
-     ],
-     [
-      "MIZUHO FINANCIAL GROUP INC",
-      3.54
-     ],
-     [
-      "ANALOG DEVICES INC",
-      3.47
-     ],
-     [
-      "COCA-COLA CO/THE",
-      3.27
-     ],
-     [
-      "JPMORGAN CHASE & CO",
-      3.23
-     ],
-     [
-      "PANASONIC CORP",
-      2.99
-     ],
-     [
-      "TEXAS INSTRUMENTS INC",
-      2.92
-     ],
-     [
-      "JOHNSON & JOHNSON",
-      2.89
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM132",
-   "group": "全球股票收益",
-   "tags": [],
-   "notes": [
-    "科技占 41%，比一般高股息 ETF（約 10–15%）高很多，ETF 只能近似。"
-   ],
-   "etfs": [
-    {
-     "code": "VYM",
-     "name": "Vanguard 美國高股息",
-     "market": "US",
-     "match": "diy",
-     "note": "美股高股息"
-    },
-    {
-     "code": "VYMI",
-     "name": "Vanguard 國際高股息",
-     "market": "US",
-     "match": "diy",
-     "note": "美國以外高股息"
-    }
-   ],
-   "mix": {
-    "stock": 97.3,
-    "bond": 0.0,
-    "tw": 16.0,
-    "cn": 0.0,
-    "tech": 40.9
-   }
-  },
-  {
    "id": "CSI132",
    "name": "【TISA級別】國泰泰享退系列2049目標日期組合基金TISA",
    "company": "國泰證券投資信託股份有限公司",
@@ -5130,9 +4873,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 25.4754,
-   "navDate": "2026/10/29",
-   "change": -0.34,
+   "nav": 24.9449,
+   "navDate": "2026/10/30",
+   "change": -2.08,
    "aum": 7840261353.4,
    "sharpe": 1.52,
    "stdev1y": 20.76,
@@ -5340,6 +5083,210 @@
    }
   },
   {
+   "id": "NOM132",
+   "name": "【好好退休】野村全球高股息證券投資信託基金(S級別)",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球股票收益",
+   "region": "全球",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 23.2,
+   "navDate": "2026/10/30",
+   "change": -2.15,
+   "aum": 4586060226.72,
+   "sharpe": 1.87,
+   "stdev1y": 16.33,
+   "ret": {
+    "quarter": -0.51,
+    "half": 8.01,
+    "one": 35.2,
+    "two": 45.91,
+    "three": 105.86,
+    "five": 95.12,
+    "beginning": 132.0
+   },
+   "ytd": 26.36166,
+   "rsp": {
+    "one": 17.59,
+    "two": 31.93,
+    "three": 46.12,
+    "five": 74.25
+   },
+   "fee": "0.99%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      97.34
+     ],
+     [
+      "現金",
+      2.48
+     ],
+     [
+      "其他",
+      0.18
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      51.78
+     ],
+     [
+      "台灣",
+      16.02
+     ],
+     [
+      "日本",
+      9.88
+     ],
+     [
+      "瑞士",
+      4.29
+     ],
+     [
+      "韓國",
+      4.28
+     ],
+     [
+      "義大利",
+      3.4
+     ],
+     [
+      "奧地利",
+      3.17
+     ],
+     [
+      "西班牙",
+      2.4
+     ],
+     [
+      "瑞典",
+      2.0
+     ],
+     [
+      "英國",
+      1.81
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      40.9
+     ],
+     [
+      "金融服務",
+      23.12
+     ],
+     [
+      "健康護理",
+      8.68
+     ],
+     [
+      "工業",
+      8.02
+     ],
+     [
+      "能源",
+      6.79
+     ],
+     [
+      "防禦性消費",
+      4.22
+     ],
+     [
+      "基礎原物料",
+      3.63
+     ],
+     [
+      "公用事業",
+      3.38
+     ],
+     [
+      "周期性消費",
+      1.27
+     ]
+    ],
+    "top10": [
+     [
+      "TAIWAN SEMICONDUCTOR-SP ADR",
+      7.26
+     ],
+     [
+      "聯發科",
+      6.44
+     ],
+     [
+      "SAMSUNG ELECTRONICS CO LTD",
+      4.16
+     ],
+     [
+      "MIZUHO FINANCIAL GROUP INC",
+      3.54
+     ],
+     [
+      "ANALOG DEVICES INC",
+      3.47
+     ],
+     [
+      "COCA-COLA CO/THE",
+      3.27
+     ],
+     [
+      "JPMORGAN CHASE & CO",
+      3.23
+     ],
+     [
+      "PANASONIC CORP",
+      2.99
+     ],
+     [
+      "TEXAS INSTRUMENTS INC",
+      2.92
+     ],
+     [
+      "JOHNSON & JOHNSON",
+      2.89
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM132",
+   "group": "全球股票收益",
+   "tags": [],
+   "notes": [
+    "科技占 41%，比一般高股息 ETF（約 10–15%）高很多，ETF 只能近似。"
+   ],
+   "etfs": [
+    {
+     "code": "VYM",
+     "name": "Vanguard 美國高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美股高股息"
+    },
+    {
+     "code": "VYMI",
+     "name": "Vanguard 國際高股息",
+     "market": "US",
+     "match": "diy",
+     "note": "美國以外高股息"
+    }
+   ],
+   "mix": {
+    "stock": 97.3,
+    "bond": 0.0,
+    "tw": 16.0,
+    "cn": 0.0,
+    "tech": 40.9
+   }
+  },
+  {
    "id": "CSI093",
    "name": "【好享退-國泰2049】國泰泰享退系列2049目標日期組合基金P",
    "company": "國泰證券投資信託股份有限公司",
@@ -5351,9 +5298,9 @@
    "risk": 4,
    "morningstar": 5,
    "currency": "TWD",
-   "nav": 26.4742,
-   "navDate": "2026/10/29",
-   "change": -0.34,
+   "nav": 25.9231,
+   "navDate": "2026/10/30",
+   "change": -2.08,
    "aum": 7840261353.4,
    "sharpe": 1.5,
    "stdev1y": 20.56,
@@ -5572,9 +5519,9 @@
    "risk": 4,
    "morningstar": 5,
    "currency": "TWD",
-   "nav": 25.5791,
-   "navDate": "2026/10/29",
-   "change": -0.34,
+   "nav": 25.0464,
+   "navDate": "2026/10/30",
+   "change": -2.08,
    "aum": 7840261353.4,
    "sharpe": 1.49,
    "stdev1y": 20.55,
@@ -5782,222 +5729,6 @@
    }
   },
   {
-   "id": "FTS092",
-   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2037組合證券投資信託基金R類型",
-   "company": "富蘭克林華美證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "目標期限 2036-2040",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 15.85,
-   "navDate": "2026/10/29",
-   "change": -0.13,
-   "aum": 688547349.68,
-   "sharpe": 1.82,
-   "stdev1y": 14.24,
-   "ret": {
-    "quarter": -0.69,
-    "half": 20.3,
-    "one": 29.78,
-    "two": 29.99,
-    "three": 51.97,
-    "five": 59.0,
-    "beginning": 58.68
-   },
-   "ytd": 21.13323,
-   "rsp": {
-    "one": 13.43,
-    "two": 23.59,
-    "three": 29.09,
-    "five": 39.82
-   },
-   "fee": "0.50%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      80.22
-     ],
-     [
-      "債券",
-      16.26
-     ],
-     [
-      "現金",
-      3.55
-     ],
-     [
-      "可換股債券",
-      0.17
-     ],
-     [
-      "其他",
-      -0.2
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      61.52
-     ],
-     [
-      "台灣",
-      10.24
-     ],
-     [
-      "日本",
-      6.06
-     ],
-     [
-      "英國",
-      4.38
-     ],
-     [
-      "加拿大",
-      1.81
-     ],
-     [
-      "韓國",
-      1.55
-     ],
-     [
-      "中國",
-      1.52
-     ],
-     [
-      "澳大利亞",
-      1.4
-     ],
-     [
-      "荷蘭",
-      1.32
-     ],
-     [
-      "瑞士",
-      1.32
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      52.14
-     ],
-     [
-      "金融服務",
-      10.49
-     ],
-     [
-      "工業",
-      7.77
-     ],
-     [
-      "通訊服務",
-      6.77
-     ],
-     [
-      "周期性消費",
-      6.31
-     ],
-     [
-      "健康護理",
-      5.55
-     ],
-     [
-      "防禦性消費",
-      3.51
-     ],
-     [
-      "基礎原物料",
-      2.48
-     ],
-     [
-      "能源",
-      2.42
-     ],
-     [
-      "公用事業",
-      1.45
-     ]
-    ],
-    "top10": [
-     [
-      "先鋒全世界股票ETF",
-      18.26
-     ],
-     [
-      "iShares安碩核心80/20積極配置",
-      14.4
-     ],
-     [
-      "iShares MSCI ACWI ETF",
-      11.75
-     ],
-     [
-      "富蘭克林華美多重資產收益基金-美元累積型",
-      9.99
-     ],
-     [
-      "iShares Nasdaq Top 30 Stocks",
-      9.07
-     ],
-     [
-      "VanEck半導體ETF",
-      8.45
-     ],
-     [
-      "元大台灣卓越50基金",
-      7.55
-     ],
-     [
-      "PIMCO全球債券基金-機構H級類別美元(原幣曝險)-累積股",
-      5.58
-     ],
-     [
-      "景順QQQ ETF",
-      2.4
-     ],
-     [
-      "iShares MSCI日本ETF",
-      1.8
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS092",
-   "group": "目標日期",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2037 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 80.2,
-    "bond": 16.4,
-    "tw": 10.2,
-    "cn": 1.5,
-    "tech": 52.1
-   }
-  },
-  {
    "id": "KGI089",
    "name": "【TISA級別】凱基未來世代關鍵收息多重資產基金－新臺幣TISA（累積）",
    "company": "凱基證券投資信託股份有限公司",
@@ -6009,9 +5740,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 14.13,
-   "navDate": "2026/10/29",
-   "change": 0.43,
+   "nav": 13.67,
+   "navDate": "2026/10/30",
+   "change": -3.26,
    "aum": 1420723817.78,
    "sharpe": 1.49,
    "stdev1y": 17.61,
@@ -6198,227 +5929,6 @@
    }
   },
   {
-   "id": "CSI096",
-   "name": "【好享退-國泰2039】國泰泰享退系列2039目標日期組合基金P",
-   "company": "國泰證券投資信託股份有限公司",
-   "tisaType": "好享退",
-   "fundType": "平衡型",
-   "msCategory": "目標期限 2036-2040",
-   "region": "全球",
-   "inception": "2019/07/25",
-   "risk": 4,
-   "morningstar": 5,
-   "currency": "TWD",
-   "nav": 24.1813,
-   "navDate": "2026/10/29",
-   "change": -0.2,
-   "aum": 6266118373.6,
-   "sharpe": 1.4,
-   "stdev1y": 18.89,
-   "ret": {
-    "quarter": -5.05,
-    "half": 18.68,
-    "one": 29.44,
-    "two": 42.49,
-    "three": 74.55,
-    "five": 83.33,
-    "beginning": 145.71
-   },
-   "ytd": 21.58543,
-   "rsp": {
-    "one": 11.92,
-    "two": 25.71,
-    "three": 36.06,
-    "five": 56.71
-   },
-   "fee": "0.35%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      76.26
-     ],
-     [
-      "債券",
-      19.51
-     ],
-     [
-      "可換股債券",
-      7.64
-     ],
-     [
-      "其他",
-      0.62
-     ],
-     [
-      "優先股",
-      0.07
-     ],
-     [
-      "現金",
-      -4.1
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      44.8
-     ],
-     [
-      "台灣",
-      17.37
-     ],
-     [
-      "日本",
-      5.85
-     ],
-     [
-      "韓國",
-      4.28
-     ],
-     [
-      "中國",
-      3.94
-     ],
-     [
-      "貝里斯",
-      2.65
-     ],
-     [
-      "墨西哥",
-      1.6
-     ],
-     [
-      "印度",
-      1.49
-     ],
-     [
-      "德國",
-      1.33
-     ],
-     [
-      "英國",
-      1.28
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      57.17
-     ],
-     [
-      "金融服務",
-      10.72
-     ],
-     [
-      "周期性消費",
-      6.4
-     ],
-     [
-      "工業",
-      6.35
-     ],
-     [
-      "通訊服務",
-      5.58
-     ],
-     [
-      "健康護理",
-      4.99
-     ],
-     [
-      "防禦性消費",
-      2.57
-     ],
-     [
-      "基礎原物料",
-      2.17
-     ],
-     [
-      "能源",
-      2.06
-     ],
-     [
-      "公用事業",
-      1.15
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500",
-      18.78
-     ],
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      8.23
-     ],
-     [
-      "元大台灣卓越50基金",
-      6.89
-     ],
-     [
-      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
-      5.92
-     ],
-     [
-      "復華華人世紀基金",
-      5.43
-     ],
-     [
-      "摩根基金 - 環球新興市場機會基金 - JPM環球新興市場機會(美元) - I股(累計)",
-      4.6
-     ],
-     [
-      "ISHARES MSCI ACW",
-      4.41
-     ],
-     [
-      "PIMCO新興市場本地貨幣債券基金-機構H級類別-累積股份",
-      3.86
-     ],
-     [
-      "富邦台灣釆吉50基金",
-      3.55
-     ],
-     [
-      "ISHARES-C S&P500",
-      3.54
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI096",
-   "group": "目標日期",
-   "tags": [
-    "組合基金",
-    "中國曝險 4%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2039 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 76.3,
-    "bond": 27.2,
-    "tw": 17.4,
-    "cn": 3.9,
-    "tech": 57.2
-   }
-  },
-  {
    "id": "FTS112",
    "name": "【TISA級別】富蘭克林華美多重資產收益證券投資信託基金-新臺幣-TISA類型",
    "company": "富蘭克林華美證券投資信託股份有限公司",
@@ -6430,9 +5940,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 12.94,
-   "navDate": "2026/10/29",
-   "change": -0.92,
+   "nav": 12.63,
+   "navDate": "2026/10/30",
+   "change": -2.4,
    "aum": 18879338379.61,
    "sharpe": 1.46,
    "stdev1y": 17.89,
@@ -6644,261 +6154,40 @@
    }
   },
   {
-   "id": "CSI104",
-   "name": "【好好退休】國泰泰享退系列２０３９目標日期組合證券投資信託基金R",
-   "company": "國泰證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "目標期限 2036-2040",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 5,
-   "currency": "TWD",
-   "nav": 23.5494,
-   "navDate": "2026/10/29",
-   "change": -0.2,
-   "aum": 6266118373.6,
-   "sharpe": 1.38,
-   "stdev1y": 18.88,
-   "ret": {
-    "quarter": -5.11,
-    "half": 18.51,
-    "one": 29.09,
-    "two": 41.7,
-    "three": 73.04,
-    "five": 81.29,
-    "beginning": 77.48
-   },
-   "ytd": 21.33366,
-   "rsp": {
-    "one": 11.74,
-    "two": 25.32,
-    "three": 35.42,
-    "five": 55.52
-   },
-   "fee": "0.63%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      76.26
-     ],
-     [
-      "債券",
-      19.51
-     ],
-     [
-      "可換股債券",
-      7.64
-     ],
-     [
-      "其他",
-      0.62
-     ],
-     [
-      "優先股",
-      0.07
-     ],
-     [
-      "現金",
-      -4.1
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      44.8
-     ],
-     [
-      "台灣",
-      17.37
-     ],
-     [
-      "日本",
-      5.85
-     ],
-     [
-      "韓國",
-      4.28
-     ],
-     [
-      "中國",
-      3.94
-     ],
-     [
-      "貝里斯",
-      2.65
-     ],
-     [
-      "墨西哥",
-      1.6
-     ],
-     [
-      "印度",
-      1.49
-     ],
-     [
-      "德國",
-      1.33
-     ],
-     [
-      "英國",
-      1.28
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      57.17
-     ],
-     [
-      "金融服務",
-      10.72
-     ],
-     [
-      "周期性消費",
-      6.4
-     ],
-     [
-      "工業",
-      6.35
-     ],
-     [
-      "通訊服務",
-      5.58
-     ],
-     [
-      "健康護理",
-      4.99
-     ],
-     [
-      "防禦性消費",
-      2.57
-     ],
-     [
-      "基礎原物料",
-      2.17
-     ],
-     [
-      "能源",
-      2.06
-     ],
-     [
-      "公用事業",
-      1.15
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500",
-      18.78
-     ],
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      8.23
-     ],
-     [
-      "元大台灣卓越50基金",
-      6.89
-     ],
-     [
-      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
-      5.92
-     ],
-     [
-      "復華華人世紀基金",
-      5.43
-     ],
-     [
-      "摩根基金 - 環球新興市場機會基金 - JPM環球新興市場機會(美元) - I股(累計)",
-      4.6
-     ],
-     [
-      "ISHARES MSCI ACW",
-      4.41
-     ],
-     [
-      "PIMCO新興市場本地貨幣債券基金-機構H級類別-累積股份",
-      3.86
-     ],
-     [
-      "富邦台灣釆吉50基金",
-      3.55
-     ],
-     [
-      "ISHARES-C S&P500",
-      3.54
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI104",
-   "group": "目標日期",
-   "tags": [
-    "組合基金",
-    "中國曝險 4%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2039 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 76.3,
-    "bond": 27.2,
-    "tw": 17.4,
-    "cn": 3.9,
-    "tech": 57.2
-   }
-  },
-  {
-   "id": "ALI064",
-   "name": "【好享退-安聯積極型】安聯四季成長組合基金-P類型-新臺幣",
+   "id": "ALI099",
+   "name": "【TISA級別】安聯四季成長組合基金-TISA類型-新臺幣",
    "company": "安聯證券投資信託股份有限公司",
-   "tisaType": "好享退",
+   "tisaType": "TISA級別",
    "fundType": "股票型",
    "msCategory": "新台幣進取型股債混合",
    "region": "全球",
-   "inception": "2019/07/31",
+   "inception": "2025/06/27",
    "risk": 4,
-   "morningstar": 4,
+   "morningstar": null,
    "currency": "TWD",
-   "nav": 23.77,
-   "navDate": "2026/10/29",
-   "change": -0.46,
+   "nav": 14.24,
+   "navDate": "2026/10/30",
+   "change": -2.06,
    "aum": 17708253078.77,
    "sharpe": 1.79,
-   "stdev1y": 13.89,
+   "stdev1y": 13.83,
    "ret": {
-    "quarter": -1.0,
-    "half": 18.05,
-    "one": 28.49,
-    "two": 43.25,
-    "three": 76.72,
-    "five": 88.09,
-    "beginning": 140.41
+    "quarter": -1.03,
+    "half": 17.92,
+    "one": 28.37,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 44.66
    },
-   "ytd": 19.89873,
+   "ytd": 19.7684,
    "rsp": {
-    "one": 12.41,
-    "two": 25.67,
-    "three": 36.56,
-    "five": 57.99
+    "one": 12.33,
+    "two": null,
+    "three": null,
+    "five": null
    },
-   "fee": "0.50%",
+   "fee": "0.60%",
    "portfolio": {
     "assets": [
      [
@@ -7054,7 +6343,7 @@
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI064",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI099",
    "group": "股債平衡-積極",
    "tags": [
     "組合基金"
@@ -7096,9 +6385,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 14.052,
-   "navDate": "2026/10/29",
-   "change": -0.57,
+   "nav": 13.7629,
+   "navDate": "2026/10/30",
+   "change": -2.06,
    "aum": 10882350783.79,
    "sharpe": 1.26,
    "stdev1y": 20.4,
@@ -7314,6 +6603,1755 @@
    }
   },
   {
+   "id": "ALI064",
+   "name": "【好享退-安聯積極型】安聯四季成長組合基金-P類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "inception": "2019/07/31",
+   "risk": 4,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 23.28,
+   "navDate": "2026/10/30",
+   "change": -2.06,
+   "aum": 17708253078.77,
+   "sharpe": 1.55,
+   "stdev1y": 13.89,
+   "ret": {
+    "quarter": 2.81,
+    "half": 7.12,
+    "one": 24.39,
+    "two": 41.15,
+    "three": 81.59,
+    "five": 80.08,
+    "beginning": 141.32
+   },
+   "ytd": 20.35443,
+   "rsp": {
+    "one": 12.41,
+    "two": 25.67,
+    "three": 36.56,
+    "five": 57.99
+   },
+   "fee": "0.50%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      78.22
+     ],
+     [
+      "債券",
+      12.63
+     ],
+     [
+      "現金",
+      4.51
+     ],
+     [
+      "可換股債券",
+      4.17
+     ],
+     [
+      "其他",
+      0.4
+     ],
+     [
+      "優先股",
+      0.07
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      60.43
+     ],
+     [
+      "台灣",
+      14.58
+     ],
+     [
+      "中國",
+      2.81
+     ],
+     [
+      "貝里斯",
+      2.3
+     ],
+     [
+      "日本",
+      1.95
+     ],
+     [
+      "英國",
+      1.34
+     ],
+     [
+      "墨西哥",
+      1.28
+     ],
+     [
+      "哥倫比亞",
+      0.97
+     ],
+     [
+      "波蘭",
+      0.88
+     ],
+     [
+      "捷克",
+      0.88
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      51.29
+     ],
+     [
+      "金融服務",
+      7.78
+     ],
+     [
+      "周期性消費",
+      7.52
+     ],
+     [
+      "通訊服務",
+      7.39
+     ],
+     [
+      "工業",
+      6.77
+     ],
+     [
+      "健康護理",
+      6.4
+     ],
+     [
+      "防禦性消費",
+      5.07
+     ],
+     [
+      "能源",
+      3.5
+     ],
+     [
+      "公用事業",
+      1.92
+     ],
+     [
+      "基礎原物料",
+      1.63
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500 ETF",
+      18.29
+     ],
+     [
+      "Invesco QQQ Trust Se",
+      14.69
+     ],
+     [
+      "元大台灣卓越50基金",
+      6.58
+     ],
+     [
+      "ISHARES CORE S&P 500",
+      6.19
+     ],
+     [
+      "ISHARES HIGH DIVIDEN",
+      4.98
+     ],
+     [
+      "JPMorgan BetaBuilders US Equity ETF",
+      4.64
+     ],
+     [
+      "安聯台灣科技基金",
+      4.57
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      3.54
+     ],
+     [
+      "PIMCO新興市場債券基金-機構H級類別(累積股份)",
+      3.22
+     ],
+     [
+      "VanEck VECTORS SEMIC",
+      2.91
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI064",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 80%"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 78.2,
+    "bond": 16.8,
+    "tw": 14.6,
+    "cn": 2.8,
+    "tech": 51.3
+   }
+  },
+  {
+   "id": "FTS092",
+   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2037組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 15.53,
+   "navDate": "2026/10/30",
+   "change": -2.02,
+   "aum": 688547349.68,
+   "sharpe": 1.51,
+   "stdev1y": 14.08,
+   "ret": {
+    "quarter": 2.46,
+    "half": 8.12,
+    "one": 24.02,
+    "two": 29.39,
+    "three": 55.54,
+    "five": 54.33,
+    "beginning": 58.98
+   },
+   "ytd": 21.36294,
+   "rsp": {
+    "one": 13.43,
+    "two": 23.59,
+    "three": 29.09,
+    "five": 39.82
+   },
+   "fee": "0.50%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      80.22
+     ],
+     [
+      "債券",
+      16.26
+     ],
+     [
+      "現金",
+      3.55
+     ],
+     [
+      "可換股債券",
+      0.17
+     ],
+     [
+      "其他",
+      -0.2
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      61.52
+     ],
+     [
+      "台灣",
+      10.24
+     ],
+     [
+      "日本",
+      6.06
+     ],
+     [
+      "英國",
+      4.38
+     ],
+     [
+      "加拿大",
+      1.81
+     ],
+     [
+      "韓國",
+      1.55
+     ],
+     [
+      "中國",
+      1.52
+     ],
+     [
+      "澳大利亞",
+      1.4
+     ],
+     [
+      "荷蘭",
+      1.32
+     ],
+     [
+      "瑞士",
+      1.32
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      52.14
+     ],
+     [
+      "金融服務",
+      10.49
+     ],
+     [
+      "工業",
+      7.77
+     ],
+     [
+      "通訊服務",
+      6.77
+     ],
+     [
+      "周期性消費",
+      6.31
+     ],
+     [
+      "健康護理",
+      5.55
+     ],
+     [
+      "防禦性消費",
+      3.51
+     ],
+     [
+      "基礎原物料",
+      2.48
+     ],
+     [
+      "能源",
+      2.42
+     ],
+     [
+      "公用事業",
+      1.45
+     ]
+    ],
+    "top10": [
+     [
+      "先鋒全世界股票ETF",
+      18.26
+     ],
+     [
+      "iShares安碩核心80/20積極配置",
+      14.4
+     ],
+     [
+      "iShares MSCI ACWI ETF",
+      11.75
+     ],
+     [
+      "富蘭克林華美多重資產收益基金-美元累積型",
+      9.99
+     ],
+     [
+      "iShares Nasdaq Top 30 Stocks",
+      9.07
+     ],
+     [
+      "VanEck半導體ETF",
+      8.45
+     ],
+     [
+      "元大台灣卓越50基金",
+      7.55
+     ],
+     [
+      "PIMCO全球債券基金-機構H級類別美元(原幣曝險)-累積股",
+      5.58
+     ],
+     [
+      "景順QQQ ETF",
+      2.4
+     ],
+     [
+      "iShares MSCI日本ETF",
+      1.8
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS092",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2037 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 80.2,
+    "bond": 16.4,
+    "tw": 10.2,
+    "cn": 1.5,
+    "tech": 52.1
+   }
+  },
+  {
+   "id": "ALI088",
+   "name": "【好好退休】安聯四季成長組合基金-R類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 17.57,
+   "navDate": "2026/10/30",
+   "change": -2.06,
+   "aum": 17708253078.77,
+   "sharpe": 1.53,
+   "stdev1y": 13.89,
+   "ret": {
+    "quarter": 2.69,
+    "half": 6.85,
+    "one": 23.9,
+    "two": 39.94,
+    "three": 79.04,
+    "five": 76.05,
+    "beginning": 80.12
+   },
+   "ytd": 19.91979,
+   "rsp": {
+    "one": 12.08,
+    "two": 24.98,
+    "three": 35.46,
+    "five": 55.91
+   },
+   "fee": "1.00%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      78.22
+     ],
+     [
+      "債券",
+      12.63
+     ],
+     [
+      "現金",
+      4.51
+     ],
+     [
+      "可換股債券",
+      4.17
+     ],
+     [
+      "其他",
+      0.4
+     ],
+     [
+      "優先股",
+      0.07
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      60.43
+     ],
+     [
+      "台灣",
+      14.58
+     ],
+     [
+      "中國",
+      2.81
+     ],
+     [
+      "貝里斯",
+      2.3
+     ],
+     [
+      "日本",
+      1.95
+     ],
+     [
+      "英國",
+      1.34
+     ],
+     [
+      "墨西哥",
+      1.28
+     ],
+     [
+      "哥倫比亞",
+      0.97
+     ],
+     [
+      "波蘭",
+      0.88
+     ],
+     [
+      "捷克",
+      0.88
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      51.29
+     ],
+     [
+      "金融服務",
+      7.78
+     ],
+     [
+      "周期性消費",
+      7.52
+     ],
+     [
+      "通訊服務",
+      7.39
+     ],
+     [
+      "工業",
+      6.77
+     ],
+     [
+      "健康護理",
+      6.4
+     ],
+     [
+      "防禦性消費",
+      5.07
+     ],
+     [
+      "能源",
+      3.5
+     ],
+     [
+      "公用事業",
+      1.92
+     ],
+     [
+      "基礎原物料",
+      1.63
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500 ETF",
+      18.29
+     ],
+     [
+      "Invesco QQQ Trust Se",
+      14.69
+     ],
+     [
+      "元大台灣卓越50基金",
+      6.58
+     ],
+     [
+      "ISHARES CORE S&P 500",
+      6.19
+     ],
+     [
+      "ISHARES HIGH DIVIDEN",
+      4.98
+     ],
+     [
+      "JPMorgan BetaBuilders US Equity ETF",
+      4.64
+     ],
+     [
+      "安聯台灣科技基金",
+      4.57
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      3.54
+     ],
+     [
+      "PIMCO新興市場債券基金-機構H級類別(累積股份)",
+      3.22
+     ],
+     [
+      "VanEck VECTORS SEMIC",
+      2.91
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI088",
+   "group": "股債平衡-積極",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 80%"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 78.2,
+    "bond": 16.8,
+    "tw": 14.6,
+    "cn": 2.8,
+    "tech": 51.3
+   }
+  },
+  {
+   "id": "Pru058",
+   "name": "【好好退休】玉山策略成長ETF組合證券投資信託基金－新台幣R級別",
+   "company": "玉山證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 17.2341,
+   "navDate": "2026/10/30",
+   "change": -2.14,
+   "aum": 1248401565.78,
+   "sharpe": 1.22,
+   "stdev1y": 17.63,
+   "ret": {
+    "quarter": 4.2,
+    "half": 6.54,
+    "one": 23.7,
+    "two": 36.96,
+    "three": 76.02,
+    "five": 72.15,
+    "beginning": 76.11
+   },
+   "ytd": 20.79538,
+   "rsp": {
+    "one": 12.91,
+    "two": 24.7,
+    "three": 34.6,
+    "five": 53.99
+   },
+   "fee": "0.99%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      91.01
+     ],
+     [
+      "現金",
+      8.14
+     ],
+     [
+      "其他",
+      0.85
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      57.92
+     ],
+     [
+      "台灣",
+      13.98
+     ],
+     [
+      "日本",
+      8.38
+     ],
+     [
+      "韓國",
+      4.71
+     ],
+     [
+      "德國",
+      2.31
+     ],
+     [
+      "法國",
+      2.3
+     ],
+     [
+      "荷蘭",
+      1.83
+     ],
+     [
+      "中國",
+      1.5
+     ],
+     [
+      "英國",
+      1.05
+     ],
+     [
+      "西班牙",
+      0.95
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      46.72
+     ],
+     [
+      "金融服務",
+      11.77
+     ],
+     [
+      "工業",
+      10.18
+     ],
+     [
+      "周期性消費",
+      7.28
+     ],
+     [
+      "健康護理",
+      6.5
+     ],
+     [
+      "通訊服務",
+      6.36
+     ],
+     [
+      "防禦性消費",
+      3.44
+     ],
+     [
+      "能源",
+      2.57
+     ],
+     [
+      "基礎原物料",
+      2.23
+     ],
+     [
+      "公用事業",
+      1.71
+     ]
+    ],
+    "top10": [
+     [
+      "iShares安碩核心標普500 ETF",
+      16.6
+     ],
+     [
+      "先鋒整體市場指數基金",
+      15.27
+     ],
+     [
+      "先鋒全世界股票ETF",
+      10.79
+     ],
+     [
+      "iShares MSCI ACWI ETF",
+      7.49
+     ],
+     [
+      "Amundi Euro Stoxx 50 UCITS E",
+      5.55
+     ],
+     [
+      "安聯台灣科技基金",
+      5.52
+     ],
+     [
+      "Invesco Nasdaq 100 ETF",
+      5.2
+     ],
+     [
+      "VanEck半導體ETF",
+      4.97
+     ],
+     [
+      "玉山科技島基金",
+      4.48
+     ],
+     [
+      "瀚亞投資-日本動力股票基金C(美元避險)",
+      3.87
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru058",
+   "group": "全球股票",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買的美股大盤（只有美國）"
+    }
+   ],
+   "mix": {
+    "stock": 91.0,
+    "bond": 0.0,
+    "tw": 14.0,
+    "cn": 1.5,
+    "tech": 46.7
+   }
+  },
+  {
+   "id": "ALI089",
+   "name": "【好好退休】安聯全球股票多元投資風格證券投資信託基金-R類型-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "股票型",
+   "msCategory": "環球大型增長型股票",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 14.56,
+   "navDate": "2026/10/30",
+   "change": -1.56,
+   "aum": 2510666531.0,
+   "sharpe": 2.06,
+   "stdev1y": 9.84,
+   "ret": {
+    "quarter": 1.53,
+    "half": 14.29,
+    "one": 23.34,
+    "two": 23.65,
+    "three": 44.95,
+    "five": 51.55,
+    "beginning": 50.46
+   },
+   "ytd": 15.18489,
+   "rsp": {
+    "one": 9.97,
+    "two": 19.11,
+    "three": 23.01,
+    "five": 37.27
+   },
+   "fee": "1.00%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      96.83
+     ],
+     [
+      "現金",
+      3.55
+     ],
+     [
+      "其他",
+      -0.38
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      65.64
+     ],
+     [
+      "英國",
+      4.44
+     ],
+     [
+      "韓國",
+      4.12
+     ],
+     [
+      "中國",
+      3.53
+     ],
+     [
+      "瑞士",
+      3.42
+     ],
+     [
+      "日本",
+      3.18
+     ],
+     [
+      "加拿大",
+      1.66
+     ],
+     [
+      "荷蘭",
+      1.56
+     ],
+     [
+      "義大利",
+      1.52
+     ],
+     [
+      "泰國",
+      1.47
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      34.38
+     ],
+     [
+      "金融服務",
+      12.61
+     ],
+     [
+      "健康護理",
+      10.05
+     ],
+     [
+      "工業",
+      9.71
+     ],
+     [
+      "通訊服務",
+      9.37
+     ],
+     [
+      "周期性消費",
+      7.37
+     ],
+     [
+      "防禦性消費",
+      3.85
+     ],
+     [
+      "能源",
+      3.83
+     ],
+     [
+      "基礎原物料",
+      3.39
+     ],
+     [
+      "房地產",
+      3.23
+     ]
+    ],
+    "top10": [
+     [
+      "NVIDIA CORP",
+      5.62
+     ],
+     [
+      "APPLE INC",
+      4.9
+     ],
+     [
+      "ALPHABET INC CL A",
+      3.93
+     ],
+     [
+      "MICROSOFT CORP",
+      3.84
+     ],
+     [
+      "META PLATFORMS INC-C",
+      2.3
+     ],
+     [
+      "AMAZON.COM INC",
+      1.8
+     ],
+     [
+      "SAMSUNG ELECTRONICS",
+      1.76
+     ],
+     [
+      "JOHNSON & JOHNSON",
+      1.54
+     ],
+     [
+      "MICRON TECHNOLOGY IN",
+      1.49
+     ],
+     [
+      "SK HYNIX INC",
+      1.33
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI089",
+   "group": "全球股票",
+   "tags": [
+    "中國曝險 4%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買的美股大盤（只有美國）"
+    }
+   ],
+   "mix": {
+    "stock": 96.8,
+    "bond": 0.0,
+    "tw": 0.0,
+    "cn": 3.5,
+    "tech": 34.4
+   }
+  },
+  {
+   "id": "CSI096",
+   "name": "【好享退-國泰2039】國泰泰享退系列2039目標日期組合基金P",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "inception": "2019/07/25",
+   "risk": 4,
+   "morningstar": 5,
+   "currency": "TWD",
+   "nav": 23.7257,
+   "navDate": "2026/10/30",
+   "change": -1.88,
+   "aum": 6266118373.6,
+   "sharpe": 1.08,
+   "stdev1y": 19.15,
+   "ret": {
+    "quarter": 0.05,
+    "half": 3.56,
+    "one": 22.38,
+    "two": 37.94,
+    "three": 75.87,
+    "five": 75.12,
+    "beginning": 141.81
+   },
+   "ytd": 19.65609,
+   "rsp": {
+    "one": 11.92,
+    "two": 25.71,
+    "three": 36.06,
+    "five": 56.71
+   },
+   "fee": "0.35%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      76.26
+     ],
+     [
+      "債券",
+      19.51
+     ],
+     [
+      "可換股債券",
+      7.64
+     ],
+     [
+      "其他",
+      0.62
+     ],
+     [
+      "優先股",
+      0.07
+     ],
+     [
+      "現金",
+      -4.1
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      44.8
+     ],
+     [
+      "台灣",
+      17.37
+     ],
+     [
+      "日本",
+      5.85
+     ],
+     [
+      "韓國",
+      4.28
+     ],
+     [
+      "中國",
+      3.94
+     ],
+     [
+      "貝里斯",
+      2.65
+     ],
+     [
+      "墨西哥",
+      1.6
+     ],
+     [
+      "印度",
+      1.49
+     ],
+     [
+      "德國",
+      1.33
+     ],
+     [
+      "英國",
+      1.28
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      57.17
+     ],
+     [
+      "金融服務",
+      10.72
+     ],
+     [
+      "周期性消費",
+      6.4
+     ],
+     [
+      "工業",
+      6.35
+     ],
+     [
+      "通訊服務",
+      5.58
+     ],
+     [
+      "健康護理",
+      4.99
+     ],
+     [
+      "防禦性消費",
+      2.57
+     ],
+     [
+      "基礎原物料",
+      2.17
+     ],
+     [
+      "能源",
+      2.06
+     ],
+     [
+      "公用事業",
+      1.15
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500",
+      18.78
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      8.23
+     ],
+     [
+      "元大台灣卓越50基金",
+      6.89
+     ],
+     [
+      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
+      5.92
+     ],
+     [
+      "復華華人世紀基金",
+      5.43
+     ],
+     [
+      "摩根基金 - 環球新興市場機會基金 - JPM環球新興市場機會(美元) - I股(累計)",
+      4.6
+     ],
+     [
+      "ISHARES MSCI ACW",
+      4.41
+     ],
+     [
+      "PIMCO新興市場本地貨幣債券基金-機構H級類別-累積股份",
+      3.86
+     ],
+     [
+      "富邦台灣釆吉50基金",
+      3.55
+     ],
+     [
+      "ISHARES-C S&P500",
+      3.54
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI096",
+   "group": "目標日期",
+   "tags": [
+    "組合基金",
+    "中國曝險 4%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2039 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 76.3,
+    "bond": 27.2,
+    "tw": 17.4,
+    "cn": 3.9,
+    "tech": 57.2
+   }
+  },
+  {
+   "id": "CSI104",
+   "name": "【好好退休】國泰泰享退系列２０３９目標日期組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2036-2040",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 4,
+   "morningstar": 5,
+   "currency": "TWD",
+   "nav": 23.1055,
+   "navDate": "2026/10/30",
+   "change": -1.88,
+   "aum": 6266118373.6,
+   "sharpe": 1.07,
+   "stdev1y": 19.15,
+   "ret": {
+    "quarter": -0.02,
+    "half": 3.42,
+    "one": 22.04,
+    "two": 37.18,
+    "three": 74.37,
+    "five": 73.21,
+    "beginning": 74.62
+   },
+   "ytd": 19.38194,
+   "rsp": {
+    "one": 11.74,
+    "two": 25.32,
+    "three": 35.42,
+    "five": 55.52
+   },
+   "fee": "0.63%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      76.26
+     ],
+     [
+      "債券",
+      19.51
+     ],
+     [
+      "可換股債券",
+      7.64
+     ],
+     [
+      "其他",
+      0.62
+     ],
+     [
+      "優先股",
+      0.07
+     ],
+     [
+      "現金",
+      -4.1
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      44.8
+     ],
+     [
+      "台灣",
+      17.37
+     ],
+     [
+      "日本",
+      5.85
+     ],
+     [
+      "韓國",
+      4.28
+     ],
+     [
+      "中國",
+      3.94
+     ],
+     [
+      "貝里斯",
+      2.65
+     ],
+     [
+      "墨西哥",
+      1.6
+     ],
+     [
+      "印度",
+      1.49
+     ],
+     [
+      "德國",
+      1.33
+     ],
+     [
+      "英國",
+      1.28
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      57.17
+     ],
+     [
+      "金融服務",
+      10.72
+     ],
+     [
+      "周期性消費",
+      6.4
+     ],
+     [
+      "工業",
+      6.35
+     ],
+     [
+      "通訊服務",
+      5.58
+     ],
+     [
+      "健康護理",
+      4.99
+     ],
+     [
+      "防禦性消費",
+      2.57
+     ],
+     [
+      "基礎原物料",
+      2.17
+     ],
+     [
+      "能源",
+      2.06
+     ],
+     [
+      "公用事業",
+      1.15
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500",
+      18.78
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      8.23
+     ],
+     [
+      "元大台灣卓越50基金",
+      6.89
+     ],
+     [
+      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
+      5.92
+     ],
+     [
+      "復華華人世紀基金",
+      5.43
+     ],
+     [
+      "摩根基金 - 環球新興市場機會基金 - JPM環球新興市場機會(美元) - I股(累計)",
+      4.6
+     ],
+     [
+      "ISHARES MSCI ACW",
+      4.41
+     ],
+     [
+      "PIMCO新興市場本地貨幣債券基金-機構H級類別-累積股份",
+      3.86
+     ],
+     [
+      "富邦台灣釆吉50基金",
+      3.55
+     ],
+     [
+      "ISHARES-C S&P500",
+      3.54
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI104",
+   "group": "目標日期",
+   "tags": [
+    "組合基金",
+    "中國曝險 4%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2039 年，目前股票約 80%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 76.3,
+    "bond": 27.2,
+    "tw": 17.4,
+    "cn": 3.9,
+    "tech": 57.2
+   }
+  },
+  {
+   "id": "CTB062",
+   "name": "【TISA級別】中國信託科技趨勢多重資產證券投資信託基金-新台幣TISA",
+   "company": "中國信託證券投資信託股份有限公司",
+   "tisaType": "TISA級別",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2025/07/17",
+   "risk": 3,
+   "morningstar": null,
+   "currency": "TWD",
+   "nav": 12.254,
+   "navDate": "2026/10/30",
+   "change": -3.54,
+   "aum": 5967586078.0,
+   "sharpe": 1.15,
+   "stdev1y": 17.4,
+   "ret": {
+    "quarter": -3.32,
+    "half": 18.96,
+    "one": 21.85,
+    "two": null,
+    "three": null,
+    "five": null,
+    "beginning": 31.59
+   },
+   "ytd": 16.58861,
+   "rsp": {
+    "one": 11.46,
+    "two": null,
+    "three": null,
+    "five": null
+   },
+   "fee": "0.60%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      67.49
+     ],
+     [
+      "現金",
+      19.75
+     ],
+     [
+      "債券",
+      12.48
+     ],
+     [
+      "其他",
+      0.29
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      89.59
+     ],
+     [
+      "台灣",
+      3.69
+     ],
+     [
+      "日本",
+      1.87
+     ],
+     [
+      "加拿大",
+      1.44
+     ],
+     [
+      "荷蘭",
+      1.35
+     ],
+     [
+      "芬蘭",
+      0.87
+     ],
+     [
+      "韓國",
+      0.32
+     ],
+     [
+      "英國",
+      0.26
+     ],
+     [
+      "法國",
+      0.07
+     ],
+     [
+      "新加坡",
+      0.06
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      76.63
+     ],
+     [
+      "通訊服務",
+      9.45
+     ],
+     [
+      "周期性消費",
+      5.19
+     ],
+     [
+      "工業",
+      4.99
+     ],
+     [
+      "基礎原物料",
+      1.22
+     ],
+     [
+      "能源",
+      1.05
+     ],
+     [
+      "防禦性消費",
+      0.63
+     ],
+     [
+      "健康護理",
+      0.52
+     ],
+     [
+      "金融服務",
+      0.17
+     ],
+     [
+      "公用事業",
+      0.12
+     ]
+    ],
+    "top10": [
+     [
+      "State Street SPDR科技類股指數型基金",
+      5.54
+     ],
+     [
+      "VanEck半導體ETF",
+      3.9
+     ],
+     [
+      "Micron Technology Inc",
+      3.7
+     ],
+     [
+      "景順QQQ信託系列1",
+      3.55
+     ],
+     [
+      "Invesco Nasdaq 100 ETF",
+      3.41
+     ],
+     [
+      "ISHARES SEMICONDUCTOR ETF",
+      2.73
+     ],
+     [
+      "NVIDIA Corp",
+      2.56
+     ],
+     [
+      "Apple Inc",
+      2.49
+     ],
+     [
+      "Meta Platforms Inc",
+      2.4
+     ],
+     [
+      "Microsoft Corp",
+      2.33
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CTB062",
+   "group": "股債平衡-積極",
+   "tags": [
+    "多重資產"
+   ],
+   "notes": [
+    "股票部位科技占 77%，比配置型 ETF 集中，可再搭 QQQ 近似。"
+   ],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 67%"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "QQQ",
+     "name": "Invesco 那斯達克100",
+     "market": "US",
+     "match": "diy",
+     "note": "科技部位"
+    }
+   ],
+   "mix": {
+    "stock": 67.5,
+    "bond": 12.5,
+    "tw": 3.7,
+    "cn": 0.0,
+    "tech": 76.6
+   }
+  },
+  {
    "id": "CIT100",
    "name": "【好享退-群益積極型】群益全民成長樂退組合基金P(累積型-新台幣)",
    "company": "群益證券投資信託股份有限公司",
@@ -7325,22 +8363,22 @@
    "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 20.6243,
-   "navDate": "2026/10/29",
-   "change": -0.57,
+   "nav": 20.1999,
+   "navDate": "2026/10/30",
+   "change": -2.06,
    "aum": 10882350783.79,
-   "sharpe": 1.26,
-   "stdev1y": 20.4,
+   "sharpe": 0.98,
+   "stdev1y": 20.75,
    "ret": {
-    "quarter": -6.66,
-    "half": 17.63,
-    "one": 28.3,
-    "two": 38.93,
-    "three": 70.03,
-    "five": 70.94,
-    "beginning": 110.05
+    "quarter": 1.15,
+    "half": 1.9,
+    "one": 21.57,
+    "two": 34.01,
+    "three": 71.66,
+    "five": 62.78,
+    "beginning": 106.07
    },
-   "ytd": 20.89101,
+   "ytd": 18.60339,
    "rsp": {
     "one": 11.3,
     "two": 24.13,
@@ -7554,22 +8592,22 @@
    "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 16.4254,
-   "navDate": "2026/10/29",
-   "change": -0.57,
+   "nav": 16.0873,
+   "navDate": "2026/10/30",
+   "change": -2.06,
    "aum": 10882350783.79,
-   "sharpe": 1.25,
-   "stdev1y": 20.4,
+   "sharpe": 0.97,
+   "stdev1y": 20.75,
    "ret": {
-    "quarter": -6.73,
-    "half": 17.45,
-    "one": 27.92,
-    "two": 38.11,
-    "three": 68.52,
+    "quarter": 1.08,
+    "half": 1.75,
+    "one": 21.21,
+    "two": 33.22,
+    "three": 70.15,
     "five": null,
-    "beginning": 66.95
+    "beginning": 63.75
    },
-   "ytd": 20.6219,
+   "ytd": 18.31049,
    "rsp": {
     "one": 11.11,
     "two": 23.73,
@@ -7772,2419 +8810,6 @@
    }
   },
   {
-   "id": "ALI088",
-   "name": "【好好退休】安聯四季成長組合基金-R類型-新臺幣",
-   "company": "安聯證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "新台幣進取型股債混合",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 17.94,
-   "navDate": "2026/10/29",
-   "change": -0.44,
-   "aum": 17708253078.77,
-   "sharpe": 1.76,
-   "stdev1y": 13.89,
-   "ret": {
-    "quarter": -1.16,
-    "half": 17.72,
-    "one": 27.83,
-    "two": 41.94,
-    "three": 74.34,
-    "five": 83.85,
-    "beginning": 79.42
-   },
-   "ytd": 19.45187,
-   "rsp": {
-    "one": 12.08,
-    "two": 24.98,
-    "three": 35.46,
-    "five": 55.91
-   },
-   "fee": "1.00%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      78.22
-     ],
-     [
-      "債券",
-      12.63
-     ],
-     [
-      "現金",
-      4.51
-     ],
-     [
-      "可換股債券",
-      4.17
-     ],
-     [
-      "其他",
-      0.4
-     ],
-     [
-      "優先股",
-      0.07
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      60.43
-     ],
-     [
-      "台灣",
-      14.58
-     ],
-     [
-      "中國",
-      2.81
-     ],
-     [
-      "貝里斯",
-      2.3
-     ],
-     [
-      "日本",
-      1.95
-     ],
-     [
-      "英國",
-      1.34
-     ],
-     [
-      "墨西哥",
-      1.28
-     ],
-     [
-      "哥倫比亞",
-      0.97
-     ],
-     [
-      "波蘭",
-      0.88
-     ],
-     [
-      "捷克",
-      0.88
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      51.29
-     ],
-     [
-      "金融服務",
-      7.78
-     ],
-     [
-      "周期性消費",
-      7.52
-     ],
-     [
-      "通訊服務",
-      7.39
-     ],
-     [
-      "工業",
-      6.77
-     ],
-     [
-      "健康護理",
-      6.4
-     ],
-     [
-      "防禦性消費",
-      5.07
-     ],
-     [
-      "能源",
-      3.5
-     ],
-     [
-      "公用事業",
-      1.92
-     ],
-     [
-      "基礎原物料",
-      1.63
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500 ETF",
-      18.29
-     ],
-     [
-      "Invesco QQQ Trust Se",
-      14.69
-     ],
-     [
-      "元大台灣卓越50基金",
-      6.58
-     ],
-     [
-      "ISHARES CORE S&P 500",
-      6.19
-     ],
-     [
-      "ISHARES HIGH DIVIDEN",
-      4.98
-     ],
-     [
-      "JPMorgan BetaBuilders US Equity ETF",
-      4.64
-     ],
-     [
-      "安聯台灣科技基金",
-      4.57
-     ],
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      3.54
-     ],
-     [
-      "PIMCO新興市場債券基金-機構H級類別(累積股份)",
-      3.22
-     ],
-     [
-      "VanEck VECTORS SEMIC",
-      2.91
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI088",
-   "group": "股債平衡-積極",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 80%"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 78.2,
-    "bond": 16.8,
-    "tw": 14.6,
-    "cn": 2.8,
-    "tech": 51.3
-   }
-  },
-  {
-   "id": "Pru058",
-   "name": "【好好退休】玉山策略成長ETF組合證券投資信託基金－新台幣R級別",
-   "company": "玉山證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "新台幣進取型股債混合",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 17.611,
-   "navDate": "2026/10/29",
-   "change": -0.08,
-   "aum": 1248401565.78,
-   "sharpe": 1.39,
-   "stdev1y": 17.52,
-   "ret": {
-    "quarter": -2.13,
-    "half": 20.93,
-    "one": 27.27,
-    "two": 38.59,
-    "three": 71.85,
-    "five": 79.65,
-    "beginning": 76.16
-   },
-   "ytd": 20.82693,
-   "rsp": {
-    "one": 12.91,
-    "two": 24.7,
-    "three": 34.6,
-    "five": 53.99
-   },
-   "fee": "0.99%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      91.01
-     ],
-     [
-      "現金",
-      8.14
-     ],
-     [
-      "其他",
-      0.85
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      57.92
-     ],
-     [
-      "台灣",
-      13.98
-     ],
-     [
-      "日本",
-      8.38
-     ],
-     [
-      "韓國",
-      4.71
-     ],
-     [
-      "德國",
-      2.31
-     ],
-     [
-      "法國",
-      2.3
-     ],
-     [
-      "荷蘭",
-      1.83
-     ],
-     [
-      "中國",
-      1.5
-     ],
-     [
-      "英國",
-      1.05
-     ],
-     [
-      "西班牙",
-      0.95
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      46.72
-     ],
-     [
-      "金融服務",
-      11.77
-     ],
-     [
-      "工業",
-      10.18
-     ],
-     [
-      "周期性消費",
-      7.28
-     ],
-     [
-      "健康護理",
-      6.5
-     ],
-     [
-      "通訊服務",
-      6.36
-     ],
-     [
-      "防禦性消費",
-      3.44
-     ],
-     [
-      "能源",
-      2.57
-     ],
-     [
-      "基礎原物料",
-      2.23
-     ],
-     [
-      "公用事業",
-      1.71
-     ]
-    ],
-    "top10": [
-     [
-      "iShares安碩核心標普500 ETF",
-      16.6
-     ],
-     [
-      "先鋒整體市場指數基金",
-      15.27
-     ],
-     [
-      "先鋒全世界股票ETF",
-      10.79
-     ],
-     [
-      "iShares MSCI ACWI ETF",
-      7.49
-     ],
-     [
-      "Amundi Euro Stoxx 50 UCITS E",
-      5.55
-     ],
-     [
-      "安聯台灣科技基金",
-      5.52
-     ],
-     [
-      "Invesco Nasdaq 100 ETF",
-      5.2
-     ],
-     [
-      "VanEck半導體ETF",
-      4.97
-     ],
-     [
-      "玉山科技島基金",
-      4.48
-     ],
-     [
-      "瀚亞投資-日本動力股票基金C(美元避險)",
-      3.87
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Pru058",
-   "group": "全球股票",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "VT",
-     "name": "Vanguard 全世界股票",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "ACWI",
-     "name": "iShares MSCI ACWI",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "00646",
-     "name": "元大S&P500",
-     "market": "TW",
-     "match": "diy",
-     "note": "台股可買的美股大盤（只有美國）"
-    }
-   ],
-   "mix": {
-    "stock": 91.0,
-    "bond": 0.0,
-    "tw": 14.0,
-    "cn": 1.5,
-    "tech": 46.7
-   }
-  },
-  {
-   "id": "CSI090",
-   "name": "【好享退-國泰2029】國泰泰享退系列2029目標日期組合基金P",
-   "company": "國泰證券投資信託股份有限公司",
-   "tisaType": "好享退",
-   "fundType": "平衡型",
-   "msCategory": "目標期限 2026-2030",
-   "region": "全球",
-   "inception": "2019/07/25",
-   "risk": 3,
-   "morningstar": 5,
-   "currency": "TWD",
-   "nav": 19.9424,
-   "navDate": "2026/10/29",
-   "change": -0.07,
-   "aum": 6883291675.8,
-   "sharpe": 1.29,
-   "stdev1y": 18.28,
-   "ret": {
-    "quarter": -7.26,
-    "half": 13.52,
-    "one": 25.94,
-    "two": 33.8,
-    "three": 59.12,
-    "five": 60.48,
-    "beginning": 101.95
-   },
-   "ytd": 17.09011,
-   "rsp": {
-    "one": 8.73,
-    "two": 20.65,
-    "three": 28.9,
-    "five": 43.77
-   },
-   "fee": "0.25%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      57.76
-     ],
-     [
-      "債券",
-      32.33
-     ],
-     [
-      "可換股債券",
-      10.74
-     ],
-     [
-      "其他",
-      2.32
-     ],
-     [
-      "優先股",
-      0.11
-     ],
-     [
-      "現金",
-      -3.25
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      42.57
-     ],
-     [
-      "台灣",
-      14.85
-     ],
-     [
-      "日本",
-      6.07
-     ],
-     [
-      "中國",
-      4.87
-     ],
-     [
-      "韓國",
-      3.72
-     ],
-     [
-      "英國",
-      2.39
-     ],
-     [
-      "墨西哥",
-      1.57
-     ],
-     [
-      "德國",
-      1.54
-     ],
-     [
-      "澳大利亞",
-      1.37
-     ],
-     [
-      "貝里斯",
-      1.3
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      60.7
-     ],
-     [
-      "金融服務",
-      9.62
-     ],
-     [
-      "工業",
-      6.62
-     ],
-     [
-      "周期性消費",
-      5.83
-     ],
-     [
-      "通訊服務",
-      4.72
-     ],
-     [
-      "健康護理",
-      4.63
-     ],
-     [
-      "基礎原物料",
-      2.29
-     ],
-     [
-      "防禦性消費",
-      2.26
-     ],
-     [
-      "能源",
-      1.84
-     ],
-     [
-      "公用事業",
-      0.8
-     ]
-    ],
-    "top10": [
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      11.58
-     ],
-     [
-      "PIMCO美國股票增益基金-機構H級類別(累積股份)",
-      8.95
-     ],
-     [
-      "復華華人世紀基金",
-      7.43
-     ],
-     [
-      "VANGUARD S&P 500",
-      6.45
-     ],
-     [
-      "摩根新興市場本地貨幣債券基金",
-      5.41
-     ],
-     [
-      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
-      4.66
-     ],
-     [
-      "元大台灣卓越50基金",
-      4.65
-     ],
-     [
-      "安聯台灣科技基金",
-      4.35
-     ],
-     [
-      "富達基金-亞洲成長趨勢基金 (Y股累計美元)",
-      4.14
-     ],
-     [
-      "施羅德環球基金系列-環球收息債券(美元)C-累積",
-      3.62
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI090",
-   "group": "目標日期",
-   "tags": [
-    "組合基金",
-    "中國曝險 5%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2029 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 57.8,
-    "bond": 43.1,
-    "tw": 14.8,
-    "cn": 4.9,
-    "tech": 60.7
-   }
-  },
-  {
-   "id": "CSI101",
-   "name": "【好好退休】國泰全球積極組合證券投資信託基金R",
-   "company": "國泰證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "新台幣進取型股債混合",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 4,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 43.01,
-   "navDate": "2026/10/29",
-   "change": -0.28,
-   "aum": 2199922450.94,
-   "sharpe": 1.28,
-   "stdev1y": 18.36,
-   "ret": {
-    "quarter": -5.06,
-    "half": 16.37,
-    "one": 25.9,
-    "two": 39.69,
-    "three": 69.11,
-    "five": 65.75,
-    "beginning": 61.67
-   },
-   "ytd": 20.14408,
-   "rsp": {
-    "one": 10.39,
-    "two": 23.63,
-    "three": 33.53,
-    "five": 51.55
-   },
-   "fee": "0.90%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      90.06
-     ],
-     [
-      "現金",
-      7.62
-     ],
-     [
-      "其他",
-      1.23
-     ],
-     [
-      "債券",
-      1.08
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      57.48
-     ],
-     [
-      "台灣",
-      12.55
-     ],
-     [
-      "日本",
-      7.56
-     ],
-     [
-      "韓國",
-      6.86
-     ],
-     [
-      "中國",
-      2.57
-     ],
-     [
-      "法國",
-      1.67
-     ],
-     [
-      "德國",
-      1.57
-     ],
-     [
-      "荷蘭",
-      1.3
-     ],
-     [
-      "英國",
-      1.26
-     ],
-     [
-      "加拿大",
-      1.23
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      45.39
-     ],
-     [
-      "金融服務",
-      11.26
-     ],
-     [
-      "工業",
-      8.03
-     ],
-     [
-      "健康護理",
-      7.38
-     ],
-     [
-      "周期性消費",
-      6.62
-     ],
-     [
-      "能源",
-      5.87
-     ],
-     [
-      "通訊服務",
-      5.66
-     ],
-     [
-      "基礎原物料",
-      3.78
-     ],
-     [
-      "防禦性消費",
-      3.15
-     ],
-     [
-      "公用事業",
-      1.79
-     ]
-    ],
-    "top10": [
-     [
-      "ISHARES-C S&P500",
-      11.09
-     ],
-     [
-      "VANGUARD S&P 500",
-      10.15
-     ],
-     [
-      "Invesco QQQ Trust Series 1",
-      5.36
-     ],
-     [
-      "VANGUARD-TOT WOR",
-      4.57
-     ],
-     [
-      "施羅德環球基金系列-新興市場美元C-累積",
-      4.22
-     ],
-     [
-      "SPDR EURO STOXX",
-      3.9
-     ],
-     [
-      "iShares Semiconductor ETF",
-      3.29
-     ],
-     [
-      "ISHARES MSCI SOU",
-      3.18
-     ],
-     [
-      "聯博-全球價值型基金I股美元",
-      2.51
-     ],
-     [
-      "ISHARES ASIA 50",
-      2.06
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI101",
-   "group": "全球股票",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "VT",
-     "name": "Vanguard 全世界股票",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "ACWI",
-     "name": "iShares MSCI ACWI",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "00646",
-     "name": "元大S&P500",
-     "market": "TW",
-     "match": "diy",
-     "note": "台股可買的美股大盤（只有美國）"
-    }
-   ],
-   "mix": {
-    "stock": 90.1,
-    "bond": 1.1,
-    "tw": 12.6,
-    "cn": 2.6,
-    "tech": 45.4
-   }
-  },
-  {
-   "id": "CSI103",
-   "name": "【好好退休】國泰泰享退系列２０２９目標日期組合證券投資信託基金R",
-   "company": "國泰證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "目標期限 2026-2030",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 3,
-   "morningstar": 5,
-   "currency": "TWD",
-   "nav": 19.6411,
-   "navDate": "2026/10/29",
-   "change": -0.07,
-   "aum": 6883291675.8,
-   "sharpe": 1.28,
-   "stdev1y": 18.28,
-   "ret": {
-    "quarter": -7.3,
-    "half": 13.41,
-    "one": 25.69,
-    "two": 33.27,
-    "three": 58.12,
-    "five": 59.83,
-    "beginning": 57.07
-   },
-   "ytd": 16.92205,
-   "rsp": {
-    "one": 8.61,
-    "two": 20.39,
-    "three": 28.47,
-    "five": 43.07
-   },
-   "fee": "0.45%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      57.76
-     ],
-     [
-      "債券",
-      32.33
-     ],
-     [
-      "可換股債券",
-      10.74
-     ],
-     [
-      "其他",
-      2.32
-     ],
-     [
-      "優先股",
-      0.11
-     ],
-     [
-      "現金",
-      -3.25
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      42.57
-     ],
-     [
-      "台灣",
-      14.85
-     ],
-     [
-      "日本",
-      6.07
-     ],
-     [
-      "中國",
-      4.87
-     ],
-     [
-      "韓國",
-      3.72
-     ],
-     [
-      "英國",
-      2.39
-     ],
-     [
-      "墨西哥",
-      1.57
-     ],
-     [
-      "德國",
-      1.54
-     ],
-     [
-      "澳大利亞",
-      1.37
-     ],
-     [
-      "貝里斯",
-      1.3
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      60.7
-     ],
-     [
-      "金融服務",
-      9.62
-     ],
-     [
-      "工業",
-      6.62
-     ],
-     [
-      "周期性消費",
-      5.83
-     ],
-     [
-      "通訊服務",
-      4.72
-     ],
-     [
-      "健康護理",
-      4.63
-     ],
-     [
-      "基礎原物料",
-      2.29
-     ],
-     [
-      "防禦性消費",
-      2.26
-     ],
-     [
-      "能源",
-      1.84
-     ],
-     [
-      "公用事業",
-      0.8
-     ]
-    ],
-    "top10": [
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      11.58
-     ],
-     [
-      "PIMCO美國股票增益基金-機構H級類別(累積股份)",
-      8.95
-     ],
-     [
-      "復華華人世紀基金",
-      7.43
-     ],
-     [
-      "VANGUARD S&P 500",
-      6.45
-     ],
-     [
-      "摩根新興市場本地貨幣債券基金",
-      5.41
-     ],
-     [
-      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
-      4.66
-     ],
-     [
-      "元大台灣卓越50基金",
-      4.65
-     ],
-     [
-      "安聯台灣科技基金",
-      4.35
-     ],
-     [
-      "富達基金-亞洲成長趨勢基金 (Y股累計美元)",
-      4.14
-     ],
-     [
-      "施羅德環球基金系列-環球收息債券(美元)C-累積",
-      3.62
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI103",
-   "group": "目標日期",
-   "tags": [
-    "組合基金",
-    "中國曝險 5%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2029 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 57.8,
-    "bond": 43.1,
-    "tw": 14.8,
-    "cn": 4.9,
-    "tech": 60.7
-   }
-  },
-  {
-   "id": "ALI089",
-   "name": "【好好退休】安聯全球股票多元投資風格證券投資信託基金-R類型-新臺幣",
-   "company": "安聯證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "股票型",
-   "msCategory": "環球大型增長型股票",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 3,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 14.79,
-   "navDate": "2026/10/29",
-   "change": 0.14,
-   "aum": 2510666531.0,
-   "sharpe": 2.06,
-   "stdev1y": 9.84,
-   "ret": {
-    "quarter": 1.53,
-    "half": 14.29,
-    "one": 23.34,
-    "two": 23.65,
-    "three": 44.95,
-    "five": 51.55,
-    "beginning": 50.46
-   },
-   "ytd": 15.18489,
-   "rsp": {
-    "one": 9.97,
-    "two": 19.11,
-    "three": 23.01,
-    "five": 37.27
-   },
-   "fee": "1.00%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      96.83
-     ],
-     [
-      "現金",
-      3.55
-     ],
-     [
-      "其他",
-      -0.38
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      65.64
-     ],
-     [
-      "英國",
-      4.44
-     ],
-     [
-      "韓國",
-      4.12
-     ],
-     [
-      "中國",
-      3.53
-     ],
-     [
-      "瑞士",
-      3.42
-     ],
-     [
-      "日本",
-      3.18
-     ],
-     [
-      "加拿大",
-      1.66
-     ],
-     [
-      "荷蘭",
-      1.56
-     ],
-     [
-      "義大利",
-      1.52
-     ],
-     [
-      "泰國",
-      1.47
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      34.38
-     ],
-     [
-      "金融服務",
-      12.61
-     ],
-     [
-      "健康護理",
-      10.05
-     ],
-     [
-      "工業",
-      9.71
-     ],
-     [
-      "通訊服務",
-      9.37
-     ],
-     [
-      "周期性消費",
-      7.37
-     ],
-     [
-      "防禦性消費",
-      3.85
-     ],
-     [
-      "能源",
-      3.83
-     ],
-     [
-      "基礎原物料",
-      3.39
-     ],
-     [
-      "房地產",
-      3.23
-     ]
-    ],
-    "top10": [
-     [
-      "NVIDIA CORP",
-      5.62
-     ],
-     [
-      "APPLE INC",
-      4.9
-     ],
-     [
-      "ALPHABET INC CL A",
-      3.93
-     ],
-     [
-      "MICROSOFT CORP",
-      3.84
-     ],
-     [
-      "META PLATFORMS INC-C",
-      2.3
-     ],
-     [
-      "AMAZON.COM INC",
-      1.8
-     ],
-     [
-      "SAMSUNG ELECTRONICS",
-      1.76
-     ],
-     [
-      "JOHNSON & JOHNSON",
-      1.54
-     ],
-     [
-      "MICRON TECHNOLOGY IN",
-      1.49
-     ],
-     [
-      "SK HYNIX INC",
-      1.33
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI089",
-   "group": "全球股票",
-   "tags": [
-    "中國曝險 4%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "VT",
-     "name": "Vanguard 全世界股票",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "ACWI",
-     "name": "iShares MSCI ACWI",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "00646",
-     "name": "元大S&P500",
-     "market": "TW",
-     "match": "diy",
-     "note": "台股可買的美股大盤（只有美國）"
-    }
-   ],
-   "mix": {
-    "stock": 96.8,
-    "bond": 0.0,
-    "tw": 0.0,
-    "cn": 3.5,
-    "tech": 34.4
-   }
-  },
-  {
-   "id": "ALI063",
-   "name": "【好享退-安聯穩健型】安聯四季雙收入息組合基金-P類型(累積)-新臺幣",
-   "company": "安聯證券投資信託股份有限公司",
-   "tisaType": "好享退",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2019/07/31",
-   "risk": 3,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 19.19,
-   "navDate": "2026/10/29",
-   "change": -0.31,
-   "aum": 10509396374.61,
-   "sharpe": 1.78,
-   "stdev1y": 10.99,
-   "ret": {
-    "quarter": -2.26,
-    "half": 12.62,
-    "one": 22.25,
-    "two": 30.38,
-    "three": 54.43,
-    "five": 62.9,
-    "beginning": 91.44
-   },
-   "ytd": 14.44913,
-   "rsp": {
-    "one": 8.74,
-    "two": 18.82,
-    "three": 26.28,
-    "five": 41.73
-   },
-   "fee": "0.50%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      58.88
-     ],
-     [
-      "債券",
-      34.36
-     ],
-     [
-      "現金",
-      4.97
-     ],
-     [
-      "可換股債券",
-      1.8
-     ],
-     [
-      "優先股",
-      0.02
-     ],
-     [
-      "其他",
-      -0.03
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      56.68
-     ],
-     [
-      "台灣",
-      12.42
-     ],
-     [
-      "日本",
-      3.53
-     ],
-     [
-      "英國",
-      3.0
-     ],
-     [
-      "中國",
-      1.88
-     ],
-     [
-      "貝里斯",
-      1.69
-     ],
-     [
-      "德國",
-      1.3
-     ],
-     [
-      "墨西哥",
-      1.23
-     ],
-     [
-      "法國",
-      1.07
-     ],
-     [
-      "加拿大",
-      0.99
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      50.88
-     ],
-     [
-      "金融服務",
-      8.37
-     ],
-     [
-      "健康護理",
-      7.4
-     ],
-     [
-      "通訊服務",
-      7.16
-     ],
-     [
-      "周期性消費",
-      6.91
-     ],
-     [
-      "工業",
-      6.88
-     ],
-     [
-      "防禦性消費",
-      4.45
-     ],
-     [
-      "能源",
-      3.2
-     ],
-     [
-      "基礎原物料",
-      2.29
-     ],
-     [
-      "公用事業",
-      1.71
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500 ETF",
-      18.25
-     ],
-     [
-      "Invesco QQQ Trust Se",
-      7.13
-     ],
-     [
-      "ISHARES BARCLAYS 3-7",
-      6.72
-     ],
-     [
-      "元大台灣卓越50基金",
-      4.79
-     ],
-     [
-      "安聯台灣科技基金",
-      3.68
-     ],
-     [
-      "ISHARES HIGH DIVIDEN",
-      3.6
-     ],
-     [
-      "ISHARES RUSSELL 1000",
-      3.11
-     ],
-     [
-      "ISHARES MSCI JAPAN E",
-      2.62
-     ],
-     [
-      "安聯台灣大壩基金-A類型-新臺幣",
-      2.41
-     ],
-     [
-      "PIMCO全球投資級別債券基金-機構H級類別(累積股份)",
-      2.36
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI063",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 60%"
-    },
-    {
-     "code": "AOM",
-     "name": "iShares 穩健配置 40/60",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 58.9,
-    "bond": 36.2,
-    "tw": 12.4,
-    "cn": 1.9,
-    "tech": 50.9
-   }
-  },
-  {
-   "id": "CTB062",
-   "name": "【TISA級別】中國信託科技趨勢多重資產證券投資信託基金-新台幣TISA",
-   "company": "中國信託證券投資信託股份有限公司",
-   "tisaType": "TISA級別",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2025/07/17",
-   "risk": 3,
-   "morningstar": null,
-   "currency": "TWD",
-   "nav": 12.7041,
-   "navDate": "2026/10/29",
-   "change": -0.93,
-   "aum": 5967586078.0,
-   "sharpe": 1.15,
-   "stdev1y": 17.4,
-   "ret": {
-    "quarter": -3.32,
-    "half": 18.96,
-    "one": 21.85,
-    "two": null,
-    "three": null,
-    "five": null,
-    "beginning": 31.59
-   },
-   "ytd": 16.58861,
-   "rsp": {
-    "one": 11.46,
-    "two": null,
-    "three": null,
-    "five": null
-   },
-   "fee": "0.60%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      67.49
-     ],
-     [
-      "現金",
-      19.75
-     ],
-     [
-      "債券",
-      12.48
-     ],
-     [
-      "其他",
-      0.29
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      89.59
-     ],
-     [
-      "台灣",
-      3.69
-     ],
-     [
-      "日本",
-      1.87
-     ],
-     [
-      "加拿大",
-      1.44
-     ],
-     [
-      "荷蘭",
-      1.35
-     ],
-     [
-      "芬蘭",
-      0.87
-     ],
-     [
-      "韓國",
-      0.32
-     ],
-     [
-      "英國",
-      0.26
-     ],
-     [
-      "法國",
-      0.07
-     ],
-     [
-      "新加坡",
-      0.06
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      76.63
-     ],
-     [
-      "通訊服務",
-      9.45
-     ],
-     [
-      "周期性消費",
-      5.19
-     ],
-     [
-      "工業",
-      4.99
-     ],
-     [
-      "基礎原物料",
-      1.22
-     ],
-     [
-      "能源",
-      1.05
-     ],
-     [
-      "防禦性消費",
-      0.63
-     ],
-     [
-      "健康護理",
-      0.52
-     ],
-     [
-      "金融服務",
-      0.17
-     ],
-     [
-      "公用事業",
-      0.12
-     ]
-    ],
-    "top10": [
-     [
-      "State Street SPDR科技類股指數型基金",
-      5.54
-     ],
-     [
-      "VanEck半導體ETF",
-      3.9
-     ],
-     [
-      "Micron Technology Inc",
-      3.7
-     ],
-     [
-      "景順QQQ信託系列1",
-      3.55
-     ],
-     [
-      "Invesco Nasdaq 100 ETF",
-      3.41
-     ],
-     [
-      "ISHARES SEMICONDUCTOR ETF",
-      2.73
-     ],
-     [
-      "NVIDIA Corp",
-      2.56
-     ],
-     [
-      "Apple Inc",
-      2.49
-     ],
-     [
-      "Meta Platforms Inc",
-      2.4
-     ],
-     [
-      "Microsoft Corp",
-      2.33
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CTB062",
-   "group": "股債平衡-積極",
-   "tags": [
-    "多重資產"
-   ],
-   "notes": [
-    "股票部位科技占 77%，比配置型 ETF 集中，可再搭 QQQ 近似。"
-   ],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 67%"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    },
-    {
-     "code": "QQQ",
-     "name": "Invesco 那斯達克100",
-     "market": "US",
-     "match": "diy",
-     "note": "科技部位"
-    }
-   ],
-   "mix": {
-    "stock": 67.5,
-    "bond": 12.5,
-    "tw": 3.7,
-    "cn": 0.0,
-    "tech": 76.6
-   }
-  },
-  {
-   "id": "ALI087",
-   "name": "【好好退休】安聯四季雙收入息組合基金-R類型(累積)-新臺幣",
-   "company": "安聯證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 3,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 15.79,
-   "navDate": "2026/10/29",
-   "change": -0.38,
-   "aum": 10509396374.61,
-   "sharpe": 1.75,
-   "stdev1y": 10.89,
-   "ret": {
-    "quarter": -2.37,
-    "half": 12.34,
-    "one": 21.77,
-    "two": 29.21,
-    "three": 52.33,
-    "five": 59.31,
-    "beginning": 58.18
-   },
-   "ytd": 14.05681,
-   "rsp": {
-    "one": 8.5,
-    "two": 18.26,
-    "three": 25.37,
-    "five": 39.97
-   },
-   "fee": "1.00%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      58.88
-     ],
-     [
-      "債券",
-      34.36
-     ],
-     [
-      "現金",
-      4.97
-     ],
-     [
-      "可換股債券",
-      1.8
-     ],
-     [
-      "優先股",
-      0.02
-     ],
-     [
-      "其他",
-      -0.03
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      56.68
-     ],
-     [
-      "台灣",
-      12.42
-     ],
-     [
-      "日本",
-      3.53
-     ],
-     [
-      "英國",
-      3.0
-     ],
-     [
-      "中國",
-      1.88
-     ],
-     [
-      "貝里斯",
-      1.69
-     ],
-     [
-      "德國",
-      1.3
-     ],
-     [
-      "墨西哥",
-      1.23
-     ],
-     [
-      "法國",
-      1.07
-     ],
-     [
-      "加拿大",
-      0.99
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      50.88
-     ],
-     [
-      "金融服務",
-      8.37
-     ],
-     [
-      "健康護理",
-      7.4
-     ],
-     [
-      "通訊服務",
-      7.16
-     ],
-     [
-      "周期性消費",
-      6.91
-     ],
-     [
-      "工業",
-      6.88
-     ],
-     [
-      "防禦性消費",
-      4.45
-     ],
-     [
-      "能源",
-      3.2
-     ],
-     [
-      "基礎原物料",
-      2.29
-     ],
-     [
-      "公用事業",
-      1.71
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500 ETF",
-      18.25
-     ],
-     [
-      "Invesco QQQ Trust Se",
-      7.13
-     ],
-     [
-      "ISHARES BARCLAYS 3-7",
-      6.72
-     ],
-     [
-      "元大台灣卓越50基金",
-      4.79
-     ],
-     [
-      "安聯台灣科技基金",
-      3.68
-     ],
-     [
-      "ISHARES HIGH DIVIDEN",
-      3.6
-     ],
-     [
-      "ISHARES RUSSELL 1000",
-      3.11
-     ],
-     [
-      "ISHARES MSCI JAPAN E",
-      2.62
-     ],
-     [
-      "安聯台灣大壩基金-A類型-新臺幣",
-      2.41
-     ],
-     [
-      "PIMCO全球投資級別債券基金-機構H級類別(累積股份)",
-      2.36
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI087",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 60%"
-    },
-    {
-     "code": "AOM",
-     "name": "iShares 穩健配置 40/60",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 58.9,
-    "bond": 36.2,
-    "tw": 12.4,
-    "cn": 1.9,
-    "tech": 50.9
-   }
-  },
-  {
-   "id": "CIT110",
-   "name": "【好享退-群益穩健型】群益全民優質樂退組合基金P(累積型-新台幣)",
-   "company": "群益證券投資信託股份有限公司",
-   "tisaType": "好享退",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2019/07/23",
-   "risk": 3,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 17.3175,
-   "navDate": "2026/10/29",
-   "change": -0.44,
-   "aum": 4480450627.32,
-   "sharpe": 1.29,
-   "stdev1y": 14.86,
-   "ret": {
-    "quarter": -5.48,
-    "half": 12.48,
-    "one": 21.29,
-    "two": 27.5,
-    "three": 51.19,
-    "five": 52.75,
-    "beginning": 75.01
-   },
-   "ytd": 14.44736,
-   "rsp": {
-    "one": 7.8,
-    "two": 17.16,
-    "three": 24.4,
-    "five": 38.33
-   },
-   "fee": "0.40%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      54.29
-     ],
-     [
-      "可換股債券",
-      20.0
-     ],
-     [
-      "債券",
-      18.6
-     ],
-     [
-      "現金",
-      7.58
-     ],
-     [
-      "優先股",
-      0.06
-     ],
-     [
-      "其他",
-      -0.53
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      46.58
-     ],
-     [
-      "台灣",
-      12.22
-     ],
-     [
-      "中國",
-      4.82
-     ],
-     [
-      "日本",
-      3.83
-     ],
-     [
-      "韓國",
-      3.42
-     ],
-     [
-      "貝里斯",
-      2.83
-     ],
-     [
-      "印度",
-      1.82
-     ],
-     [
-      "德國",
-      1.68
-     ],
-     [
-      "墨西哥",
-      1.6
-     ],
-     [
-      "哥倫比亞",
-      1.35
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      62.46
-     ],
-     [
-      "金融服務",
-      7.44
-     ],
-     [
-      "工業",
-      6.06
-     ],
-     [
-      "周期性消費",
-      5.81
-     ],
-     [
-      "通訊服務",
-      5.59
-     ],
-     [
-      "健康護理",
-      4.59
-     ],
-     [
-      "防禦性消費",
-      2.49
-     ],
-     [
-      "能源",
-      2.03
-     ],
-     [
-      "基礎原物料",
-      1.82
-     ],
-     [
-      "公用事業",
-      1.0
-     ]
-    ],
-    "top10": [
-     [
-      "SS SPDR富時全球可轉債UCITS交易所交易基",
-      13.98
-     ],
-     [
-      "iShares MSCI ACWI ETF",
-      10.61
-     ],
-     [
-      "iShares安碩核心標普500 ETF",
-      8.17
-     ],
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      6.7
-     ],
-     [
-      "Invesco Nasdaq 100 ETF",
-      6.5
-     ],
-     [
-      "瑞銀 (盧森堡) 新興市場債券基金 (美元) I-A1-累積",
-      4.77
-     ],
-     [
-      "安聯台灣科技基金",
-      4.7
-     ],
-     [
-      "富蘭克林坦伯頓全球投資系列-新興國家基金美元I(acc)",
-      4.4
-     ],
-     [
-      "景順半導體ETF",
-      4.34
-     ],
-     [
-      "瑞士隆奧亞洲價值債券基金-N累積(美元)",
-      3.93
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT110",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "組合基金",
-    "中國曝險 5%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 64%"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 54.3,
-    "bond": 38.6,
-    "tw": 12.2,
-    "cn": 4.8,
-    "tech": 62.5
-   }
-  },
-  {
-   "id": "FTS091",
-   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2027組合證券投資信託基金R類型",
-   "company": "富蘭克林華美證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "債券型",
-   "msCategory": "目標期限 2026-2030",
-   "region": "全球",
-   "inception": "2021/09/23",
-   "risk": 3,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 14.73,
-   "navDate": "2026/10/29",
-   "change": 0.41,
-   "aum": 181432393.96,
-   "sharpe": 1.56,
-   "stdev1y": 11.98,
-   "ret": {
-    "quarter": -2.58,
-    "half": 14.4,
-    "one": 21.19,
-    "two": 21.49,
-    "three": 38.42,
-    "five": 47.74,
-    "beginning": 47.44
-   },
-   "ytd": 15.20376,
-   "rsp": {
-    "one": 9.36,
-    "two": 16.17,
-    "three": 20.77,
-    "five": 29.42
-   },
-   "fee": "0.40%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      61.07
-     ],
-     [
-      "債券",
-      28.54
-     ],
-     [
-      "現金",
-      6.99
-     ],
-     [
-      "可換股債券",
-      3.07
-     ],
-     [
-      "優先股",
-      0.54
-     ],
-     [
-      "其他",
-      -0.21
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      62.81
-     ],
-     [
-      "台灣",
-      9.46
-     ],
-     [
-      "日本",
-      7.71
-     ],
-     [
-      "韓國",
-      2.74
-     ],
-     [
-      "中國",
-      1.78
-     ],
-     [
-      "英國",
-      1.76
-     ],
-     [
-      "加拿大",
-      1.67
-     ],
-     [
-      "荷蘭",
-      1.57
-     ],
-     [
-      "澳大利亞",
-      1.25
-     ],
-     [
-      "印度",
-      0.95
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      56.06
-     ],
-     [
-      "金融服務",
-      9.14
-     ],
-     [
-      "工業",
-      8.82
-     ],
-     [
-      "通訊服務",
-      5.76
-     ],
-     [
-      "周期性消費",
-      5.41
-     ],
-     [
-      "健康護理",
-      5.04
-     ],
-     [
-      "防禦性消費",
-      2.86
-     ],
-     [
-      "基礎原物料",
-      2.52
-     ],
-     [
-      "能源",
-      2.08
-     ],
-     [
-      "公用事業",
-      1.37
-     ]
-    ],
-    "top10": [
-     [
-      "iShares安碩核心40/60穩健配置",
-      18.82
-     ],
-     [
-      "富蘭克林華美多重資產收益基金-美元累積型",
-      13.02
-     ],
-     [
-      "富蘭克林華美亞太平衡基金-美元(累積型)",
-      10.94
-     ],
-     [
-      "iShares安碩核心80/20積極配置",
-      10.25
-     ],
-     [
-      "iShares安碩iBoxx美元高收益公",
-      8.81
-     ],
-     [
-      "先鋒全世界股票ETF",
-      7.76
-     ],
-     [
-      "VanEck半導體ETF",
-      4.98
-     ],
-     [
-      "iShares Nasdaq Top 30 Stocks",
-      4.82
-     ],
-     [
-      "元大台灣卓越50基金",
-      4.01
-     ],
-     [
-      "State Street SPDR彭博可轉換",
-      3.55
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS091",
-   "group": "目標日期",
-   "tags": [
-    "組合基金"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "diy",
-     "note": "目標 2027 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "diy",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 61.1,
-    "bond": 31.6,
-    "tw": 9.5,
-    "cn": 1.8,
-    "tech": 56.1
-   }
-  },
-  {
    "id": "BRI023",
    "name": "【好好退休】貝萊德享退休系列2050目標日期組合基金-R類型",
    "company": "貝萊德證券投資信託股份有限公司",
@@ -10196,9 +8821,9 @@
    "risk": 3,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 16.6,
-   "navDate": "2026/10/29",
-   "change": -0.12,
+   "nav": 16.4,
+   "navDate": "2026/10/30",
+   "change": -1.2,
    "aum": 341790571.0,
    "sharpe": 1.83,
    "stdev1y": 10.13,
@@ -10398,1065 +9023,415 @@
    }
   },
   {
-   "id": "CIT127",
-   "name": "【好好退休】群益全民優質樂退組合基金R(累積型-新台幣)",
-   "company": "群益證券投資信託股份有限公司",
+   "id": "CSI101",
+   "name": "【好好退休】國泰全球積極組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
    "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2023/07/03",
-   "risk": 3,
-   "morningstar": 3,
-   "currency": "TWD",
-   "nav": 14.7664,
-   "navDate": "2026/10/29",
-   "change": -0.44,
-   "aum": 4480450627.32,
-   "sharpe": 1.27,
-   "stdev1y": 14.86,
-   "ret": {
-    "quarter": -5.55,
-    "half": 12.32,
-    "one": 20.93,
-    "two": 26.75,
-    "three": 49.94,
-    "five": null,
-    "beginning": 49.17
-   },
-   "ytd": 14.19226,
-   "rsp": {
-    "one": 7.62,
-    "two": 16.79,
-    "three": 23.8,
-    "five": null
-   },
-   "fee": "0.70%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      54.29
-     ],
-     [
-      "可換股債券",
-      20.0
-     ],
-     [
-      "債券",
-      18.6
-     ],
-     [
-      "現金",
-      7.58
-     ],
-     [
-      "優先股",
-      0.06
-     ],
-     [
-      "其他",
-      -0.53
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      46.58
-     ],
-     [
-      "台灣",
-      12.22
-     ],
-     [
-      "中國",
-      4.82
-     ],
-     [
-      "日本",
-      3.83
-     ],
-     [
-      "韓國",
-      3.42
-     ],
-     [
-      "貝里斯",
-      2.83
-     ],
-     [
-      "印度",
-      1.82
-     ],
-     [
-      "德國",
-      1.68
-     ],
-     [
-      "墨西哥",
-      1.6
-     ],
-     [
-      "哥倫比亞",
-      1.35
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      62.46
-     ],
-     [
-      "金融服務",
-      7.44
-     ],
-     [
-      "工業",
-      6.06
-     ],
-     [
-      "周期性消費",
-      5.81
-     ],
-     [
-      "通訊服務",
-      5.59
-     ],
-     [
-      "健康護理",
-      4.59
-     ],
-     [
-      "防禦性消費",
-      2.49
-     ],
-     [
-      "能源",
-      2.03
-     ],
-     [
-      "基礎原物料",
-      1.82
-     ],
-     [
-      "公用事業",
-      1.0
-     ]
-    ],
-    "top10": [
-     [
-      "SS SPDR富時全球可轉債UCITS交易所交易基",
-      13.98
-     ],
-     [
-      "iShares MSCI ACWI ETF",
-      10.61
-     ],
-     [
-      "iShares安碩核心標普500 ETF",
-      8.17
-     ],
-     [
-      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
-      6.7
-     ],
-     [
-      "Invesco Nasdaq 100 ETF",
-      6.5
-     ],
-     [
-      "瑞銀 (盧森堡) 新興市場債券基金 (美元) I-A1-累積",
-      4.77
-     ],
-     [
-      "安聯台灣科技基金",
-      4.7
-     ],
-     [
-      "富蘭克林坦伯頓全球投資系列-新興國家基金美元I(acc)",
-      4.4
-     ],
-     [
-      "景順半導體ETF",
-      4.34
-     ],
-     [
-      "瑞士隆奧亞洲價值債券基金-N累積(美元)",
-      3.93
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT127",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "組合基金",
-    "中國曝險 5%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 64%"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 54.3,
-    "bond": 38.6,
-    "tw": 12.2,
-    "cn": 4.8,
-    "tech": 62.5
-   }
-  },
-  {
-   "id": "NOM124",
-   "name": "【好好退休】野村動態配置多重資產證券投資信託基金(S級別)",
-   "company": "野村證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2018/05/23",
-   "risk": 3,
-   "morningstar": 2,
-   "currency": "TWD",
-   "nav": 16.971,
-   "navDate": "2026/10/29",
-   "change": -0.8,
-   "aum": 949148224.92,
-   "sharpe": 1.06,
-   "stdev1y": 17.58,
-   "ret": {
-    "quarter": -2.74,
-    "half": 19.73,
-    "one": 20.28,
-    "two": 24.14,
-    "three": 48.6,
-    "five": 28.04,
-    "beginning": 75.44
-   },
-   "ytd": 15.58963,
-   "rsp": {
-    "one": 10.29,
-    "two": 17.36,
-    "three": 22.31,
-    "five": 31.46
-   },
-   "fee": "0.99%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      69.28
-     ],
-     [
-      "債券",
-      20.79
-     ],
-     [
-      "現金",
-      6.32
-     ],
-     [
-      "可換股債券",
-      3.05
-     ],
-     [
-      "優先股",
-      0.56
-     ],
-     [
-      "其他",
-      -0.01
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      61.53
-     ],
-     [
-      "台灣",
-      15.12
-     ],
-     [
-      "日本",
-      3.93
-     ],
-     [
-      "韓國",
-      3.57
-     ],
-     [
-      "中國",
-      2.75
-     ],
-     [
-      "印度",
-      1.59
-     ],
-     [
-      "澳大利亞",
-      1.43
-     ],
-     [
-      "加拿大",
-      1.36
-     ],
-     [
-      "瑞士",
-      1.26
-     ],
-     [
-      "法國",
-      1.25
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      48.84
-     ],
-     [
-      "金融服務",
-      13.0
-     ],
-     [
-      "工業",
-      8.63
-     ],
-     [
-      "通訊服務",
-      8.33
-     ],
-     [
-      "健康護理",
-      8.14
-     ],
-     [
-      "周期性消費",
-      5.38
-     ],
-     [
-      "能源",
-      4.06
-     ],
-     [
-      "防禦性消費",
-      1.71
-     ],
-     [
-      "基礎原物料",
-      1.69
-     ],
-     [
-      "房地產",
-      0.12
-     ]
-    ],
-    "top10": [
-     [
-      "ISHARES JP MORGAN USD EMERGI",
-      5.21
-     ],
-     [
-      "TAIWAN SEMICONDUCTOR-SP ADR",
-      4.13
-     ],
-     [
-      "ALPHABET INC-CL C",
-      3.82
-     ],
-     [
-      "SS SPDR BB CONV SEC ETF",
-      3.8
-     ],
-     [
-      "高盛大中華股票基金X股美元",
-      3.42
-     ],
-     [
-      "NVIDIA CORP",
-      3.25
-     ],
-     [
-      "野村全球品牌基金-累積類型新臺幣計價",
-      3.2
-     ],
-     [
-      "VALERO ENERGY CORP",
-      2.75
-     ],
-     [
-      "CITIGROUP INC",
-      2.65
-     ],
-     [
-      "聯發科",
-      2.59
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM124",
-   "group": "股債平衡-積極",
-   "tags": [
-    "多重資產"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 71%"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 69.3,
-    "bond": 23.8,
-    "tw": 15.1,
-    "cn": 2.8,
-    "tech": 48.8
-   }
-  },
-  {
-   "id": "NBG063",
-   "name": "【好好退休】路博邁收益成長多重資產證券投資信託基金R累積(新臺幣)",
-   "company": "路博邁證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣保守型股債混合",
-   "region": "全球",
-   "inception": "2022/07/01",
-   "risk": 3,
-   "morningstar": 4,
-   "currency": "TWD",
-   "nav": 14.36,
-   "navDate": "2026/10/29",
-   "change": 0.14,
-   "aum": 5669522061.71,
-   "sharpe": 1.34,
-   "stdev1y": 13.01,
-   "ret": {
-    "quarter": -2.58,
-    "half": 14.24,
-    "one": 19.57,
-    "two": 26.97,
-    "three": 42.18,
-    "five": null,
-    "beginning": 43.6
-   },
-   "ytd": 13.87787,
-   "rsp": {
-    "one": 8.6,
-    "two": 18.25,
-    "three": 23.88,
-    "five": null
-   },
-   "fee": "1.00%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      49.54
-     ],
-     [
-      "債券",
-      34.92
-     ],
-     [
-      "現金",
-      10.83
-     ],
-     [
-      "其他",
-      4.71
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      67.52
-     ],
-     [
-      "台灣",
-      12.6
-     ],
-     [
-      "日本",
-      6.16
-     ],
-     [
-      "中國",
-      1.25
-     ],
-     [
-      "加拿大",
-      0.85
-     ],
-     [
-      "英國",
-      0.83
-     ],
-     [
-      "瑞士",
-      0.71
-     ],
-     [
-      "墨西哥",
-      0.62
-     ],
-     [
-      "荷蘭",
-      0.56
-     ],
-     [
-      "德國",
-      0.54
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      53.5
-     ],
-     [
-      "工業",
-      10.96
-     ],
-     [
-      "金融服務",
-      8.5
-     ],
-     [
-      "通訊服務",
-      7.51
-     ],
-     [
-      "周期性消費",
-      6.84
-     ],
-     [
-      "健康護理",
-      5.18
-     ],
-     [
-      "防禦性消費",
-      2.54
-     ],
-     [
-      "能源",
-      1.7
-     ],
-     [
-      "基礎原物料",
-      1.18
-     ],
-     [
-      "公用事業",
-      1.15
-     ]
-    ],
-    "top10": [
-     [
-      "VANGUARD S&P 500",
-      20.34
-     ],
-     [
-      "路博邁投資基金 - NB非投資等級債券基金I月配息類股(美元)",
-      8.34
-     ],
-     [
-      "路博邁5G股票基金T累積(美元)",
-      6.96
-     ],
-     [
-      "路博邁台灣5G股票基金T月配級別(新臺幣)",
-      6.86
-     ],
-     [
-      "NB次世代通訊基金I累積類股(美元)",
-      6.43
-     ],
-     [
-      "路博邁台日雙星股票基金T月配(美元)",
-      4.38
-     ],
-     [
-      "路博邁投資基金-NB新興市場本地貨幣債I(Monthly)Calss",
-      3.09
-     ],
-     [
-      "NB美國多元企業機會基金I累積類股(美元1)",
-      2.97
-     ],
-     [
-      "路博邁全球非投資等級債券基金T月配(美元)",
-      2.91
-     ],
-     [
-      "JPM B/B INTL EQY",
-      2.17
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NBG063",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "多重資產"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOM",
-     "name": "iShares 穩健配置 40/60",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 50%"
-    },
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 49.5,
-    "bond": 34.9,
-    "tw": 12.6,
-    "cn": 1.2,
-    "tech": 53.5
-   }
-  },
-  {
-   "id": "NOM143",
-   "name": "【好好退休】野村多元收益多重資產證券投資信託基金（Ｓ級別）",
-   "company": "野村證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
-   "region": "全球",
-   "inception": "2018/05/23",
-   "risk": 3,
-   "morningstar": 2,
-   "currency": "TWD",
-   "nav": 13.1077,
-   "navDate": "2026/10/29",
-   "change": -0.26,
-   "aum": 4798494569.62,
-   "sharpe": 1.42,
-   "stdev1y": 11.45,
-   "ret": {
-    "quarter": 0.42,
-    "half": 17.88,
-    "one": 18.29,
-    "two": 23.41,
-    "three": 45.97,
-    "five": 33.15,
-    "beginning": 33.15
-   },
-   "ytd": 14.86223,
-   "rsp": {
-    "one": 10.26,
-    "two": 16.43,
-    "three": 22.01,
-    "five": 32.38
-   },
-   "fee": "0.99%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      57.42
-     ],
-     [
-      "債券",
-      28.23
-     ],
-     [
-      "現金",
-      6.79
-     ],
-     [
-      "可換股債券",
-      6.06
-     ],
-     [
-      "其他",
-      1.06
-     ],
-     [
-      "優先股",
-      0.45
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      77.77
-     ],
-     [
-      "台灣",
-      9.34
-     ],
-     [
-      "澳大利亞",
-      2.77
-     ],
-     [
-      "荷蘭",
-      2.55
-     ],
-     [
-      "英國",
-      1.42
-     ],
-     [
-      "中國",
-      0.85
-     ],
-     [
-      "加拿大",
-      0.53
-     ],
-     [
-      "日本",
-      0.32
-     ],
-     [
-      "韓國",
-      0.24
-     ],
-     [
-      "智利",
-      0.21
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      50.42
-     ],
-     [
-      "工業",
-      10.96
-     ],
-     [
-      "通訊服務",
-      10.56
-     ],
-     [
-      "金融服務",
-      9.08
-     ],
-     [
-      "健康護理",
-      5.66
-     ],
-     [
-      "能源",
-      5.5
-     ],
-     [
-      "周期性消費",
-      4.61
-     ],
-     [
-      "基礎原物料",
-      2.6
-     ],
-     [
-      "防禦性消費",
-      0.27
-     ],
-     [
-      "公用事業",
-      0.25
-     ]
-    ],
-    "top10": [
-     [
-      "SS SPDR BB ST HI YIELD ETF",
-      5.66
-     ],
-     [
-      "ISHARES CONVERTIBLE BOND ETF",
-      4.41
-     ],
-     [
-      "MICROSOFT CORP",
-      3.94
-     ],
-     [
-      "NVIDIA CORP",
-      3.31
-     ],
-     [
-      "ISHARES 0-5 YR HY CORP BOND",
-      3.3
-     ],
-     [
-      "ISHARES CORE S&P 500 ETF",
-      3.24
-     ],
-     [
-      "ALPHABET INC-CL C",
-      3.13
-     ],
-     [
-      "SS SPDR BB CONV SEC ETF",
-      2.93
-     ],
-     [
-      "ISHARES EXPANDED TECH-SOFTWARE",
-      2.77
-     ],
-     [
-      "LAM RESEARCH CORP",
-      2.76
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM143",
-   "group": "股債平衡-穩健",
-   "tags": [
-    "多重資產"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "AOR",
-     "name": "iShares 成長配置 60/40",
-     "market": "US",
-     "match": "close",
-     "note": "本基金股票約 60%"
-    },
-    {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
-     "market": "US",
-     "match": "close",
-     "note": ""
-    }
-   ],
-   "mix": {
-    "stock": 57.4,
-    "bond": 34.3,
-    "tw": 9.3,
-    "cn": 0.8,
-    "tech": 50.4
-   }
-  },
-  {
-   "id": "YUI091",
-   "name": "【好好退休】元大全球ETF穩健組合證券投資信託基金-新台幣R類型",
-   "company": "元大證券投資信託股份有限公司",
-   "tisaType": "好好退休",
-   "fundType": "平衡型",
-   "msCategory": "新台幣平衡型股債混合",
+   "fundType": "股票型",
+   "msCategory": "新台幣進取型股債混合",
    "region": "全球",
    "inception": "2021/09/23",
-   "risk": 3,
+   "risk": 4,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 23.04,
-   "navDate": "2026/10/29",
-   "change": -0.04,
-   "aum": 1911149261.0,
-   "sharpe": 1.69,
-   "stdev1y": 9.01,
+   "nav": 42.12,
+   "navDate": "2026/10/30",
+   "change": -2.07,
+   "aum": 2199922450.94,
+   "sharpe": 1.05,
+   "stdev1y": 18.52,
    "ret": {
-    "quarter": -1.75,
-    "half": 9.54,
-    "one": 17.44,
-    "two": 21.48,
-    "three": 41.47,
-    "five": 45.04,
-    "beginning": 42.26
+    "quarter": 1.08,
+    "half": 2.58,
+    "one": 20.98,
+    "two": 37.02,
+    "three": 72.73,
+    "five": 58.01,
+    "beginning": 60.37
    },
-   "ytd": 11.13262,
+   "ytd": 19.17429,
    "rsp": {
-    "one": 6.55,
-    "two": 14.26,
-    "three": 20.11,
-    "five": 30.49
+    "one": 10.39,
+    "two": 23.63,
+    "three": 33.53,
+    "five": 51.55
    },
    "fee": "0.90%",
    "portfolio": {
     "assets": [
      [
       "股票",
-      60.7
-     ],
-     [
-      "債券",
-      26.91
+      90.06
      ],
      [
       "現金",
-      6.75
+      7.62
      ],
      [
       "其他",
-      5.63
+      1.23
      ],
      [
-      "優先股",
-      0.01
+      "債券",
+      1.08
      ]
     ],
     "date": "2026/09/30",
     "countries": [
      [
       "美國",
-      66.21
-     ],
-     [
-      "韓國",
-      6.61
-     ],
-     [
-      "日本",
-      3.74
+      57.48
      ],
      [
       "台灣",
-      3.44
+      12.55
      ],
      [
-      "法國",
-      2.05
+      "日本",
+      7.56
      ],
      [
-      "德國",
-      1.88
-     ],
-     [
-      "加拿大",
-      1.69
-     ],
-     [
-      "英國",
-      1.58
+      "韓國",
+      6.86
      ],
      [
       "中國",
-      1.18
+      2.57
      ],
      [
-      "印度",
-      0.98
+      "法國",
+      1.67
+     ],
+     [
+      "德國",
+      1.57
+     ],
+     [
+      "荷蘭",
+      1.3
+     ],
+     [
+      "英國",
+      1.26
+     ],
+     [
+      "加拿大",
+      1.23
      ]
     ],
     "sectors": [
      [
       "科技",
-      33.75
-     ],
-     [
-      "工業",
-      13.54
-     ],
-     [
-      "健康護理",
-      11.14
+      45.39
      ],
      [
       "金融服務",
-      11.07
+      11.26
+     ],
+     [
+      "工業",
+      8.03
+     ],
+     [
+      "健康護理",
+      7.38
      ],
      [
       "周期性消費",
-      5.97
-     ],
-     [
-      "通訊服務",
-      5.34
-     ],
-     [
-      "基礎原物料",
-      4.63
+      6.62
      ],
      [
       "能源",
-      4.6
+      5.87
+     ],
+     [
+      "通訊服務",
+      5.66
+     ],
+     [
+      "基礎原物料",
+      3.78
      ],
      [
       "防禦性消費",
-      4.49
+      3.15
      ],
      [
       "公用事業",
-      4.35
+      1.79
      ]
     ],
     "top10": [
      [
-      "ISHR CR UNVRSE USD BD ETF-UI",
-      12.68
+      "ISHARES-C S&P500",
+      11.09
      ],
      [
-      "SS SPDR S&P 500 ETF TRUST-US",
-      10.91
+      "VANGUARD S&P 500",
+      10.15
      ],
      [
-      "ISHARES CORE U.S. AGGREGATE",
-      6.52
+      "Invesco QQQ Trust Series 1",
+      5.36
      ],
      [
-      "ISHARES MSCI USA VALUE FACTO",
-      4.85
+      "VANGUARD-TOT WOR",
+      4.57
      ],
      [
-      "ISHARES MSCI SOUTH KOREA ETF",
-      4.72
+      "施羅德環球基金系列-新興市場美元C-累積",
+      4.22
      ],
      [
-      "ISHARES CORE MSCI EMERGING",
-      4.46
+      "SPDR EURO STOXX",
+      3.9
      ],
      [
-      "FIRST TRST NASD CL EDG SGIIF",
-      4.46
+      "iShares Semiconductor ETF",
+      3.29
      ],
      [
-      "INVESCO QQQ TRUST SERIES 1",
-      3.82
+      "ISHARES MSCI SOU",
+      3.18
      ],
      [
-      "VANECK DEV MKT DVD LEADERS",
-      3.57
+      "聯博-全球價值型基金I股美元",
+      2.51
      ],
      [
-      "SS SPDR PF LNG TRM TSY E-USD",
-      3.0
+      "ISHARES ASIA 50",
+      2.06
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI091",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI101",
+   "group": "全球股票",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "VT",
+     "name": "Vanguard 全世界股票",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "ACWI",
+     "name": "iShares MSCI ACWI",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    },
+    {
+     "code": "00646",
+     "name": "元大S&P500",
+     "market": "TW",
+     "match": "diy",
+     "note": "台股可買的美股大盤（只有美國）"
+    }
+   ],
+   "mix": {
+    "stock": 90.1,
+    "bond": 1.1,
+    "tw": 12.6,
+    "cn": 2.6,
+    "tech": 45.4
+   }
+  },
+  {
+   "id": "ALI063",
+   "name": "【好享退-安聯穩健型】安聯四季雙收入息組合基金-P類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2019/07/31",
+   "risk": 3,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 18.93,
+   "navDate": "2026/10/30",
+   "change": -1.36,
+   "aum": 10509396374.61,
+   "sharpe": 1.58,
+   "stdev1y": 10.89,
+   "ret": {
+    "quarter": 1.75,
+    "half": 4.86,
+    "one": 19.56,
+    "two": 30.63,
+    "three": 57.94,
+    "five": 59.39,
+    "beginning": 93.25
+   },
+   "ytd": 15.53281,
+   "rsp": {
+    "one": 8.74,
+    "two": 18.82,
+    "three": 26.28,
+    "five": 41.73
+   },
+   "fee": "0.50%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      58.88
+     ],
+     [
+      "債券",
+      34.36
+     ],
+     [
+      "現金",
+      4.97
+     ],
+     [
+      "可換股債券",
+      1.8
+     ],
+     [
+      "優先股",
+      0.02
+     ],
+     [
+      "其他",
+      -0.03
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      56.68
+     ],
+     [
+      "台灣",
+      12.42
+     ],
+     [
+      "日本",
+      3.53
+     ],
+     [
+      "英國",
+      3.0
+     ],
+     [
+      "中國",
+      1.88
+     ],
+     [
+      "貝里斯",
+      1.69
+     ],
+     [
+      "德國",
+      1.3
+     ],
+     [
+      "墨西哥",
+      1.23
+     ],
+     [
+      "法國",
+      1.07
+     ],
+     [
+      "加拿大",
+      0.99
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      50.88
+     ],
+     [
+      "金融服務",
+      8.37
+     ],
+     [
+      "健康護理",
+      7.4
+     ],
+     [
+      "通訊服務",
+      7.16
+     ],
+     [
+      "周期性消費",
+      6.91
+     ],
+     [
+      "工業",
+      6.88
+     ],
+     [
+      "防禦性消費",
+      4.45
+     ],
+     [
+      "能源",
+      3.2
+     ],
+     [
+      "基礎原物料",
+      2.29
+     ],
+     [
+      "公用事業",
+      1.71
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500 ETF",
+      18.25
+     ],
+     [
+      "Invesco QQQ Trust Se",
+      7.13
+     ],
+     [
+      "ISHARES BARCLAYS 3-7",
+      6.72
+     ],
+     [
+      "元大台灣卓越50基金",
+      4.79
+     ],
+     [
+      "安聯台灣科技基金",
+      3.68
+     ],
+     [
+      "ISHARES HIGH DIVIDEN",
+      3.6
+     ],
+     [
+      "ISHARES RUSSELL 1000",
+      3.11
+     ],
+     [
+      "ISHARES MSCI JAPAN E",
+      2.62
+     ],
+     [
+      "安聯台灣大壩基金-A類型-新臺幣",
+      2.41
+     ],
+     [
+      "PIMCO全球投資級別債券基金-機構H級類別(累積股份)",
+      2.36
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI063",
    "group": "股債平衡-穩健",
    "tags": [
     "組合基金"
@@ -11468,22 +9443,904 @@
      "name": "iShares 成長配置 60/40",
      "market": "US",
      "match": "close",
-     "note": "本基金股票約 61%"
+     "note": "本基金股票約 60%"
     },
     {
-     "code": "AOA",
-     "name": "iShares 積極配置 80/20",
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
      "market": "US",
      "match": "close",
      "note": ""
     }
    ],
    "mix": {
-    "stock": 60.7,
-    "bond": 26.9,
-    "tw": 3.4,
-    "cn": 1.2,
-    "tech": 33.8
+    "stock": 58.9,
+    "bond": 36.2,
+    "tw": 12.4,
+    "cn": 1.9,
+    "tech": 50.9
+   }
+  },
+  {
+   "id": "CSI090",
+   "name": "【好享退-國泰2029】國泰泰享退系列2029目標日期組合基金P",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "inception": "2019/07/25",
+   "risk": 3,
+   "morningstar": 5,
+   "currency": "TWD",
+   "nav": 19.663,
+   "navDate": "2026/10/30",
+   "change": -1.4,
+   "aum": 6883291675.8,
+   "sharpe": 0.98,
+   "stdev1y": 18.38,
+   "ret": {
+    "quarter": -0.13,
+    "half": 0.72,
+    "one": 19.26,
+    "two": 31.19,
+    "three": 60.54,
+    "five": 54.32,
+    "beginning": 99.42
+   },
+   "ytd": 15.62554,
+   "rsp": {
+    "one": 8.73,
+    "two": 20.65,
+    "three": 28.9,
+    "five": 43.77
+   },
+   "fee": "0.25%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      57.76
+     ],
+     [
+      "債券",
+      32.33
+     ],
+     [
+      "可換股債券",
+      10.74
+     ],
+     [
+      "其他",
+      2.32
+     ],
+     [
+      "優先股",
+      0.11
+     ],
+     [
+      "現金",
+      -3.25
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      42.57
+     ],
+     [
+      "台灣",
+      14.85
+     ],
+     [
+      "日本",
+      6.07
+     ],
+     [
+      "中國",
+      4.87
+     ],
+     [
+      "韓國",
+      3.72
+     ],
+     [
+      "英國",
+      2.39
+     ],
+     [
+      "墨西哥",
+      1.57
+     ],
+     [
+      "德國",
+      1.54
+     ],
+     [
+      "澳大利亞",
+      1.37
+     ],
+     [
+      "貝里斯",
+      1.3
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      60.7
+     ],
+     [
+      "金融服務",
+      9.62
+     ],
+     [
+      "工業",
+      6.62
+     ],
+     [
+      "周期性消費",
+      5.83
+     ],
+     [
+      "通訊服務",
+      4.72
+     ],
+     [
+      "健康護理",
+      4.63
+     ],
+     [
+      "基礎原物料",
+      2.29
+     ],
+     [
+      "防禦性消費",
+      2.26
+     ],
+     [
+      "能源",
+      1.84
+     ],
+     [
+      "公用事業",
+      0.8
+     ]
+    ],
+    "top10": [
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      11.58
+     ],
+     [
+      "PIMCO美國股票增益基金-機構H級類別(累積股份)",
+      8.95
+     ],
+     [
+      "復華華人世紀基金",
+      7.43
+     ],
+     [
+      "VANGUARD S&P 500",
+      6.45
+     ],
+     [
+      "摩根新興市場本地貨幣債券基金",
+      5.41
+     ],
+     [
+      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
+      4.66
+     ],
+     [
+      "元大台灣卓越50基金",
+      4.65
+     ],
+     [
+      "安聯台灣科技基金",
+      4.35
+     ],
+     [
+      "富達基金-亞洲成長趨勢基金 (Y股累計美元)",
+      4.14
+     ],
+     [
+      "施羅德環球基金系列-環球收息債券(美元)C-累積",
+      3.62
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI090",
+   "group": "目標日期",
+   "tags": [
+    "組合基金",
+    "中國曝險 5%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2029 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 57.8,
+    "bond": 43.1,
+    "tw": 14.8,
+    "cn": 4.9,
+    "tech": 60.7
+   }
+  },
+  {
+   "id": "CSI103",
+   "name": "【好好退休】國泰泰享退系列２０２９目標日期組合證券投資信託基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 5,
+   "currency": "TWD",
+   "nav": 19.3658,
+   "navDate": "2026/10/30",
+   "change": -1.4,
+   "aum": 6883291675.8,
+   "sharpe": 0.97,
+   "stdev1y": 18.38,
+   "ret": {
+    "quarter": -0.18,
+    "half": 0.63,
+    "one": 19.03,
+    "two": 30.67,
+    "three": 59.54,
+    "five": 53.77,
+    "beginning": 55.08
+   },
+   "ytd": 15.44149,
+   "rsp": {
+    "one": 8.61,
+    "two": 20.39,
+    "three": 28.47,
+    "five": 43.07
+   },
+   "fee": "0.45%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      57.76
+     ],
+     [
+      "債券",
+      32.33
+     ],
+     [
+      "可換股債券",
+      10.74
+     ],
+     [
+      "其他",
+      2.32
+     ],
+     [
+      "優先股",
+      0.11
+     ],
+     [
+      "現金",
+      -3.25
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      42.57
+     ],
+     [
+      "台灣",
+      14.85
+     ],
+     [
+      "日本",
+      6.07
+     ],
+     [
+      "中國",
+      4.87
+     ],
+     [
+      "韓國",
+      3.72
+     ],
+     [
+      "英國",
+      2.39
+     ],
+     [
+      "墨西哥",
+      1.57
+     ],
+     [
+      "德國",
+      1.54
+     ],
+     [
+      "澳大利亞",
+      1.37
+     ],
+     [
+      "貝里斯",
+      1.3
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      60.7
+     ],
+     [
+      "金融服務",
+      9.62
+     ],
+     [
+      "工業",
+      6.62
+     ],
+     [
+      "周期性消費",
+      5.83
+     ],
+     [
+      "通訊服務",
+      4.72
+     ],
+     [
+      "健康護理",
+      4.63
+     ],
+     [
+      "基礎原物料",
+      2.29
+     ],
+     [
+      "防禦性消費",
+      2.26
+     ],
+     [
+      "能源",
+      1.84
+     ],
+     [
+      "公用事業",
+      0.8
+     ]
+    ],
+    "top10": [
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      11.58
+     ],
+     [
+      "PIMCO美國股票增益基金-機構H級類別(累積股份)",
+      8.95
+     ],
+     [
+      "復華華人世紀基金",
+      7.43
+     ],
+     [
+      "VANGUARD S&P 500",
+      6.45
+     ],
+     [
+      "摩根新興市場本地貨幣債券基金",
+      5.41
+     ],
+     [
+      "PIMCO多元收益債券基金-機構H級類別(累積股份)",
+      4.66
+     ],
+     [
+      "元大台灣卓越50基金",
+      4.65
+     ],
+     [
+      "安聯台灣科技基金",
+      4.35
+     ],
+     [
+      "富達基金-亞洲成長趨勢基金 (Y股累計美元)",
+      4.14
+     ],
+     [
+      "施羅德環球基金系列-環球收息債券(美元)C-累積",
+      3.62
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI103",
+   "group": "目標日期",
+   "tags": [
+    "組合基金",
+    "中國曝險 5%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2029 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 57.8,
+    "bond": 43.1,
+    "tw": 14.8,
+    "cn": 4.9,
+    "tech": 60.7
+   }
+  },
+  {
+   "id": "ALI087",
+   "name": "【好好退休】安聯四季雙收入息組合基金-R類型(累積)-新臺幣",
+   "company": "安聯證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 15.59,
+   "navDate": "2026/10/30",
+   "change": -1.27,
+   "aum": 10509396374.61,
+   "sharpe": 1.55,
+   "stdev1y": 10.79,
+   "ret": {
+    "quarter": 1.54,
+    "half": 4.57,
+    "one": 18.99,
+    "two": 29.32,
+    "three": 55.72,
+    "five": 55.72,
+    "beginning": 59.5
+   },
+   "ytd": 15.00364,
+   "rsp": {
+    "one": 8.5,
+    "two": 18.26,
+    "three": 25.37,
+    "five": 39.97
+   },
+   "fee": "1.00%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      58.88
+     ],
+     [
+      "債券",
+      34.36
+     ],
+     [
+      "現金",
+      4.97
+     ],
+     [
+      "可換股債券",
+      1.8
+     ],
+     [
+      "優先股",
+      0.02
+     ],
+     [
+      "其他",
+      -0.03
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      56.68
+     ],
+     [
+      "台灣",
+      12.42
+     ],
+     [
+      "日本",
+      3.53
+     ],
+     [
+      "英國",
+      3.0
+     ],
+     [
+      "中國",
+      1.88
+     ],
+     [
+      "貝里斯",
+      1.69
+     ],
+     [
+      "德國",
+      1.3
+     ],
+     [
+      "墨西哥",
+      1.23
+     ],
+     [
+      "法國",
+      1.07
+     ],
+     [
+      "加拿大",
+      0.99
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      50.88
+     ],
+     [
+      "金融服務",
+      8.37
+     ],
+     [
+      "健康護理",
+      7.4
+     ],
+     [
+      "通訊服務",
+      7.16
+     ],
+     [
+      "周期性消費",
+      6.91
+     ],
+     [
+      "工業",
+      6.88
+     ],
+     [
+      "防禦性消費",
+      4.45
+     ],
+     [
+      "能源",
+      3.2
+     ],
+     [
+      "基礎原物料",
+      2.29
+     ],
+     [
+      "公用事業",
+      1.71
+     ]
+    ],
+    "top10": [
+     [
+      "VANGUARD S&P 500 ETF",
+      18.25
+     ],
+     [
+      "Invesco QQQ Trust Se",
+      7.13
+     ],
+     [
+      "ISHARES BARCLAYS 3-7",
+      6.72
+     ],
+     [
+      "元大台灣卓越50基金",
+      4.79
+     ],
+     [
+      "安聯台灣科技基金",
+      3.68
+     ],
+     [
+      "ISHARES HIGH DIVIDEN",
+      3.6
+     ],
+     [
+      "ISHARES RUSSELL 1000",
+      3.11
+     ],
+     [
+      "ISHARES MSCI JAPAN E",
+      2.62
+     ],
+     [
+      "安聯台灣大壩基金-A類型-新臺幣",
+      2.41
+     ],
+     [
+      "PIMCO全球投資級別債券基金-機構H級類別(累積股份)",
+      2.36
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/ALI087",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 60%"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 58.9,
+    "bond": 36.2,
+    "tw": 12.4,
+    "cn": 1.9,
+    "tech": 50.9
+   }
+  },
+  {
+   "id": "FTS091",
+   "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2027組合證券投資信託基金R類型",
+   "company": "富蘭克林華美證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "債券型",
+   "msCategory": "目標期限 2026-2030",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 4,
+   "currency": "TWD",
+   "nav": 14.52,
+   "navDate": "2026/10/30",
+   "change": -1.43,
+   "aum": 181432393.96,
+   "sharpe": 1.33,
+   "stdev1y": 11.97,
+   "ret": {
+    "quarter": 2.29,
+    "half": 5.36,
+    "one": 17.93,
+    "two": 21.64,
+    "three": 40.96,
+    "five": 45.12,
+    "beginning": 47.74
+   },
+   "ytd": 15.43887,
+   "rsp": {
+    "one": 9.36,
+    "two": 16.17,
+    "three": 20.77,
+    "five": 29.42
+   },
+   "fee": "0.40%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      61.07
+     ],
+     [
+      "債券",
+      28.54
+     ],
+     [
+      "現金",
+      6.99
+     ],
+     [
+      "可換股債券",
+      3.07
+     ],
+     [
+      "優先股",
+      0.54
+     ],
+     [
+      "其他",
+      -0.21
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      62.81
+     ],
+     [
+      "台灣",
+      9.46
+     ],
+     [
+      "日本",
+      7.71
+     ],
+     [
+      "韓國",
+      2.74
+     ],
+     [
+      "中國",
+      1.78
+     ],
+     [
+      "英國",
+      1.76
+     ],
+     [
+      "加拿大",
+      1.67
+     ],
+     [
+      "荷蘭",
+      1.57
+     ],
+     [
+      "澳大利亞",
+      1.25
+     ],
+     [
+      "印度",
+      0.95
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      56.06
+     ],
+     [
+      "金融服務",
+      9.14
+     ],
+     [
+      "工業",
+      8.82
+     ],
+     [
+      "通訊服務",
+      5.76
+     ],
+     [
+      "周期性消費",
+      5.41
+     ],
+     [
+      "健康護理",
+      5.04
+     ],
+     [
+      "防禦性消費",
+      2.86
+     ],
+     [
+      "基礎原物料",
+      2.52
+     ],
+     [
+      "能源",
+      2.08
+     ],
+     [
+      "公用事業",
+      1.37
+     ]
+    ],
+    "top10": [
+     [
+      "iShares安碩核心40/60穩健配置",
+      18.82
+     ],
+     [
+      "富蘭克林華美多重資產收益基金-美元累積型",
+      13.02
+     ],
+     [
+      "富蘭克林華美亞太平衡基金-美元(累積型)",
+      10.94
+     ],
+     [
+      "iShares安碩核心80/20積極配置",
+      10.25
+     ],
+     [
+      "iShares安碩iBoxx美元高收益公",
+      8.81
+     ],
+     [
+      "先鋒全世界股票ETF",
+      7.76
+     ],
+     [
+      "VanEck半導體ETF",
+      4.98
+     ],
+     [
+      "iShares Nasdaq Top 30 Stocks",
+      4.82
+     ],
+     [
+      "元大台灣卓越50基金",
+      4.01
+     ],
+     [
+      "State Street SPDR彭博可轉換",
+      3.55
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/FTS091",
+   "group": "目標日期",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "diy",
+     "note": "目標 2027 年，目前股票約 63%；台灣沒有目標日期 ETF，越接近目標年越該往債券多的那檔移"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "diy",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 61.1,
+    "bond": 31.6,
+    "tw": 9.5,
+    "cn": 1.8,
+    "tech": 56.1
    }
   },
   {
@@ -11498,9 +10355,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 11.5268,
-   "navDate": "2026/10/29",
-   "change": -0.27,
+   "nav": 11.2898,
+   "navDate": "2026/10/30",
+   "change": -2.06,
    "aum": 4798494569.62,
    "sharpe": 1.32,
    "stdev1y": 11.57,
@@ -11707,190 +10564,854 @@
    }
   },
   {
-   "id": "CSI100",
-   "name": "【好好退休】國泰全球多重收益平衡基金R",
-   "company": "國泰證券投資信託股份有限公司",
+   "id": "NBG063",
+   "name": "【好好退休】路博邁收益成長多重資產證券投資信託基金R累積(新臺幣)",
+   "company": "路博邁證券投資信託股份有限公司",
    "tisaType": "好好退休",
    "fundType": "平衡型",
-   "msCategory": "新台幣進取型股債混合",
+   "msCategory": "新台幣保守型股債混合",
    "region": "全球",
-   "inception": "2021/09/23",
+   "inception": "2022/07/01",
    "risk": 3,
-   "morningstar": 2,
+   "morningstar": 4,
    "currency": "TWD",
-   "nav": 17.03,
-   "navDate": "2026/10/29",
-   "change": 0.0,
-   "aum": 4156285197.04,
-   "sharpe": 1.46,
-   "stdev1y": 8.85,
+   "nav": 14.14,
+   "navDate": "2026/10/30",
+   "change": -1.53,
+   "aum": 5669522061.71,
+   "sharpe": 1.14,
+   "stdev1y": 13.04,
    "ret": {
-    "quarter": -1.34,
-    "half": 11.22,
-    "one": 14.76,
-    "two": 22.47,
-    "three": 43.52,
-    "five": 38.37,
-    "beginning": 34.52
+    "quarter": 2.5,
+    "half": 4.13,
+    "one": 16.46,
+    "two": 28.56,
+    "three": 43.74,
+    "five": null,
+    "beginning": 43.6
    },
-   "ytd": 9.85094,
+   "ytd": 13.87787,
    "rsp": {
-    "one": 6.3,
-    "two": 13.8,
-    "three": 20.08,
-    "five": 30.0
+    "one": 8.6,
+    "two": 18.25,
+    "three": 23.88,
+    "five": null
    },
    "fee": "1.00%",
    "portfolio": {
     "assets": [
      [
       "股票",
-      59.94
+      49.54
      ],
      [
       "債券",
-      30.22
+      34.92
      ],
      [
       "現金",
-      9.42
+      10.83
      ],
      [
       "其他",
-      0.41
+      4.71
      ]
     ],
     "date": "2026/09/30",
     "countries": [
      [
       "美國",
-      65.77
-     ],
-     [
-      "英國",
-      6.18
+      67.52
      ],
      [
       "台灣",
-      4.6
-     ],
-     [
-      "法國",
-      4.11
+      12.6
      ],
      [
       "日本",
-      3.55
+      6.16
      ],
      [
-      "德國",
-      3.1
+      "中國",
+      1.25
      ],
      [
       "加拿大",
-      2.5
+      0.85
      ],
      [
-      "義大利",
-      2.28
+      "英國",
+      0.83
+     ],
+     [
+      "瑞士",
+      0.71
      ],
      [
       "墨西哥",
-      1.7
+      0.62
      ],
      [
       "荷蘭",
-      1.68
+      0.56
+     ],
+     [
+      "德國",
+      0.54
      ]
     ],
     "sectors": [
      [
       "科技",
-      43.57
-     ],
-     [
-      "金融服務",
-      16.67
-     ],
-     [
-      "周期性消費",
-      11.03
-     ],
-     [
-      "通訊服務",
-      10.16
+      53.5
      ],
      [
       "工業",
-      8.82
+      10.96
+     ],
+     [
+      "金融服務",
+      8.5
+     ],
+     [
+      "通訊服務",
+      7.51
+     ],
+     [
+      "周期性消費",
+      6.84
      ],
      [
       "健康護理",
-      6.47
+      5.18
      ],
      [
       "防禦性消費",
-      1.17
+      2.54
      ],
      [
       "能源",
-      1.02
+      1.7
      ],
      [
       "基礎原物料",
-      0.59
+      1.18
      ],
      [
       "公用事業",
-      0.35
+      1.15
      ]
     ],
     "top10": [
      [
-      "NVIDIA CORP",
-      4.73
+      "VANGUARD S&P 500",
+      20.34
      ],
      [
-      "MICROSOFT CORP",
-      3.85
+      "路博邁投資基金 - NB非投資等級債券基金I月配息類股(美元)",
+      8.34
      ],
      [
-      "ALPHABET INC-CL C",
-      3.0
+      "路博邁5G股票基金T累積(美元)",
+      6.96
      ],
      [
-      "APPLE INC",
-      2.86
+      "路博邁台灣5G股票基金T月配級別(新臺幣)",
+      6.86
      ],
      [
-      "CCO HLDGS LLC/CAP CORP",
-      2.58
+      "NB次世代通訊基金I累積類股(美元)",
+      6.43
      ],
      [
-      "AMAZON.COM INC",
-      2.51
+      "路博邁台日雙星股票基金T月配(美元)",
+      4.38
      ],
      [
-      "ISHARES EURO HY CORP BND",
-      2.31
+      "路博邁投資基金-NB新興市場本地貨幣債I(Monthly)Calss",
+      3.09
      ],
      [
-      "ISHARES MSCI CANADA ETF",
-      2.24
+      "NB美國多元企業機會基金I累積類股(美元1)",
+      2.97
      ],
      [
-      "Meta平台公司",
-      1.97
+      "路博邁全球非投資等級債券基金T月配(美元)",
+      2.91
      ],
      [
-      "台積電",
-      1.91
+      "JPM B/B INTL EQY",
+      2.17
      ]
     ]
    },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI100",
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NBG063",
    "group": "股債平衡-穩健",
-   "tags": [],
+   "tags": [
+    "多重資產"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 50%"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 49.5,
+    "bond": 34.9,
+    "tw": 12.6,
+    "cn": 1.2,
+    "tech": 53.5
+   }
+  },
+  {
+   "id": "CIT110",
+   "name": "【好享退-群益穩健型】群益全民優質樂退組合基金P(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好享退",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2019/07/23",
+   "risk": 3,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 17.0439,
+   "navDate": "2026/10/30",
+   "change": -1.58,
+   "aum": 4480450627.32,
+   "sharpe": 0.99,
+   "stdev1y": 15.04,
+   "ret": {
+    "quarter": -0.16,
+    "half": 1.58,
+    "one": 16.33,
+    "two": 24.4,
+    "three": 53.18,
+    "five": 47.52,
+    "beginning": 73.0
+   },
+   "ytd": 13.1323,
+   "rsp": {
+    "one": 7.8,
+    "two": 17.16,
+    "three": 24.4,
+    "five": 38.33
+   },
+   "fee": "0.40%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      54.29
+     ],
+     [
+      "可換股債券",
+      20.0
+     ],
+     [
+      "債券",
+      18.6
+     ],
+     [
+      "現金",
+      7.58
+     ],
+     [
+      "優先股",
+      0.06
+     ],
+     [
+      "其他",
+      -0.53
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      46.58
+     ],
+     [
+      "台灣",
+      12.22
+     ],
+     [
+      "中國",
+      4.82
+     ],
+     [
+      "日本",
+      3.83
+     ],
+     [
+      "韓國",
+      3.42
+     ],
+     [
+      "貝里斯",
+      2.83
+     ],
+     [
+      "印度",
+      1.82
+     ],
+     [
+      "德國",
+      1.68
+     ],
+     [
+      "墨西哥",
+      1.6
+     ],
+     [
+      "哥倫比亞",
+      1.35
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      62.46
+     ],
+     [
+      "金融服務",
+      7.44
+     ],
+     [
+      "工業",
+      6.06
+     ],
+     [
+      "周期性消費",
+      5.81
+     ],
+     [
+      "通訊服務",
+      5.59
+     ],
+     [
+      "健康護理",
+      4.59
+     ],
+     [
+      "防禦性消費",
+      2.49
+     ],
+     [
+      "能源",
+      2.03
+     ],
+     [
+      "基礎原物料",
+      1.82
+     ],
+     [
+      "公用事業",
+      1.0
+     ]
+    ],
+    "top10": [
+     [
+      "SS SPDR富時全球可轉債UCITS交易所交易基",
+      13.98
+     ],
+     [
+      "iShares MSCI ACWI ETF",
+      10.61
+     ],
+     [
+      "iShares安碩核心標普500 ETF",
+      8.17
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      6.7
+     ],
+     [
+      "Invesco Nasdaq 100 ETF",
+      6.5
+     ],
+     [
+      "瑞銀 (盧森堡) 新興市場債券基金 (美元) I-A1-累積",
+      4.77
+     ],
+     [
+      "安聯台灣科技基金",
+      4.7
+     ],
+     [
+      "富蘭克林坦伯頓全球投資系列-新興國家基金美元I(acc)",
+      4.4
+     ],
+     [
+      "景順半導體ETF",
+      4.34
+     ],
+     [
+      "瑞士隆奧亞洲價值債券基金-N累積(美元)",
+      3.93
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT110",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金",
+    "中國曝險 5%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 64%"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 54.3,
+    "bond": 38.6,
+    "tw": 12.2,
+    "cn": 4.8,
+    "tech": 62.5
+   }
+  },
+  {
+   "id": "CIT127",
+   "name": "【好好退休】群益全民優質樂退組合基金R(累積型-新台幣)",
+   "company": "群益證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2023/07/03",
+   "risk": 3,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 14.533,
+   "navDate": "2026/10/30",
+   "change": -1.58,
+   "aum": 4480450627.32,
+   "sharpe": 0.98,
+   "stdev1y": 15.04,
+   "ret": {
+    "quarter": -0.23,
+    "half": 1.43,
+    "one": 15.99,
+    "two": 23.67,
+    "three": 51.82,
+    "five": null,
+    "beginning": 47.42
+   },
+   "ytd": 12.85328,
+   "rsp": {
+    "one": 7.62,
+    "two": 16.79,
+    "three": 23.8,
+    "five": null
+   },
+   "fee": "0.70%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      54.29
+     ],
+     [
+      "可換股債券",
+      20.0
+     ],
+     [
+      "債券",
+      18.6
+     ],
+     [
+      "現金",
+      7.58
+     ],
+     [
+      "優先股",
+      0.06
+     ],
+     [
+      "其他",
+      -0.53
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      46.58
+     ],
+     [
+      "台灣",
+      12.22
+     ],
+     [
+      "中國",
+      4.82
+     ],
+     [
+      "日本",
+      3.83
+     ],
+     [
+      "韓國",
+      3.42
+     ],
+     [
+      "貝里斯",
+      2.83
+     ],
+     [
+      "印度",
+      1.82
+     ],
+     [
+      "德國",
+      1.68
+     ],
+     [
+      "墨西哥",
+      1.6
+     ],
+     [
+      "哥倫比亞",
+      1.35
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      62.46
+     ],
+     [
+      "金融服務",
+      7.44
+     ],
+     [
+      "工業",
+      6.06
+     ],
+     [
+      "周期性消費",
+      5.81
+     ],
+     [
+      "通訊服務",
+      5.59
+     ],
+     [
+      "健康護理",
+      4.59
+     ],
+     [
+      "防禦性消費",
+      2.49
+     ],
+     [
+      "能源",
+      2.03
+     ],
+     [
+      "基礎原物料",
+      1.82
+     ],
+     [
+      "公用事業",
+      1.0
+     ]
+    ],
+    "top10": [
+     [
+      "SS SPDR富時全球可轉債UCITS交易所交易基",
+      13.98
+     ],
+     [
+      "iShares MSCI ACWI ETF",
+      10.61
+     ],
+     [
+      "iShares安碩核心標普500 ETF",
+      8.17
+     ],
+     [
+      "施羅德環球基金系列-環球可轉換債券(美元)C-累積",
+      6.7
+     ],
+     [
+      "Invesco Nasdaq 100 ETF",
+      6.5
+     ],
+     [
+      "瑞銀 (盧森堡) 新興市場債券基金 (美元) I-A1-累積",
+      4.77
+     ],
+     [
+      "安聯台灣科技基金",
+      4.7
+     ],
+     [
+      "富蘭克林坦伯頓全球投資系列-新興國家基金美元I(acc)",
+      4.4
+     ],
+     [
+      "景順半導體ETF",
+      4.34
+     ],
+     [
+      "瑞士隆奧亞洲價值債券基金-N累積(美元)",
+      3.93
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CIT127",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金",
+    "中國曝險 5%"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 64%"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 54.3,
+    "bond": 38.6,
+    "tw": 12.2,
+    "cn": 4.8,
+    "tech": 62.5
+   }
+  },
+  {
+   "id": "NOM143",
+   "name": "【好好退休】野村多元收益多重資產證券投資信託基金（Ｓ級別）",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "morningstar": 2,
+   "currency": "TWD",
+   "nav": 12.8378,
+   "navDate": "2026/10/30",
+   "change": -2.06,
+   "aum": 4798494569.62,
+   "sharpe": 1.08,
+   "stdev1y": 11.82,
+   "ret": {
+    "quarter": 0.84,
+    "half": 5.89,
+    "one": 14.28,
+    "two": 20.56,
+    "three": 47.48,
+    "five": 31.08,
+    "beginning": 31.08
+   },
+   "ytd": 13.07735,
+   "rsp": {
+    "one": 10.26,
+    "two": 16.43,
+    "three": 22.01,
+    "five": 32.38
+   },
+   "fee": "0.99%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      57.42
+     ],
+     [
+      "債券",
+      28.23
+     ],
+     [
+      "現金",
+      6.79
+     ],
+     [
+      "可換股債券",
+      6.06
+     ],
+     [
+      "其他",
+      1.06
+     ],
+     [
+      "優先股",
+      0.45
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      77.77
+     ],
+     [
+      "台灣",
+      9.34
+     ],
+     [
+      "澳大利亞",
+      2.77
+     ],
+     [
+      "荷蘭",
+      2.55
+     ],
+     [
+      "英國",
+      1.42
+     ],
+     [
+      "中國",
+      0.85
+     ],
+     [
+      "加拿大",
+      0.53
+     ],
+     [
+      "日本",
+      0.32
+     ],
+     [
+      "韓國",
+      0.24
+     ],
+     [
+      "智利",
+      0.21
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      50.42
+     ],
+     [
+      "工業",
+      10.96
+     ],
+     [
+      "通訊服務",
+      10.56
+     ],
+     [
+      "金融服務",
+      9.08
+     ],
+     [
+      "健康護理",
+      5.66
+     ],
+     [
+      "能源",
+      5.5
+     ],
+     [
+      "周期性消費",
+      4.61
+     ],
+     [
+      "基礎原物料",
+      2.6
+     ],
+     [
+      "防禦性消費",
+      0.27
+     ],
+     [
+      "公用事業",
+      0.25
+     ]
+    ],
+    "top10": [
+     [
+      "SS SPDR BB ST HI YIELD ETF",
+      5.66
+     ],
+     [
+      "ISHARES CONVERTIBLE BOND ETF",
+      4.41
+     ],
+     [
+      "MICROSOFT CORP",
+      3.94
+     ],
+     [
+      "NVIDIA CORP",
+      3.31
+     ],
+     [
+      "ISHARES 0-5 YR HY CORP BOND",
+      3.3
+     ],
+     [
+      "ISHARES CORE S&P 500 ETF",
+      3.24
+     ],
+     [
+      "ALPHABET INC-CL C",
+      3.13
+     ],
+     [
+      "SS SPDR BB CONV SEC ETF",
+      2.93
+     ],
+     [
+      "ISHARES EXPANDED TECH-SOFTWARE",
+      2.77
+     ],
+     [
+      "LAM RESEARCH CORP",
+      2.76
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM143",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "多重資產"
+   ],
    "notes": [],
    "etfs": [
     {
@@ -11901,19 +11422,19 @@
      "note": "本基金股票約 60%"
     },
     {
-     "code": "AOM",
-     "name": "iShares 穩健配置 40/60",
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
      "market": "US",
      "match": "close",
      "note": ""
     }
    ],
    "mix": {
-    "stock": 59.9,
-    "bond": 30.2,
-    "tw": 4.6,
-    "cn": 0.0,
-    "tech": 43.6
+    "stock": 57.4,
+    "bond": 34.3,
+    "tw": 9.3,
+    "cn": 0.8,
+    "tech": 50.4
    }
   },
   {
@@ -11928,9 +11449,9 @@
    "risk": 4,
    "morningstar": 2,
    "currency": "TWD",
-   "nav": 14.0822,
-   "navDate": "2026/10/29",
-   "change": -0.48,
+   "nav": 13.4008,
+   "navDate": "2026/10/30",
+   "change": -4.84,
    "aum": 787330691.0,
    "sharpe": 0.62,
    "stdev1y": 23.27,
@@ -12136,6 +11657,442 @@
    }
   },
   {
+   "id": "YUI091",
+   "name": "【好好退休】元大全球ETF穩健組合證券投資信託基金-新台幣R類型",
+   "company": "元大證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 3,
+   "currency": "TWD",
+   "nav": 22.68,
+   "navDate": "2026/10/30",
+   "change": -1.56,
+   "aum": 1911149261.0,
+   "sharpe": 1.4,
+   "stdev1y": 8.83,
+   "ret": {
+    "quarter": 0.92,
+    "half": 3.41,
+    "one": 14.17,
+    "two": 22.1,
+    "three": 45.0,
+    "five": 41.18,
+    "beginning": 42.75
+   },
+   "ytd": 11.51985,
+   "rsp": {
+    "one": 6.55,
+    "two": 14.26,
+    "three": 20.11,
+    "five": 30.49
+   },
+   "fee": "0.90%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      60.7
+     ],
+     [
+      "債券",
+      26.91
+     ],
+     [
+      "現金",
+      6.75
+     ],
+     [
+      "其他",
+      5.63
+     ],
+     [
+      "優先股",
+      0.01
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      66.21
+     ],
+     [
+      "韓國",
+      6.61
+     ],
+     [
+      "日本",
+      3.74
+     ],
+     [
+      "台灣",
+      3.44
+     ],
+     [
+      "法國",
+      2.05
+     ],
+     [
+      "德國",
+      1.88
+     ],
+     [
+      "加拿大",
+      1.69
+     ],
+     [
+      "英國",
+      1.58
+     ],
+     [
+      "中國",
+      1.18
+     ],
+     [
+      "印度",
+      0.98
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      33.75
+     ],
+     [
+      "工業",
+      13.54
+     ],
+     [
+      "健康護理",
+      11.14
+     ],
+     [
+      "金融服務",
+      11.07
+     ],
+     [
+      "周期性消費",
+      5.97
+     ],
+     [
+      "通訊服務",
+      5.34
+     ],
+     [
+      "基礎原物料",
+      4.63
+     ],
+     [
+      "能源",
+      4.6
+     ],
+     [
+      "防禦性消費",
+      4.49
+     ],
+     [
+      "公用事業",
+      4.35
+     ]
+    ],
+    "top10": [
+     [
+      "ISHR CR UNVRSE USD BD ETF-UI",
+      12.68
+     ],
+     [
+      "SS SPDR S&P 500 ETF TRUST-US",
+      10.91
+     ],
+     [
+      "ISHARES CORE U.S. AGGREGATE",
+      6.52
+     ],
+     [
+      "ISHARES MSCI USA VALUE FACTO",
+      4.85
+     ],
+     [
+      "ISHARES MSCI SOUTH KOREA ETF",
+      4.72
+     ],
+     [
+      "ISHARES CORE MSCI EMERGING",
+      4.46
+     ],
+     [
+      "FIRST TRST NASD CL EDG SGIIF",
+      4.46
+     ],
+     [
+      "INVESCO QQQ TRUST SERIES 1",
+      3.82
+     ],
+     [
+      "VANECK DEV MKT DVD LEADERS",
+      3.57
+     ],
+     [
+      "SS SPDR PF LNG TRM TSY E-USD",
+      3.0
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/YUI091",
+   "group": "股債平衡-穩健",
+   "tags": [
+    "組合基金"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 61%"
+    },
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 60.7,
+    "bond": 26.9,
+    "tw": 3.4,
+    "cn": 1.2,
+    "tech": 33.8
+   }
+  },
+  {
+   "id": "NOM124",
+   "name": "【好好退休】野村動態配置多重資產證券投資信託基金(S級別)",
+   "company": "野村證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣平衡型股債混合",
+   "region": "全球",
+   "inception": "2018/05/23",
+   "risk": 3,
+   "morningstar": 2,
+   "currency": "TWD",
+   "nav": 16.5904,
+   "navDate": "2026/10/30",
+   "change": -2.24,
+   "aum": 949148224.92,
+   "sharpe": 0.69,
+   "stdev1y": 18.17,
+   "ret": {
+    "quarter": 0.69,
+    "half": 2.16,
+    "one": 13.0,
+    "two": 17.05,
+    "three": 49.88,
+    "five": 16.14,
+    "beginning": 69.71
+   },
+   "ytd": 11.81757,
+   "rsp": {
+    "one": 10.29,
+    "two": 17.36,
+    "three": 22.31,
+    "five": 31.46
+   },
+   "fee": "0.99%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      69.28
+     ],
+     [
+      "債券",
+      20.79
+     ],
+     [
+      "現金",
+      6.32
+     ],
+     [
+      "可換股債券",
+      3.05
+     ],
+     [
+      "優先股",
+      0.56
+     ],
+     [
+      "其他",
+      -0.01
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      61.53
+     ],
+     [
+      "台灣",
+      15.12
+     ],
+     [
+      "日本",
+      3.93
+     ],
+     [
+      "韓國",
+      3.57
+     ],
+     [
+      "中國",
+      2.75
+     ],
+     [
+      "印度",
+      1.59
+     ],
+     [
+      "澳大利亞",
+      1.43
+     ],
+     [
+      "加拿大",
+      1.36
+     ],
+     [
+      "瑞士",
+      1.26
+     ],
+     [
+      "法國",
+      1.25
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      48.84
+     ],
+     [
+      "金融服務",
+      13.0
+     ],
+     [
+      "工業",
+      8.63
+     ],
+     [
+      "通訊服務",
+      8.33
+     ],
+     [
+      "健康護理",
+      8.14
+     ],
+     [
+      "周期性消費",
+      5.38
+     ],
+     [
+      "能源",
+      4.06
+     ],
+     [
+      "防禦性消費",
+      1.71
+     ],
+     [
+      "基礎原物料",
+      1.69
+     ],
+     [
+      "房地產",
+      0.12
+     ]
+    ],
+    "top10": [
+     [
+      "ISHARES JP MORGAN USD EMERGI",
+      5.21
+     ],
+     [
+      "TAIWAN SEMICONDUCTOR-SP ADR",
+      4.13
+     ],
+     [
+      "ALPHABET INC-CL C",
+      3.82
+     ],
+     [
+      "SS SPDR BB CONV SEC ETF",
+      3.8
+     ],
+     [
+      "高盛大中華股票基金X股美元",
+      3.42
+     ],
+     [
+      "NVIDIA CORP",
+      3.25
+     ],
+     [
+      "野村全球品牌基金-累積類型新臺幣計價",
+      3.2
+     ],
+     [
+      "VALERO ENERGY CORP",
+      2.75
+     ],
+     [
+      "CITIGROUP INC",
+      2.65
+     ],
+     [
+      "聯發科",
+      2.59
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/NOM124",
+   "group": "股債平衡-積極",
+   "tags": [
+    "多重資產"
+   ],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOA",
+     "name": "iShares 積極配置 80/20",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 71%"
+    },
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 69.3,
+    "bond": 23.8,
+    "tw": 15.1,
+    "cn": 2.8,
+    "tech": 48.8
+   }
+  },
+  {
    "id": "JPM039",
    "name": "【好好退休】摩根環球股票收益證券投資信託基金-R類型(新臺幣)",
    "company": "摩根證券投資信託股份有限公司",
@@ -12147,9 +12104,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 12.62,
-   "navDate": "2026/10/29",
-   "change": 1.2,
+   "nav": 12.64,
+   "navDate": "2026/10/30",
+   "change": 0.16,
    "aum": 3202467320.87,
    "sharpe": 1.12,
    "stdev1y": 9.99,
@@ -12338,6 +12295,216 @@
    }
   },
   {
+   "id": "CSI100",
+   "name": "【好好退休】國泰全球多重收益平衡基金R",
+   "company": "國泰證券投資信託股份有限公司",
+   "tisaType": "好好退休",
+   "fundType": "平衡型",
+   "msCategory": "新台幣進取型股債混合",
+   "region": "全球",
+   "inception": "2021/09/23",
+   "risk": 3,
+   "morningstar": 2,
+   "currency": "TWD",
+   "nav": 16.71,
+   "navDate": "2026/10/30",
+   "change": -1.88,
+   "aum": 4156285197.04,
+   "sharpe": 1.25,
+   "stdev1y": 8.76,
+   "ret": {
+    "quarter": -0.41,
+    "half": 4.93,
+    "one": 12.56,
+    "two": 23.23,
+    "three": 46.31,
+    "five": 35.48,
+    "beginning": 35.16
+   },
+   "ytd": 10.36941,
+   "rsp": {
+    "one": 6.3,
+    "two": 13.8,
+    "three": 20.08,
+    "five": 30.0
+   },
+   "fee": "1.00%",
+   "portfolio": {
+    "assets": [
+     [
+      "股票",
+      59.94
+     ],
+     [
+      "債券",
+      30.22
+     ],
+     [
+      "現金",
+      9.42
+     ],
+     [
+      "其他",
+      0.41
+     ]
+    ],
+    "date": "2026/09/30",
+    "countries": [
+     [
+      "美國",
+      65.77
+     ],
+     [
+      "英國",
+      6.18
+     ],
+     [
+      "台灣",
+      4.6
+     ],
+     [
+      "法國",
+      4.11
+     ],
+     [
+      "日本",
+      3.55
+     ],
+     [
+      "德國",
+      3.1
+     ],
+     [
+      "加拿大",
+      2.5
+     ],
+     [
+      "義大利",
+      2.28
+     ],
+     [
+      "墨西哥",
+      1.7
+     ],
+     [
+      "荷蘭",
+      1.68
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      43.57
+     ],
+     [
+      "金融服務",
+      16.67
+     ],
+     [
+      "周期性消費",
+      11.03
+     ],
+     [
+      "通訊服務",
+      10.16
+     ],
+     [
+      "工業",
+      8.82
+     ],
+     [
+      "健康護理",
+      6.47
+     ],
+     [
+      "防禦性消費",
+      1.17
+     ],
+     [
+      "能源",
+      1.02
+     ],
+     [
+      "基礎原物料",
+      0.59
+     ],
+     [
+      "公用事業",
+      0.35
+     ]
+    ],
+    "top10": [
+     [
+      "NVIDIA CORP",
+      4.73
+     ],
+     [
+      "MICROSOFT CORP",
+      3.85
+     ],
+     [
+      "ALPHABET INC-CL C",
+      3.0
+     ],
+     [
+      "APPLE INC",
+      2.86
+     ],
+     [
+      "CCO HLDGS LLC/CAP CORP",
+      2.58
+     ],
+     [
+      "AMAZON.COM INC",
+      2.51
+     ],
+     [
+      "ISHARES EURO HY CORP BND",
+      2.31
+     ],
+     [
+      "ISHARES MSCI CANADA ETF",
+      2.24
+     ],
+     [
+      "Meta平台公司",
+      1.97
+     ],
+     [
+      "台積電",
+      1.91
+     ]
+    ]
+   },
+   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/CSI100",
+   "group": "股債平衡-穩健",
+   "tags": [],
+   "notes": [],
+   "etfs": [
+    {
+     "code": "AOR",
+     "name": "iShares 成長配置 60/40",
+     "market": "US",
+     "match": "close",
+     "note": "本基金股票約 60%"
+    },
+    {
+     "code": "AOM",
+     "name": "iShares 穩健配置 40/60",
+     "market": "US",
+     "match": "close",
+     "note": ""
+    }
+   ],
+   "mix": {
+    "stock": 59.9,
+    "bond": 30.2,
+    "tw": 4.6,
+    "cn": 0.0,
+    "tech": 43.6
+   }
+  },
+  {
    "id": "FTS093",
    "name": "【好好退休】富蘭克林華美退休傘型證券投資信託基金之目標2047組合證券投資信託基金R類型",
    "company": "富蘭克林華美證券投資信託股份有限公司",
@@ -12349,9 +12516,9 @@
    "risk": 4,
    "morningstar": 1,
    "currency": "TWD",
-   "nav": 12.41,
-   "navDate": "2026/10/29",
-   "change": -1.27,
+   "nav": 11.62,
+   "navDate": "2026/10/30",
+   "change": -6.37,
    "aum": 460220512.15,
    "sharpe": 0.39,
    "stdev1y": 25.96,
@@ -12563,9 +12730,9 @@
    "risk": 3,
    "morningstar": 2,
    "currency": "TWD",
-   "nav": 14.2712,
-   "navDate": "2026/10/29",
-   "change": 0.15,
+   "nav": 14.2472,
+   "navDate": "2026/10/30",
+   "change": -0.17,
    "aum": 630620544.95,
    "sharpe": 0.97,
    "stdev1y": 4.16,
@@ -12772,22 +12939,22 @@
    "risk": 2,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 11.9587,
-   "navDate": "2026/10/29",
-   "change": 0.22,
+   "nav": 11.921,
+   "navDate": "2026/10/30",
+   "change": -0.32,
    "aum": 895515214.77,
-   "sharpe": 0.77,
-   "stdev1y": 4.63,
+   "sharpe": 0.82,
+   "stdev1y": 4.69,
    "ret": {
-    "quarter": -2.64,
-    "half": 1.45,
-    "one": 4.87,
-    "two": 5.57,
-    "three": 17.91,
-    "five": 19.09,
-    "beginning": 17.45
+    "quarter": -0.39,
+    "half": 1.17,
+    "one": 5.15,
+    "two": 8.01,
+    "three": 20.79,
+    "five": 20.47,
+    "beginning": 19.26
    },
-   "ytd": 1.17261,
+   "ytd": 2.73179,
    "rsp": {
     "one": 0.32,
     "two": 3.13,
@@ -12999,22 +13166,22 @@
    "risk": 2,
    "morningstar": 3,
    "currency": "TWD",
-   "nav": 12.0802,
-   "navDate": "2026/10/29",
-   "change": 0.22,
+   "nav": 12.0419,
+   "navDate": "2026/10/30",
+   "change": -0.32,
    "aum": 895515214.77,
-   "sharpe": 0.71,
-   "stdev1y": 4.63,
+   "sharpe": 0.76,
+   "stdev1y": 4.69,
    "ret": {
-    "quarter": -2.71,
-    "half": 1.3,
-    "one": 4.56,
-    "two": 4.94,
-    "three": 16.92,
+    "quarter": -0.47,
+    "half": 1.02,
+    "one": 4.84,
+    "two": 7.37,
+    "three": 19.72,
     "five": null,
-    "beginning": 18.73
+    "beginning": 20.53
    },
-   "ytd": 0.94757,
+   "ytd": 2.47879,
    "rsp": {
     "one": 0.16,
     "two": 2.8,
@@ -13226,9 +13393,9 @@
    "risk": 3,
    "morningstar": 2,
    "currency": "TWD",
-   "nav": 10.8256,
-   "navDate": "2026/10/29",
-   "change": 0.25,
+   "nav": 10.8239,
+   "navDate": "2026/10/30",
+   "change": -0.02,
    "aum": 8420441891.49,
    "sharpe": 0.17,
    "stdev1y": 3.91,
@@ -13438,9 +13605,9 @@
    "risk": 3,
    "morningstar": 2,
    "currency": "TWD",
-   "nav": 10.3916,
-   "navDate": "2026/10/29",
-   "change": 0.25,
+   "nav": 10.3899,
+   "navDate": "2026/10/30",
+   "change": -0.02,
    "aum": 8420441891.49,
    "sharpe": 0.09,
    "stdev1y": 3.91,
@@ -13650,9 +13817,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 9.68,
-   "navDate": "2026/10/29",
-   "change": -1.63,
+   "nav": 9.36,
+   "navDate": "2026/10/30",
+   "change": -3.31,
    "aum": 742443449.62,
    "sharpe": 0.08,
    "stdev1y": 15.55,
@@ -13871,9 +14038,9 @@
    "risk": 2,
    "morningstar": 1,
    "currency": "TWD",
-   "nav": 11.5338,
-   "navDate": "2026/10/29",
-   "change": 0.26,
+   "nav": 11.52,
+   "navDate": "2026/10/30",
+   "change": -0.12,
    "aum": 2129885927.72,
    "sharpe": -0.16,
    "stdev1y": 4.23,
@@ -14013,9 +14180,9 @@
    "risk": 2,
    "morningstar": 1,
    "currency": "TWD",
-   "nav": 10.6052,
-   "navDate": "2026/10/29",
-   "change": 0.3,
+   "nav": 10.6075,
+   "navDate": "2026/10/30",
+   "change": 0.02,
    "aum": 1788311158.6,
    "sharpe": -0.57,
    "stdev1y": 4.16,
@@ -14198,9 +14365,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 21.48,
-   "navDate": "2026/10/30",
-   "change": -4.7,
+   "nav": 21.47,
+   "navDate": "2026/11/02",
+   "change": -0.05,
    "aum": 5819174617.0,
    "sharpe": null,
    "stdev1y": null,
@@ -14365,9 +14532,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 21.44,
-   "navDate": "2026/10/30",
-   "change": -4.46,
+   "nav": 21.33,
+   "navDate": "2026/11/02",
+   "change": -0.51,
    "aum": 16026231587.0,
    "sharpe": null,
    "stdev1y": null,
@@ -14528,9 +14695,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 20.38,
-   "navDate": "2026/10/30",
-   "change": -3.96,
+   "nav": 20.29,
+   "navDate": "2026/11/02",
+   "change": -0.44,
    "aum": 2233364228.0,
    "sharpe": null,
    "stdev1y": null,
@@ -14690,9 +14857,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 20.26,
-   "navDate": "2026/10/30",
-   "change": -4.25,
+   "nav": 20.23,
+   "navDate": "2026/11/02",
+   "change": -0.15,
    "aum": 5985090452.0,
    "sharpe": null,
    "stdev1y": null,
@@ -14852,9 +15019,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 15.36,
-   "navDate": "2026/10/30",
-   "change": -4.24,
+   "nav": 15.33,
+   "navDate": "2026/11/02",
+   "change": -0.2,
    "aum": 5897997620.0,
    "sharpe": null,
    "stdev1y": null,
@@ -15022,9 +15189,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 16.92,
-   "navDate": "2026/10/30",
-   "change": -2.76,
+   "nav": 16.78,
+   "navDate": "2026/11/02",
+   "change": -0.83,
    "aum": 2890733542.0,
    "sharpe": null,
    "stdev1y": null,
@@ -15192,9 +15359,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 11.51,
-   "navDate": "2026/10/29",
-   "change": 0.17,
+   "nav": 11.29,
+   "navDate": "2026/10/30",
+   "change": -1.91,
    "aum": 2140583711.32,
    "sharpe": null,
    "stdev1y": null,
@@ -15405,9 +15572,9 @@
    "risk": 2,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 9.931,
-   "navDate": "2026/10/29",
-   "change": 0.37,
+   "nav": 9.9413,
+   "navDate": "2026/10/30",
+   "change": 0.1,
    "aum": 4251278382.38,
    "sharpe": null,
    "stdev1y": null,
@@ -15574,9 +15741,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 12.64,
-   "navDate": "2026/10/30",
-   "change": -4.82,
+   "nav": 12.58,
+   "navDate": "2026/11/02",
+   "change": -0.48,
    "aum": 16246423989.0,
    "sharpe": null,
    "stdev1y": null,
@@ -15736,9 +15903,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 14.53,
-   "navDate": "2026/10/30",
-   "change": -4.72,
+   "nav": 14.56,
+   "navDate": "2026/11/02",
+   "change": 0.21,
    "aum": 2667595968.0,
    "sharpe": null,
    "stdev1y": null,
@@ -15898,9 +16065,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 8.76,
-   "navDate": "2026/10/30",
-   "change": -4.16,
+   "nav": 8.72,
+   "navDate": "2026/11/02",
+   "change": -0.46,
    "aum": 6390546352.0,
    "sharpe": null,
    "stdev1y": null,
@@ -16077,9 +16244,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 10.2523,
-   "navDate": "2026/10/29",
-   "change": 0.18,
+   "nav": 10.2036,
+   "navDate": "2026/10/30",
+   "change": -0.48,
    "aum": null,
    "sharpe": null,
    "stdev1y": null,
@@ -16270,9 +16437,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 231.9,
-   "navDate": "2026/10/30",
-   "change": -3.9,
+   "nav": 231.28,
+   "navDate": "2026/11/02",
+   "change": -0.27,
    "aum": 8107942914.0,
    "sharpe": null,
    "stdev1y": null,
@@ -16425,9 +16592,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 58.7764,
-   "navDate": "2026/10/29",
-   "change": -2.34,
+   "nav": 55.3892,
+   "navDate": "2026/10/30",
+   "change": -5.76,
    "aum": 14030749038.63,
    "sharpe": null,
    "stdev1y": null,
@@ -16639,9 +16806,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 367.41,
-   "navDate": "2026/10/30",
-   "change": -3.65,
+   "nav": 366.59,
+   "navDate": "2026/11/02",
+   "change": -0.22,
    "aum": 8818634944.0,
    "sharpe": null,
    "stdev1y": null,
@@ -16794,9 +16961,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 42.63,
-   "navDate": "2026/10/30",
-   "change": -5.1,
+   "nav": 42.58,
+   "navDate": "2026/11/02",
+   "change": -0.12,
    "aum": 1461898788.0,
    "sharpe": null,
    "stdev1y": null,
@@ -16960,9 +17127,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 33.14,
-   "navDate": "2026/10/30",
-   "change": -3.35,
+   "nav": 32.88,
+   "navDate": "2026/11/02",
+   "change": -0.78,
    "aum": 2793215381.0,
    "sharpe": null,
    "stdev1y": null,
@@ -17106,173 +17273,6 @@
    }
   },
   {
-   "id": "Meg083",
-   "name": "【TISA級別】兆豐全球證券投資信託基金-TISA",
-   "company": "兆豐國際證券投資信託股份有限公司",
-   "tisaType": "TISA級別",
-   "fundType": "股票型",
-   "msCategory": "環球大型增長型股票",
-   "region": "全球",
-   "inception": "2026/07/20",
-   "risk": 4,
-   "morningstar": null,
-   "currency": "TWD",
-   "nav": 9.33,
-   "navDate": "2026/10/29",
-   "change": -2.0,
-   "aum": 1638519466.0,
-   "sharpe": null,
-   "stdev1y": null,
-   "ret": {
-    "quarter": null,
-    "half": null,
-    "one": null,
-    "two": null,
-    "three": null,
-    "five": null,
-    "beginning": 5.4
-   },
-   "ytd": null,
-   "rsp": {
-    "one": null,
-    "two": null,
-    "three": null,
-    "five": null
-   },
-   "fee": "0.50%",
-   "portfolio": {
-    "assets": [
-     [
-      "股票",
-      98.43
-     ],
-     [
-      "現金",
-      1.55
-     ],
-     [
-      "其他",
-      0.02
-     ]
-    ],
-    "date": "2026/09/30",
-    "countries": [
-     [
-      "美國",
-      85.57
-     ],
-     [
-      "日本",
-      4.72
-     ],
-     [
-      "中國",
-      3.85
-     ],
-     [
-      "荷蘭",
-      3.19
-     ],
-     [
-      "以色列",
-      2.67
-     ]
-    ],
-    "sectors": [
-     [
-      "科技",
-      75.06
-     ],
-     [
-      "工業",
-      18.55
-     ],
-     [
-      "金融服務",
-      6.39
-     ]
-    ],
-    "top10": [
-     [
-      "LUMENTUM HOLDINGS",
-      8.57
-     ],
-     [
-      "SANDISK CORP",
-      8.12
-     ],
-     [
-      "ROCKET LAB",
-      7.72
-     ],
-     [
-      "FORMFACTOR INC",
-      5.73
-     ],
-     [
-      "TERADYNE INC",
-      5.29
-     ],
-     [
-      "CIENA CORP.",
-      3.96
-     ],
-     [
-      "COHERENT CORP",
-      3.95
-     ],
-     [
-      "ASTERA LABS INC",
-      3.94
-     ],
-     [
-      "BLOOM ENER",
-      3.81
-     ],
-     [
-      "NOVA LTD",
-      3.79
-     ]
-    ]
-   },
-   "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/Meg083",
-   "group": "全球科技",
-   "tags": [
-    "中國曝險 4%"
-   ],
-   "notes": [],
-   "etfs": [
-    {
-     "code": "SOXX",
-     "name": "iShares 半導體",
-     "market": "US",
-     "match": "partial",
-     "note": "半導體"
-    },
-    {
-     "code": "VGT",
-     "name": "Vanguard 資訊科技",
-     "market": "US",
-     "match": "partial",
-     "note": "美國資訊科技"
-    },
-    {
-     "code": "00830",
-     "name": "國泰費城半導體",
-     "market": "TW",
-     "match": "partial",
-     "note": "台股可買的費城半導體"
-    }
-   ],
-   "mix": {
-    "stock": 98.4,
-    "bond": 0.0,
-    "tw": 0.0,
-    "cn": 3.9,
-    "tech": 75.1
-   }
-  },
-  {
    "id": "Meg084",
    "name": "【TISA級別】兆豐豐台灣證券投資信託基金-TISA",
    "company": "兆豐國際證券投資信託股份有限公司",
@@ -17284,9 +17284,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 9.24,
-   "navDate": "2026/10/30",
-   "change": -3.95,
+   "nav": 9.2,
+   "navDate": "2026/11/02",
+   "change": -0.43,
    "aum": 1126255689.0,
    "sharpe": null,
    "stdev1y": null,
@@ -17447,9 +17447,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 258.1,
-   "navDate": "2026/10/30",
-   "change": -4.94,
+   "nav": 255.15,
+   "navDate": "2026/11/02",
+   "change": -1.14,
    "aum": 2218196326.0,
    "sharpe": null,
    "stdev1y": null,
@@ -17602,9 +17602,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 122.7371,
-   "navDate": "2026/10/30",
-   "change": -2.46,
+   "nav": 122.4531,
+   "navDate": "2026/11/02",
+   "change": -0.23,
    "aum": 1398471222.0,
    "sharpe": null,
    "stdev1y": null,
@@ -17767,9 +17767,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 169.67,
-   "navDate": "2026/10/30",
-   "change": -4.33,
+   "nav": 169.16,
+   "navDate": "2026/11/02",
+   "change": -0.3,
    "aum": 3614500170.0,
    "sharpe": null,
    "stdev1y": null,
@@ -17922,9 +17922,9 @@
    "risk": 5,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 382.63,
-   "navDate": "2026/10/30",
-   "change": -4.43,
+   "nav": 382.28,
+   "navDate": "2026/11/02",
+   "change": -0.09,
    "aum": 3204128716.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18084,9 +18084,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 169.99,
-   "navDate": "2026/10/30",
-   "change": -4.32,
+   "nav": 169.45,
+   "navDate": "2026/11/02",
+   "change": -0.32,
    "aum": 1870181825.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18239,9 +18239,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 138.31,
-   "navDate": "2026/10/30",
-   "change": -4.53,
+   "nav": 137.01,
+   "navDate": "2026/11/02",
+   "change": -0.94,
    "aum": 1541795978.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18397,9 +18397,9 @@
    "risk": 3,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 10.02,
-   "navDate": "2026/10/29",
-   "change": 0.3,
+   "nav": 9.96,
+   "navDate": "2026/10/30",
+   "change": -0.6,
    "aum": 4643785358.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18618,9 +18618,9 @@
    "risk": 4,
    "morningstar": null,
    "currency": "TWD",
-   "nav": 9.17,
-   "navDate": "2026/10/30",
-   "change": -3.88,
+   "nav": 9.15,
+   "navDate": "2026/11/02",
+   "change": -0.22,
    "aum": 1925488373.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18789,8 +18789,8 @@
    "morningstar": null,
    "currency": "TWD",
    "nav": 9.28,
-   "navDate": "2026/10/30",
-   "change": -4.13,
+   "navDate": "2026/11/02",
+   "change": 0.0,
    "aum": 995001540.0,
    "sharpe": null,
    "stdev1y": null,
@@ -18949,7 +18949,7 @@
    "morningstar": null,
    "currency": "TWD",
    "nav": 10.0,
-   "navDate": "2026/10/30",
+   "navDate": "2026/11/02",
    "change": 0.0,
    "aum": 824836611.0,
    "sharpe": null,
