@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T03:02+08:00",
+ "updatedAt": "2026-11-09T02:59+08:00",
  "source": "基富通 TISA 專案基金",
  "etfHoldingsDate": "2026/09/30",
  "funds": [
@@ -199,7 +199,7 @@
    },
    "ytd": 128.34758,
    "rsp": {
-    "one": 95.79,
+    "one": 54.86,
     "two": null,
     "three": null,
     "five": null
@@ -358,8 +358,8 @@
    },
    "ytd": 100.51926,
    "rsp": {
-    "one": 84.52,
-    "two": 147.19,
+    "one": 39.06,
+    "two": 94.44,
     "three": null,
     "five": null
    },
@@ -512,7 +512,7 @@
    },
    "ytd": 90.38634,
    "rsp": {
-    "one": 70.98,
+    "one": 38.26,
     "two": null,
     "three": null,
     "five": null
@@ -679,7 +679,7 @@
    },
    "ytd": 89.34579,
    "rsp": {
-    "one": null,
+    "one": 40.71,
     "two": null,
     "three": null,
     "five": null
@@ -841,7 +841,7 @@
    },
    "ytd": 82.63509,
    "rsp": {
-    "one": 61.7,
+    "one": 32.92,
     "two": null,
     "three": null,
     "five": null
@@ -1004,7 +1004,7 @@
    },
    "ytd": 78.72512,
    "rsp": {
-    "one": 61.41,
+    "one": 30.67,
     "two": null,
     "three": null,
     "five": null
@@ -1166,7 +1166,7 @@
    },
    "ytd": 71.74669,
    "rsp": {
-    "one": 57.24,
+    "one": 27.62,
     "two": null,
     "three": null,
     "five": null
@@ -1329,7 +1329,7 @@
    },
    "ytd": 73.71358,
    "rsp": {
-    "one": 55.14,
+    "one": 27.22,
     "two": null,
     "three": null,
     "five": null
@@ -1480,10 +1480,10 @@
    },
    "ytd": 78.53378,
    "rsp": {
-    "one": 62.48,
-    "two": 139.4,
-    "three": 179.53,
-    "five": 259.39
+    "one": 31.38,
+    "two": 100.83,
+    "three": 136.55,
+    "five": 209.08
    },
    "fee": "0.99%",
    "portfolio": {
@@ -1646,7 +1646,7 @@
    },
    "ytd": 73.18255,
    "rsp": {
-    "one": null,
+    "one": 31.54,
     "two": null,
     "three": null,
     "five": null
@@ -1809,7 +1809,7 @@
    },
    "ytd": 74.93261,
    "rsp": {
-    "one": 59.3,
+    "one": 30.03,
     "two": null,
     "three": null,
     "five": null
@@ -1975,7 +1975,7 @@
    },
    "ytd": 76.79012,
    "rsp": {
-    "one": null,
+    "one": 30.68,
     "two": null,
     "three": null,
     "five": null
@@ -2142,7 +2142,7 @@
    },
    "ytd": 76.20743,
    "rsp": {
-    "one": 58.24,
+    "one": 32.06,
     "two": null,
     "three": null,
     "five": null
@@ -2322,7 +2322,7 @@
    },
    "ytd": 62.31861,
    "rsp": {
-    "one": 56.18,
+    "one": 24.08,
     "two": null,
     "three": null,
     "five": null
@@ -2481,7 +2481,7 @@
    },
    "ytd": 64.49332,
    "rsp": {
-    "one": 49.78,
+    "one": 22.11,
     "two": null,
     "three": null,
     "five": null
@@ -2648,7 +2648,7 @@
    },
    "ytd": 67.18043,
    "rsp": {
-    "one": 53.41,
+    "one": 25.51,
     "two": null,
     "three": null,
     "five": null
@@ -2811,7 +2811,7 @@
    },
    "ytd": 66.63724,
    "rsp": {
-    "one": 52.74,
+    "one": 25.33,
     "two": null,
     "three": null,
     "five": null
@@ -2974,10 +2974,10 @@
    },
    "ytd": 67.30007,
    "rsp": {
-    "one": 53.47,
-    "two": 112.59,
-    "three": 140.56,
-    "five": 197.68
+    "one": 26.84,
+    "two": 81.96,
+    "three": 107.57,
+    "five": 160.09
    },
    "fee": "0.80%",
    "portfolio": {
@@ -3136,7 +3136,7 @@
    },
    "ytd": 63.27335,
    "rsp": {
-    "one": 51.93,
+    "one": 23.55,
     "two": null,
     "three": null,
     "five": null
@@ -3298,10 +3298,10 @@
    },
    "ytd": 65.9631,
    "rsp": {
-    "one": 53.19,
-    "two": 131.27,
-    "three": 172.05,
-    "five": 255.35
+    "one": 24.22,
+    "two": 94.82,
+    "three": 130.55,
+    "five": 205.82
    },
    "fee": "1.00%",
    "portfolio": {
@@ -3465,10 +3465,10 @@
    },
    "ytd": 62.78359,
    "rsp": {
-    "one": 51.58,
-    "two": 128.71,
-    "three": 163.27,
-    "five": 228.41
+    "one": 23.27,
+    "two": 93.36,
+    "three": 125.21,
+    "five": 184.55
    },
    "fee": "0.95%",
    "portfolio": {
@@ -3627,7 +3627,7 @@
    },
    "ytd": 68.44526,
    "rsp": {
-    "one": 51.12,
+    "one": 23.99,
     "two": null,
     "three": null,
     "five": null
@@ -3782,7 +3782,7 @@
    },
    "ytd": 61.98198,
    "rsp": {
-    "one": 45.83,
+    "one": 26.37,
     "two": null,
     "three": null,
     "five": null
@@ -3939,7 +3939,7 @@
    },
    "ytd": 61.85345,
    "rsp": {
-    "one": 47.98,
+    "one": 24.31,
     "two": null,
     "three": null,
     "five": null
@@ -4113,7 +4113,7 @@
    },
    "ytd": 61.63348,
    "rsp": {
-    "one": 44.5,
+    "one": 27.8,
     "two": null,
     "three": null,
     "five": null
@@ -4250,7 +4250,7 @@
    },
    "ytd": 67.40679,
    "rsp": {
-    "one": 43.19,
+    "one": 38.59,
     "two": null,
     "three": null,
     "five": null
@@ -4374,9 +4374,9 @@
    },
    "ytd": 59.56781,
    "rsp": {
-    "one": 42.44,
-    "two": 83.95,
-    "three": 110.99,
+    "one": 27.12,
+    "two": 68.33,
+    "three": 93.32,
     "five": null
    },
    "fee": "0.60%",
@@ -4558,7 +4558,7 @@
    },
    "ytd": 61.9001,
    "rsp": {
-    "one": 44.78,
+    "one": 30.6,
     "two": null,
     "three": null,
     "five": null
@@ -4728,8 +4728,8 @@
    },
    "ytd": 61.21057,
    "rsp": {
-    "one": 45.07,
-    "two": 75.13,
+    "one": 30.23,
+    "two": 60.5,
     "three": null,
     "five": null
    },
@@ -4898,9 +4898,9 @@
    },
    "ytd": 55.24164,
    "rsp": {
-    "one": 45.2,
-    "two": 81.81,
-    "three": 92.11,
+    "one": 20.39,
+    "two": 56.39,
+    "three": 65.82,
     "five": null
    },
    "fee": "0.95%",
@@ -5047,10 +5047,10 @@
    },
    "ytd": 40.17991,
    "rsp": {
-    "one": 34.16,
-    "two": 59.57,
-    "three": 70.58,
-    "five": 92.84
+    "one": 15.61,
+    "two": 41.31,
+    "three": 51.19,
+    "five": 72.54
    },
    "fee": "0.99%",
    "portfolio": {
@@ -5211,10 +5211,10 @@
    },
    "ytd": 35.87444,
    "rsp": {
-    "one": 26.42,
-    "two": 52.9,
-    "three": 67.57,
-    "five": 95.21
+    "one": 15.02,
+    "two": 41.53,
+    "three": 55.37,
+    "five": 82.73
    },
    "fee": "0.99%",
    "portfolio": {
@@ -5382,10 +5382,10 @@
    },
    "ytd": 26.36166,
    "rsp": {
-    "one": 17.59,
-    "two": 31.93,
-    "three": 46.12,
-    "five": 74.25
+    "one": 12.47,
+    "two": 27.7,
+    "three": 41.01,
+    "five": 69.72
    },
    "fee": "0.99%",
    "portfolio": {
@@ -5582,14 +5582,14 @@
     "two": 41.15,
     "three": 81.59,
     "five": 80.08,
-    "beginning": 141.32
+    "beginning": 136.35
    },
    "ytd": 20.35443,
    "rsp": {
-    "one": 12.41,
-    "two": 25.67,
-    "three": 36.56,
-    "five": 57.99
+    "one": 8.18,
+    "two": 21.77,
+    "three": 32.16,
+    "five": 53.88
    },
    "fee": "0.50%",
    "portfolio": {
@@ -5806,10 +5806,10 @@
    },
    "ytd": 21.26007,
    "rsp": {
-    "one": 14.86,
-    "two": 31.32,
-    "three": 43.17,
-    "five": 66.32
+    "one": 7.67,
+    "two": 24.26,
+    "three": 35.36,
+    "five": 58.45
    },
    "fee": "0.45%",
    "portfolio": {
@@ -6023,14 +6023,14 @@
     "two": 29.39,
     "three": 55.54,
     "five": 54.33,
-    "beginning": 58.98
+    "beginning": 55.77
    },
    "ytd": 21.36294,
    "rsp": {
-    "one": 13.43,
-    "two": 23.59,
-    "three": 29.09,
-    "five": 39.82
+    "one": 8.92,
+    "two": 20.1,
+    "three": 25.31,
+    "five": 36.29
    },
    "fee": "0.50%",
    "portfolio": {
@@ -6243,7 +6243,7 @@
    },
    "ytd": 21.11174,
    "rsp": {
-    "one": 14.95,
+    "one": 7.69,
     "two": null,
     "three": null,
     "five": null
@@ -6460,14 +6460,14 @@
     "two": 39.94,
     "three": 79.04,
     "five": 76.05,
-    "beginning": 80.12
+    "beginning": 76.41
    },
    "ytd": 19.91979,
    "rsp": {
-    "one": 12.08,
-    "two": 24.98,
-    "three": 35.46,
-    "five": 55.91
+    "one": 7.92,
+    "two": 21.17,
+    "three": 31.15,
+    "five": 51.91
    },
    "fee": "1.00%",
    "portfolio": {
@@ -6684,10 +6684,10 @@
    },
    "ytd": 20.9019,
    "rsp": {
-    "one": 14.62,
-    "two": 30.8,
-    "three": 42.31,
-    "five": 64.68
+    "one": 7.45,
+    "two": 23.77,
+    "three": 34.55,
+    "five": 56.87
    },
    "fee": "0.81%",
    "portfolio": {
@@ -6901,14 +6901,14 @@
     "two": 36.96,
     "three": 76.02,
     "five": 72.15,
-    "beginning": 76.11
+    "beginning": 72.34
    },
    "ytd": 20.79538,
    "rsp": {
-    "one": 12.91,
-    "two": 24.7,
-    "three": 34.6,
-    "five": 53.99
+    "one": 8.24,
+    "two": 20.42,
+    "three": 29.74,
+    "five": 49.36
    },
    "fee": "0.99%",
    "portfolio": {
@@ -7116,14 +7116,14 @@
     "two": 37.94,
     "three": 75.87,
     "five": 75.12,
-    "beginning": 141.81
+    "beginning": 137.26
    },
    "ytd": 19.65609,
    "rsp": {
-    "one": 11.92,
-    "two": 25.71,
-    "three": 36.06,
-    "five": 56.71
+    "one": 5.7,
+    "two": 19.67,
+    "three": 29.38,
+    "five": 49.98
    },
    "fee": "0.35%",
    "portfolio": {
@@ -7337,14 +7337,14 @@
     "two": 37.18,
     "three": 74.37,
     "five": 73.21,
-    "beginning": 74.62
+    "beginning": 71.33
    },
    "ytd": 19.38194,
    "rsp": {
-    "one": 11.74,
-    "two": 25.32,
-    "three": 35.42,
-    "five": 55.52
+    "one": 5.54,
+    "two": 19.3,
+    "three": 28.77,
+    "five": 48.83
    },
    "fee": "0.63%",
    "portfolio": {
@@ -7562,7 +7562,7 @@
    },
    "ytd": 17.78329,
    "rsp": {
-    "one": 12.33,
+    "one": 8.14,
     "two": null,
     "three": null,
     "five": null
@@ -7778,14 +7778,14 @@
     "two": 34.01,
     "three": 71.66,
     "five": 62.78,
-    "beginning": 106.07
+    "beginning": 101.83
    },
    "ytd": 18.60339,
    "rsp": {
-    "one": 11.3,
-    "two": 24.13,
-    "three": 33.82,
-    "five": 52.58
+    "one": 4.68,
+    "two": 17.72,
+    "three": 26.71,
+    "five": 45.48
    },
    "fee": "0.50%",
    "portfolio": {
@@ -8007,13 +8007,13 @@
     "two": 33.22,
     "three": 70.15,
     "five": null,
-    "beginning": 63.75
+    "beginning": 60.38
    },
    "ytd": 18.31049,
    "rsp": {
-    "one": 11.11,
-    "two": 23.73,
-    "three": 33.16,
+    "one": 4.5,
+    "two": 17.33,
+    "three": 26.09,
     "five": null
    },
    "fee": "0.80%",
@@ -8236,14 +8236,14 @@
     "two": 37.02,
     "three": 72.73,
     "five": 58.01,
-    "beginning": 60.37
+    "beginning": 57.05
    },
    "ytd": 19.17429,
    "rsp": {
-    "one": 10.39,
-    "two": 23.63,
-    "three": 33.53,
-    "five": 51.55
+    "one": 5.14,
+    "two": 18.49,
+    "three": 27.84,
+    "five": 46.15
    },
    "fee": "0.90%",
    "portfolio": {
@@ -8459,8 +8459,8 @@
    },
    "ytd": 13.56694,
    "rsp": {
-    "one": 3.22,
-    "two": 9.65,
+    "one": 9.43,
+    "two": 16.81,
     "three": null,
     "five": null
    },
@@ -8657,14 +8657,14 @@
     "two": 30.63,
     "three": 57.94,
     "five": 59.39,
-    "beginning": 93.25
+    "beginning": 90.63
    },
    "ytd": 15.53281,
    "rsp": {
-    "one": 8.74,
-    "two": 18.82,
-    "three": 26.28,
-    "five": 41.73
+    "one": 6.44,
+    "two": 17.06,
+    "three": 24.25,
+    "five": 40.09
    },
    "fee": "0.50%",
    "portfolio": {
@@ -8881,7 +8881,7 @@
    },
    "ytd": 19.18047,
    "rsp": {
-    "one": 14.78,
+    "one": 7.59,
     "two": null,
     "three": null,
     "five": null
@@ -9077,14 +9077,14 @@
     "two": 31.19,
     "three": 60.54,
     "five": 54.32,
-    "beginning": 99.42
+    "beginning": 96.63
    },
    "ytd": 15.62554,
    "rsp": {
-    "one": 8.73,
-    "two": 20.65,
-    "three": 28.9,
-    "five": 43.77
+    "one": 3.76,
+    "two": 16.1,
+    "three": 23.9,
+    "five": 39.0
    },
    "fee": "0.25%",
    "portfolio": {
@@ -9302,7 +9302,7 @@
    },
    "ytd": 18.36926,
    "rsp": {
-    "one": 13.18,
+    "one": 6.37,
     "two": null,
     "three": null,
     "five": null
@@ -9527,10 +9527,10 @@
    },
    "ytd": 14.55547,
    "rsp": {
-    "one": 9.97,
-    "two": 19.11,
-    "three": 23.01,
-    "five": 37.27
+    "one": 7.44,
+    "two": 17.48,
+    "three": 21.1,
+    "five": 35.66
    },
    "fee": "1.00%",
    "portfolio": {
@@ -9742,7 +9742,7 @@
    },
    "ytd": 16.16712,
    "rsp": {
-    "one": 11.3,
+    "one": 4.68,
     "two": null,
     "three": null,
     "five": null
@@ -9967,14 +9967,14 @@
     "two": 30.67,
     "three": 59.54,
     "five": 53.77,
-    "beginning": 55.08
+    "beginning": 52.9
    },
    "ytd": 15.44149,
    "rsp": {
-    "one": 8.61,
-    "two": 20.39,
-    "three": 28.47,
-    "five": 43.07
+    "one": 3.65,
+    "two": 15.85,
+    "three": 23.49,
+    "five": 38.31
    },
    "fee": "0.45%",
    "portfolio": {
@@ -10188,14 +10188,14 @@
     "two": 29.32,
     "three": 55.72,
     "five": 55.72,
-    "beginning": 59.5
+    "beginning": 57.47
    },
    "ytd": 15.00364,
    "rsp": {
-    "one": 8.5,
-    "two": 18.26,
-    "three": 25.37,
-    "five": 39.97
+    "one": 6.2,
+    "two": 16.52,
+    "three": 23.36,
+    "five": 38.36
    },
    "fee": "1.00%",
    "portfolio": {
@@ -10408,14 +10408,14 @@
     "two": 21.64,
     "three": 40.96,
     "five": 45.12,
-    "beginning": 47.74
+    "beginning": 45.64
    },
    "ytd": 15.43887,
    "rsp": {
-    "one": 9.36,
-    "two": 16.17,
-    "three": 20.77,
-    "five": 29.42
+    "one": 6.28,
+    "two": 13.86,
+    "three": 18.24,
+    "five": 27.05
    },
    "fee": "0.40%",
    "portfolio": {
@@ -10632,10 +10632,10 @@
    },
    "ytd": 13.88889,
    "rsp": {
-    "one": 9.04,
-    "two": 19.51,
-    "three": 28.59,
-    "five": 45.34
+    "one": 6.82,
+    "two": 17.69,
+    "three": 26.37,
+    "five": 43.61
    },
    "fee": "0.50%",
    "portfolio": {
@@ -10841,13 +10841,13 @@
     "two": 28.56,
     "three": 43.74,
     "five": null,
-    "beginning": 43.6
+    "beginning": 41.4
    },
    "ytd": 13.87787,
    "rsp": {
-    "one": 8.6,
-    "two": 18.25,
-    "three": 23.88,
+    "one": 5.33,
+    "two": 15.33,
+    "three": 20.83,
     "five": null
    },
    "fee": "1.00%",
@@ -11053,14 +11053,14 @@
     "two": 24.4,
     "three": 53.18,
     "five": 47.52,
-    "beginning": 73.0
+    "beginning": 70.27
    },
    "ytd": 13.1323,
    "rsp": {
-    "one": 7.8,
-    "two": 17.16,
-    "three": 24.4,
-    "five": 38.33
+    "one": 3.15,
+    "two": 12.87,
+    "three": 19.64,
+    "five": 33.73
    },
    "fee": "0.40%",
    "portfolio": {
@@ -11274,13 +11274,13 @@
     "two": 23.67,
     "three": 51.82,
     "five": null,
-    "beginning": 47.42
+    "beginning": 45.09
    },
    "ytd": 12.85328,
    "rsp": {
-    "one": 7.62,
-    "two": 16.79,
-    "three": 23.8,
+    "one": 2.98,
+    "two": 12.51,
+    "three": 19.06,
     "five": null
    },
    "fee": "0.70%",
@@ -11495,14 +11495,14 @@
     "two": 20.56,
     "three": 47.48,
     "five": 31.08,
-    "beginning": 31.08
+    "beginning": 28.38
    },
    "ytd": 13.07735,
    "rsp": {
-    "one": 10.26,
-    "two": 16.43,
-    "three": 22.01,
-    "five": 32.38
+    "one": 4.85,
+    "two": 11.32,
+    "three": 16.41,
+    "five": 27.1
    },
    "fee": "0.99%",
    "portfolio": {
@@ -11715,14 +11715,14 @@
     "two": 22.1,
     "three": 45.0,
     "five": 41.18,
-    "beginning": 42.75
+    "beginning": 40.52
    },
    "ytd": 11.51985,
    "rsp": {
-    "one": 6.55,
-    "two": 14.26,
-    "three": 20.11,
-    "five": 30.49
+    "one": 3.81,
+    "two": 11.98,
+    "three": 17.51,
+    "five": 28.16
    },
    "fee": "0.90%",
    "portfolio": {
@@ -11931,14 +11931,14 @@
     "two": 17.05,
     "three": 49.88,
     "five": 16.14,
-    "beginning": 69.71
+    "beginning": 65.9
    },
    "ytd": 11.81757,
    "rsp": {
-    "one": 10.29,
-    "two": 17.36,
-    "three": 22.31,
-    "five": 31.46
+    "one": 2.7,
+    "two": 10.03,
+    "three": 14.39,
+    "five": 23.88
    },
    "fee": "0.99%",
    "portfolio": {
@@ -12151,14 +12151,14 @@
     "two": 23.23,
     "three": 46.31,
     "five": 35.48,
-    "beginning": 35.16
+    "beginning": 32.62
    },
    "ytd": 10.36941,
    "rsp": {
-    "one": 6.3,
-    "two": 13.8,
-    "three": 20.08,
-    "five": 30.0
+    "one": 3.58,
+    "two": 11.27,
+    "three": 17.18,
+    "five": 27.52
    },
    "fee": "1.00%",
    "portfolio": {
@@ -12365,7 +12365,7 @@
    },
    "ytd": 10.9639,
    "rsp": {
-    "one": 10.33,
+    "one": 4.96,
     "two": null,
     "three": null,
     "five": null
@@ -12585,7 +12585,7 @@
    },
    "ytd": 8.07998,
    "rsp": {
-    "one": 11.46,
+    "one": 1.64,
     "two": null,
     "three": null,
     "five": null
@@ -12802,14 +12802,14 @@
     "two": 8.01,
     "three": 20.79,
     "five": 20.47,
-    "beginning": 19.26
+    "beginning": 18.88
    },
    "ytd": 2.73179,
    "rsp": {
-    "one": 0.32,
-    "two": 3.13,
-    "three": 6.27,
-    "five": 12.64
+    "one": 1.13,
+    "two": 4.15,
+    "three": 7.06,
+    "five": 13.69
    },
    "fee": "0.30%",
    "portfolio": {
@@ -13029,13 +13029,13 @@
     "two": 7.37,
     "three": 19.72,
     "five": null,
-    "beginning": 20.53
+    "beginning": 20.14
    },
    "ytd": 2.47879,
    "rsp": {
-    "one": 0.16,
-    "two": 2.8,
-    "three": 5.77,
+    "one": 0.97,
+    "two": 3.82,
+    "three": 6.56,
     "five": null
    },
    "fee": "0.60%",
@@ -13260,10 +13260,10 @@
    },
    "ytd": 2.5517,
    "rsp": {
-    "one": 1.27,
-    "two": 4.27,
-    "three": 6.22,
-    "five": 8.91
+    "one": 1.25,
+    "two": 4.42,
+    "three": 6.29,
+    "five": 9.25
    },
    "fee": "0.90%",
    "portfolio": {
@@ -13469,9 +13469,9 @@
    },
    "ytd": 0.05819,
    "rsp": {
-    "one": -2.71,
-    "two": -1.16,
-    "three": 0.47,
+    "one": 0.3,
+    "two": 1.99,
+    "three": 3.4,
     "five": null
    },
    "fee": "0.75%",
@@ -13611,10 +13611,10 @@
    },
    "ytd": 0.72023,
    "rsp": {
-    "one": -1.14,
-    "two": 1.03,
-    "three": 3.27,
-    "five": 6.67
+    "one": 0.32,
+    "two": 2.57,
+    "three": 4.61,
+    "five": 8.36
    },
    "fee": "0.50%",
    "portfolio": {
@@ -13823,10 +13823,10 @@
    },
    "ytd": 0.46899,
    "rsp": {
-    "one": -1.31,
-    "two": 0.71,
-    "three": 2.78,
-    "five": 5.84
+    "one": 0.16,
+    "two": 2.24,
+    "three": 4.12,
+    "five": 7.52
    },
    "fee": "0.80%",
    "portfolio": {
@@ -14035,10 +14035,10 @@
    },
    "ytd": -1.06328,
    "rsp": {
-    "one": -3.52,
-    "two": -2.35,
-    "three": -1.7,
-    "five": -0.81
+    "one": -0.69,
+    "two": 0.6,
+    "three": 0.97,
+    "five": 2.11
    },
    "fee": "0.50%",
    "portfolio": {
@@ -14220,10 +14220,10 @@
    },
    "ytd": 0.38504,
    "rsp": {
-    "one": 6.36,
-    "two": 14.3,
-    "three": 21.62,
-    "five": 36.19
+    "one": -3.95,
+    "two": 3.53,
+    "three": 9.76,
+    "five": 23.56
    },
    "fee": "0.70%",
    "portfolio": {
@@ -14439,7 +14439,7 @@
    },
    "ytd": -6.4,
    "rsp": {
-    "one": 1.6,
+    "one": -6.32,
     "two": null,
     "three": null,
     "five": null
@@ -14660,10 +14660,10 @@
    },
    "ytd": -8.21485,
    "rsp": {
-    "one": 1.54,
-    "two": 6.9,
-    "three": 10.62,
-    "five": null
+    "one": -11.64,
+    "two": -6.66,
+    "three": -3.75,
+    "five": 3.67
    },
    "fee": "0.60%",
    "portfolio": {
