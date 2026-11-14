@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-14T05:01+08:00",
+ "updatedAt": "2026-11-15T03:26+08:00",
  "source": "基富通 TISA 專案基金",
- "etfHoldingsDate": "2026/09/30",
+ "etfHoldingsDate": "2026/10/31",
  "funds": [
   {
    "id": "Meg083",
@@ -310,7 +310,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 54
+     "overlap": 55
     },
     {
      "code": "00935",
@@ -318,7 +318,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 32
+     "overlap": 31
     }
    ],
    "mix": {
@@ -463,7 +463,7 @@
    ],
    "notes": [
     "沒有持股重疊超過 40% 的主動式 ETF，選股風格比較獨特。",
-    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 15%，實際是科技成長股組合。"
+    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 12%，實際是科技成長股組合。"
    ],
    "etfs": [
     {
@@ -472,7 +472,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 33
+     "overlap": 31
     }
    ],
    "mix": {
@@ -618,14 +618,6 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 58
-    },
-    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
@@ -634,12 +626,20 @@
      "overlap": 57
     },
     {
+     "code": "00991A",
+     "name": "主動復華未來50",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 54
+    },
+    {
      "code": "00881",
      "name": "國泰台灣科技龍頭",
      "market": "TW",
-     "match": "partial",
+     "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 40
+     "overlap": 37
     }
    ],
    "mix": {
@@ -785,7 +785,7 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 74
+     "overlap": 78
     },
     {
      "code": "00981A",
@@ -793,7 +793,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 66
+     "overlap": 67
     },
     {
      "code": "00935",
@@ -801,7 +801,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 52
+     "overlap": 49
     }
    ],
    "mix": {
@@ -956,7 +956,7 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 89
+     "overlap": 88
     },
     {
      "code": "00881",
@@ -964,7 +964,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 52
+     "overlap": 51
     }
    ],
    "mix": {
@@ -1105,20 +1105,20 @@
    "notes": [],
    "etfs": [
     {
+     "code": "00405A",
+     "name": "主動富邦台灣龍耀",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 70
+    },
+    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 65
-    },
-    {
-     "code": "00405A",
-     "name": "主動富邦台灣龍耀",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 65
+     "overlap": 64
     },
     {
      "code": "00881",
@@ -1126,7 +1126,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 40
+     "overlap": 35
     }
    ],
    "mix": {
@@ -1432,7 +1432,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 59
+     "overlap": 52
     },
     {
      "code": "00891",
@@ -1585,16 +1585,16 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00981A",
-     "name": "主動統一台股增長",
+     "code": "00987A",
+     "name": "主動台新優勢成長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 68
+     "overlap": 70
     },
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
@@ -1606,7 +1606,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 44
+     "overlap": 40
     }
    ],
    "mix": {
@@ -1753,11 +1753,11 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 81
+     "overlap": 79
     },
     {
-     "code": "00403A",
-     "name": "主動統一升級50",
+     "code": "00991A",
+     "name": "主動復華未來50",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
@@ -1769,7 +1769,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 48
+     "overlap": 47
     }
    ],
    "mix": {
@@ -1795,7 +1795,7 @@
    "nav": 24.19,
    "navDate": "2026/11/13",
    "change": 2.46,
-   "aum": 21947751696.0,
+   "aum": 19473327202.0,
    "sharpe": 1.42,
    "stdev1y": 54.49,
    "ret": {
@@ -1914,20 +1914,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00995A",
-     "name": "主動中信台灣卓越",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 72
-    },
-    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 71
+     "overlap": 74
+    },
+    {
+     "code": "00994A",
+     "name": "主動第一金台股優",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 73
     },
     {
      "code": "00881",
@@ -1935,7 +1935,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 49
+     "overlap": 45
     }
    ],
    "mix": {
@@ -1961,7 +1961,7 @@
    "nav": 19.7,
    "navDate": "2026/11/13",
    "change": 2.02,
-   "aum": 5819174617.0,
+   "aum": 5217142910.0,
    "sharpe": 1.34,
    "stdev1y": 58.99,
    "ret": {
@@ -2081,14 +2081,6 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 84
-    },
-    {
      "code": "00991A",
      "name": "主動復華未來50",
      "market": "TW",
@@ -2097,12 +2089,20 @@
      "overlap": 80
     },
     {
+     "code": "00407A",
+     "name": "主動凱基台灣",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 78
+    },
+    {
      "code": "00881",
      "name": "國泰台灣科技龍頭",
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 53
+     "overlap": 50
     }
    ],
    "mix": {
@@ -2257,24 +2257,24 @@
     "名稱有股息・持股偏成長"
    ],
    "notes": [
-    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 8%，實際是科技成長股組合。"
+    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 6%，實際是科技成長股組合。"
    ],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 98
+     "overlap": 86
     },
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 91
+     "overlap": 86
     },
     {
      "code": "00881",
@@ -2282,7 +2282,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 61
+     "overlap": 58
     }
    ],
    "mix": {
@@ -2425,7 +2425,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 58
+     "overlap": 56
     },
     {
      "code": "00405A",
@@ -2433,7 +2433,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 58
+     "overlap": 54
     },
     {
      "code": "00881",
@@ -2441,7 +2441,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 18
+     "overlap": 16
     }
    ],
    "mix": {
@@ -2606,9 +2606,9 @@
      "code": "00881",
      "name": "國泰台灣科技龍頭",
      "market": "TW",
-     "match": "partial",
+     "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 42
+     "overlap": 40
     }
    ],
    "mix": {
@@ -2750,20 +2750,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00403A",
-     "name": "主動統一升級50",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 90
-    },
-    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 84
+     "overlap": 87
+    },
+    {
+     "code": "00407A",
+     "name": "主動凱基台灣",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 78
     },
     {
      "code": "00935",
@@ -2771,7 +2771,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 57
+     "overlap": 55
     }
    ],
    "mix": {
@@ -2913,20 +2913,20 @@
    "notes": [],
    "etfs": [
     {
+     "code": "00981A",
+     "name": "主動統一台股增長",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 88
+    },
+    {
      "code": "00403A",
      "name": "主動統一升級50",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 90
-    },
-    {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 84
+     "overlap": 83
     },
     {
      "code": "00935",
@@ -2934,7 +2934,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 53
+     "overlap": 52
     }
    ],
    "mix": {
@@ -3083,12 +3083,12 @@
      "overlap": 79
     },
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00991A",
+     "name": "主動復華未來50",
      "market": "TW",
-     "match": "partial",
+     "match": "close",
      "note": "主動式 ETF",
-     "overlap": 68
+     "overlap": 72
     },
     {
      "code": "00935",
@@ -3096,7 +3096,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 56
+     "overlap": 57
     }
    ],
    "mix": {
@@ -3237,20 +3237,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 72
-    },
-    {
      "code": "00994A",
      "name": "主動第一金台股優",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 68
+     "overlap": 69
+    },
+    {
+     "code": "00995A",
+     "name": "主動中信台灣卓越",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 66
     },
     {
      "code": "00881",
@@ -3404,12 +3404,12 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
-     "match": "close",
+     "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 77
+     "overlap": 67
     },
     {
      "code": "00994A",
@@ -3417,7 +3417,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 70
+     "overlap": 66
     },
     {
      "code": "00881",
@@ -3425,7 +3425,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 46
+     "overlap": 44
     }
    ],
    "mix": {
@@ -3566,20 +3566,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 72
-    },
-    {
      "code": "00994A",
      "name": "主動第一金台股優",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 68
+     "overlap": 69
+    },
+    {
+     "code": "00995A",
+     "name": "主動中信台灣卓越",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 66
     },
     {
      "code": "00881",
@@ -3726,7 +3726,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 69
+     "overlap": 63
     },
     {
      "code": "00995A",
@@ -3742,7 +3742,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 58
+     "overlap": 57
     }
    ],
    "mix": {
@@ -3887,12 +3887,12 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00991A",
+     "name": "主動復華未來50",
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 84
+     "overlap": 82
     },
     {
      "code": "00720B",
@@ -4073,7 +4073,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 34
+     "overlap": 33
     }
    ],
    "mix": {
@@ -4680,7 +4680,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動高股息 ETF",
-     "overlap": 50
+     "overlap": 49
     },
     {
      "code": "00919",
@@ -4850,7 +4850,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動高股息 ETF",
-     "overlap": 50
+     "overlap": 49
     },
     {
      "code": "00919",
@@ -4995,12 +4995,12 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00995A",
+     "name": "主動中信台灣卓越",
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 74
+     "overlap": 67
     },
     {
      "code": "00720B",
@@ -5150,20 +5150,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00403A",
-     "name": "主動統一升級50",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 44
+     "overlap": 42
     },
     {
-     "code": "00996A",
-     "name": "主動兆豐台灣豐收",
+     "code": "00408A",
+     "name": "主動第一金優股息",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 43
+     "overlap": 42
     },
     {
      "code": "00935",
@@ -5335,7 +5335,7 @@
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 74
+     "overlap": 76
     },
     {
      "code": "00720B",
@@ -12141,7 +12141,7 @@
    "nav": 16.9,
    "navDate": "2026/11/12",
    "change": 0.42,
-   "aum": 4156285197.04,
+   "aum": 4129956478.15,
    "sharpe": 1.25,
    "stdev1y": 8.76,
    "ret": {
@@ -14978,25 +14978,25 @@
      "code": "00994A",
      "name": "主動第一金台股優",
      "market": "TW",
-     "match": "partial",
+     "match": "close",
      "note": "主動式 ETF",
-     "overlap": 70
+     "overlap": 71
     },
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00991A",
+     "name": "主動復華未來50",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 70
+     "overlap": 68
     },
     {
      "code": "00881",
      "name": "國泰台灣科技龍頭",
      "market": "TW",
-     "match": "partial",
+     "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 41
+     "overlap": 39
     }
    ],
    "mix": {
@@ -15145,20 +15145,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
      "overlap": 79
     },
     {
-     "code": "00993A",
-     "name": "主動安聯台灣",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 79
+     "overlap": 74
     },
     {
      "code": "00935",
@@ -15166,7 +15166,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 53
+     "overlap": 52
     }
    ],
    "mix": {
@@ -15315,8 +15315,8 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
@@ -15328,7 +15328,7 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 76
+     "overlap": 75
     },
     {
      "code": "00935",
@@ -15336,7 +15336,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 57
+     "overlap": 55
     }
    ],
    "mix": {
@@ -15864,15 +15864,15 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 82
+     "overlap": 80
     },
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00406A",
+     "name": "主動中信台灣收益",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 77
+     "overlap": 72
     },
     {
      "code": "00881",
@@ -15880,7 +15880,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 58
+     "overlap": 57
     }
    ],
    "mix": {
@@ -16026,15 +16026,15 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 72
+     "overlap": 74
     },
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00403A",
+     "name": "主動統一升級50",
      "market": "TW",
-     "match": "close",
+     "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 72
+     "overlap": 68
     },
     {
      "code": "00935",
@@ -16200,16 +16200,16 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00981A",
-     "name": "主動統一台股增長",
+     "code": "00995A",
+     "name": "主動中信台灣卓越",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 80
+     "overlap": 78
     },
     {
-     "code": "00995A",
-     "name": "主動中信台灣卓越",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
@@ -16221,7 +16221,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 52
+     "overlap": 49
     }
    ],
    "mix": {
@@ -16548,12 +16548,12 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00987A",
-     "name": "主動台新優勢成長",
+     "code": "00994A",
+     "name": "主動第一金台股優",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 65
+     "overlap": 67
     },
     {
      "code": "00991A",
@@ -16569,7 +16569,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 26
+     "overlap": 25
     }
    ],
    "mix": {
@@ -16917,20 +16917,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00405A",
-     "name": "主動富邦台灣龍耀",
+     "code": "00994A",
+     "name": "主動第一金台股優",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
      "overlap": 70
     },
     {
-     "code": "00993A",
-     "name": "主動安聯台灣",
+     "code": "00981A",
+     "name": "主動統一台股增長",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 66
+     "overlap": 67
     },
     {
      "code": "00881",
@@ -16938,7 +16938,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 27
+     "overlap": 26
     }
    ],
    "mix": {
@@ -17079,32 +17079,17 @@
     "名稱有股息・持股偏成長"
    ],
    "notes": [
+    "沒有持股重疊超過 40% 的主動式 ETF，選股風格比較獨特。",
     "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 0%，實際是科技成長股組合。"
    ],
    "etfs": [
-    {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 43
-    },
-    {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 41
-    },
     {
      "code": "00935",
      "name": "野村臺灣新科技50",
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 25
+     "overlap": 23
     }
    ],
    "mix": {
@@ -17236,7 +17221,7 @@
     "名稱有股息・持股偏成長"
    ],
    "notes": [
-    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 8%，實際是科技成長股組合。"
+    "持股與高股息 ETF（0056、00878、00919、00713）重疊最多只有 7%，實際是科技成長股組合。"
    ],
    "etfs": [
     {
@@ -17245,7 +17230,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 63
+     "overlap": 61
     },
     {
      "code": "00994A",
@@ -17253,7 +17238,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 57
+     "overlap": 52
     },
     {
      "code": "00935",
@@ -17403,20 +17388,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 76
-    },
-    {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00991A",
+     "name": "主動復華未來50",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
      "overlap": 73
+    },
+    {
+     "code": "00407A",
+     "name": "主動凱基台灣",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 71
     },
     {
      "code": "00935",
@@ -17424,7 +17409,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 44
+     "overlap": 42
     }
    ],
    "mix": {
@@ -17563,7 +17548,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 54
+     "overlap": 53
     },
     {
      "code": "00994A",
@@ -17571,7 +17556,7 @@
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 51
+     "overlap": 50
     },
     {
      "code": "00891",
@@ -17645,8 +17630,42 @@
      ]
     ],
     "date": "2026/09/30",
-    "countries": [],
-    "sectors": [],
+    "countries": [
+     [
+      "台灣",
+      97.73
+     ],
+     [
+      "新加坡",
+      2.01
+     ],
+     [
+      "中國",
+      0.27
+     ]
+    ],
+    "sectors": [
+     [
+      "科技",
+      84.81
+     ],
+     [
+      "工業",
+      7.18
+     ],
+     [
+      "通訊服務",
+      6.08
+     ],
+     [
+      "周期性消費",
+      1.4
+     ],
+     [
+      "基礎原物料",
+      0.53
+     ]
+    ],
     "top10": [
      [
       "緯穎",
@@ -17692,7 +17711,9 @@
    },
    "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST115",
    "group": "台股平衡",
-   "tags": [],
+   "tags": [
+    "科技 85%"
+   ],
    "notes": [],
    "etfs": [
     {
@@ -17701,7 +17722,7 @@
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 24
+     "overlap": 23
     },
     {
      "code": "00720B",
@@ -17714,9 +17735,9 @@
    "mix": {
     "stock": 83.5,
     "bond": 6.4,
-    "tw": 0.0,
-    "cn": 0.0,
-    "tech": 0.0
+    "tw": 97.7,
+    "cn": 0.3,
+    "tech": 84.8
    }
   },
   {
@@ -17842,20 +17863,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00987A",
-     "name": "主動台新優勢成長",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 77
-    },
-    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 75
+     "overlap": 76
+    },
+    {
+     "code": "00987A",
+     "name": "主動台新優勢成長",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 74
     },
     {
      "code": "00935",
@@ -18009,7 +18030,7 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 89
+     "overlap": 87
     },
     {
      "code": "00407A",
@@ -18025,7 +18046,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 30
+     "overlap": 28
     }
    ],
    "mix": {
@@ -18164,15 +18185,15 @@
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 79
+     "overlap": 81
     },
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 75
+     "overlap": 72
     },
     {
      "code": "00881",
@@ -18180,7 +18201,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 40
+     "overlap": 38
     }
    ],
    "mix": {
@@ -18248,7 +18269,20 @@
       6.21
      ]
     ],
-    "sectors": [],
+    "sectors": [
+     [
+      "科技",
+      85.3
+     ],
+     [
+      "工業",
+      12.18
+     ],
+     [
+      "基礎原物料",
+      2.52
+     ]
+    ],
     "top10": [
      [
       "台積電",
@@ -18295,6 +18329,7 @@
    "url": "https://www.fundrich.com.tw/fundCenter/fundOverview/fundContent/TST118",
    "group": "台股主動型",
    "tags": [
+    "科技 85%",
     "名稱有中國・實際以台股為主",
     "晨星：中小型"
    ],
@@ -18303,20 +18338,20 @@
    ],
    "etfs": [
     {
-     "code": "00993A",
-     "name": "主動安聯台灣",
-     "market": "TW",
-     "match": "partial",
-     "note": "主動式 ETF",
-     "overlap": 51
-    },
-    {
      "code": "00996A",
      "name": "主動兆豐台灣豐收",
      "market": "TW",
      "match": "partial",
      "note": "主動式 ETF",
-     "overlap": 49
+     "overlap": 52
+    },
+    {
+     "code": "00993A",
+     "name": "主動安聯台灣",
+     "market": "TW",
+     "match": "partial",
+     "note": "主動式 ETF",
+     "overlap": 48
     },
     {
      "code": "00935",
@@ -18324,7 +18359,7 @@
      "market": "TW",
      "match": "diy",
      "note": "被動指數 ETF",
-     "overlap": 33
+     "overlap": 32
     }
    ],
    "mix": {
@@ -18332,7 +18367,7 @@
     "bond": 0.0,
     "tw": 93.8,
     "cn": 0.0,
-    "tech": 0.0
+    "tech": 85.3
    }
   },
   {
@@ -18694,20 +18729,20 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
-     "market": "TW",
-     "match": "close",
-     "note": "主動式 ETF",
-     "overlap": 87
-    },
-    {
      "code": "00981A",
      "name": "主動統一台股增長",
      "market": "TW",
      "match": "close",
      "note": "主動式 ETF",
-     "overlap": 85
+     "overlap": 91
+    },
+    {
+     "code": "00994A",
+     "name": "主動第一金台股優",
+     "market": "TW",
+     "match": "close",
+     "note": "主動式 ETF",
+     "overlap": 80
     },
     {
      "code": "00881",
@@ -18715,7 +18750,7 @@
      "market": "TW",
      "match": "partial",
      "note": "被動指數 ETF",
-     "overlap": 55
+     "overlap": 51
     }
    ],
    "mix": {
@@ -18863,12 +18898,12 @@
    ],
    "etfs": [
     {
-     "code": "00994A",
-     "name": "主動第一金台股優",
+     "code": "00407A",
+     "name": "主動凱基台灣",
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 94
+     "overlap": 88
     },
     {
      "code": "00720B",
@@ -19014,12 +19049,12 @@
    "notes": [],
    "etfs": [
     {
-     "code": "00400A",
-     "name": "主動國泰動能高息",
+     "code": "00405A",
+     "name": "主動富邦台灣龍耀",
      "market": "TW",
      "match": "diy",
      "note": "股票部位參考",
-     "overlap": 62
+     "overlap": 63
     },
     {
      "code": "00720B",
